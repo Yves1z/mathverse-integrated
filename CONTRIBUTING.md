@@ -57,7 +57,7 @@ npm run dev
 
 如果切换分支时提示有未提交修改，先提交到原来的工作分支，或保存到暂存区（stash）后再切换。不要为了拉取最新版而丢弃自己尚未保存的工作。
 
-已经在自己的分支上开发几天时：先提交手头修改、Fetch origin，再用 **Branch → Merge into current branch** 选择更新后的 `origin/main`；也可以先更新本地 `main`，回到自己的分支后将 `main` 合入。同步完成后再测试、Push。不要把旧版文件整批复制回来。[Desktop 分支操作](https://docs.github.com/en/desktop/making-changes-in-a-branch/managing-branches-in-github-desktop)
+已经在自己的分支上开发几天时：先提交手头修改，切到 `main` 并 Fetch / Pull；再回到自己的分支，用 **Branch → Merge into current branch** 选择刚更新的 `main`。同步完成后再测试、Push。不要把旧版文件整批复制回来。[Desktop 分支操作](https://docs.github.com/en/desktop/making-changes-in-a-branch/managing-branches-in-github-desktop)
 
 ## 三、在哪里修改
 

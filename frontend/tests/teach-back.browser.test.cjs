@@ -158,8 +158,11 @@ let server
   await explanation.fill('慢速模拟：我先判断导数符号。')
   await drawer.getByRole('button', { name: '提交我的解释' }).click()
   await page.waitForFunction(() => Boolean(window.__releaseTeachBackResponse))
+  // Earlier turns can retain the same notice; require this cancellation's new message.
+  const cancelledReply = drawer.locator('.ai-assistant-message.is-error').nth(
+    await drawer.locator('.ai-assistant-message.is-error').count())
   await explanation.fill('修改后的解释：还需要考虑定义域。')
-  await drawer.getByText('解释已修改，旧反馈已取消。请重新提交。').waitFor()
+  await cancelledReply.getByText('解释已修改，旧反馈已取消。请重新提交。', { exact: true }).waitFor()
   await explanation.fill('慢速模拟：我先判断导数符号。')
   await page.evaluate(() => window.__releaseTeachBackResponse())
   await page.waitForTimeout(50)
