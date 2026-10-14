@@ -200,8 +200,11 @@ async function state(page, selector, value) {
   assert.equal(animations.every(name => name === 'none'), true)
   assert.equal(await page.locator('.home-mascot').evaluate(element => getComputedStyle(element.querySelector('.pose-idle')).opacity), '1')
   await page.getByRole('button', { name: '关闭 AI 助手', exact: true }).click()
+  await page.getByRole('dialog', { name: 'Mathverse AI 学习助手', exact: true }).waitFor({ state: 'hidden' })
   for (const width of [390, 320]) {
     await page.setViewportSize({ width, height: 844 })
+    // Viewport resize returns before the launcher's resize handler and Vue render finish.
+    await page.waitForFunction(() => document.querySelector('.ai-assistant-launcher').getBoundingClientRect().right <= innerWidth)
     const geometry = await page.evaluate(() => ({
       viewport: innerWidth, documentWidth: document.documentElement.scrollWidth,
       launcherBottom: document.querySelector('.ai-assistant-launcher').getBoundingClientRect().bottom,
