@@ -1,0 +1,49 @@
+{
+  "lightProfile": true,
+  "completeEvent": {
+    "mode": "real-time",
+    "clock": 68.05170000000126,
+    "travel": 23.800595000000342,
+    "worlds": 1
+  },
+  "lightFreezePixels": true,
+  "actualPaperPick": [
+    915.5546154562535,
+    346.04123040538116
+  ],
+  "reading": {
+    "area": 0.801,
+    "speed": 0.020999999999999998,
+    "travel": 0.026249999999990337
+  },
+  "sharedRotation": {
+    "sliderDegrees": 180,
+    "continuousAngle": 9.415970341631281,
+    "error": 0.008807619138098379
+  },
+  "threeChapters": true,
+  "returnRestoresLookAndPause": true,
+  "actualOcclusion": [
+    925.0008638093057,
+    169.26643254835432
+  ],
+  "actualCirclePick": [
+    865.4481527212441,
+    272.79183498214803
+  ],
+  "storyMemory": true,
+  "repeatedReadingResources": [
+    38,
+    19
+  ],
+  "desktopReading": true,
+  "previousStages": true,
+  "previousFinish": true,
+  "airCellReuse": [
+    20,
+    12
+  ],
+  "reducedMotion": true,
+  "videoDuration": 164.08,
+  "errors": []
+}

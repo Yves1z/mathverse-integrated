@@ -1,0 +1,8 @@
+[
+  {
+    "test": "scripts/worlds/stage-d.relation.test.mjs",
+    "exit_code": 0,
+    "seconds": 134.45,
+    "log": "space-acceptance-final-stage-d.relation.test.log"
+  }
+]

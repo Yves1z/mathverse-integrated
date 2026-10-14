@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-09T15:40:44.354Z",
+  "browser": "154.0.4258.62",
+  "checks": {
+    "freezeSeparatesStructureFromTravel": true,
+    "actualReadingArea": 0.801,
+    "actualThreeWorldMarkersShareAngle": true,
+    "relatedWorldsPreserveParameter": true,
+    "stableWindowAndMovingExterior": true,
+    "helixHasNoDepthJumpAtAngleWrap": true,
+    "abstractHumanTraces": true
+  },
+  "viewportChecks": [
+    {
+      "width": 1280,
+      "height": 720,
+      "area": 0.80099609375,
+      "panelInsideWindow": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "area": 0.801,
+      "panelInsideWindow": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "area": 0.8009895833333334,
+      "panelInsideWindow": true
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "area": 0.80099609375,
+      "panelInsideWindow": true
+    }
+  ],
+  "errors": [],
+  "scope": "Window geometry, actual shared markers, continuous helix, structural freeze, stable reading composition, and four desktop viewports. GPU performance not benchmarked."
+}

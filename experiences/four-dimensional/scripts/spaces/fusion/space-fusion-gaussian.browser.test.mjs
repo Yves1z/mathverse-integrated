@@ -1,0 +1,45 @@
+import { mathverseBrowserOptions } from '../../environment/browser-options.mjs';
+const INTEGRATION_BASE_URL = process.env.MATHVERSE_BASE_URL || 'http://127.0.0.1:5184';
+import { fileURLToPath as integrationFileURLToPath } from 'node:url';
+const INTEGRATION_PROJECT_ROOT = integrationFileURLToPath(new URL('../../../', import.meta.url)).replace(/\\/g, '/').replace(/\/$/, '');
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import {chromium} from 'playwright';
+import {PerspectiveCamera,Vector3} from 'three';
+import {threeWorldPoint} from '../../../src/mathverse/experiments/fusion/fusionModel.ts';
+import {gaussianPoint} from '../../../src/mathverse/shared/math/gaussianFigureModel.ts';
+const output=`${INTEGRATION_PROJECT_ROOT}/artifacts/spaces/fusion/space-fusion-gaussian`;await fs.mkdir(output+'/raw-video',{recursive:true});
+const browser=await chromium.launch({...mathverseBrowserOptions(),headless:true}),context=await browser.newContext({viewport:{width:1600,height:900},recordVideo:{dir:output+'/raw-video',size:{width:1600,height:900}}});
+const page=await context.newPage(),video=page.video(),errors=[],checks={};page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+const snap=()=>page.evaluate(()=>window.__mathverse.snapshot()),field=()=>page.evaluate(()=>window.__orderedSpace.snapshot());
+const button=name=>page.getByRole('button',{name,exact:true}),save=name=>page.screenshot({path:output+'/'+name+'.png'});
+const still=()=>page.waitForFunction(()=>{const s=window.__mathverse.snapshot();return s.speed===0&&s.yawVelocity===0&&s.pitchVelocity===0;});
+const aim=async(yaw,pitch)=>{for(let i=0;i<9;i++){const s=await snap(),dx=Math.max(-480,Math.min(480,(yaw-s.targetYaw)*1600/Math.PI)),dy=Math.max(-270,Math.min(270,(pitch-s.targetPitch)*1600/Math.PI));if(Math.abs(dx)<1&&Math.abs(dy)<1)break;await page.mouse.move(800,450);await page.mouse.down();await page.mouse.move(800+dx,450-dy,{steps:18});await page.mouse.up();}await page.mouse.move(0,0);await still();};
+const close=async()=>{await page.keyboard.press('Escape');await page.waitForFunction(()=>window.__mathverse.snapshot().reading.phase==='closed');await still();};
+try{
+  await page.goto(`${INTEGRATION_BASE_URL}/space-fusion/gaussian/worlds/`,{waitUntil:'networkidle'});await page.waitForFunction(()=>window.__orderedSpace?.snapshot().volumes.length===4);
+  const travel=await snap();await page.waitForTimeout(500);assert.ok((await snap()).z<travel.z);await button('暂停旅程').click();await button('定格空间').click();await still();
+  const initial=await field();assert.equal(initial.field.modules,4);assert.equal(initial.field.inhabitedCells,3);assert.equal(initial.field.bones,220);assert.equal(initial.field.connectiveBridges,16);assert.equal(initial.mounts.exteriorFrames,0);
+  await aim(.42,-.15);await save('gaussian-inner');const eye=await snap(),camera=new PerspectiveCamera(55,1600/900,.05,620);camera.position.fromArray(eye.position);camera.quaternion.fromArray(eye.quaternion);camera.updateMatrixWorld();
+  let click=null;
+  for(const r of [.2,.35,.5,.1]){for(let i=0;i<24;i++){const p=new Vector3(...threeWorldPoint(2,[...gaussianPoint(r,i*Math.PI/12),-1],0)).project(camera),pixel=[(p.x+1)*800,(1-p.y)*450];await page.mouse.move(...pixel);await page.waitForTimeout(80);if((await snap()).reading.hoveredId==='gaussian-integral'){click=pixel;break;}}if(click)break;}
+  assert.ok(click,'Pick the actual visible Gaussian mesh');await page.mouse.click(...click);await page.waitForFunction(()=>window.__mathverse.snapshot().reading.phase==='reading');assert.equal((await snap()).reading.selectedId,'gaussian-integral');
+  await page.waitForFunction(()=>Math.abs(window.__mathverse.snapshot().speed-.021)<1e-6);const reading=await snap();assert.ok(Math.abs(reading.observation.area-.801)<1e-6);await page.waitForTimeout(400);assert.ok((await snap()).z<reading.z);await save('gaussian-reading');await close();assert.equal((await snap()).paused,true);assert.equal((await snap()).yaw,eye.yaw);assert.equal((await snap()).pitch,eye.pitch);checks.realPickingReadingAndReturn=true;
+  const resources=await field();for(const title of ['单位圆','莫比乌斯带','高斯积分','莱昂哈德·欧拉']){await button('数学索引').click();await button('打开'+title).click();await page.waitForFunction(()=>window.__mathverse.snapshot().reading.phase==='reading');await close();}const warmed=await field();assert.equal(warmed.geometries,resources.geometries);assert.equal(warmed.textures,resources.textures);
+  const stages=[{id:0,name:'euler',yaw:-.60,pitch:.08},{id:1,name:'mobius',yaw:.13,pitch:.36},{id:2,name:'gaussian',yaw:.42,pitch:-.15}],events=[];
+  for(const stage of stages){await aim(stage.yaw,stage.pitch);await save(stage.name+'-inner');const before=await field(),beforeEye=await snap();await button('观看一次翻转').click();await page.waitForFunction(()=>window.__orderedSpace.snapshot().rhythm.angle>1.1,null,{timeout:90000});await save(stage.name+'-unfolding');const middle=await field();assert.equal(middle.rhythm.section,stage.id);assert.equal(middle.rhythm.movingUnits,1);
+    for(const id of [-1,0,1,2].filter(id=>id!==stage.id))assert.deepEqual(middle.field.sections.find(s=>s.section===id),before.field.sections.find(s=>s.section===id));
+    assert.notDeepEqual(middle.field.attachments.filter(b=>b.unit===stage.id),before.field.attachments.filter(b=>b.unit===stage.id));
+    if(stage.id===2){await button('定格空间').click();await page.waitForTimeout(250);const frozen=await field(),pixels=await page.screenshot({clip:{x:200,y:100,width:1100,height:620}});await page.waitForTimeout(400);assert.equal((await field()).rhythm.clock,frozen.rhythm.clock);assert.ok(pixels.equals(await page.screenshot({clip:{x:200,y:100,width:1100,height:620}})));await button('让空间继续流动').click();await page.waitForFunction(()=>window.__orderedSpace.snapshot().rhythm.angle>2.08,null,{timeout:90000});await save('gaussian-slice');checks.freezePixels=true;}
+    await page.waitForFunction(()=>window.__orderedSpace.snapshot().rhythm.phase==='stable',null,{timeout:90000});await page.waitForTimeout(250);await save(stage.name+'-outer');const after=await field(),afterEye=await snap();assert.equal(after.rhythm.angle,Math.PI);assert.equal(afterEye.z,beforeEye.z);assert.equal(afterEye.yaw,beforeEye.yaw);assert.equal(afterEye.pitch,beforeEye.pitch);events.push({section:stage.id,events:after.rhythm.events});
+    if(stage.id===2){const a=before.volumes.find(v=>v.id==='gaussian-integral'),b=after.volumes.find(v=>v.id==='gaussian-integral');assert.ok(Math.abs(b.localBounds/a.localBounds-2.9/.9)<1e-4);checks.actualRadiusRatio=b.localBounds/a.localBounds;}
+    await button('定格空间').click();
+  }
+  checks.threeActualEvents=events;const complete=await field();assert.equal(complete.geometries,warmed.geometries);assert.equal(complete.textures,warmed.textures);checks.resourcesStable=[complete.geometries,complete.textures];
+  await aim(0,.12);await save('overview');
+  for(const [width,height] of [[1280,720],[1920,1080]]){await page.setViewportSize({width,height});await button('数学索引').click();await button('打开高斯积分').click();await page.waitForFunction(()=>window.__mathverse.snapshot().reading.phase==='reading');const rect=await page.getByTestId('reading-window').boundingBox();assert.ok(Math.abs(rect.width*rect.height/(width*height)-.801)<.001);await save('reading-'+width);await close();}checks.desktopReading=true;
+  await page.goto(`${INTEGRATION_BASE_URL}/space-fusion/gaussian/`,{waitUntil:'networkidle'});await button('推门进入').click();await page.waitForFunction(()=>window.__mathverse.snapshot().phase==='exploring');checks.archEntrance=true;
+  await page.goto(`${INTEGRATION_BASE_URL}/space-fusion/mobius/worlds/`);await page.waitForFunction(()=>window.__orderedSpace?.snapshot().volumes.length===3);assert.equal((await field()).field.modules,3);checks.previousSamplePreserved=true;
+  const reduced=await browser.newContext({reducedMotion:'reduce',viewport:{width:1280,height:720}}),p=await reduced.newPage();await p.goto(`${INTEGRATION_BASE_URL}/space-fusion/gaussian/worlds/`);await p.waitForFunction(()=>window.__orderedSpace?.snapshot().volumes.length===4);assert.equal((await p.evaluate(()=>window.__mathverse.snapshot())).paused,true);for(const id of [0,1,2,0,1,2]){await p.getByRole('button',{name:'切换一个单元',exact:true}).click();const s=await p.evaluate(()=>window.__orderedSpace.snapshot());assert.equal(s.rhythm.section,id);assert.equal(s.rhythm.phase,'stable');}await reduced.close();checks.reducedMotionSequence=true;assert.deepEqual(errors,[]);
+  await fs.writeFile(output+'/browser-verification.json',JSON.stringify({checkedAt:new Date().toISOString(),checks,initial,complete,errors},null,2));console.log(JSON.stringify({checks,errors},null,2));await context.close();await video.saveAs(output+'/three-worlds-demo.webm');
+}catch(e){await save('failure');console.log(JSON.stringify({errors,motion:await snap().catch(()=>null),field:await field().catch(()=>null)}));throw e;}finally{await browser.close();}

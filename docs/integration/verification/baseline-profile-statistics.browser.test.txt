@@ -1,0 +1,1 @@
+Profile statistics: public grouped links, counts, pagination, filtering, search, retry and mobile passed

@@ -1,0 +1,26 @@
+[
+  {
+    "test": "scripts/worlds/stage-d.euler.test.mjs",
+    "exit_code": 0,
+    "seconds": 157.84,
+    "log": "space-acceptance-stage-d.euler.test.log"
+  },
+  {
+    "test": "scripts/worlds/stage-d.relation.test.mjs",
+    "exit_code": 1,
+    "seconds": 0.16,
+    "log": "space-acceptance-stage-d.relation.test.log"
+  },
+  {
+    "test": "scripts/spaces/megastructure/reference-light.browser.test.mjs",
+    "exit_code": 1,
+    "seconds": 0.14,
+    "log": "space-acceptance-reference-light.browser.test.log"
+  },
+  {
+    "test": "scripts/spaces/abyss/abyss-euler.browser.test.mjs",
+    "exit_code": 1,
+    "seconds": 0.14,
+    "log": "space-acceptance-abyss-euler.browser.test.log"
+  }
+]

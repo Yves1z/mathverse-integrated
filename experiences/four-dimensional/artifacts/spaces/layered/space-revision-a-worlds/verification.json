@@ -1,0 +1,761 @@
+{
+  "checkedAt": "2026-10-10T11:08:36.173Z",
+  "checks": {
+    "actualPortalPicking": true,
+    "nonzeroReadingAnd80PercentWindow": true,
+    "threeWorldsShareActualMarkers": true,
+    "eulerThreeStories": true,
+    "restorePreviousPause": true,
+    "windowFollowsFourthAxis": true,
+    "freezeStablePixels": true,
+    "blurSuspends": true
+  },
+  "beginning": {
+    "phase": "exploring",
+    "elapsed": 0,
+    "distance": 0.4114249999973924,
+    "z": -4.411424999997393,
+    "paused": false,
+    "suspended": false,
+    "dragging": false,
+    "spaceFrozen": false,
+    "spaceTime": 1.1754999999925497,
+    "targetYaw": -0.42,
+    "targetPitch": 0.1,
+    "yaw": -0.42,
+    "pitch": 0.1,
+    "yawVelocity": 0,
+    "pitchVelocity": 0,
+    "speed": 0.35,
+    "speedScale": 1,
+    "targetSpeed": 0.35,
+    "entryExitSpeed": 0.35,
+    "frameDt": 0.05,
+    "skipNextFrame": false,
+    "position": [
+      0,
+      1.55,
+      -4.411424999997393
+    ],
+    "direction": [
+      -0.4057233492299273,
+      0.09983341664682817,
+      -0.9085272988800454
+    ],
+    "quaternion": [
+      0.04888117263895457,
+      0.20819937925320053,
+      -0.010418652620556862,
+      0.9768086307550702
+    ],
+    "doorPanelClearance": null,
+    "drawCalls": 83,
+    "triangles": 626842,
+    "geometries": 80,
+    "textures": 16,
+    "reading": {
+      "phase": "closed",
+      "selectedId": null,
+      "elapsed": 0,
+      "progress": 0,
+      "closeStart": 0,
+      "savedYaw": 0,
+      "savedPitch": 0,
+      "focusYaw": 0,
+      "focusPitch": 0,
+      "pausedBefore": false,
+      "hoveredId": null,
+      "hoverElapsed": 0,
+      "angle": 1.0471975511965976,
+      "objectYaw": 0
+    },
+    "observation": null,
+    "relation": {
+      "xw": 0,
+      "zw": 0,
+      "seamPixels": null,
+      "coherence": 0,
+      "available": false,
+      "positions": [
+        [
+          -35.31810193321617,
+          13.852284710017575,
+          -59.15641476274165
+        ],
+        [
+          -20.848030018761726,
+          -3.7032833020637907,
+          -12.705440900562849
+        ],
+        [
+          -20.619718309859156,
+          15.634507042253519,
+          -14.47887323943662
+        ]
+      ]
+    },
+    "worlds": {
+      "euler-identity": {
+        "angle": 1.1504867568137531,
+        "marker": [
+          0.8160861968850395,
+          1.8259253323325444,
+          -0.02
+        ]
+      },
+      "unit-circle": {
+        "angle": 1.1504867568137531,
+        "marker": [
+          0.8160861968850395,
+          1.8259253323325444,
+          -0.02
+        ]
+      },
+      "complex-rotation": {
+        "angle": 1.1504867568137531,
+        "marker": [
+          0.7344775771965355,
+          1.64333279909929,
+          0
+        ]
+      },
+      "leonhard-euler": {
+        "angle": 1.1504867568137531,
+        "marker": null
+      },
+      "gaussian-integral": {
+        "angle": 1.1504867568137531,
+        "marker": null
+      },
+      "mobius-strip": {
+        "angle": 1.1504867568137531,
+        "marker": null
+      }
+    },
+    "euler": {
+      "chapter": 0,
+      "terms": 24,
+      "abstract": false,
+      "weights": [
+        1,
+        0,
+        0
+      ],
+      "abstraction": 0,
+      "lastTime": 1.1754999999925497,
+      "frozen": false
+    },
+    "cinematic": {
+      "bloom": false,
+      "exposure": 1,
+      "windowResolution": [
+        640,
+        410
+      ],
+      "reading": "direct-screen",
+      "worldParticles": 960
+    },
+    "nodes": [
+      {
+        "id": "euler-identity",
+        "discovered": true,
+        "onScreen": true,
+        "occluded": false,
+        "emphasized": true,
+        "alpha": 1,
+        "screen": [
+          668.7192741614666,
+          373.0850571830094
+        ],
+        "labelScreen": [
+          666.6575036183568,
+          460.18376643686634
+        ],
+        "position": [
+          -35.31810193321617,
+          13.852284710017575,
+          -59.15641476274165
+        ]
+      },
+      {
+        "id": "unit-circle",
+        "discovered": true,
+        "onScreen": false,
+        "occluded": false,
+        "emphasized": false,
+        "alpha": 1,
+        "screen": [
+          -73.46745629291469,
+          831.4616523109786
+        ],
+        "labelScreen": [
+          -123.59260389899163,
+          1265.2266441873296
+        ],
+        "position": [
+          -20.848030018761726,
+          -3.7032833020637907,
+          -12.705440900562849
+        ]
+      },
+      {
+        "id": "complex-rotation",
+        "discovered": true,
+        "onScreen": false,
+        "occluded": false,
+        "emphasized": false,
+        "alpha": 1,
+        "screen": [
+          128.1769789696602,
+          -109.51529843232059
+        ],
+        "labelScreen": [
+          94.08034911157621,
+          223.7192500506795
+        ],
+        "position": [
+          -20.619718309859156,
+          15.634507042253519,
+          -14.47887323943662
+        ]
+      },
+      {
+        "id": "leonhard-euler",
+        "discovered": true,
+        "onScreen": false,
+        "occluded": false,
+        "emphasized": false,
+        "alpha": 1,
+        "screen": [
+          2626.2764012516845,
+          360.9609176873832
+        ],
+        "labelScreen": [
+          2690.627773890366,
+          711.9316848245802
+        ],
+        "position": [
+          22.65,
+          4.55,
+          -30.5
+        ]
+      },
+      {
+        "id": "gaussian-integral",
+        "discovered": true,
+        "onScreen": false,
+        "occluded": false,
+        "emphasized": false,
+        "alpha": 1,
+        "screen": [
+          1609.4335915903273,
+          585.2348913224437
+        ],
+        "labelScreen": [
+          1615.8364816388384,
+          677.1254131858992
+        ],
+        "position": [
+          23.8,
+          -1.45,
+          -74.5
+        ]
+      },
+      {
+        "id": "mobius-strip",
+        "discovered": true,
+        "onScreen": true,
+        "occluded": true,
+        "emphasized": false,
+        "alpha": 1,
+        "screen": [
+          978.0079062549449,
+          288.9190655168906
+        ],
+        "labelScreen": [
+          990.8062591758533,
+          305.00886488118243
+        ],
+        "position": [
+          -16.5,
+          23.95,
+          -81
+        ]
+      }
+    ],
+    "picking": {
+      "attempts": 0,
+      "opened": 0,
+      "blocked": 0
+    }
+  },
+  "middle": {
+    "motion": {
+      "phase": "exploring",
+      "elapsed": 0,
+      "distance": 1.436895527756417,
+      "z": -5.436895527756417,
+      "paused": true,
+      "suspended": false,
+      "dragging": false,
+      "spaceFrozen": false,
+      "spaceTime": 46.81802238793687,
+      "targetYaw": -0.4999999743022175,
+      "targetPitch": 0.1499999839388839,
+      "yaw": -0.4999999743022175,
+      "pitch": 0.1499999839388839,
+      "yawVelocity": 0,
+      "pitchVelocity": 0,
+      "speed": 0,
+      "speedScale": 1,
+      "targetSpeed": 0,
+      "entryExitSpeed": 0.35,
+      "frameDt": 0.0445,
+      "skipNextFrame": false
+    },
+    "fold": {
+      "clock": 46.81802238793687,
+      "phase": "folding",
+      "section": 0,
+      "elapsed": 19.28000000000756,
+      "angle": 0.24094141983785428,
+      "events": 1,
+      "states": 1,
+      "stableTime": 0
+    },
+    "structure": {
+      "firstSection": -2,
+      "counts": {
+        "primary": 70,
+        "layer": 1813,
+        "joint": 840,
+        "light": 11
+      },
+      "minimumClearance": 5.162347193322809,
+      "sharedVertices": 1884,
+      "fold": {
+        "clock": 46.81802238793687,
+        "phase": "folding",
+        "section": 0,
+        "elapsed": 19.28000000000756,
+        "angle": 0.24094141983785428,
+        "events": 1,
+        "states": 1,
+        "stableTime": 0
+      },
+      "bloom": false,
+      "particles": 0,
+      "surface": "satin-graphite",
+      "physicalBevel": true,
+      "shadowGeometryMatches": true
+    },
+    "lighting": {
+      "shadowMaps": 1,
+      "shadowRadius": 3.2,
+      "texelSnapped": true,
+      "environment": "procedural-soft-apertures",
+      "lightSections": [
+        -1,
+        0,
+        1
+      ],
+      "areaLights": 3,
+      "animatedIntensity": false
+    },
+    "mounts": {
+      "sections": {
+        "euler-identity": 1,
+        "unit-circle": 0,
+        "complex-rotation": 0,
+        "leonhard-euler": 0,
+        "gaussian-integral": 1,
+        "mobius-strip": 1
+      },
+      "windows": 6,
+      "angle": 6.710390127580182,
+      "mountedInStructure": true,
+      "occlusion": "conservative-oriented-beam-boxes"
+    },
+    "dust": {
+      "particles": 252,
+      "clock": 46.81802238793687,
+      "localized": true,
+      "firstSection": -2
+    },
+    "relation": {
+      "sharedAngle": 6.710390127580182,
+      "relatedIds": [
+        "euler-identity",
+        "complex-rotation",
+        "unit-circle"
+      ],
+      "traces": 3,
+      "particles": 3
+    },
+    "compositor": {
+      "bloom": false,
+      "exposure": 1,
+      "windowResolution": [
+        640,
+        410
+      ],
+      "reading": "direct-screen",
+      "worldParticles": 960
+    },
+    "geometries": 97,
+    "textures": 20,
+    "drawCalls": 78,
+    "readyWorlds": 6,
+    "poses": [
+      {
+        "id": "euler-identity",
+        "position": [
+          -35.31810193321617,
+          13.852284710017575,
+          -59.15641476274165
+        ],
+        "scale": [
+          1.5873915754861356,
+          2.952548330404218,
+          0.984182776801406
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "id": "unit-circle",
+        "position": [
+          -21.206582650418476,
+          -3.8401827090742593,
+          -12.41110717549034
+        ],
+        "scale": [
+          1.7385834505384845,
+          3.234109625444556,
+          1.0780365418148519
+        ],
+        "rotation": [
+          0,
+          -0.09894114595061808,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "id": "complex-rotation",
+        "position": [
+          -21.501457626146458,
+          15.99780046629327,
+          -14.233286884785748
+        ],
+        "scale": [
+          1.856751629631119,
+          3.467472111910385,
+          1.1558240373034616
+        ],
+        "rotation": [
+          0,
+          -0.08367330912416494,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "id": "leonhard-euler",
+        "position": [
+          22.65,
+          4.55,
+          -30.5
+        ],
+        "scale": [
+          1.2903225806451613,
+          2.625,
+          1
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "id": "gaussian-integral",
+        "position": [
+          23.8,
+          -1.45,
+          -74.5
+        ],
+        "scale": [
+          1.2903225806451613,
+          2.5,
+          1
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "id": "mobius-strip",
+        "position": [
+          -16.5,
+          23.95,
+          -81
+        ],
+        "scale": [
+          1.7741935483870968,
+          2.5,
+          1
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0,
+          "XYZ"
+        ]
+      }
+    ]
+  },
+  "frozen": {
+    "motion": {
+      "phase": "exploring",
+      "elapsed": 0,
+      "distance": 1.436895527756417,
+      "z": -5.436895527756417,
+      "paused": true,
+      "suspended": false,
+      "dragging": false,
+      "spaceFrozen": true,
+      "spaceTime": 47.490022387936854,
+      "targetYaw": -0.4999999743022175,
+      "targetPitch": 0.1499999839388839,
+      "yaw": -0.4999999743022175,
+      "pitch": 0.1499999839388839,
+      "yawVelocity": 0,
+      "pitchVelocity": 0,
+      "speed": 0,
+      "speedScale": 1,
+      "targetSpeed": 0,
+      "entryExitSpeed": 0.35,
+      "frameDt": 0.04710000000149012,
+      "skipNextFrame": false
+    },
+    "fold": {
+      "clock": 47.490022387936854,
+      "phase": "folding",
+      "section": 0,
+      "elapsed": 19.952000000007562,
+      "angle": 0.2672182700722001,
+      "events": 1,
+      "states": 1,
+      "stableTime": 0
+    },
+    "structure": {
+      "firstSection": -2,
+      "counts": {
+        "primary": 70,
+        "layer": 1813,
+        "joint": 840,
+        "light": 11
+      },
+      "minimumClearance": 5.162347193322809,
+      "sharedVertices": 1884,
+      "fold": {
+        "clock": 47.490022387936854,
+        "phase": "folding",
+        "section": 0,
+        "elapsed": 19.952000000007562,
+        "angle": 0.2672182700722001,
+        "events": 1,
+        "states": 1,
+        "stableTime": 0
+      },
+      "bloom": false,
+      "particles": 0,
+      "surface": "satin-graphite",
+      "physicalBevel": true,
+      "shadowGeometryMatches": true
+    },
+    "lighting": {
+      "shadowMaps": 1,
+      "shadowRadius": 3.2,
+      "texelSnapped": true,
+      "environment": "procedural-soft-apertures",
+      "lightSections": [
+        -1,
+        0,
+        1
+      ],
+      "areaLights": 3,
+      "animatedIntensity": false
+    },
+    "mounts": {
+      "sections": {
+        "euler-identity": 1,
+        "unit-circle": 0,
+        "complex-rotation": 0,
+        "leonhard-euler": 0,
+        "gaussian-integral": 1,
+        "mobius-strip": 1
+      },
+      "windows": 6,
+      "angle": 6.774252710300447,
+      "mountedInStructure": true,
+      "occlusion": "conservative-oriented-beam-boxes"
+    },
+    "dust": {
+      "particles": 252,
+      "clock": 47.490022387936854,
+      "localized": true,
+      "firstSection": -2
+    },
+    "relation": {
+      "sharedAngle": 6.774252710300447,
+      "relatedIds": [
+        "euler-identity",
+        "complex-rotation",
+        "unit-circle"
+      ],
+      "traces": 3,
+      "particles": 3
+    },
+    "compositor": {
+      "bloom": false,
+      "exposure": 1,
+      "windowResolution": [
+        640,
+        410
+      ],
+      "reading": "direct-screen",
+      "worldParticles": 960
+    },
+    "geometries": 97,
+    "textures": 20,
+    "drawCalls": 66,
+    "readyWorlds": 6,
+    "poses": [
+      {
+        "id": "euler-identity",
+        "position": [
+          -35.31810193321617,
+          13.852284710017575,
+          -59.15641476274165
+        ],
+        "scale": [
+          1.5873915754861356,
+          2.952548330404218,
+          0.984182776801406
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "id": "unit-circle",
+        "position": [
+          -21.257842015848695,
+          -3.854202649886557,
+          -12.3809643027439
+        ],
+        "scale": [
+          1.7372158751602265,
+          3.2425215899319344,
+          1.0808405299773114
+        ],
+        "rotation": [
+          0,
+          -0.11018888608838576,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "id": "complex-rotation",
+        "position": [
+          -21.611483373654455,
+          16.030972269218445,
+          -14.21086274600833
+        ],
+        "scale": [
+          1.8525546809536801,
+          3.475433344612427,
+          1.1584777815374756
+        ],
+        "rotation": [
+          0,
+          -0.09325629571725633,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "id": "leonhard-euler",
+        "position": [
+          22.65,
+          4.55,
+          -30.5
+        ],
+        "scale": [
+          1.2903225806451613,
+          2.625,
+          1
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "id": "gaussian-integral",
+        "position": [
+          23.8,
+          -1.45,
+          -74.5
+        ],
+        "scale": [
+          1.2903225806451613,
+          2.5,
+          1
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "id": "mobius-strip",
+        "position": [
+          -16.5,
+          23.95,
+          -81
+        ],
+        "scale": [
+          1.7741935483870968,
+          2.5,
+          1
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0,
+          "XYZ"
+        ]
+      }
+    ]
+  },
+  "errors": []
+}

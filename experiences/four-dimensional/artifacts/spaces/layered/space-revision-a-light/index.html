@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mathverse · 石墨与余光</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#101112;color:#dbd9d3;font-family:Arial,"Microsoft YaHei",sans-serif}main{max-width:1440px;margin:auto;padding:42px 46px 70px}header{display:flex;justify-content:space-between;gap:24px;align-items:center;border-bottom:1px solid #303132;padding-bottom:22px}.brand{font:26px Georgia,serif}.edition{font-size:9px;letter-spacing:3px;color:#8b8d8f;margin-top:8px}a{color:#d1ccbe;text-decoration:none;font-size:12px;border-bottom:1px solid #676359;padding-bottom:5px}h1{font-size:30px;font-weight:400;letter-spacing:4px;margin:38px 0 12px}p{font-size:13px;line-height:1.9;color:#a6a7a8;max-width:730px}.compare{position:relative;aspect-ratio:16/9;overflow:hidden;background:#08090a;margin-top:28px;--cut:50%}.compare img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.compare .before{clip-path:inset(0 calc(100% - var(--cut)) 0 0)}.divider{position:absolute;top:0;bottom:0;left:var(--cut);width:1px;background:#ece4d1}.divider:after{content:'↔';position:absolute;top:50%;left:-17px;background:#262727dd;border:1px solid #aca495;width:33px;height:33px;border-radius:50%;text-align:center;line-height:30px;font-size:15px}.badge{position:absolute;top:18px;padding:7px 11px;font-size:10px;letter-spacing:2px;background:#141516bb;z-index:1}.old{left:18px}.new{right:18px}.comparison-control{display:flex;align-items:center;gap:18px;margin:14px 0 36px;color:#a8a7a1;font-size:11px}.comparison-control input{width:260px;accent-color:#c0b49b}h2{font-size:17px;font-weight:400;letter-spacing:2px;margin:34px 0 14px}video{width:100%;display:block;background:#08090a;aspect-ratio:16/9}.grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:18px}figure{margin:0}figure img{width:100%;display:block;background:#08090a}figcaption{font-size:11px;color:#9d9e9c;line-height:1.8;margin-top:8px}.foot{border-top:1px solid #303132;margin-top:38px;padding-top:20px;display:flex;gap:28px;flex-wrap:wrap}@media(max-width:800px){main{padding:28px 24px}.grid{grid-template-columns:1fr}h1{font-size:24px}header{align-items:flex-start}.comparison-control input{width:180px}}
+  </style>
+</head>
+<body><main>
+  <header><div><div class="brand">Mathverse</div><div class="edition">SPACE STUDY A / LIGHT & MATERIAL</div></div><a href="/space-a/">进入交互空间 ↗</a></header>
+  <h1>石墨与余光</h1><p>梁体拥有细腻的石墨表面，倒角接住银灰色的柔光。层与层之间仍有深暗的空隙，少数暖白光缝藏在更深处。空间遵循原有秩序，折叠时，受光面与阴影随结构一起展开。</p>
+  <div class="compare" id="comparison"><img src="./first-view.png" alt="精修后的银灰结构与深暗背景"><img class="before" src="../space-revision-a/first-view.png" alt="上一轮的基础材质与光照"><span class="badge old">上一轮</span><span class="badge new">本轮精修</span><span class="divider" aria-hidden="true"></span></div>
+  <label class="comparison-control">拖动比较光影 <input type="range" min="0" max="100" value="35" aria-label="上一轮画面所占比例" id="split"></label>
+  <h2>在空间中观看</h2><video src="./space-a-demo.webm" poster="first-view.png" controls preload="metadata"></video><p>连续演示包含前进、环顾、折叠、定格与恢复。进入交互空间后，可先暂停前进，再观看一次折叠，观察梁体、开口和光影的关系。</p>
+  <h2>同一空间，不同朝向</h2><div class="grid">
+    <figure><img src="./left.png" alt="近处层面的表面与倒角" loading="lazy"><figcaption>侧视 · 近处的表面与接缝。</figcaption></figure>
+    <figure><img src="./up.png" alt="向上延展的层叠结构" loading="lazy"><figcaption>抬头 · 上方层面的厚度与受光变化。</figcaption></figure>
+    <figure><img src="./right.png" alt="横向框架与内部空隙" loading="lazy"><figcaption>另一侧 · 受光面与暗部空隙。</figcaption></figure>
+    <figure><img src="./back.png" alt="回望身后的连续结构" loading="lazy"><figcaption>回望 · 身后仍延续着相同的空间秩序。</figcaption></figure>
+  </div>
+  <h2>缓慢展开</h2><div class="grid">
+    <figure><img src="./before-fold.png" alt="折叠之前的稳定结构" loading="lazy"><figcaption>稳定。</figcaption></figure>
+    <figure><img src="./fold-complete.png" alt="折叠后的新构成与受光变化" loading="lazy"><figcaption>落定后的新构成。</figcaption></figure>
+  </div>
+  <footer class="foot"><a href="/space-a/">进入交互空间 ↗</a><a href="../space-revision-a/index.html">上一轮结构样片 ↗</a><a href="/">原主页与数学窗口 ↗</a></footer>
+</main><script>const split=document.getElementById('split'),comparison=document.getElementById('comparison');function updateComparison(){comparison.style.setProperty('--cut',split.value+'%')}split.addEventListener('input',updateComparison);updateComparison();</script></body>
+</html>

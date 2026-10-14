@@ -1,0 +1,8 @@
+[vite:react-swc] We recommend switching to `@vitejs/plugin-react` for improved performance as no swc plugins are used. More information at https://vite.dev/rolldown
+
+  VITE v8.2.2  ready in 991 ms
+
+  ➜  Local:   http://127.0.0.1:58593/
+  ➜  Vue DevTools: Open http://127.0.0.1:58593/__devtools__/ as a separate window
+  ➜  Vue DevTools: Press Alt(⌥)+Shift(⇧)+D in App to toggle the Vue DevTools
+PASS premise sign: conflict/correction, formatted endorsements hidden without reveal, condition questions and quoted review proceed

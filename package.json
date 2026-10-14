@@ -1,0 +1,19 @@
+{
+  "name": "mathverse-integrated",
+  "version": "2026.10.12",
+  "private": true,
+  "description": "Mathverse application and preserved visual studies",
+  "engines": {
+    "node": ">=24.12.0"
+  },
+  "scripts": {
+    "install:all": "npm --prefix frontend ci && npm --prefix experiences/four-dimensional ci",
+    "dev": "node tools/dev.mjs",
+    "dev:app": "npm --prefix frontend run dev",
+    "dev:space": "npm --prefix experiences/four-dimensional run dev",
+    "dev:designs": "node tools/serve-designs.mjs",
+    "build": "npm --prefix frontend run build && npm --prefix experiences/four-dimensional run build",
+    "test": "npm --prefix frontend test",
+    "test:agent": "npm --prefix frontend run test:agent-browser"
+  }
+}

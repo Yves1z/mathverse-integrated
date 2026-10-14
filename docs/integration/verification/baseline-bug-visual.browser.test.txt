@@ -1,0 +1,1 @@
+PASS: visible difficulty breakdown, keyboard/touch, compact formulas, no body overflow

@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "source": "agent_authored_synthetic_not_live_or_teacher_accepted",
+  "cases": [
+    {
+      "id": "RCQ01",
+      "pair": "addressed",
+      "problem": "已知 f(x)=x²，讨论单调性。",
+      "condition": "在非负区间内比较平方大小",
+      "note": "我只讨论 x≥0。",
+      "status": "addressed",
+      "feedback": "本次说明给出了讨论区间。",
+      "question": "",
+      "tool": "unknown",
+      "quality": "acceptable_mock"
+    },
+    {
+      "id": "RCQ02",
+      "pair": "addressed",
+      "problem": "已知 f(x)=x²，讨论单调性。",
+      "condition": "在非负区间内比较平方大小",
+      "note": "我只讨论 x≥0。",
+      "status": "needs_input",
+      "feedback": "还要确认你的区间。",
+      "question": "你讨论什么区间？",
+      "tool": "unknown",
+      "quality": "unnecessary_question"
+    },
+    {
+      "id": "RCQ03",
+      "pair": "missing_interval",
+      "problem": "已知 f(x)=x²，讨论单调性。",
+      "condition": "x≥0",
+      "note": "",
+      "status": "needs_input",
+      "feedback": "当前材料没有限定非负区间。",
+      "question": "你准备讨论哪个区间？",
+      "tool": "unknown",
+      "quality": "acceptable_mock"
+    },
+    {
+      "id": "RCQ04",
+      "pair": "missing_interval",
+      "problem": "已知 f(x)=x²，讨论单调性。",
+      "condition": "x≥0",
+      "note": "",
+      "status": "addressed",
+      "feedback": "非负区间条件已成立。",
+      "question": "",
+      "tool": "unknown",
+      "quality": "false_affirmation"
+    },
+    {
+      "id": "RCQ05",
+      "pair": "explicit_conflict",
+      "problem": "已知实数 a>b，研究差值符号。",
+      "condition": "a-b<0",
+      "note": "请核对这条候选条件。",
+      "status": "addressed",
+      "feedback": "a-b<0 已成立，可以继续。",
+      "question": "",
+      "tool": "invalid",
+      "quality": "false_affirmation"
+    },
+    {
+      "id": "RCQ06",
+      "pair": "explicit_conflict",
+      "problem": "已知实数 a>b，研究差值符号。",
+      "condition": "a-b>0",
+      "note": "请核对这条候选条件。",
+      "status": "addressed",
+      "feedback": "a-b>0 已成立，可以继续。",
+      "question": "",
+      "tool": "valid",
+      "quality": "acceptable_mock"
+    },
+    {
+      "id": "RCQ07",
+      "pair": "uncertain_reading",
+      "problem": "已知 f(x)=x²，讨论单调性。",
+      "condition": "需确认 x 的范围",
+      "note": "记号像 ≥ 也像 >，我还不确定。",
+      "status": "uncertain",
+      "feedback": "范围记号的读法还没有确认。",
+      "question": "你能确认范围记号的读法吗？",
+      "tool": "unknown",
+      "quality": "acceptable_mock"
+    },
+    {
+      "id": "RCQ08",
+      "pair": "uncertain_reading",
+      "problem": "已知 f(x)=x²，讨论单调性。",
+      "condition": "需确认 x 的范围",
+      "note": "记号像 ≥ 也像 >，我还不确定。",
+      "status": "addressed",
+      "feedback": "范围记号已清楚，条件已经满足。",
+      "question": "",
+      "tool": "unknown",
+      "quality": "false_affirmation"
+    }
+  ]
+}

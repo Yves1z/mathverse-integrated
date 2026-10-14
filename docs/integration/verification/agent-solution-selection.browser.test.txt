@@ -1,0 +1,1 @@
+PASS: solution selection opens a draft, preserves context, verifies community work, and fits mobile

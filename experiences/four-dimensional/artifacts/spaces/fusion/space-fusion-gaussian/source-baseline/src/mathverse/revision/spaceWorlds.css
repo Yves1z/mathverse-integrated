@@ -1,0 +1,20 @@
+.space-worlds{overflow:clip;}
+.worlds-navigation {position:absolute;left:250px;top:4px;display:flex;gap:25px;align-items:center;pointer-events:auto;}
+.worlds-navigation button,.worlds-navigation a{background:none;border:0;border-bottom:1px solid #ffffff29;padding:8px 0;color:#b9b6ae;font-size:10px;letter-spacing:1px;text-decoration:none;cursor:pointer;}
+.worlds-navigation button:hover,.worlds-navigation a:hover{color:#fff;}
+.worlds-navigation button span{margin-left:17px;}
+.space-worlds.is-reading .study-header,.space-worlds.is-reading .study-intro,.space-worlds.is-reading .study-footer{opacity:0;pointer-events:none;}
+.space-worlds .node-label{border-left-color:#bfb6a0;background:linear-gradient(90deg,#101113d9,#10111345);color:#d8d5ce;}
+.space-worlds .node-label>span{color:#a19d93;}
+.space-worlds .reading-window{border-color:#bcb3a147;box-shadow:0 10px 60px #0006;}
+.space-worlds .reading-panel{background:linear-gradient(90deg,#0b0c0eeb,#101113f7);border-left-color:#ffffff17;}
+.space-worlds .reading-eyebrow,.space-worlds .observation-caption span,.space-worlds .reading-bottom,.space-worlds .reading-sources{color:#aaa599;}
+.space-worlds .reading-bottom{border-top-color:#ffffff1b;}
+.space-worlds .catalog-sheet{background:#111215ed;border-color:#c9c0ad40;}
+.space-worlds .catalog-item{background:#14151880;border-color:#ffffff20;}
+.space-worlds .catalog-item:hover{background:#242526;border-color:#cfc4ac77;}
+.space-worlds .related-nodes button{border-color:#ffffff25;}
+.space-worlds input[type=range]{accent-color:#d1c5aa;}
+.space-worlds .hover-note{background:#0a0b0ddd;border-color:#bcb3a140;}
+.space-worlds .study-intro,.space-worlds .study-header,.space-worlds .study-footer{transition:opacity .5s;}
+@media(prefers-reduced-motion:reduce){.space-worlds .study-intro,.space-worlds .study-header,.space-worlds .study-footer{transition:none;}}

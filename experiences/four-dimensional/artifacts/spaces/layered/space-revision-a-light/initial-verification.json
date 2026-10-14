@@ -1,0 +1,106 @@
+{
+  "travel": {
+    "start": -4.198309999999218,
+    "end": -4.445164999998175
+  },
+  "initial": {
+    "motion": {
+      "phase": "exploring",
+      "elapsed": 0,
+      "distance": 0.5426064752540398,
+      "z": -4.54260647525404,
+      "paused": true,
+      "suspended": false,
+      "dragging": false,
+      "spaceFrozen": false,
+      "spaceTime": 22.898500000003878,
+      "targetYaw": -0.34999994539220214,
+      "targetPitch": 0.09000001606111672,
+      "yaw": -0.34999994539220214,
+      "pitch": 0.09000001606111672,
+      "yawVelocity": 0,
+      "pitchVelocity": 0,
+      "speed": 0,
+      "speedScale": 1,
+      "targetSpeed": 0,
+      "entryExitSpeed": 0.35,
+      "frameDt": 0.05,
+      "skipNextFrame": false
+    },
+    "position": [
+      0,
+      1.55,
+      -4.54260647525404
+    ],
+    "quaternion": [
+      0.044297748344335995,
+      0.1739318559277294,
+      -0.007832222379360172,
+      0.9837296759159794
+    ],
+    "direction": [
+      -0.34150995689462454,
+      0.08987856519412414,
+      -0.9355708379703149
+    ],
+    "structure": {
+      "firstSection": -2,
+      "counts": {
+        "primary": 70,
+        "layer": 1813,
+        "joint": 840,
+        "light": 7
+      },
+      "minimumClearance": 5.162347193322809,
+      "sharedVertices": 1876,
+      "fold": {
+        "clock": 22.898500000003878,
+        "phase": "stable",
+        "section": null,
+        "elapsed": 0,
+        "angle": 0,
+        "events": 0,
+        "states": 0,
+        "stableTime": 22.898500000003878
+      },
+      "bloom": false,
+      "particles": 0,
+      "surface": "satin-graphite",
+      "physicalBevel": true,
+      "shadowGeometryMatches": true
+    },
+    "fold": {
+      "clock": 22.898500000003878,
+      "phase": "stable",
+      "section": null,
+      "elapsed": 0,
+      "angle": 0,
+      "events": 0,
+      "states": 0,
+      "stableTime": 22.898500000003878
+    },
+    "lighting": {
+      "shadowMaps": 1,
+      "shadowRadius": 3.2,
+      "texelSnapped": true,
+      "environment": "procedural-soft-apertures",
+      "lightSections": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "areaLights": 7,
+      "animatedIntensity": false
+    },
+    "drawCalls": 7,
+    "triangles": 615804,
+    "geometries": 4,
+    "textures": 6
+  },
+  "errors": [],
+  "viewports": []
+}

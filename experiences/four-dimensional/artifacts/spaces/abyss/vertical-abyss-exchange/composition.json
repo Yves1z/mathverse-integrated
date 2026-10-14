@@ -1,0 +1,410 @@
+{
+  "views": {
+    "inside": {
+      "pose": "entry",
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 19.594594594594593,
+        "z": -23.594594594594593,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": true,
+        "spaceTime": 0,
+        "targetYaw": -0.48,
+        "targetPitch": -0.65,
+        "yaw": -0.48,
+        "pitch": -0.65,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.023700000002980233,
+        "skipNextFrame": false
+      },
+      "position": [
+        101.83516337561964,
+        28,
+        15.822833227106965
+      ],
+      "route": {
+        "travel": 145,
+        "speed": 0,
+        "length": 561.6609325980482,
+        "stage": "沿井边深入",
+        "heightFixed": true,
+        "automaticLook": false
+      },
+      "structure": {
+        "beams": 433,
+        "firstCell": 0,
+        "minimumClearance": 10.77032961426901,
+        "hierarchy": [
+          "primary",
+          "layer",
+          "joint"
+        ],
+        "static": true,
+        "lamellaDepth": true,
+        "extended": false
+      },
+      "exchange": {
+        "angle": 0,
+        "phase": "stable",
+        "events": 0,
+        "clock": 0,
+        "elapsed": 0,
+        "hold": 0,
+        "manual": true,
+        "maximumMovingUnits": 1,
+        "trackedPosition": "inside",
+        "solids": 72,
+        "connections": 12,
+        "projection": "shared-YW-perspective",
+        "shadowMatchesGeometry": true,
+        "frozen": true,
+        "identitySeam": true
+      },
+      "contact": {
+        "depthMatchesGeometry": true,
+        "deterministic": true,
+        "samples": 24,
+        "localAirSteps": 0,
+        "eyeDepthOcclusion": true
+      },
+      "beams": 433,
+      "drawCalls": 16,
+      "geometries": 9,
+      "textures": 8,
+      "static": false
+    },
+    "quarter": {
+      "pose": "entry",
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 19.594594594594593,
+        "z": -23.594594594594593,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": true,
+        "spaceTime": 0,
+        "targetYaw": -0.48,
+        "targetPitch": -0.65,
+        "yaw": -0.48,
+        "pitch": -0.65,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.024,
+        "skipNextFrame": false
+      },
+      "position": [
+        101.83516337561964,
+        28,
+        15.822833227106965
+      ],
+      "route": {
+        "travel": 145,
+        "speed": 0,
+        "length": 561.6609325980482,
+        "stage": "沿井边深入",
+        "heightFixed": true,
+        "automaticLook": false
+      },
+      "structure": {
+        "beams": 433,
+        "firstCell": 0,
+        "minimumClearance": 10.77032961426901,
+        "hierarchy": [
+          "primary",
+          "layer",
+          "joint"
+        ],
+        "static": true,
+        "lamellaDepth": true,
+        "extended": false
+      },
+      "exchange": {
+        "angle": 0.7853981633974483,
+        "phase": "stable",
+        "events": 0,
+        "clock": 0,
+        "elapsed": 0,
+        "hold": 0,
+        "manual": true,
+        "maximumMovingUnits": 1,
+        "trackedPosition": "unfolding",
+        "solids": 72,
+        "connections": 12,
+        "projection": "shared-YW-perspective",
+        "shadowMatchesGeometry": true,
+        "frozen": true,
+        "identitySeam": true
+      },
+      "contact": {
+        "depthMatchesGeometry": true,
+        "deterministic": true,
+        "samples": 24,
+        "localAirSteps": 0,
+        "eyeDepthOcclusion": true
+      },
+      "beams": 433,
+      "drawCalls": 16,
+      "geometries": 9,
+      "textures": 8,
+      "static": false
+    },
+    "middle": {
+      "pose": "entry",
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 19.594594594594593,
+        "z": -23.594594594594593,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": true,
+        "spaceTime": 0,
+        "targetYaw": -0.48,
+        "targetPitch": -0.65,
+        "yaw": -0.48,
+        "pitch": -0.65,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.005599999994039535,
+        "skipNextFrame": false
+      },
+      "position": [
+        101.83516337561964,
+        28,
+        15.822833227106965
+      ],
+      "route": {
+        "travel": 145,
+        "speed": 0,
+        "length": 561.6609325980482,
+        "stage": "沿井边深入",
+        "heightFixed": true,
+        "automaticLook": false
+      },
+      "structure": {
+        "beams": 433,
+        "firstCell": 0,
+        "minimumClearance": 10.77032961426901,
+        "hierarchy": [
+          "primary",
+          "layer",
+          "joint"
+        ],
+        "static": true,
+        "lamellaDepth": true,
+        "extended": false
+      },
+      "exchange": {
+        "angle": 1.5707963267948966,
+        "phase": "stable",
+        "events": 0,
+        "clock": 0,
+        "elapsed": 0,
+        "hold": 0,
+        "manual": true,
+        "maximumMovingUnits": 1,
+        "trackedPosition": "unfolding",
+        "solids": 72,
+        "connections": 12,
+        "projection": "shared-YW-perspective",
+        "shadowMatchesGeometry": true,
+        "frozen": true,
+        "identitySeam": true
+      },
+      "contact": {
+        "depthMatchesGeometry": true,
+        "deterministic": true,
+        "samples": 24,
+        "localAirSteps": 0,
+        "eyeDepthOcclusion": true
+      },
+      "beams": 433,
+      "drawCalls": 16,
+      "geometries": 9,
+      "textures": 8,
+      "static": false
+    },
+    "three-quarter": {
+      "pose": "entry",
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 19.594594594594593,
+        "z": -23.594594594594593,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": true,
+        "spaceTime": 0,
+        "targetYaw": -0.48,
+        "targetPitch": -0.65,
+        "yaw": -0.48,
+        "pitch": -0.65,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.027100000008940698,
+        "skipNextFrame": false
+      },
+      "position": [
+        101.83516337561964,
+        28,
+        15.822833227106965
+      ],
+      "route": {
+        "travel": 145,
+        "speed": 0,
+        "length": 561.6609325980482,
+        "stage": "沿井边深入",
+        "heightFixed": true,
+        "automaticLook": false
+      },
+      "structure": {
+        "beams": 433,
+        "firstCell": 0,
+        "minimumClearance": 10.77032961426901,
+        "hierarchy": [
+          "primary",
+          "layer",
+          "joint"
+        ],
+        "static": true,
+        "lamellaDepth": true,
+        "extended": false
+      },
+      "exchange": {
+        "angle": 2.356194490192345,
+        "phase": "stable",
+        "events": 0,
+        "clock": 0,
+        "elapsed": 0,
+        "hold": 0,
+        "manual": true,
+        "maximumMovingUnits": 1,
+        "trackedPosition": "unfolding",
+        "solids": 72,
+        "connections": 12,
+        "projection": "shared-YW-perspective",
+        "shadowMatchesGeometry": true,
+        "frozen": true,
+        "identitySeam": true
+      },
+      "contact": {
+        "depthMatchesGeometry": true,
+        "deterministic": true,
+        "samples": 24,
+        "localAirSteps": 0,
+        "eyeDepthOcclusion": true
+      },
+      "beams": 433,
+      "drawCalls": 16,
+      "geometries": 9,
+      "textures": 8,
+      "static": false
+    },
+    "outside": {
+      "pose": "entry",
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 19.594594594594593,
+        "z": -23.594594594594593,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": true,
+        "spaceTime": 0,
+        "targetYaw": -0.48,
+        "targetPitch": -0.65,
+        "yaw": -0.48,
+        "pitch": -0.65,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.024099999994039535,
+        "skipNextFrame": false
+      },
+      "position": [
+        101.83516337561964,
+        28,
+        15.822833227106965
+      ],
+      "route": {
+        "travel": 145,
+        "speed": 0,
+        "length": 561.6609325980482,
+        "stage": "沿井边深入",
+        "heightFixed": true,
+        "automaticLook": false
+      },
+      "structure": {
+        "beams": 433,
+        "firstCell": 0,
+        "minimumClearance": 10.77032961426901,
+        "hierarchy": [
+          "primary",
+          "layer",
+          "joint"
+        ],
+        "static": true,
+        "lamellaDepth": true,
+        "extended": false
+      },
+      "exchange": {
+        "angle": 3.141592653589793,
+        "phase": "stable",
+        "events": 0,
+        "clock": 0,
+        "elapsed": 0,
+        "hold": 0,
+        "manual": true,
+        "maximumMovingUnits": 1,
+        "trackedPosition": "outside",
+        "solids": 72,
+        "connections": 12,
+        "projection": "shared-YW-perspective",
+        "shadowMatchesGeometry": true,
+        "frozen": true,
+        "identitySeam": true
+      },
+      "contact": {
+        "depthMatchesGeometry": true,
+        "deterministic": true,
+        "samples": 24,
+        "localAirSteps": 0,
+        "eyeDepthOcclusion": true
+      },
+      "beams": 433,
+      "drawCalls": 16,
+      "geometries": 9,
+      "textures": 8,
+      "static": false
+    }
+  },
+  "errors": []
+}

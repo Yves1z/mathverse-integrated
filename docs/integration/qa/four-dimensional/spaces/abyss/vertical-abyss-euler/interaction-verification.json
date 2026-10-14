@@ -1,0 +1,38 @@
+{
+  "completeEvent": {
+    "mode": "fixed-review",
+    "clock": 0,
+    "travel": 145,
+    "worldCount": 1
+  },
+  "frozenPixels": true,
+  "actualPaperPick": [
+    895.6734587142803,
+    466.54789189953703
+  ],
+  "reading": {
+    "area": 0.801,
+    "worldSpeed": 0.15539999999999998,
+    "travel": 0.21718703999906097
+  },
+  "returnRestoresLookAndPause": true,
+  "threeChaptersAndRelatedAngle": true,
+  "actualOcclusion": [
+    734.2249273488055,
+    439.15886955919535
+  ],
+  "actualCirclePick": [
+    721.654615191461,
+    404.5031096659646
+  ],
+  "storyMemory": true,
+  "repeatedResources": [
+    36,
+    19
+  ],
+  "desktop": true,
+  "restart": true,
+  "previousExchange": true,
+  "reducedMotion": true,
+  "errors": []
+}

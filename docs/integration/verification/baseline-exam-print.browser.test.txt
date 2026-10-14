@@ -1,0 +1,10 @@
+locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: '设置', exact: true })[22m
+
+    at C:\Users\yizhou zhao\Documents\Codex\2026-09-22\referenced-chatgpt-conversation-this-is-an\docs\math-agent\tmp\integration-20261012\merged\gaokao-math-platform-handoff-dev-baseline-20260923\frontend\tests\exam-print.browser.test.cjs:165:63 {
+  log: [
+    "  - waiting for getByRole('button', { name: '设置', exact: true })"
+  ],
+  name: 'TimeoutError'
+}

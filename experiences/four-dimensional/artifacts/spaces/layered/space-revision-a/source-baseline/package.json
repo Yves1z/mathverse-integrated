@@ -1,0 +1,48 @@
+{
+  "name": "mathverse-home-environment",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "D-drive development dependencies for the Mathverse cinematic homepage",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "verify": "node scripts/verify-environment.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:stage-a": "node scripts/stage-a-refined.browser.test.mjs",
+    "test:motion": "node scripts/stage-b.motion.test.mjs",
+    "test:stage-b": "npm run test:motion && node scripts/stage-b.browser.test.mjs",
+    "test:reading": "node scripts/stage-c.logic.test.mjs",
+    "test:stage-c": "npm run test:reading && node scripts/stage-c.browser.test.mjs",
+    "test:windows": "node scripts/stage-d.windows.logic.test.mjs",
+    "test:windows-browser": "node scripts/stage-d.windows.browser.test.mjs",
+    "test:light": "node scripts/stage-d.light.browser.test.mjs",
+    "test:euler": "node scripts/stage-d.euler.test.mjs",
+    "test:euler-viewport": "node scripts/stage-d.euler.viewport.test.mjs",
+    "test:alignment": "node scripts/stage-d.relation.test.mjs"
+  },
+  "engines": {
+    "node": ">=24.12.0"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.1",
+    "@react-three/postprocessing": "3.1.3",
+    "katex": "0.19.0",
+    "postprocessing": "6.39.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/katex": "0.16.8",
+    "@types/node": "24.19.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "playwright": "1.64.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  }
+}

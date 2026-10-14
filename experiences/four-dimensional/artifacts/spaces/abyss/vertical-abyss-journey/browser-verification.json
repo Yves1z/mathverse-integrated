@@ -1,0 +1,29 @@
+{
+  "realDiscovery": {
+    "travel": 116.00299421895875,
+    "position": [
+      107.78592680733603,
+      28,
+      44.20251538097046
+    ],
+    "speed": 2.59
+  },
+  "realTrace": {
+    "samples": 187,
+    "maximumStep": 0.756021000015437
+  },
+  "lookWhileMoving": true,
+  "resetDirectionPreservesTravel": true,
+  "pausePixels": true,
+  "resumeWithoutTeleport": true,
+  "restart": true,
+  "desktop": true,
+  "resources": [
+    4,
+    8
+  ],
+  "staticPrototype": true,
+  "reducedMotion": true,
+  "videoDuration": 58.88,
+  "errors": []
+}

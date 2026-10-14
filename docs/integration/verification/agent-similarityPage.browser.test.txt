@@ -1,0 +1,10 @@
+locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('图片识别题干', { exact: true }) to be visible[22m
+
+    at C:\Users\yizhou zhao\Documents\Codex\2026-09-22\referenced-chatgpt-conversation-this-is-an\docs\math-agent\tmp\integration-20261012\merged\gaokao-math-platform-handoff-dev-baseline-20260923\frontend\src\features\similar-problems\similarityPage.browser.test.cjs:123:51 {
+  log: [
+    "  - waiting for getByText('图片识别题干', { exact: true }) to be visible"
+  ],
+  name: 'TimeoutError'
+}

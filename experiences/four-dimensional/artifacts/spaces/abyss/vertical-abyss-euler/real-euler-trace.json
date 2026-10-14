@@ -1,0 +1,4577 @@
+[
+  {
+    "travel": 0.4355946134074151,
+    "position": [
+      95.30960800957614,
+      28,
+      149.6935952095074
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 0.9791905708406845,
+    "position": [
+      95.70024964039138,
+      28,
+      149.31558455677492
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 1.6724112190200844,
+    "position": [
+      96.204730954389,
+      28,
+      148.8401425561841
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 2.2899821503104603,
+    "position": [
+      96.65955112312793,
+      28,
+      148.42237671059638
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 2.979172187672718,
+    "position": [
+      97.1724512404164,
+      28,
+      147.96203816672684
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 3.662003473610484,
+    "position": [
+      97.68550473589202,
+      28,
+      147.511448791501
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 4.274020473602765,
+    "position": [
+      98.1489420967166,
+      28,
+      147.11171343325043
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 4.878008473610484,
+    "position": [
+      98.60916271722381,
+      28,
+      146.72056501358796
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 5.54778247363364,
+    "position": [
+      99.12231427031192,
+      28,
+      146.29013338268734
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 6.214707473633639,
+    "position": [
+      99.63566640825759,
+      28,
+      145.8643895142783
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 6.876970473641356,
+    "position": [
+      100.14724003865047,
+      28,
+      145.44381313464
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 7.479145473641356,
+    "position": [
+      100.61351743458845,
+      28,
+      145.06276201040222
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 8.145293473610478,
+    "position": [
+      101.13008511856044,
+      28,
+      144.6421541292804
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 8.807815473641355,
+    "position": [
+      101.64412297020276,
+      28,
+      144.22418219403036
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 9.407918473610483,
+    "position": [
+      102.10954166803339,
+      28,
+      143.84535625853778
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 10.076397473633639,
+    "position": [
+      102.62729288520958,
+      28,
+      143.42251136104375
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 10.743840473641358,
+    "position": [
+      103.1429925589092,
+      28,
+      142.99879716941305
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 11.410765473641355,
+    "position": [
+      103.65650574945475,
+      28,
+      142.57324756586655
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 12.013199473625916,
+    "position": [
+      104.11837135783371,
+      28,
+      142.18645816161958
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 12.678052473633636,
+    "position": [
+      104.62538398097043,
+      28,
+      141.75638151760285
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 13.346790473641356,
+    "position": [
+      105.13193496941639,
+      28,
+      141.3197879559259
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 14.010866473618199,
+    "position": [
+      105.63096737535425,
+      28,
+      140.88165550215732
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 14.60863847361048,
+    "position": [
+      106.07627603573545,
+      28,
+      140.4828715398085
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 15.272455473641354,
+    "position": [
+      106.56588382178121,
+      28,
+      140.03461755286637
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 15.938085473641351,
+    "position": [
+      107.05102410937478,
+      28,
+      139.57888149790995
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 16.533526473618192,
+    "position": [
+      107.47953402842074,
+      28,
+      139.16545184980527
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 17.207185473641346,
+    "position": [
+      107.95745414573848,
+      28,
+      138.69068990129887
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 17.87411047364135,
+    "position": [
+      108.42270478659898,
+      28,
+      138.21286169417593
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 18.47058747363363,
+    "position": [
+      108.83155470969133,
+      28,
+      137.77855939842266
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 19.20588847361047,
+    "position": [
+      109.32530452620752,
+      28,
+      137.23371238364157
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 19.805214473625913,
+    "position": [
+      109.7187069956019,
+      28,
+      136.78158858053854
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 20.462815473641342,
+    "position": [
+      110.1403044414675,
+      28,
+      136.2769343548002
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 21.11627247363362,
+    "position": [
+      110.54811259396452,
+      28,
+      135.76636698354838
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 21.76662147361818,
+    "position": [
+      110.94224988519463,
+      28,
+      135.2490729921486
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 22.355069473625896,
+    "position": [
+      111.28820323523489,
+      28,
+      134.7730760242006
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 23.067319473625904,
+    "position": [
+      111.69264553967713,
+      28,
+      134.18682384994958
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 23.650846473618188,
+    "position": [
+      112.01177618308377,
+      28,
+      133.6983084815006
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 24.36465047364134,
+    "position": [
+      112.38650834339909,
+      28,
+      133.09081141282957
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 25.012409473625908,
+    "position": [
+      112.71109747576769,
+      28,
+      132.5302721214218
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 25.659909473625913,
+    "position": [
+      113.01977445130517,
+      28,
+      131.96253189172288
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 26.24654447362591,
+    "position": [
+      113.28978397454875,
+      28,
+      131.44032132863978
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 26.898188473610478,
+    "position": [
+      113.57973553752542,
+      28,
+      130.85676053613284
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 27.617949473625913,
+    "position": [
+      113.88902462498535,
+      28,
+      130.20683265474187
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 28.20639747363363,
+    "position": [
+      114.13362671481269,
+      28,
+      129.67163616932825
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 28.851566473618192,
+    "position": [
+      114.39356906051627,
+      28,
+      129.08117459065494
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 29.493109473625914,
+    "position": [
+      114.6438082145508,
+      28,
+      128.49044558137896
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 30.13050847361048,
+    "position": [
+      114.88455428455697,
+      28,
+      127.90025900207623
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 30.76972047364135,
+    "position": [
+      115.11835265776159,
+      28,
+      127.30535335941211
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 31.473164473625914,
+    "position": [
+      115.36711290306854,
+      28,
+      126.64735970294157
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 32.11341247363363,
+    "position": [
+      115.58599176705353,
+      28,
+      126.04569703495552
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 32.75003447362591,
+    "position": [
+      115.79673926897607,
+      28,
+      125.44497468732521
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 33.38717447362591,
+    "position": [
+      116.00097702882022,
+      28,
+      124.84145964881512
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 34.09528047364134,
+    "position": [
+      116.22035368766961,
+      28,
+      124.16818410847259
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 34.740708473610475,
+    "position": [
+      116.41352535984393,
+      28,
+      123.5523440454793
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 35.3861364736182,
+    "position": [
+      116.6004061597497,
+      28,
+      122.93456792524253
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 36.029492473633624,
+    "position": [
+      116.78058859716302,
+      28,
+      122.31696519164655
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 36.61094747363362,
+    "position": [
+      116.93832476689617,
+      28,
+      121.75731712729083
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 37.312060473641345,
+    "position": [
+      117.12222332633351,
+      28,
+      121.08075987375088
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 37.9468694736259,
+    "position": [
+      117.28293114525658,
+      28,
+      120.46662926970157
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 38.578570473641335,
+    "position": [
+      117.43750576743811,
+      28,
+      119.8541256656472
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 39.215451473618174,
+    "position": [
+      117.58805889326432,
+      28,
+      119.23530565176243
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 39.917082473633606,
+    "position": [
+      117.7479089913077,
+      28,
+      118.55212210241187
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 40.55059647361816,
+    "position": [
+      117.88693225449364,
+      28,
+      117.93405885044567
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 41.18540547364131,
+    "position": [
+      118.02129089806652,
+      28,
+      117.31362700805686
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 41.819696473618144,
+    "position": [
+      118.15067673189733,
+      28,
+      116.6926775930727
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 42.46201647361815,
+    "position": [
+      118.27683487076408,
+      28,
+      116.06287041318953
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 43.093458473610426,
+    "position": [
+      118.39616269903884,
+      28,
+      115.44280388363586
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 43.72671347361041,
+    "position": [
+      118.51123089901715,
+      28,
+      114.8200953733734
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 44.42238747363358,
+    "position": [
+      118.63241173659902,
+      28,
+      114.13505855118638
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 45.064189473625866,
+    "position": [
+      118.73942389011796,
+      28,
+      113.50223650889029
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 45.68708447362588,
+    "position": [
+      118.83895010772794,
+      28,
+      112.88734955269354
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 46.33950547364132,
+    "position": [
+      118.93867746197127,
+      28,
+      112.24259251706972
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 46.984156473618164,
+    "position": [
+      119.03272902313257,
+      28,
+      111.60484450390258
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 47.631915473641314,
+    "position": [
+      119.12279276661627,
+      28,
+      110.96337470660221
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 48.27630747363359,
+    "position": [
+      119.20801444751865,
+      28,
+      110.32464667889849
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 48.90982147361815,
+    "position": [
+      119.28758639277304,
+      28,
+      109.69614748524106
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 49.6023874736336,
+    "position": [
+      119.36983889479332,
+      28,
+      109.00848521265058
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 50.2369374736336,
+    "position": [
+      119.44089274460949,
+      28,
+      108.37792806048405
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 50.86423547364131,
+    "position": [
+      119.50711372779588,
+      28,
+      107.75413563938211
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 51.526757473633594,
+    "position": [
+      119.57273885273712,
+      28,
+      107.0948726045385
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 52.19394147361816,
+    "position": [
+      119.63437104845043,
+      28,
+      106.43054191411765
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 52.8308224736336,
+    "position": [
+      119.68905271289279,
+      28,
+      105.79601336729257
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 53.4692574736336,
+    "position": [
+      119.73981324879526,
+      28,
+      105.1596006130956
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 54.10587947362587,
+    "position": [
+      119.7863989645677,
+      28,
+      104.5246853483417
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 54.740429473625866,
+    "position": [
+      119.82883562693264,
+      28,
+      103.8915568378751
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 55.435844473625856,
+    "position": [
+      119.87076487073224,
+      28,
+      103.19740761815648
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 56.06521447362585,
+    "position": [
+      119.90458623734085,
+      28,
+      102.56894926446209
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 56.75778047364129,
+    "position": [
+      119.93727085361701,
+      28,
+      101.87715708176059
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 57.386891473618135,
+    "position": [
+      119.96283819648175,
+      28,
+      101.24856272744881
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 58.01211747363358,
+    "position": [
+      119.9843496965722,
+      28,
+      100.62370866298814
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 58.64122847361043,
+    "position": [
+      120.00206056248254,
+      28,
+      99.99484810758563
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 59.33275847361042,
+    "position": [
+      120.0169564104052,
+      28,
+      99.30348014275864
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 59.958761473618125,
+    "position": [
+      120.02629055734721,
+      28,
+      98.67754425164813
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 60.586577473633554,
+    "position": [
+      120.03166678737082,
+      28,
+      98.04975891464586
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 61.2136164736181,
+    "position": [
+      120.03302638524855,
+      28,
+      97.42271465613213
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 61.90411047364124,
+    "position": [
+      120.02985030171253,
+      28,
+      96.73222870682169
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 62.530113473610335,
+    "position": [
+      120.02269981735596,
+      28,
+      96.10627408490743
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 63.22034847361033,
+    "position": [
+      120.01005886660681,
+      28,
+      95.41615829871192
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 63.850236473618025,
+    "position": [
+      119.99387917944193,
+      28,
+      94.78647160393706
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 64.47727547364117,
+    "position": [
+      119.97033511901905,
+      28,
+      94.15988028075171
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 65.16569747363343,
+    "position": [
+      119.93502289679293,
+      28,
+      93.47237435625473
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 65.79403147361799,
+    "position": [
+      119.89429707367123,
+      28,
+      92.84536678189802
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 66.42158847361027,
+    "position": [
+      119.8456860352409,
+      28,
+      92.2197002294564
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 67.11285947362569,
+    "position": [
+      119.78315808729695,
+      28,
+      91.53126594414884
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 67.74222947362568,
+    "position": [
+      119.71823494063794,
+      28,
+      90.90525818591281
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 68.37211747363341,
+    "position": [
+      119.64582550632826,
+      28,
+      90.27955050387276
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 68.99656647361797,
+    "position": [
+      119.56689865718779,
+      28,
+      89.66011367122805
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 69.68628347361025,
+    "position": [
+      119.47170286473413,
+      28,
+      88.97700271613333
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 70.31254547364112,
+    "position": [
+      119.37820535281944,
+      28,
+      88.35776298030761
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 70.9380304736411,
+    "position": [
+      119.27834415363888,
+      28,
+      87.74030453654876
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 71.6308554736411,
+    "position": [
+      119.16044525630173,
+      28,
+      87.05758784550099
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 72.25841247363338,
+    "position": [
+      119.04729535266408,
+      28,
+      86.44031794789903
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 72.88286147361798,
+    "position": [
+      118.92894924568786,
+      28,
+      85.82718829562052
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 73.51663447362569,
+    "position": [
+      118.80320645842284,
+      28,
+      85.20601523262579
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 74.20686947362566,
+    "position": [
+      118.66010077767622,
+      28,
+      84.53078658221754
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 74.8352034736102,
+    "position": [
+      118.5245055391292,
+      28,
+      83.9172601493229
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 75.47027147361793,
+    "position": [
+      118.38255882842574,
+      28,
+      83.29826100369269
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 76.15998847361021,
+    "position": [
+      118.22310890774072,
+      28,
+      82.62722385289287
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 76.78236547364106,
+    "position": [
+      118.0747612562924,
+      28,
+      82.02278554726749
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 77.46819747363332,
+    "position": [
+      117.90667311864293,
+      28,
+      81.35788046132551
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 78.09031547364101,
+    "position": [
+      117.7502618824985,
+      28,
+      80.75574580794779
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 78.71087947362557,
+    "position": [
+      117.59074568451392,
+      28,
+      80.15603224915255
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 79.337400473641,
+    "position": [
+      117.426385294006,
+      28,
+      79.55145216886234
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 80.02245547364097,
+    "position": [
+      117.24313044962727,
+      28,
+      78.89137216137823
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 80.65001247363325,
+    "position": [
+      117.07224963610672,
+      28,
+      78.28752733847267
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 81.27575647361782,
+    "position": [
+      116.89922820479175,
+      28,
+      77.68617577586215
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 81.95666747363326,
+    "position": [
+      116.70822036769037,
+      28,
+      77.03261139812854
+    ],
+    "angle": 0,
+    "phase": "stable",
+    "figureAngles": [
+      0,
+      0
+    ],
+    "paperAngle": 0
+  },
+  {
+    "travel": 82.61711747363327,
+    "position": [
+      116.5204774307824,
+      28,
+      76.39940923737498
+    ],
+    "angle": 0.0000010042883891114852,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.0000010042883891114852,
+      0.0000010042883891114852
+    ],
+    "paperAngle": 0.0000010042883891114852
+  },
+  {
+    "travel": 83.2205874736333,
+    "position": [
+      116.34700832927356,
+      28,
+      75.82139927044437
+    ],
+    "angle": 0.00011707954434776467,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.00011707954434776467,
+      0.00011707954434776467
+    ],
+    "paperAngle": 0.00011707954434776467
+  },
+  {
+    "travel": 83.8292374736333,
+    "position": [
+      116.17038782621044,
+      28,
+      75.23894715244512
+    ],
+    "angle": 0.0006485912231737439,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.0006485912231737439,
+      0.0006485912231737439
+    ],
+    "paperAngle": 0.0006485912231737439
+  },
+  {
+    "travel": 84.53812047364102,
+    "position": [
+      115.96280784225539,
+      28,
+      74.56113115384511
+    ],
+    "angle": 0.0021143563946078173,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.0021143563946078173,
+      0.0021143563946078173
+    ],
+    "paperAngle": 0.0021143563946078173
+  },
+  {
+    "travel": 85.15713047364103,
+    "position": [
+      115.78011317150246,
+      28,
+      73.96970137473942
+    ],
+    "angle": 0.0043315641965886685,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.0043315641965886685,
+      0.0043315641965886685
+    ],
+    "paperAngle": 0.0043315641965886685
+  },
+  {
+    "travel": 85.83648747363331,
+    "position": [
+      115.57829227565458,
+      28,
+      73.32101056638597
+    ],
+    "angle": 0.00788793775604864,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.00788793775604864,
+      0.00788793775604864
+    ],
+    "paperAngle": 0.00788793775604864
+  },
+  {
+    "travel": 86.45808747363331,
+    "position": [
+      115.39262493874686,
+      28,
+      72.72779660185454
+    ],
+    "angle": 0.012199003274444094,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.012199003274444094,
+      0.012199003274444094
+    ],
+    "paperAngle": 0.012199003274444094
+  },
+  {
+    "travel": 87.13848047364102,
+    "position": [
+      115.18850325803939,
+      28,
+      72.07874388357888
+    ],
+    "angle": 0.01803354823684389,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.01803354823684389,
+      0.01803354823684389
+    ],
+    "paperAngle": 0.01803354823684389
+  },
+  {
+    "travel": 87.7616344736256,
+    "position": [
+      115.00092275324359,
+      28,
+      71.48448954534976
+    ],
+    "angle": 0.024306900083959943,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.024306900083959943,
+      0.024306900083959943
+    ],
+    "paperAngle": 0.024306900083959943
+  },
+  {
+    "travel": 88.45653147361786,
+    "position": [
+      114.79125032440248,
+      28,
+      70.82198350788585
+    ],
+    "angle": 0.03218713529101748,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.03218713529101748,
+      0.03218713529101748
+    ],
+    "paperAngle": 0.03218713529101748
+  },
+  {
+    "travel": 89.03306547364102,
+    "position": [
+      114.61704908601239,
+      28,
+      70.27239724884993
+    ],
+    "angle": 0.03927690911803946,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.03927690911803946,
+      0.03927690911803946
+    ],
+    "paperAngle": 0.03927690911803946
+  },
+  {
+    "travel": 89.72226447362557,
+    "position": [
+      114.40870561636109,
+      28,
+      69.61544284693935
+    ],
+    "angle": 0.048187278992786665,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.048187278992786665,
+      0.048187278992786665
+    ],
+    "paperAngle": 0.048187278992786665
+  },
+  {
+    "travel": 90.35862747363328,
+    "position": [
+      114.21640919283959,
+      28,
+      69.0088289756787
+    ],
+    "angle": 0.05660975423509324,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.05660975423509324,
+      0.05660975423509324
+    ],
+    "paperAngle": 0.05660975423509324
+  },
+  {
+    "travel": 90.99265947362555,
+    "position": [
+      114.02504999620993,
+      28,
+      68.40435456718431
+    ],
+    "angle": 0.06495825698328207,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.06495825698328207,
+      0.06495825698328207
+    ],
+    "paperAngle": 0.06495825698328207
+  },
+  {
+    "travel": 91.61529547364097,
+    "position": [
+      113.8375144273765,
+      28,
+      67.81064428023434
+    ],
+    "angle": 0.0729009526635832,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.0729009526635832,
+      0.0729009526635832
+    ],
+    "paperAngle": 0.0729009526635832
+  },
+  {
+    "travel": 92.30527147361784,
+    "position": [
+      113.63030297892058,
+      28,
+      67.152517540528
+    ],
+    "angle": 0.08116474133830258,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.08116474133830258,
+      0.08116474133830258
+    ],
+    "paperAngle": 0.08116474133830258
+  },
+  {
+    "travel": 92.9807434736101,
+    "position": [
+      113.42824201625929,
+      28,
+      66.50797027192108
+    ],
+    "angle": 0.08848015827485645,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.08848015827485645,
+      0.08848015827485645
+    ],
+    "paperAngle": 0.08848015827485645
+  },
+  {
+    "travel": 93.60234347361012,
+    "position": [
+      113.2431437182251,
+      28,
+      65.91457604258468
+    ],
+    "angle": 0.09436817674623144,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.09436817674623144,
+      0.09436817674623144
+    ],
+    "paperAngle": 0.09436817674623144
+  },
+  {
+    "travel": 94.21824547364102,
+    "position": [
+      113.06066360996375,
+      28,
+      65.32631104841082
+    ],
+    "angle": 0.0992900348830195,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.0992900348830195,
+      0.0992900348830195
+    ],
+    "paperAngle": 0.0992900348830195
+  },
+  {
+    "travel": 94.90200547364103,
+    "position": [
+      112.85931707104326,
+      28,
+      64.67288003829997
+    ],
+    "angle": 0.10361100719721618,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.10361100719721618,
+      0.10361100719721618
+    ],
+    "paperAngle": 0.10361100719721618
+  },
+  {
+    "travel": 95.52800847361013,
+    "position": [
+      112.67624231648172,
+      28,
+      64.07424352832372
+    ],
+    "angle": 0.10649735453591705,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.10649735453591705,
+      0.10649735453591705
+    ],
+    "paperAngle": 0.10649735453591705
+  },
+  {
+    "travel": 96.21047347361011,
+    "position": [
+      112.4781793826105,
+      28,
+      63.42114510054374
+    ],
+    "angle": 0.10854093116994487,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.10854093116994487,
+      0.10854093116994487
+    ],
+    "paperAngle": 0.10854093116994487
+  },
+  {
+    "travel": 96.83932547364098,
+    "position": [
+      112.29721500362311,
+      28,
+      62.818906206969196
+    ],
+    "angle": 0.10954169323718303,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.10954169323718303,
+      0.10954169323718303
+    ],
+    "paperAngle": 0.10954169323718303
+  },
+  {
+    "travel": 97.46325647361783,
+    "position": [
+      112.11923352583662,
+      28,
+      62.22090266629889
+    ],
+    "angle": 0.10991141499642654,
+    "phase": "anticipation",
+    "figureAngles": [
+      0.10991141499642654,
+      0.10991141499642654
+    ],
+    "paperAngle": 0.10991141499642654
+  },
+  {
+    "travel": 98.08589247363327,
+    "position": [
+      111.94328276431735,
+      28,
+      61.6236338379206
+    ],
+    "angle": 0.10995577627399983,
+    "phase": "folding",
+    "figureAngles": [
+      0.10995577627399983,
+      0.10995577627399983
+    ],
+    "paperAngle": 0.10995577627399983
+  },
+  {
+    "travel": 98.77794047364098,
+    "position": [
+      111.74980072610988,
+      28,
+      60.95919509572627
+    ],
+    "angle": 0.10998507465331353,
+    "phase": "folding",
+    "figureAngles": [
+      0.10998507465331353,
+      0.10998507465331353
+    ],
+    "paperAngle": 0.10998507465331353
+  },
+  {
+    "travel": 99.46972947362556,
+    "position": [
+      111.5587044619644,
+      28,
+      60.29432129824024
+    ],
+    "angle": 0.11015289135325651,
+    "phase": "folding",
+    "figureAngles": [
+      0.11015289135325651,
+      0.11015289135325651
+    ],
+    "paperAngle": 0.11015289135325651
+  },
+  {
+    "travel": 100.08614947362554,
+    "position": [
+      111.39048780573829,
+      28,
+      59.701302272000014
+    ],
+    "angle": 0.11051464776687163,
+    "phase": "folding",
+    "figureAngles": [
+      0.11051464776687163,
+      0.11051464776687163
+    ],
+    "paperAngle": 0.11051464776687163
+  },
+  {
+    "travel": 100.70982147361781,
+    "position": [
+      111.22235965133893,
+      28,
+      59.10071814937819
+    ],
+    "angle": 0.11116797840645211,
+    "phase": "folding",
+    "figureAngles": [
+      0.11116797840645211,
+      0.11116797840645211
+    ],
+    "paperAngle": 0.11116797840645211
+  },
+  {
+    "travel": 101.33375247363327,
+    "position": [
+      111.05633133492229,
+      28,
+      58.49927557209006
+    ],
+    "angle": 0.11218773801545905,
+    "phase": "folding",
+    "figureAngles": [
+      0.11218773801545905,
+      0.11218773801545905
+    ],
+    "paperAngle": 0.11218773801545905
+  },
+  {
+    "travel": 102.01181447362556,
+    "position": [
+      110.87846518143496,
+      28,
+      57.8449660918396
+    ],
+    "angle": 0.11379641956071392,
+    "phase": "folding",
+    "figureAngles": [
+      0.11379641956071392,
+      0.11379641956071392
+    ],
+    "paperAngle": 0.11379641956071392
+  },
+  {
+    "travel": 102.63600447362555,
+    "position": [
+      110.71717715694058,
+      28,
+      57.24197758149012
+    ],
+    "angle": 0.11581196706333291,
+    "phase": "folding",
+    "figureAngles": [
+      0.11581196706333291,
+      0.11581196706333291
+    ],
+    "paperAngle": 0.11581196706333291
+  },
+  {
+    "travel": 103.26433847361011,
+    "position": [
+      110.55726979074015,
+      28,
+      56.63433207738968
+    ],
+    "angle": 0.11842593147896945,
+    "phase": "folding",
+    "figureAngles": [
+      0.11842593147896945,
+      0.11842593147896945
+    ],
+    "paperAngle": 0.11842593147896945
+  },
+  {
+    "travel": 103.94913447362552,
+    "position": [
+      110.38588141818984,
+      28,
+      55.97131291046301
+    ],
+    "angle": 0.12201547588128063,
+    "phase": "folding",
+    "figureAngles": [
+      0.12201547588128063,
+      0.12201547588128063
+    ],
+    "paperAngle": 0.12201547588128063
+  },
+  {
+    "travel": 104.58187147361782,
+    "position": [
+      110.23029053771263,
+      28,
+      55.35801387963882
+    ],
+    "angle": 0.12608157978431342,
+    "phase": "folding",
+    "figureAngles": [
+      0.12608157978431342,
+      0.12608157978431342
+    ],
+    "paperAngle": 0.12608157978431342
+  },
+  {
+    "travel": 105.21253647361782,
+    "position": [
+      110.07792182991247,
+      28,
+      54.746037231608284
+    ],
+    "angle": 0.13090649689753572,
+    "phase": "folding",
+    "figureAngles": [
+      0.13090649689753572,
+      0.13090649689753572
+    ],
+    "paperAngle": 0.13090649689753572
+  },
+  {
+    "travel": 105.9074334736101,
+    "position": [
+      109.91325229703584,
+      28,
+      54.07093394553529
+    ],
+    "angle": 0.13717538677252436,
+    "phase": "folding",
+    "figureAngles": [
+      0.13717538677252436,
+      0.13717538677252436
+    ],
+    "paperAngle": 0.13717538677252436
+  },
+  {
+    "travel": 106.54327847361009,
+    "position": [
+      109.76560381608854,
+      28,
+      53.452466086348984
+    ],
+    "angle": 0.1438373464123245,
+    "phase": "folding",
+    "figureAngles": [
+      0.1438373464123245,
+      0.1438373464123245
+    ],
+    "paperAngle": 0.1438373464123245
+  },
+  {
+    "travel": 107.17446147361782,
+    "position": [
+      109.62196508709062,
+      28,
+      52.837844280720304
+    ],
+    "angle": 0.15136942505845588,
+    "phase": "folding",
+    "figureAngles": [
+      0.15136942505845588,
+      0.15136942505845588
+    ],
+    "paperAngle": 0.15136942505845588
+  },
+  {
+    "travel": 107.85485447362554,
+    "position": [
+      109.47045975939858,
+      28,
+      52.174529391704226
+    ],
+    "angle": 0.16055839632182575,
+    "phase": "folding",
+    "figureAngles": [
+      0.16055839632182575,
+      0.16055839632182575
+    ],
+    "paperAngle": 0.16055839632182575
+  },
+  {
+    "travel": 108.4837064736178,
+    "position": [
+      109.33356530210604,
+      28,
+      51.560754747340816
+    ],
+    "angle": 0.17007488381354852,
+    "phase": "folding",
+    "figureAngles": [
+      0.17007488381354852,
+      0.17007488381354852
+    ],
+    "paperAngle": 0.17007488381354852
+  },
+  {
+    "travel": 109.16850247363324,
+    "position": [
+      109.18798395112339,
+      28,
+      50.8916326072716
+    ],
+    "angle": 0.18159323533527907,
+    "phase": "folding",
+    "figureAngles": [
+      0.18159323533527907,
+      0.18159323533527907
+    ],
+    "paperAngle": 0.18159323533527907
+  },
+  {
+    "travel": 109.7942464736178,
+    "position": [
+      109.05818206839818,
+      28,
+      50.27949480551804
+    ],
+    "angle": 0.19320034056237376,
+    "phase": "folding",
+    "figureAngles": [
+      0.19320034056237376,
+      0.19320034056237376
+    ],
+    "paperAngle": 0.19320034056237376
+  },
+  {
+    "travel": 110.41869547364095,
+    "position": [
+      108.93125934865509,
+      28,
+      49.668108781774464
+    ],
+    "angle": 0.20583746104703615,
+    "phase": "folding",
+    "figureAngles": [
+      0.20583746104703615,
+      0.20583746104703615
+    ],
+    "paperAngle": 0.20583746104703615
+  },
+  {
+    "travel": 111.10426847361006,
+    "position": [
+      108.7918927418323,
+      28,
+      48.99684060084202
+    ],
+    "angle": 0.22094779246241794,
+    "phase": "folding",
+    "figureAngles": [
+      0.22094779246241794,
+      0.22094779246241794
+    ],
+    "paperAngle": 0.22094779246241794
+  },
+  {
+    "travel": 111.72431447362551,
+    "position": [
+      108.66549675141042,
+      28,
+      48.38980383254466
+    ],
+    "angle": 0.23574605237420698,
+    "phase": "folding",
+    "figureAngles": [
+      0.23574605237420698,
+      0.23574605237420698
+    ],
+    "paperAngle": 0.23574605237420698
+  },
+  {
+    "travel": 112.35264847361006,
+    "position": [
+      108.53710097476056,
+      28,
+      47.77474817108349
+    ],
+    "angle": 0.25185325067959713,
+    "phase": "folding",
+    "figureAngles": [
+      0.25185325067959713,
+      0.25185325067959713
+    ],
+    "paperAngle": 0.25185325067959713
+  },
+  {
+    "travel": 113.04858147361779,
+    "position": [
+      108.3945396539214,
+      28,
+      47.09356396387891
+    ],
+    "angle": 0.27101170273260694,
+    "phase": "folding",
+    "figureAngles": [
+      0.27101170273260694,
+      0.27101170273260694
+    ],
+    "paperAngle": 0.27101170273260694
+  },
+  {
+    "travel": 113.6732894736255,
+    "position": [
+      108.26628150762396,
+      28,
+      46.482154004505645
+    ],
+    "angle": 0.28939790500133616,
+    "phase": "folding",
+    "figureAngles": [
+      0.28939790500133616,
+      0.28939790500133616
+    ],
+    "paperAngle": 0.28939790500133616
+  },
+  {
+    "travel": 114.31198347361006,
+    "position": [
+      108.13489887474455,
+      28,
+      45.85713808460681
+    ],
+    "angle": 0.3093632401456216,
+    "phase": "folding",
+    "figureAngles": [
+      0.3093632401456216,
+      0.3093632401456216
+    ],
+    "paperAngle": 0.3093632401456216
+  },
+  {
+    "travel": 114.93824547364093,
+    "position": [
+      108.00582764729295,
+      28,
+      45.244281284063774
+    ],
+    "angle": 0.3300880332053887,
+    "phase": "folding",
+    "figureAngles": [
+      0.3300880332053887,
+      0.3300880332053887
+    ],
+    "paperAngle": 0.3300880332053887
+  },
+  {
+    "travel": 115.56606147361778,
+    "position": [
+      107.87623915849301,
+      28,
+      44.630025891049875
+    ],
+    "angle": 0.35200444954049415,
+    "phase": "folding",
+    "figureAngles": [
+      0.35200444954049415,
+      0.35200444954049415
+    ],
+    "paperAngle": 0.35200444954049415
+  },
+  {
+    "travel": 116.25681447362547,
+    "position": [
+      107.73342421609496,
+      28,
+      43.95418628830616
+    ],
+    "angle": 0.3774327355037545,
+    "phase": "folding",
+    "figureAngles": [
+      0.3774327355037545,
+      0.3774327355037545
+    ],
+    "paperAngle": 0.3774327355037545
+  },
+  {
+    "travel": 116.88359447362546,
+    "position": [
+      107.60365409898709,
+      28,
+      43.34098444406038
+    ],
+    "angle": 0.4016914803903028,
+    "phase": "folding",
+    "figureAngles": [
+      0.4016914803903028,
+      0.4016914803903028
+    ],
+    "paperAngle": 0.4016914803903028
+  },
+  {
+    "travel": 117.57849147361773,
+    "position": [
+      107.4596028718274,
+      28,
+      42.66119587657862
+    ],
+    "angle": 0.42989416897009725,
+    "phase": "folding",
+    "figureAngles": [
+      0.42989416897009725,
+      0.42989416897009725
+    ],
+    "paperAngle": 0.42989416897009725
+  },
+  {
+    "travel": 118.2081204736409,
+    "position": [
+      107.32892503430025,
+      28,
+      42.04523489840477
+    ],
+    "angle": 0.4566229060403384,
+    "phase": "folding",
+    "figureAngles": [
+      0.4566229060403384,
+      0.4566229060403384
+    ],
+    "paperAngle": 0.4566229060403384
+  },
+  {
+    "travel": 118.84577847361007,
+    "position": [
+      107.19647520658081,
+      28,
+      41.42152579223605
+    ],
+    "angle": 0.4848164719056776,
+    "phase": "folding",
+    "figureAngles": [
+      0.4848164719056776,
+      0.4848164719056776
+    ],
+    "paperAngle": 0.4848164719056776
+  },
+  {
+    "travel": 119.47333547364097,
+    "position": [
+      107.0660028937153,
+      28,
+      40.807638652474054
+    ],
+    "angle": 0.5136516594453785,
+    "phase": "folding",
+    "figureAngles": [
+      0.5136516594453785,
+      0.5136516594453785
+    ],
+    "paperAngle": 0.5136516594453785
+  },
+  {
+    "travel": 120.11099347361011,
+    "position": [
+      106.93335980826434,
+      28,
+      40.18397212128309
+    ],
+    "angle": 0.5440379962682639,
+    "phase": "folding",
+    "figureAngles": [
+      0.5440379962682639,
+      0.5440379962682639
+    ],
+    "paperAngle": 0.5440379962682639
+  },
+  {
+    "travel": 120.74994647361783,
+    "position": [
+      106.80035725893653,
+      28,
+      39.55897210008885
+    ],
+    "angle": 0.5755639442027918,
+    "phase": "folding",
+    "figureAngles": [
+      0.5755639442027918,
+      0.5755639442027918
+    ],
+    "paperAngle": 0.5755639442027918
+  },
+  {
+    "travel": 121.39433847361006,
+    "position": [
+      106.66618321492936,
+      28,
+      38.928746157946634
+    ],
+    "angle": 0.608427260569944,
+    "phase": "folding",
+    "figureAngles": [
+      0.608427260569944,
+      0.608427260569944
+    ],
+    "paperAngle": 0.608427260569944
+  },
+  {
+    "travel": 122.10425747363328,
+    "position": [
+      106.51830771880327,
+      28,
+      38.2343908816566
+    ],
+    "angle": 0.6458439051137544,
+    "phase": "folding",
+    "figureAngles": [
+      0.6458439051137544,
+      0.6458439051137544
+    ],
+    "paperAngle": 0.6458439051137544
+  },
+  {
+    "travel": 122.74709547364102,
+    "position": [
+      106.38438093126543,
+      28,
+      37.605652126027
+    ],
+    "angle": 0.6807901434457582,
+    "phase": "folding",
+    "figureAngles": [
+      0.6807901434457582,
+      0.6807901434457582
+    ],
+    "paperAngle": 0.6807901434457582
+  },
+  {
+    "travel": 123.38812047364104,
+    "position": [
+      106.25082666167886,
+      28,
+      36.978696242672825
+    ],
+    "angle": 0.7166148446736683,
+    "phase": "folding",
+    "figureAngles": [
+      0.7166148446736683,
+      0.7166148446736683
+    ],
+    "paperAngle": 0.7166148446736683
+  },
+  {
+    "travel": 124.02992247363332,
+    "position": [
+      106.11711921019902,
+      28,
+      36.350980328829344
+    ],
+    "angle": 0.7534285254251097,
+    "phase": "folding",
+    "figureAngles": [
+      0.7534285254251097,
+      0.7534285254251097
+    ],
+    "paperAngle": 0.7534285254251097
+  },
+  {
+    "travel": 124.68907747363333,
+    "position": [
+      105.97981901603336,
+      28,
+      35.70627783231042
+    ],
+    "angle": 0.7921870906982746,
+    "phase": "folding",
+    "figureAngles": [
+      0.7921870906982746,
+      0.7921870906982746
+    ],
+    "paperAngle": 0.7921870906982746
+  },
+  {
+    "travel": 125.33709547364103,
+    "position": [
+      105.8448803647141,
+      28,
+      35.07247095882977
+    ],
+    "angle": 0.8311919496977773,
+    "phase": "folding",
+    "figureAngles": [
+      0.8311919496977773,
+      0.8311919496977773
+    ],
+    "paperAngle": 0.8311919496977773
+  },
+  {
+    "travel": 125.98485447362562,
+    "position": [
+      105.71004532567474,
+      28,
+      34.43888639316667
+    ],
+    "angle": 0.8710359357489244,
+    "phase": "folding",
+    "figureAngles": [
+      0.8710359357489244,
+      0.8710359357489244
+    ],
+    "paperAngle": 0.8710359357489244
+  },
+  {
+    "travel": 126.6349444736256,
+    "position": [
+      105.57480048953181,
+      28,
+      33.803038918904676
+    ],
+    "angle": 0.9118426399978122,
+    "phase": "folding",
+    "figureAngles": [
+      0.9118426399978122,
+      0.9118426399978122
+    ],
+    "paperAngle": 0.9118426399978122
+  },
+  {
+    "travel": 127.28011347361014,
+    "position": [
+      105.44065078507708,
+      28,
+      33.17193659053024
+    ],
+    "angle": 0.9531111039580005,
+    "phase": "folding",
+    "figureAngles": [
+      0.9531111039580005,
+      0.9531111039580005
+    ],
+    "paperAngle": 0.9531111039580005
+  },
+  {
+    "travel": 127.92062047364101,
+    "position": [
+      105.30757924904806,
+      28,
+      32.545441869745915
+    ],
+    "angle": 0.9947993234007111,
+    "phase": "folding",
+    "figureAngles": [
+      0.9947993234007111,
+      0.9947993234007111
+    ],
+    "paperAngle": 0.9947993234007111
+  },
+  {
+    "travel": 128.5611274736333,
+    "position": [
+      105.17460276207406,
+      28,
+      31.91886645308191
+    ],
+    "angle": 1.0371605398785058,
+    "phase": "folding",
+    "figureAngles": [
+      1.0371605398785058,
+      1.0371605398785058
+    ],
+    "paperAngle": 1.0371605398785058
+  },
+  {
+    "travel": 129.19567747363328,
+    "position": [
+      105.04298866915309,
+      28,
+      31.298126826141083
+    ],
+    "angle": 1.0797487344386696,
+    "phase": "folding",
+    "figureAngles": [
+      1.0797487344386696,
+      1.0797487344386696
+    ],
+    "paperAngle": 1.0797487344386696
+  },
+  {
+    "travel": 129.82090347361012,
+    "position": [
+      104.91343617001151,
+      28,
+      30.686482439155686
+    ],
+    "angle": 1.1222734105415888,
+    "phase": "folding",
+    "figureAngles": [
+      1.1222734105415888,
+      1.1222734105415888
+    ],
+    "paperAngle": 1.1222734105415888
+  },
+  {
+    "travel": 130.5194264736178,
+    "position": [
+      104.76885271139183,
+      28,
+      30.00306536252406
+    ],
+    "angle": 1.1703912079611305,
+    "phase": "folding",
+    "figureAngles": [
+      1.1703912079611305,
+      1.1703912079611305
+    ],
+    "paperAngle": 1.1703912079611305
+  },
+  {
+    "travel": 131.151645473641,
+    "position": [
+      104.63816320569936,
+      28,
+      29.384523084907293
+    ],
+    "angle": 1.2144462529487936,
+    "phase": "folding",
+    "figureAngles": [
+      1.2144462529487936,
+      1.2144462529487936
+    ],
+    "paperAngle": 1.2144462529487936
+  },
+  {
+    "travel": 131.79111647361788,
+    "position": [
+      104.50613423383412,
+      28,
+      28.758807671013273
+    ],
+    "angle": 1.2594463686378394,
+    "phase": "folding",
+    "figureAngles": [
+      1.2594463686378394,
+      1.2594463686378394
+    ],
+    "paperAngle": 1.2594463686378394
+  },
+  {
+    "travel": 132.4178964736179,
+    "position": [
+      104.37690600794616,
+      28,
+      28.145495528707706
+    ],
+    "angle": 1.3039366942718797,
+    "phase": "folding",
+    "figureAngles": [
+      1.3039366942718797,
+      1.3039366942718797
+    ],
+    "paperAngle": 1.3039366942718797
+  },
+  {
+    "travel": 133.1159014736179,
+    "position": [
+      104.2332131078304,
+      28,
+      27.46245365161573
+    ],
+    "angle": 1.3538732482340434,
+    "phase": "folding",
+    "figureAngles": [
+      1.3538732482340434,
+      1.3538732482340434
+    ],
+    "paperAngle": 1.3538732482340434
+  },
+  {
+    "travel": 133.75148747363338,
+    "position": [
+      104.10257351752459,
+      28,
+      26.840408802889957
+    ],
+    "angle": 1.3996502852569221,
+    "phase": "folding",
+    "figureAngles": [
+      1.3996502852569221,
+      1.3996502852569221
+    ],
+    "paperAngle": 1.3996502852569221
+  },
+  {
+    "travel": 134.39069947362566,
+    "position": [
+      103.9714166201746,
+      28,
+      26.214831831478367
+    ],
+    "angle": 1.4459319920327838,
+    "phase": "folding",
+    "figureAngles": [
+      1.4459319920327838,
+      1.4459319920327838
+    ],
+    "paperAngle": 1.4459319920327838
+  },
+  {
+    "travel": 135.02265947362562,
+    "position": [
+      103.84196311196796,
+      28,
+      25.596271043233514
+    ],
+    "angle": 1.4918799651330088,
+    "phase": "folding",
+    "figureAngles": [
+      1.4918799651330088,
+      1.4918799651330088
+    ],
+    "paperAngle": 1.4918799651330088
+  },
+  {
+    "travel": 135.72429047364102,
+    "position": [
+      103.6985080249933,
+      28,
+      24.909451193278336
+    ],
+    "angle": 1.5430572863272771,
+    "phase": "folding",
+    "figureAngles": [
+      1.5430572863272771,
+      1.5430572863272771
+    ],
+    "paperAngle": 1.5430572863272771
+  },
+  {
+    "travel": 136.31843647361788,
+    "position": [
+      103.57726701027555,
+      28,
+      24.327818160666187
+    ],
+    "angle": 1.5864816130123043,
+    "phase": "folding",
+    "figureAngles": [
+      1.5864816130123043,
+      1.5864816130123043
+    ],
+    "paperAngle": 1.5864816130123043
+  },
+  {
+    "travel": 137.02447047364106,
+    "position": [
+      103.43347764263275,
+      28,
+      23.63655789403291
+    ],
+    "angle": 1.6381279630393566,
+    "phase": "folding",
+    "figureAngles": [
+      1.6381279630393566,
+      1.6381279630393566
+    ],
+    "paperAngle": 1.6381279630393566
+  },
+  {
+    "travel": 137.60747947362563,
+    "position": [
+      103.31499145981746,
+      28,
+      23.065701592358565
+    ],
+    "angle": 1.680765727104852,
+    "phase": "folding",
+    "figureAngles": [
+      1.680765727104852,
+      1.680765727104852
+    ],
+    "paperAngle": 1.680765727104852
+  },
+  {
+    "travel": 138.25523847361015,
+    "position": [
+      103.1836281117415,
+      28,
+      22.43143694744023
+    ],
+    "angle": 1.7280791702608351,
+    "phase": "folding",
+    "figureAngles": [
+      1.7280791702608351,
+      1.7280791702608351
+    ],
+    "paperAngle": 1.7280791702608351
+  },
+  {
+    "travel": 138.8939324736333,
+    "position": [
+      103.05438744018369,
+      28,
+      21.805960733390332
+    ],
+    "angle": 1.7746194071029253,
+    "phase": "folding",
+    "figureAngles": [
+      1.7746194071029253,
+      1.7746194071029253
+    ],
+    "paperAngle": 1.7746194071029253
+  },
+  {
+    "travel": 139.596340473641,
+    "position": [
+      102.91259162486878,
+      28,
+      21.11798567936869
+    ],
+    "angle": 1.8256148248914825,
+    "phase": "folding",
+    "figureAngles": [
+      1.8256148248914825,
+      1.8256148248914825
+    ],
+    "paperAngle": 1.8256148248914825
+  },
+  {
+    "travel": 140.17261547364103,
+    "position": [
+      102.796541995421,
+      28,
+      20.55352272014028
+    ],
+    "angle": 1.8672610605691515,
+    "phase": "folding",
+    "figureAngles": [
+      1.8672610605691515,
+      1.8672610605691515
+    ],
+    "paperAngle": 1.8672610605691515
+  },
+  {
+    "travel": 140.87839047364102,
+    "position": [
+      102.6547680937648,
+      28,
+      19.86215368506849
+    ],
+    "angle": 1.9179735060907919,
+    "phase": "folding",
+    "figureAngles": [
+      1.9179735060907919,
+      1.9179735060907919
+    ],
+    "paperAngle": 1.9179735060907919
+  },
+  {
+    "travel": 141.5302934736102,
+    "position": [
+      102.52416077321661,
+      28,
+      19.22343874680374
+    ],
+    "angle": 1.964475147710797,
+    "phase": "folding",
+    "figureAngles": [
+      1.964475147710797,
+      1.964475147710797
+    ],
+    "paperAngle": 1.964475147710797
+  },
+  {
+    "travel": 142.17287247363336,
+    "position": [
+      102.39577308855209,
+      28,
+      18.593833007898567
+    ],
+    "angle": 2.0099404905491762,
+    "phase": "folding",
+    "figureAngles": [
+      2.0099404905491762,
+      2.0099404905491762
+    ],
+    "paperAngle": 2.0099404905491762
+  },
+  {
+    "travel": 142.76365147361793,
+    "position": [
+      102.27804137421832,
+      28,
+      18.01491039196915
+    ],
+    "angle": 2.051373400389555,
+    "phase": "folding",
+    "figureAngles": [
+      2.051373400389555,
+      2.051373400389555
+    ],
+    "paperAngle": 2.051373400389555
+  },
+  {
+    "travel": 143.47253447362561,
+    "position": [
+      102.13717111198387,
+      28,
+      17.320162706257737
+    ],
+    "angle": 2.1005706059480684,
+    "phase": "folding",
+    "figureAngles": [
+      2.1005706059480684,
+      2.1005706059480684
+    ],
+    "paperAngle": 2.1005706059480684
+  },
+  {
+    "travel": 144.06150047364108,
+    "position": [
+      102.02046977274325,
+      28,
+      16.742868755852175
+    ],
+    "angle": 2.1409721299509896,
+    "phase": "folding",
+    "figureAngles": [
+      2.1409721299509896,
+      2.1409721299509896
+    ],
+    "paperAngle": 2.1409721299509896
+  },
+  {
+    "travel": 144.77608147361795,
+    "position": [
+      101.87930562803784,
+      28,
+      16.04238009827645
+    ],
+    "angle": 2.1893589169083345,
+    "phase": "folding",
+    "figureAngles": [
+      2.1893589169083345,
+      2.1893589169083345
+    ],
+    "paperAngle": 2.1893589169083345
+  },
+  {
+    "travel": 145.4329054736411,
+    "position": [
+      101.74996993043145,
+      28,
+      15.398420597799372
+    ],
+    "angle": 2.2331734747993037,
+    "phase": "folding",
+    "figureAngles": [
+      2.2331734747993037,
+      2.2331734747993037
+    ],
+    "paperAngle": 2.2331734747993037
+  },
+  {
+    "travel": 146.08040547364112,
+    "position": [
+      101.62286842746629,
+      28,
+      14.763500584982483
+    ],
+    "angle": 2.2756983718869908,
+    "phase": "folding",
+    "figureAngles": [
+      2.2756983718869908,
+      2.2756983718869908
+    ],
+    "paperAngle": 2.2756983718869908
+  },
+  {
+    "travel": 146.66082447362567,
+    "position": [
+      101.50928412160009,
+      28,
+      14.194303032262326
+    ],
+    "angle": 2.313217643419408,
+    "phase": "folding",
+    "figureAngles": [
+      2.313217643419408,
+      2.313217643419408
+    ],
+    "paperAngle": 2.313217643419408
+  },
+  {
+    "travel": 147.38110347361024,
+    "position": [
+      101.36879816165356,
+      28,
+      13.48787146091827
+    ],
+    "angle": 2.358940620401416,
+    "phase": "folding",
+    "figureAngles": [
+      2.358940620401416,
+      2.358940620401416
+    ],
+    "paperAngle": 2.358940620401416
+  },
+  {
+    "travel": 147.97654447362572,
+    "position": [
+      101.25305583003095,
+      28,
+      12.903790104711758
+    ],
+    "angle": 2.396000821038484,
+    "phase": "folding",
+    "figureAngles": [
+      2.396000821038484,
+      2.396000821038484
+    ],
+    "paperAngle": 2.396000821038484
+  },
+  {
+    "travel": 148.64502347361028,
+    "position": [
+      101.1235514898735,
+      28,
+      12.247973148932337
+    ],
+    "angle": 2.436769290732269,
+    "phase": "folding",
+    "figureAngles": [
+      2.436769290732269,
+      2.436769290732269
+    ],
+    "paperAngle": 2.436769290732269
+  },
+  {
+    "travel": 149.2479754736412,
+    "position": [
+      101.00714407641225,
+      28,
+      11.656360397566745
+    ],
+    "angle": 2.4727473059821494,
+    "phase": "folding",
+    "figureAngles": [
+      2.4727473059821494,
+      2.4727473059821494
+    ],
+    "paperAngle": 2.4727473059821494
+  },
+  {
+    "travel": 149.921116473618,
+    "position": [
+      100.8776413956657,
+      28,
+      10.995768071643994
+    ],
+    "angle": 2.5119853421938307,
+    "phase": "folding",
+    "figureAngles": [
+      2.5119853421938307,
+      2.5119853421938307
+    ],
+    "paperAngle": 2.5119853421938307
+  },
+  {
+    "travel": 150.59451647361803,
+    "position": [
+      100.74859314755949,
+      28,
+      10.33487905092152
+    ],
+    "angle": 2.5502200561135755,
+    "phase": "folding",
+    "figureAngles": [
+      2.5502200561135755,
+      2.5502200561135755
+    ],
+    "paperAngle": 2.5502200561135755
+  },
+  {
+    "travel": 151.209641473618,
+    "position": [
+      100.63114698190019,
+      28,
+      9.73107369105775
+    ],
+    "angle": 2.5842234585888457,
+    "phase": "folding",
+    "figureAngles": [
+      2.5842234585888457,
+      2.5842234585888457
+    ],
+    "paperAngle": 2.5842234585888457
+  },
+  {
+    "travel": 151.82839247363347,
+    "position": [
+      100.51343769163586,
+      28,
+      9.123622961446173
+    ],
+    "angle": 2.617510056734851,
+    "phase": "folding",
+    "figureAngles": [
+      2.617510056734851,
+      2.617510056734851
+    ],
+    "paperAngle": 2.617510056734851
+  },
+  {
+    "travel": 152.51862747363347,
+    "position": [
+      100.38264218942614,
+      28,
+      8.445873273766502
+    ],
+    "angle": 2.6535246440702815,
+    "phase": "folding",
+    "figureAngles": [
+      2.6535246440702815,
+      2.6535246440702815
+    ],
+    "paperAngle": 2.6535246440702815
+  },
+  {
+    "travel": 153.1303854736412,
+    "position": [
+      100.26718199465286,
+      28,
+      7.845101541184603
+    ],
+    "angle": 2.6844329023273734,
+    "phase": "folding",
+    "figureAngles": [
+      2.6844329023273734,
+      2.6844329023273734
+    ],
+    "paperAngle": 2.6844329023273734
+  },
+  {
+    "travel": 153.81155547364125,
+    "position": [
+      100.13914528942915,
+      28,
+      7.176088818339008
+    ],
+    "angle": 2.7177017308766733,
+    "phase": "folding",
+    "figureAngles": [
+      2.7177017308766733,
+      2.7177017308766733
+    ],
+    "paperAngle": 2.7177017308766733
+  },
+  {
+    "travel": 154.49117147361807,
+    "position": [
+      100.01195361732657,
+      28,
+      6.50849343220117
+    ],
+    "angle": 2.7496643461695527,
+    "phase": "folding",
+    "figureAngles": [
+      2.7496643461695527,
+      2.7496643461695527
+    ],
+    "paperAngle": 2.7496643461695527
+  },
+  {
+    "travel": 155.10163447362578,
+    "position": [
+      99.89818024568413,
+      28,
+      5.908725727185613
+    ],
+    "angle": 2.7773065767892193,
+    "phase": "folding",
+    "figureAngles": [
+      2.7773065767892193,
+      2.7773065767892193
+    ],
+    "paperAngle": 2.7773065767892193
+  },
+  {
+    "travel": 155.78694847361035,
+    "position": [
+      99.77100056149101,
+      28,
+      5.235297932670461
+    ],
+    "angle": 2.807113366936248,
+    "phase": "folding",
+    "figureAngles": [
+      2.807113366936248,
+      2.807113366936248
+    ],
+    "paperAngle": 2.807113366936248
+  },
+  {
+    "travel": 156.42719647361807,
+    "position": [
+      99.65271399090126,
+      28,
+      4.606053909716482
+    ],
+    "angle": 2.833772972505893,
+    "phase": "folding",
+    "figureAngles": [
+      2.833772972505893,
+      2.833772972505893
+    ],
+    "paperAngle": 2.833772972505893
+  },
+  {
+    "travel": 157.0402494736258,
+    "position": [
+      99.53994102409905,
+      28,
+      4.003462965901858
+    ],
+    "angle": 2.8582127468029594,
+    "phase": "folding",
+    "figureAngles": [
+      2.8582127468029594,
+      2.8582127468029594
+    ],
+    "paperAngle": 2.8582127468029594
+  },
+  {
+    "travel": 157.68334647361812,
+    "position": [
+      99.42216207972855,
+      28,
+      3.371260592533632
+    ],
+    "angle": 2.8826963038298157,
+    "phase": "folding",
+    "figureAngles": [
+      2.8826963038298157,
+      2.8826963038298157
+    ],
+    "paperAngle": 2.8826963038298157
+  },
+  {
+    "travel": 158.32799747363356,
+    "position": [
+      99.30463600012013,
+      28,
+      2.7374246858449682
+    ],
+    "angle": 2.9060448677551496,
+    "phase": "folding",
+    "figureAngles": [
+      2.9060448677551496,
+      2.9060448677551496
+    ],
+    "paperAngle": 2.9060448677551496
+  },
+  {
+    "travel": 158.96695047364128,
+    "position": [
+      99.18868621127332,
+      28,
+      2.109085375315155
+    ],
+    "angle": 2.9280016087032177,
+    "phase": "folding",
+    "figureAngles": [
+      2.9280016087032177,
+      2.9280016087032177
+    ],
+    "paperAngle": 2.9280016087032177
+  },
+  {
+    "travel": 159.5981334736104,
+    "position": [
+      99.07467855099347,
+      28,
+      1.4882851469386023
+    ],
+    "angle": 2.9485298123189994,
+    "phase": "folding",
+    "figureAngles": [
+      2.9485298123189994,
+      2.9485298123189994
+    ],
+    "paperAngle": 2.9485298123189994
+  },
+  {
+    "travel": 160.24071247363358,
+    "position": [
+      98.95916226028648,
+      28,
+      0.8561724441092611
+    ],
+    "angle": 2.9682427733417054,
+    "phase": "folding",
+    "figureAngles": [
+      2.9682427733417054,
+      2.9682427733417054
+    ],
+    "paperAngle": 2.9682427733417054
+  },
+  {
+    "travel": 160.89313347361045,
+    "position": [
+      98.84245020983154,
+      28,
+      0.21426721731315906
+    ],
+    "angle": 2.9870365981618527,
+    "phase": "folding",
+    "figureAngles": [
+      2.9870365981618527,
+      2.9870365981618527
+    ],
+    "paperAngle": 2.9870365981618527
+  },
+  {
+    "travel": 161.54529547364135,
+    "position": [
+      98.72636875068605,
+      28,
+      -0.4274948795598729
+    ],
+    "angle": 3.004599660445703,
+    "phase": "folding",
+    "figureAngles": [
+      3.004599660445703,
+      3.004599660445703
+    ],
+    "paperAngle": 3.004599660445703
+  },
+  {
+    "travel": 162.1845074736337,
+    "position": [
+      98.61316668956829,
+      28,
+      -1.0566159180279355
+    ],
+    "angle": 3.0206364204886453,
+    "phase": "folding",
+    "figureAngles": [
+      3.0206364204886453,
+      3.0206364204886453
+    ],
+    "paperAngle": 3.0206364204886453
+  },
+  {
+    "travel": 162.82889947362594,
+    "position": [
+      98.49963331894445,
+      28,
+      -1.6909144303556451
+    ],
+    "angle": 3.035635769885043,
+    "phase": "folding",
+    "figureAngles": [
+      3.035635769885043,
+      3.035635769885043
+    ],
+    "paperAngle": 3.035635769885043
+  },
+  {
+    "travel": 163.53674647361828,
+    "position": [
+      98.37560170012162,
+      28,
+      -2.387787546894396
+    ],
+    "angle": 3.0507803388020522,
+    "phase": "folding",
+    "figureAngles": [
+      3.0507803388020522,
+      3.0507803388020522
+    ],
+    "paperAngle": 3.0507803388020522
+  },
+  {
+    "travel": 164.16197247363368,
+    "position": [
+      98.266642595205,
+      28,
+      -3.003445456613618
+    ],
+    "angle": 3.0630176268812845,
+    "phase": "folding",
+    "figureAngles": [
+      3.0630176268812845,
+      3.0630176268812845
+    ],
+    "paperAngle": 3.0630176268812845
+  },
+  {
+    "travel": 164.79833547364143,
+    "position": [
+      98.15632521029859,
+      28,
+      -3.6301731077817436
+    ],
+    "angle": 3.074398027839943,
+    "phase": "folding",
+    "figureAngles": [
+      3.074398027839943,
+      3.074398027839943
+    ],
+    "paperAngle": 3.074398027839943
+  },
+  {
+    "travel": 165.46707347361053,
+    "position": [
+      98.0410342358672,
+      28,
+      -4.288902942494136
+    ],
+    "angle": 3.0852171092344736,
+    "phase": "folding",
+    "figureAngles": [
+      3.0852171092344736,
+      3.0852171092344736
+    ],
+    "paperAngle": 3.0852171092344736
+  },
+  {
+    "travel": 166.0837524736337,
+    "position": [
+      97.93530572870533,
+      28,
+      -4.896450699838815
+    ],
+    "angle": 3.0941872835716917,
+    "phase": "folding",
+    "figureAngles": [
+      3.0941872835716917,
+      3.0941872835716917
+    ],
+    "paperAngle": 3.0941872835716917
+  },
+  {
+    "travel": 166.75741147361825,
+    "position": [
+      97.82045533315475,
+      28,
+      -5.560260953313682
+    ],
+    "angle": 3.102918850561356,
+    "phase": "folding",
+    "figureAngles": [
+      3.102918850561356,
+      3.102918850561356
+    ],
+    "paperAngle": 3.102918850561356
+  },
+  {
+    "travel": 167.4445384736105,
+    "position": [
+      97.70401502324863,
+      28,
+      -6.237459633165724
+    ],
+    "angle": 3.11072095619008,
+    "phase": "folding",
+    "figureAngles": [
+      3.11072095619008,
+      3.11072095619008
+    ],
+    "paperAngle": 3.11072095619008
+  },
+  {
+    "travel": 168.09436947362596,
+    "position": [
+      97.59455982985678,
+      28,
+      -6.877995976522543
+    ],
+    "angle": 3.1171199192341987,
+    "phase": "folding",
+    "figureAngles": [
+      3.1171199192341987,
+      3.1171199192341987
+    ],
+    "paperAngle": 3.1171199192341987
+  },
+  {
+    "travel": 168.72011347361055,
+    "position": [
+      97.48977381177262,
+      28,
+      -7.494903128107504
+    ],
+    "angle": 3.1224271114482267,
+    "phase": "folding",
+    "figureAngles": [
+      3.1224271114482267,
+      3.1224271114482267
+    ],
+    "paperAngle": 3.1224271114482267
+  },
+  {
+    "travel": 169.37900947362598,
+    "position": [
+      97.38009397175335,
+      28,
+      -8.144597372540227
+    ],
+    "angle": 3.1271610357529016,
+    "phase": "folding",
+    "figureAngles": [
+      3.1271610357529016,
+      3.1271610357529016
+    ],
+    "paperAngle": 3.1271610357529016
+  },
+  {
+    "travel": 169.98740047364146,
+    "position": [
+      97.27942221257796,
+      28,
+      -8.744605395945278
+    ],
+    "angle": 3.1308037881837514,
+    "phase": "folding",
+    "figureAngles": [
+      3.1308037881837514,
+      3.1308037881837514
+    ],
+    "paperAngle": 3.1308037881837514
+  },
+  {
+    "travel": 170.64914547364145,
+    "position": [
+      97.17058674118336,
+      28,
+      -9.397331954546091
+    ],
+    "angle": 3.134031881566005,
+    "phase": "folding",
+    "figureAngles": [
+      3.134031881566005,
+      3.134031881566005
+    ],
+    "paperAngle": 3.134031881566005
+  },
+  {
+    "travel": 171.3041564736183,
+    "position": [
+      97.06354419064128,
+      28,
+      -10.043534281478747
+    ],
+    "angle": 3.1365396636686675,
+    "phase": "folding",
+    "figureAngles": [
+      3.1365396636686675,
+      3.1365396636686675
+    ],
+    "paperAngle": 3.1365396636686675
+  },
+  {
+    "travel": 171.89648947362605,
+    "position": [
+      96.96733588438026,
+      28,
+      -10.62800650696929
+    ],
+    "angle": 3.1382783664079454,
+    "phase": "folding",
+    "figureAngles": [
+      3.1382783664079454,
+      3.1382783664079454
+    ],
+    "paperAngle": 3.1382783664079454
+  },
+  {
+    "travel": 172.5805084736106,
+    "position": [
+      96.85694324230126,
+      28,
+      -11.303053404601986
+    ],
+    "angle": 3.139737298245138,
+    "phase": "folding",
+    "figureAngles": [
+      3.139737298245138,
+      3.139737298245138
+    ],
+    "paperAngle": 3.139737298245138
+  },
+  {
+    "travel": 173.23655547364152,
+    "position": [
+      96.751780541218,
+      28,
+      -11.9506173297231
+    ],
+    "angle": 3.1406656783219473,
+    "phase": "folding",
+    "figureAngles": [
+      3.1406656783219473,
+      3.1406656783219473
+    ],
+    "paperAngle": 3.1406656783219473
+  },
+  {
+    "travel": 173.86644347361062,
+    "position": [
+      96.65147654593736,
+      28,
+      -12.572467768760411
+    ],
+    "angle": 3.141204750462106,
+    "phase": "folding",
+    "figureAngles": [
+      3.141204750462106,
+      3.141204750462106
+    ],
+    "paperAngle": 3.141204750462106
+  },
+  {
+    "travel": 174.55020347361065,
+    "position": [
+      96.54333673325016,
+      28,
+      -13.247627965547649
+    ],
+    "angle": 3.1414951832647797,
+    "phase": "folding",
+    "figureAngles": [
+      3.1414951832647797,
+      3.1414951832647797
+    ],
+    "paperAngle": 3.1414951832647797
+  },
+  {
+    "travel": 175.1759474736338,
+    "position": [
+      96.4450571240993,
+      28,
+      -13.865604404993887
+    ],
+    "angle": 3.141583148809728,
+    "phase": "folding",
+    "figureAngles": [
+      3.141583148809728,
+      3.141583148809728
+    ],
+    "paperAngle": 3.141583148809728
+  },
+  {
+    "travel": 175.77475547364153,
+    "position": [
+      96.35162478217052,
+      28,
+      -14.457074509430562
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 176.47897647361836,
+    "position": [
+      96.24251951452702,
+      28,
+      -15.152802298776317
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 177.11637547364148,
+    "position": [
+      96.1444977493086,
+      28,
+      -15.78261901331101
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 177.7351264736183,
+    "position": [
+      96.05001207325054,
+      28,
+      -16.39410910421545
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 178.39454047364146,
+    "position": [
+      95.95004484603022,
+      28,
+      -17.045905549252574
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 179.0055214736183,
+    "position": [
+      95.85809749613014,
+      28,
+      -17.64992258144023
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 179.7190664736183,
+    "position": [
+      95.7515405366415,
+      28,
+      -18.355483767481793
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 180.37096947362605,
+    "position": [
+      95.65497689954975,
+      28,
+      -19.00019822610421
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 181.0337504736415,
+    "position": [
+      95.55757626905152,
+      28,
+      -19.655790180093735
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 181.6206444736261,
+    "position": [
+      95.47198788604813,
+      28,
+      -20.236390662880346
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 182.33289447362614,
+    "position": [
+      95.36894562027592,
+      28,
+      -20.941169408136616
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 182.95863847361065,
+    "position": [
+      95.27918133034073,
+      28,
+      -21.560432887505208
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 183.58749047364157,
+    "position": [
+      95.18969073932607,
+      28,
+      -22.182878051940055
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 184.21841447362613,
+    "position": [
+      95.10063466709099,
+      28,
+      -22.807479902804054
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 184.87860547364156,
+    "position": [
+      95.00823356054694,
+      28,
+      -23.461175089134063
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 185.5437174736338,
+    "position": [
+      94.91596254219567,
+      28,
+      -24.11985941951418
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 186.17671347361062,
+    "position": [
+      94.82891632775045,
+      28,
+      -24.74683611086001
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 186.77862947362607,
+    "position": [
+      94.74684348765439,
+      28,
+      -25.34312052391411
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 187.4947644736261,
+    "position": [
+      94.6500859629317,
+      28,
+      -26.052701132337056
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 188.1464084736107,
+    "position": [
+      94.56289131076936,
+      28,
+      -26.698483901850377
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 188.7343384736107,
+    "position": [
+      94.48492066495854,
+      28,
+      -27.28120856656762
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 189.3976374736339,
+    "position": [
+      94.39775107272536,
+      28,
+      -27.93875531350134
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 190.05601547364162,
+    "position": [
+      94.31206981490783,
+      28,
+      -28.591534175376044
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 190.6952274736339,
+    "position": [
+      94.22968960044454,
+      28,
+      -29.225413934420782
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 191.33288547364162,
+    "position": [
+      94.1483055718333,
+      28,
+      -29.85785667803997
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 192.00032847361075,
+    "position": [
+      94.0639762452124,
+      28,
+      -30.519950911523168
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 192.66492247363394,
+    "position": [
+      93.98088168905817,
+      28,
+      -31.17932982458551
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 193.2997314736185,
+    "position": [
+      93.90233050208127,
+      28,
+      -31.809261013786607
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 193.94774947362626,
+    "position": [
+      93.8229748484898,
+      28,
+      -32.45240325071809
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 194.657927473634,
+    "position": [
+      93.73697579717802,
+      28,
+      -33.15735272624864
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 195.2663184736108,
+    "position": [
+      93.66411124189774,
+      28,
+      -33.76136881403961
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 195.87315547364167,
+    "position": [
+      93.5921794509057,
+      28,
+      -34.36394036621511
+    ],
+    "angle": 3.141592653589793,
+    "phase": "settling",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 196.547332473634,
+    "position": [
+      93.51314708748282,
+      28,
+      -35.03346764537748
+    ],
+    "angle": 3.141592653589793,
+    "phase": "stable",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  },
+  {
+    "travel": 197.11661447362627,
+    "position": [
+      93.44713568432687,
+      28,
+      -35.59890938936766
+    ],
+    "angle": 3.141592653589793,
+    "phase": "stable",
+    "figureAngles": [
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "paperAngle": 3.141592653589793
+  }
+]

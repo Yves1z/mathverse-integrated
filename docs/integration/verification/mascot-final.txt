@@ -1,0 +1,6 @@
+Five motion previews and mobile gallery rendered.
+Blink, 60-second rest, hover wake and typing response passed.
+Actual assistant state transitions passed with 3 mocked requests; no live provider.
+Mobile geometry: {"viewport":390,"documentWidth":390,"launcherBottom":718,"footerTop":730}
+Mobile geometry: {"viewport":320,"documentWidth":320,"launcherBottom":718,"footerTop":730}
+Reduced motion, mobile clearance and no runtime errors passed.

@@ -1,0 +1,1 @@
+{"sourceBeams":1181,"fieldBeams":4724,"minimumClearance":4.8,"pitch":600,"retainedCellsStable":true,"removedDistance":719.7336312831296,"addedDistance":988.5830567028751,"far":700,"sharedSpines":4}

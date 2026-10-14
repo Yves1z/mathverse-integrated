@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-12T12:08:22.272Z",
+  "sampledAngles": 722,
+  "cells": 3,
+  "solidBeams": 184,
+  "counts": {
+    "tracked": 36,
+    "outer": 36,
+    "bridge": 36,
+    "spine": 76,
+    "seam": 6
+  },
+  "minLength": 2.935236313810262,
+  "maxStepEndpointMotion": 1.5112187829248644,
+  "maxProjectionError": 9.5367431640625e-7,
+  "endScale": 3.222222222222222,
+  "immutableSourceGeometry": true,
+  "exactAttachments": true,
+  "quietCellsUnchanged": true,
+  "oneController": {
+    "clock": 1200.000000000004,
+    "hold": 0,
+    "elapsed": 36.00000000000024,
+    "events": 12,
+    "phase": "settling",
+    "section": 0,
+    "angle": 0,
+    "angles": {
+      "0": 0
+    },
+    "movingUnits": 0,
+    "maximumMovingUnits": 1,
+    "sequence": "inhabited-cell-out-in",
+    "stableDuration": 60,
+    "eventDuration": 44
+  },
+  "rearScaffoldRetirementAxialGapOver620": true,
+  "scope": "Three fixed study cells, reusable scaffold; not an endless sequence of populated worlds."
+}

@@ -1,0 +1,44 @@
+{
+  "realEvent": {
+    "angle": 3.141592653589793,
+    "phase": "stable",
+    "events": 1,
+    "clock": 76.31129999998261,
+    "elapsed": 44.00139999999105,
+    "hold": 0.3012999999970198,
+    "manual": false,
+    "maximumMovingUnits": 1,
+    "trackedPosition": "outside",
+    "solids": 72,
+    "connections": 12,
+    "projection": "shared-YW-perspective",
+    "shadowMatchesGeometry": true,
+    "frozen": false,
+    "identitySeam": true,
+    "travel": 197.19793339567858
+  },
+  "trace": {
+    "samples": 307,
+    "maxAngleStep": 0.051832731969262635,
+    "phases": [
+      "stable",
+      "anticipation",
+      "folding",
+      "settling"
+    ]
+  },
+  "independentLook": true,
+  "freezePreservesTravel": true,
+  "freezeAndPausePixels": true,
+  "manualReturnAndFreeze": true,
+  "restart": true,
+  "desktop": true,
+  "resources": [
+    9,
+    8
+  ],
+  "historicalRoutes": true,
+  "reducedMotion": true,
+  "videoDuration": 90.28,
+  "errors": []
+}

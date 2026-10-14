@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-12T12:08:52.133Z",
+  "checks": {
+    "normPreserving4DRotation": true,
+    "finiteProjection": true,
+    "smoothProjection": true,
+    "desktop80Percent": true,
+    "sharedAngleAcrossFrameRates": true,
+    "pausedConnectionClock": true,
+    "alignmentCycle": true
+  },
+  "minimumDenominator": 2.590579392645946,
+  "maximumStep": 0.004004139928521234,
+  "runs": [
+    {
+      "hz": 30,
+      "angle": 3.1415926389165243
+    },
+    {
+      "hz": 60,
+      "angle": 3.14159263890537
+    },
+    {
+      "hz": 120,
+      "angle": 3.141592638899568
+    }
+  ],
+  "scope": "Mathematical and timing invariants, not GPU performance measurements"
+}

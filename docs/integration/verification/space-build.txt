@@ -1,0 +1,103 @@
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 136 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                           0.78 kB │ gzip:   0.46 kB
+dist/assets/KaTeX_Size3-Regular-CTq5MqoE.woff             4.42 kB
+dist/assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2            4.92 kB
+dist/assets/KaTeX_Size2-Regular-Dy4dx90m.woff2            5.20 kB
+dist/assets/KaTeX_Size1-Regular-mCD8mA8B.woff2            5.46 kB
+dist/assets/KaTeX_Size4-Regular-BF-4gkZK.woff             5.98 kB
+dist/assets/KaTeX_Size2-Regular-oD1tc_U0.woff             6.18 kB
+dist/assets/KaTeX_Size1-Regular-C195tn64.woff             6.49 kB
+dist/assets/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2      6.90 kB
+dist/assets/KaTeX_Caligraphic-Bold-Dq_IR9rO.woff2         6.91 kB
+dist/assets/KaTeX_Size3-Regular-DgpXs0kz.ttf              7.58 kB
+dist/assets/KaTeX_Caligraphic-Regular-CTRA-rTL.woff       7.65 kB
+dist/assets/KaTeX_Caligraphic-Bold-BEiXGLvX.woff          7.71 kB
+dist/assets/KaTeX_Script-Regular-D3wIWfF6.woff2           9.64 kB
+dist/assets/KaTeX_SansSerif-Regular-DDBCnlJ7.woff2       10.34 kB
+dist/assets/KaTeX_Size4-Regular-DWFBv043.ttf             10.36 kB
+dist/assets/KaTeX_Script-Regular-D5yQViql.woff           10.58 kB
+dist/assets/KaTeX_Fraktur-Regular-CTYiF6lA.woff2         11.31 kB
+dist/assets/KaTeX_Fraktur-Bold-CL6g_b3V.woff2            11.34 kB
+dist/assets/KaTeX_Size2-Regular-B7gKUWhC.ttf             11.50 kB
+dist/assets/KaTeX_SansSerif-Italic-C3H0VqGB.woff2        12.02 kB
+dist/assets/KaTeX_SansSerif-Bold-D1sUS0GD.woff2          12.21 kB
+dist/assets/KaTeX_Size1-Regular-Dbsnue_I.ttf             12.22 kB
+dist/assets/KaTeX_SansSerif-Regular-CS6fqUqJ.woff        12.31 kB
+dist/assets/KaTeX_Caligraphic-Regular-wX97UBjC.ttf       12.34 kB
+dist/assets/KaTeX_Caligraphic-Bold-ATXxdsX0.ttf          12.36 kB
+dist/assets/KaTeX_Fraktur-Regular-Dxdc4cR9.woff          13.20 kB
+dist/assets/KaTeX_Fraktur-Bold-BsDP51OF.woff             13.29 kB
+dist/assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2      13.56 kB
+dist/assets/KaTeX_SansSerif-Italic-DN2j7dab.woff         14.11 kB
+dist/assets/KaTeX_SansSerif-Bold-DbIhKOiC.woff           14.40 kB
+dist/assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff       16.02 kB
+dist/assets/KaTeX_Math-BoldItalic-CZnvNsCZ.woff2         16.40 kB
+dist/assets/KaTeX_Math-Italic-t53AETM-.woff2             16.44 kB
+dist/assets/KaTeX_Script-Regular-C5JkGWo-.ttf            16.64 kB
+dist/assets/KaTeX_Main-BoldItalic-DxDJ3AOS.woff2         16.78 kB
+dist/assets/KaTeX_Main-Italic-NWA7e6Wa.woff2             16.98 kB
+dist/assets/KaTeX_Math-BoldItalic-iY-2wyZ7.woff          18.66 kB
+dist/assets/KaTeX_Math-Italic-DA0__PXp.woff              18.74 kB
+dist/assets/KaTeX_Main-BoldItalic-SpSLRI95.woff          19.41 kB
+dist/assets/KaTeX_SansSerif-Regular-BNo7hRIc.ttf         19.43 kB
+dist/assets/KaTeX_Fraktur-Regular-CB_wures.ttf           19.57 kB
+dist/assets/KaTeX_Fraktur-Bold-BdnERNNW.ttf              19.58 kB
+dist/assets/KaTeX_Main-Italic-BMLOBm91.woff              19.67 kB
+dist/assets/KaTeX_SansSerif-Italic-YYjJ1zSn.ttf          22.36 kB
+dist/assets/KaTeX_SansSerif-Bold-CFMepnvq.ttf            24.50 kB
+dist/assets/KaTeX_Main-Bold-Cx986IdX.woff2               25.32 kB
+dist/assets/KaTeX_Main-Regular-B22Nviop.woff2            26.27 kB
+dist/assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf        27.55 kB
+dist/assets/KaTeX_AMS-Regular-BQhdFMY1.woff2             28.07 kB
+dist/assets/KaTeX_Main-Bold-Jm3AIy58.woff                29.91 kB
+dist/assets/KaTeX_Main-Regular-Dr94JaBh.woff             30.77 kB
+dist/assets/KaTeX_Math-BoldItalic-B3XSjfu4.ttf           31.19 kB
+dist/assets/KaTeX_Math-Italic-flOr_0UB.ttf               31.30 kB
+dist/assets/KaTeX_Main-BoldItalic-DzxPMmG6.ttf           32.96 kB
+dist/assets/KaTeX_AMS-Regular-DMm9YOAa.woff              33.51 kB
+dist/assets/KaTeX_Main-Italic-3WenGoN9.ttf               33.58 kB
+dist/assets/KaTeX_Main-Bold-waoOVXN0.ttf                 51.33 kB
+dist/assets/KaTeX_Main-Regular-ypZvNtVU.ttf              53.58 kB
+dist/assets/KaTeX_AMS-Regular-DRggAlZN.ttf               63.63 kB
+dist/assets/AbyssEulerStudy-B6eIsWol.css                  0.47 kB │ gzip:   0.25 kB
+dist/assets/AbyssStudy-0LAA4rnB.css                       0.74 kB │ gzip:   0.40 kB
+dist/assets/MegaEulerStudy-l0CbJzIb.css                   0.82 kB │ gzip:   0.39 kB
+dist/assets/referenceStudy-CZHv2pOM.css                   1.02 kB │ gzip:   0.44 kB
+dist/assets/StudyCatalog-ixg1BWo4.css                     1.44 kB │ gzip:   0.60 kB
+dist/assets/InversionStudy-B2Tcn_nB.css                   1.47 kB │ gzip:   0.56 kB
+dist/assets/spaceWorlds-Ds4LOkuq.css                      1.82 kB │ gzip:   0.68 kB
+dist/assets/spaceStudy-CtJTREHF.css                       2.78 kB │ gzip:   1.04 kB
+dist/assets/index-kab_5L1j.css                           44.61 kB │ gzip:  11.97 kB
+dist/assets/jsx-runtime-Cx0BB4qO.js                       1.08 kB │ gzip:   0.61 kB
+dist/assets/ReferenceObservation-lFj69rSN.js              1.74 kB │ gzip:   0.86 kB
+dist/assets/Megastructure--rOlvguC.js                     3.42 kB │ gzip:   1.64 kB
+dist/assets/StudyCatalog-D-C1mNAG.js                      4.64 kB │ gzip:   2.06 kB
+dist/assets/SpaceStudy-CxiboaYU.js                        5.64 kB │ gzip:   2.46 kB
+dist/assets/MegaEulerWorld-BPSLCrh9.js                    7.38 kB │ gzip:   3.33 kB
+dist/assets/AbyssEulerStudy-DrvnqmN2.js                   9.31 kB │ gzip:   4.03 kB
+dist/assets/MegaEulerStudy-CGJgPtyh.js                    9.70 kB │ gzip:   4.49 kB
+dist/assets/InversionStudy-CAJD7g7z.js                   11.47 kB │ gzip:   4.82 kB
+dist/assets/AbyssStudy-CY_JaL64.js                       12.39 kB │ gzip:   5.37 kB
+dist/assets/SpaceWorldStudy-MGHJ-hk3.js                  15.78 kB │ gzip:   6.36 kB
+dist/assets/referenceStudy-BLpvf8XP.js                   16.07 kB │ gzip:   6.53 kB
+dist/assets/ReferenceStudy-D0p0jhuW.js                   16.13 kB │ gzip:   6.62 kB
+dist/assets/index-BgdKTVD0.js                           630.26 kB │ gzip: 196.26 kB
+dist/assets/StudyLighting-C6cv7dmX.js                 1,185.26 kB │ gzip: 356.35 kB
+
+✓ built in 4.92s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[PLUGIN_TIMINGS] JavaScript callbacks ran for 3.9s of this 4.9s build (80%).
+The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - plugin vite:css transform (44%, 2.2s, 11 calls)
+  - plugin vite:css-post renderChunk (31%, 1.5s, 17 calls)
+Additional callback time came from callbacks under 1s.
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+

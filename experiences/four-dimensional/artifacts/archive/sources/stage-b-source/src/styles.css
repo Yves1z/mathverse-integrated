@@ -1,0 +1,60 @@
+:root {
+  font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+  color: #383833;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; width: 100%; height: 100%; overflow: hidden; }
+button { font: inherit; }
+button:focus-visible { outline: 1px solid currentColor; outline-offset: 6px; }
+button:disabled { cursor: wait; }
+.mathverse { position: relative; width: 100%; height: 100%; background: #fff; isolation: isolate; }
+.world-canvas { position: absolute !important; inset: 0; }
+.world-canvas canvas { user-select: none; touch-action: none; }
+.mode-exploring .world-canvas canvas { cursor: grab; }
+.mode-exploring .world-canvas canvas.is-dragging { cursor: grabbing; }
+.chrome { position: absolute; z-index: 2; left: 42px; right: 42px; display: flex; align-items: center; justify-content: space-between; pointer-events: none; transition: color 1s, opacity 0.7s; }
+.header { top: 34px; }
+.wordmark { display: flex; align-items: center; gap: 12px; font-family: Georgia, "Times New Roman", serif; font-size: 27px; letter-spacing: -0.7px; }
+.mark { font-size: 27px; font-family: Georgia, serif; font-weight: normal; color: #83827b; margin-top: -2px; }
+.header-note { font-size: 11px; letter-spacing: 2px; color: #76756e; }
+.entrance-caption { position: absolute; z-index: 2; bottom: 99px; left: 50%; transform: translateX(-50%); text-align: center; transition: opacity 0.5s, transform 0.7s; }
+.entrance-caption p { font-size: 12px; line-height: 1.8; letter-spacing: 2px; color: #7e7d77; margin: 0 0 21px; white-space: nowrap; }
+.enter-button { display: inline-flex; justify-content: space-between; align-items: center; gap: 37px; padding: 13px 19px 13px 23px; min-width: 174px; border: 1px solid #c5c4bd; background: transparent; color: #34342f; font-size: 12px; letter-spacing: 1.5px; cursor: pointer; transition: border-color 0.2s, background 0.2s; }
+.enter-button:hover:not(:disabled) { background: #f5f5f1; border-color: #77766f; }
+.enter-button > span:last-child { font-size: 18px; line-height: 1; font-weight: 300; }
+.enter-button:disabled { opacity: 0.45; }
+.entrance-caption.is-leaving { opacity: 0; transform: translate(-50%, 9px); pointer-events: none; }
+.footer { bottom: 29px; font-size: 10px; letter-spacing: 1.6px; }
+.entry-footnote { color: #8c8b84; }
+.edition { font-size: 9px; letter-spacing: 2.6px; color: #8c8b84; }
+.mode-entering .chrome { opacity: 0; }
+.mode-exploring .chrome { color: #d8d3c8; }
+.mode-exploring .mark { color: #9f9887; }
+.quiet-button { pointer-events: auto; display: inline-flex; align-items: center; gap: 12px; padding: 9px 0; background: transparent; border: 0; color: inherit; font-size: 11px; letter-spacing: 1.7px; cursor: pointer; opacity: 0.75; transition: opacity 0.2s; }
+.quiet-button:hover { opacity: 1; }
+.pause-symbol { display: inline-block; width: 8px; height: 10px; border-left: 2px solid currentColor; border-right: 2px solid currentColor; }
+.play-symbol { display: inline-block; width: 0; height: 0; border-left: 8px solid currentColor; border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+.journey-label { display: flex; align-items: center; gap: 11px; color: #b4ad9e; }
+.journey-line { display: inline-block; width: 27px; height: 1px; background: currentColor; }
+.drag-hint { position: absolute; left: 50%; transform: translateX(-50%); margin: 0; color: #cbc4b4; font-size: 11px; letter-spacing: 2px; opacity: 0; transition: opacity 0.8s; }
+.drag-hint.is-visible { opacity: 0.8; }
+.forward-button > span { font-size: 16px; }
+.scene-fallback { position: absolute; inset: 0; background: #fff; z-index: 5; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #34342f; }
+.scene-fallback h2 { font-size: 22px; font-weight: 400; }
+.scene-fallback p { color: #75756d; font-size: 14px; }
+.scene-fallback button { padding: 10px 20px; border: 1px solid #ccc; background: #fff; color: #34342f; cursor: pointer; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+@media (max-height: 650px) {
+  .header { top: 23px; }
+  .chrome { left: 28px; right: 28px; }
+  .entrance-caption { bottom: 64px; }
+  .entrance-caption p { margin-bottom: 13px; }
+  .footer { bottom: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .chrome, .entrance-caption, .drag-hint { transition-duration: 0.01s; }
+}

@@ -1,0 +1,504 @@
+{
+  "travel": {
+    "start": -4.370719999999739,
+    "end": -4.794325
+  },
+  "initial": {
+    "motion": {
+      "phase": "exploring",
+      "elapsed": 0,
+      "distance": 0.8835746853990651,
+      "z": -4.883574685399065,
+      "paused": true,
+      "suspended": false,
+      "dragging": false,
+      "spaceFrozen": false,
+      "spaceTime": 13.394899999998481,
+      "targetYaw": -0.34999994539220214,
+      "targetPitch": 0.09000001606111672,
+      "yaw": -0.34999994539220214,
+      "pitch": 0.09000001606111672,
+      "yawVelocity": 0,
+      "pitchVelocity": 0,
+      "speed": 0,
+      "speedScale": 1,
+      "targetSpeed": 0,
+      "entryExitSpeed": 0.35,
+      "frameDt": 0.010399999998509884,
+      "skipNextFrame": false
+    },
+    "position": [
+      0,
+      1.55,
+      -4.883574685399065
+    ],
+    "quaternion": [
+      0.044297748344335995,
+      0.1739318559277294,
+      -0.007832222379360172,
+      0.9837296759159794
+    ],
+    "direction": [
+      -0.34150995689462454,
+      0.08987856519412414,
+      -0.9355708379703149
+    ],
+    "structure": {
+      "firstSection": -2,
+      "counts": {
+        "primary": 70,
+        "layer": 1813,
+        "joint": 840,
+        "light": 7
+      },
+      "minimumClearance": 5.162347193322809,
+      "sharedVertices": 1876,
+      "fold": {
+        "clock": 13.394899999998481,
+        "phase": "stable",
+        "section": null,
+        "elapsed": 0,
+        "angle": 0,
+        "events": 0,
+        "states": 0,
+        "stableTime": 13.394899999998481
+      },
+      "bloom": false,
+      "particles": 0
+    },
+    "fold": {
+      "clock": 13.394899999998481,
+      "phase": "stable",
+      "section": null,
+      "elapsed": 0,
+      "angle": 0,
+      "events": 0,
+      "states": 0,
+      "stableTime": 13.394899999998481
+    },
+    "drawCalls": 7,
+    "triangles": 588924,
+    "geometries": 1,
+    "textures": 3
+  },
+  "errors": [],
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "bounds": [
+        {
+          "x": 42,
+          "y": 472,
+          "width": 178.921875,
+          "height": 92,
+          "top": 472,
+          "right": 220.921875,
+          "bottom": 564,
+          "left": 42
+        },
+        {
+          "x": 869,
+          "y": 652,
+          "width": 44,
+          "height": 38,
+          "top": 652,
+          "right": 913,
+          "bottom": 690,
+          "left": 869
+        },
+        {
+          "x": 933,
+          "y": 652,
+          "width": 44,
+          "height": 38,
+          "top": 652,
+          "right": 977,
+          "bottom": 690,
+          "left": 933
+        },
+        {
+          "x": 997,
+          "y": 652,
+          "width": 44,
+          "height": 38,
+          "top": 652,
+          "right": 1041,
+          "bottom": 690,
+          "left": 997
+        },
+        {
+          "x": 1068,
+          "y": 650,
+          "width": 170,
+          "height": 42,
+          "top": 650,
+          "right": 1238,
+          "bottom": 692,
+          "left": 1068
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "bounds": [
+        {
+          "x": 42,
+          "y": 652,
+          "width": 178.921875,
+          "height": 92,
+          "top": 652,
+          "right": 220.921875,
+          "bottom": 744,
+          "left": 42
+        },
+        {
+          "x": 1029,
+          "y": 832,
+          "width": 44,
+          "height": 38,
+          "top": 832,
+          "right": 1073,
+          "bottom": 870,
+          "left": 1029
+        },
+        {
+          "x": 1093,
+          "y": 832,
+          "width": 44,
+          "height": 38,
+          "top": 832,
+          "right": 1137,
+          "bottom": 870,
+          "left": 1093
+        },
+        {
+          "x": 1157,
+          "y": 832,
+          "width": 44,
+          "height": 38,
+          "top": 832,
+          "right": 1201,
+          "bottom": 870,
+          "left": 1157
+        },
+        {
+          "x": 1228,
+          "y": 830,
+          "width": 170,
+          "height": 42,
+          "top": 830,
+          "right": 1398,
+          "bottom": 872,
+          "left": 1228
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "bounds": [
+        {
+          "x": 42,
+          "y": 832,
+          "width": 178.921875,
+          "height": 92,
+          "top": 832,
+          "right": 220.921875,
+          "bottom": 924,
+          "left": 42
+        },
+        {
+          "x": 1509,
+          "y": 1012,
+          "width": 44,
+          "height": 38,
+          "top": 1012,
+          "right": 1553,
+          "bottom": 1050,
+          "left": 1509
+        },
+        {
+          "x": 1573,
+          "y": 1012,
+          "width": 44,
+          "height": 38,
+          "top": 1012,
+          "right": 1617,
+          "bottom": 1050,
+          "left": 1573
+        },
+        {
+          "x": 1637,
+          "y": 1012,
+          "width": 44,
+          "height": 38,
+          "top": 1012,
+          "right": 1681,
+          "bottom": 1050,
+          "left": 1637
+        },
+        {
+          "x": 1708,
+          "y": 1010,
+          "width": 170,
+          "height": 42,
+          "top": 1010,
+          "right": 1878,
+          "bottom": 1052,
+          "left": 1708
+        }
+      ]
+    }
+  ],
+  "fold": {
+    "begun": {
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 0.8835746853990651,
+        "z": -4.883574685399065,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": false,
+        "spaceTime": 21.62580000000079,
+        "targetYaw": -0.34999994539220214,
+        "targetPitch": 0.09000001606111672,
+        "yaw": -0.34999994539220214,
+        "pitch": 0.09000001606111672,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.013800000000745058,
+        "skipNextFrame": false
+      },
+      "position": [
+        0,
+        1.55,
+        -4.883574685399065
+      ],
+      "quaternion": [
+        0.044297748344335995,
+        0.1739318559277294,
+        -0.007832222379360172,
+        0.9837296759159794
+      ],
+      "direction": [
+        -0.34150995689462454,
+        0.08987856519412414,
+        -0.9355708379703149
+      ],
+      "structure": {
+        "firstSection": -2,
+        "counts": {
+          "primary": 70,
+          "layer": 1813,
+          "joint": 840,
+          "light": 7
+        },
+        "minimumClearance": 5.162347193322809,
+        "sharedVertices": 1876,
+        "fold": {
+          "clock": 21.62580000000079,
+          "phase": "folding",
+          "section": 0,
+          "elapsed": 8.010600000001462,
+          "angle": 0.01820000043204279,
+          "events": 1,
+          "states": 1,
+          "stableTime": 0
+        },
+        "bloom": false,
+        "particles": 0
+      },
+      "fold": {
+        "clock": 21.62580000000079,
+        "phase": "folding",
+        "section": 0,
+        "elapsed": 8.010600000001462,
+        "angle": 0.01820000043204279,
+        "events": 1,
+        "states": 1,
+        "stableTime": 0
+      },
+      "drawCalls": 7,
+      "triangles": 588924,
+      "geometries": 1,
+      "textures": 3
+    },
+    "middle": {
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 0.8835746853990651,
+        "z": -4.883574685399065,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": false,
+        "spaceTime": 34.2896999999994,
+        "targetYaw": -0.34999994539220214,
+        "targetPitch": 0.09000001606111672,
+        "yaw": -0.34999994539220214,
+        "pitch": 0.09000001606111672,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.012800000000745057,
+        "skipNextFrame": false
+      },
+      "position": [
+        0,
+        1.55,
+        -4.883574685399065
+      ],
+      "quaternion": [
+        0.044297748344335995,
+        0.1739318559277294,
+        -0.007832222379360172,
+        0.9837296759159794
+      ],
+      "direction": [
+        -0.34150995689462454,
+        0.08987856519412414,
+        -0.9355708379703149
+      ],
+      "structure": {
+        "firstSection": -2,
+        "counts": {
+          "primary": 70,
+          "layer": 1813,
+          "joint": 840,
+          "light": 7
+        },
+        "minimumClearance": 5.162347193322809,
+        "sharedVertices": 1876,
+        "fold": {
+          "clock": 34.2896999999994,
+          "phase": "folding",
+          "section": 0,
+          "elapsed": 20.67450000000001,
+          "angle": 0.29548686603784724,
+          "events": 1,
+          "states": 1,
+          "stableTime": 0
+        },
+        "bloom": false,
+        "particles": 0
+      },
+      "fold": {
+        "clock": 34.2896999999994,
+        "phase": "folding",
+        "section": 0,
+        "elapsed": 20.67450000000001,
+        "angle": 0.29548686603784724,
+        "events": 1,
+        "states": 1,
+        "stableTime": 0
+      },
+      "drawCalls": 7,
+      "triangles": 588924,
+      "geometries": 1,
+      "textures": 3
+    },
+    "complete": {
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 0.8835746853990651,
+        "z": -4.883574685399065,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": false,
+        "spaceTime": 55.77759999999792,
+        "targetYaw": -0.34999994539220214,
+        "targetPitch": 0.09000001606111672,
+        "yaw": -0.34999994539220214,
+        "pitch": 0.09000001606111672,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.009299999997019769,
+        "skipNextFrame": false
+      },
+      "position": [
+        0,
+        1.55,
+        -4.883574685399065
+      ],
+      "quaternion": [
+        0.044297748344335995,
+        0.1739318559277294,
+        -0.007832222379360172,
+        0.9837296759159794
+      ],
+      "direction": [
+        -0.34150995689462454,
+        0.08987856519412414,
+        -0.9355708379703149
+      ],
+      "structure": {
+        "firstSection": -2,
+        "counts": {
+          "primary": 70,
+          "layer": 1813,
+          "joint": 840,
+          "light": 7
+        },
+        "minimumClearance": 5.162347193322809,
+        "sharedVertices": 1876,
+        "fold": {
+          "clock": 55.77759999999792,
+          "phase": "stable",
+          "section": 0,
+          "elapsed": 42.00930000000099,
+          "angle": 0.52,
+          "events": 1,
+          "states": 1,
+          "stableTime": 0.15309999999776486
+        },
+        "bloom": false,
+        "particles": 0
+      },
+      "fold": {
+        "clock": 55.77759999999792,
+        "phase": "stable",
+        "section": 0,
+        "elapsed": 42.00930000000099,
+        "angle": 0.52,
+        "events": 1,
+        "states": 1,
+        "stableTime": 0.15309999999776486
+      },
+      "drawCalls": 7,
+      "triangles": 588924,
+      "geometries": 1,
+      "textures": 3
+    },
+    "frozen": {
+      "clock": 34.33050000000014,
+      "phase": "folding",
+      "section": 0,
+      "elapsed": 20.715300000000752,
+      "angle": 0.29707564111062473,
+      "events": 1,
+      "states": 1,
+      "stableTime": 0
+    },
+    "blurStable": true
+  },
+  "reducedMotion": true,
+  "originalHomepage": true
+}

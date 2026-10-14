@@ -1,0 +1,5 @@
+✓ 试卷页顶部显示统计概况
+✓ 详情页直接显示完整卷面（默认适合宽度）
+✓ 窗口缩放后卷面重新适配、不被裁切
+✓ 收藏空状态只给提示，不出现发布入口
+Shared papers: list, detail sheet, favorite, rating, review, print, draft isolation, copy, publish-entry removal and mobile checks passed

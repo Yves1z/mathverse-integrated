@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-12T12:27:27.664Z",
+  "browser": "155.0.4283.45",
+  "checks": {
+    "math": true,
+    "sevenBridgesAndLandRemoval": true,
+    "sharedAngleAndReturnToChapter": true,
+    "rapidReversibleChapters": true,
+    "keyboardNavigation": true,
+    "stableEulerReading": {
+      "wallSeconds": 30.007,
+      "distance": 0.6289142999999405,
+      "area": 0.801
+    },
+    "blurClock": true,
+    "twentyOpens": {
+      "before": {
+        "geometries": 126,
+        "textures": 33
+      },
+      "after": {
+        "geometries": 126,
+        "textures": 33
+      }
+    },
+    "desktops": [
+      {
+        "width": 1280,
+        "height": 720,
+        "area": 0.801
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "area": 0.801
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "area": 0.801
+      }
+    ],
+    "reducedMotionChapterChange": true
+  },
+  "errors": [],
+  "scope": "Euler mathematics, three live scenes, controls, reversible chapter transitions, preserved angle and chapter, 30-second reading, blur, 20 opens, three desktop sizes, reduced motion and production build. This is not Stage E ten-minute/GPU acceptance."
+}

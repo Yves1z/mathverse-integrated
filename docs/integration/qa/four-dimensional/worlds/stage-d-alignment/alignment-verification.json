@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-12T12:30:50.979Z",
+  "browser": "155.0.4283.45",
+  "checks": {
+    "mathematicalError": 1.716587549445839e-16,
+    "realSeamPixels": 0.34550895401703435,
+    "alignedCamera": [
+      0,
+      1.55,
+      -10.02598578225377
+    ],
+    "separatedSeamPixels": 68.6434599238562,
+    "freezePreservesAnchors": true,
+    "viewports": [
+      {
+        "width": 1280,
+        "height": 720,
+        "seamPixels": 0.27585315459622317
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "seamPixels": 0.3454638974682713
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "seamPixels": 0.4146089432929142
+      }
+    ],
+    "readingContinuesAndRemainsStable": true,
+    "repeated20": {
+      "before": {
+        "geometries": 127,
+        "textures": 33
+      },
+      "after": {
+        "geometries": 127,
+        "textures": 33
+      }
+    },
+    "blurFreezesRelation": true
+  },
+  "errors": [],
+  "scope": "Actual mouse discovery, 4D anchor projection, four seams, 3 desktop sizes, shared angle, stable 80% reading, freeze/blur and 20 resource cycles. GPU and ten-minute performance are not benchmarked."
+}

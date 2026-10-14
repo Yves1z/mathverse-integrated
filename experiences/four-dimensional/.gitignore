@@ -1,0 +1,5 @@
+node_modules/
+dist/
+temp/
+*.log
+docs/environment/docs\\environment\\environment-before.json

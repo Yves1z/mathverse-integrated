@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-10-11T06:32:28.392Z",
+  "checks": {
+    "events": [
+      {
+        "section": 0,
+        "angle": 3.141592653589793,
+        "z": -26.437239736535393
+      },
+      {
+        "section": 1,
+        "angle": 3.141592653589793,
+        "z": -42.196023539494334
+      },
+      {
+        "section": 2,
+        "angle": 3.141592653589793,
+        "z": -58.006040630282904
+      }
+    ],
+    "radiusRatios": {
+      "unit-circle": 3.22222227777294,
+      "mobius-strip": 3.222222302374894,
+      "gaussian-integral": 3.222222188990467
+    },
+    "realClicks": {
+      "unit-circle": {
+        "pixel": [
+          669.789961468127,
+          602.1112699643384
+        ],
+        "occluded": 5
+      },
+      "mobius-strip": {
+        "pixel": [
+          717.2514089621787,
+          456.71977039385666
+        ],
+        "occluded": 1
+      },
+      "gaussian-integral": {
+        "pixel": [
+          759.4249485925809,
+          428.7645854528727
+        ],
+        "occluded": 96
+      }
+    },
+    "freezePixels": true,
+    "continuousTravel": true,
+    "staticReference": true,
+    "sourceProjectionAndSharedAttachments": true,
+    "resourcesStable": [
+      46,
+      23
+    ],
+    "desktopReading": true,
+    "archEntrance": true,
+    "previousEulerPreserved": true,
+    "reducedSixEventSequence": true
+  },
+  "initialCounts": {
+    "primary": 125,
+    "layer": 632,
+    "joint": 36,
+    "light": 3
+  },
+  "errors": []
+}

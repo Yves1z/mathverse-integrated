@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-12T12:14:55.385Z",
+  "runs": [
+    {
+      "hz": 30,
+      "distance": 3.902500000000006,
+      "z": -7.902500000000006,
+      "yaw": 6.283185307179586,
+      "pitch": 0,
+      "transitionSpeed": 0.35,
+      "maximumTilt": 0.20006822627079057,
+      "maximumAngularSpeed": 7.5,
+      "minimumPanelGap": 0.5724383159847604,
+      "settleSeconds": 0.3333333333333339
+    },
+    {
+      "hz": 60,
+      "distance": 3.9025000000000114,
+      "z": -7.902500000000011,
+      "yaw": 6.283185307179586,
+      "pitch": 0,
+      "transitionSpeed": 0.35,
+      "maximumTilt": 0.20006930154545047,
+      "maximumAngularSpeed": 7.5,
+      "minimumPanelGap": 0.5724383159847612,
+      "settleSeconds": 0.31666666666666643
+    },
+    {
+      "hz": 120,
+      "distance": 3.902500000000057,
+      "z": -7.902500000000057,
+      "yaw": 6.283185307179586,
+      "pitch": 0,
+      "transitionSpeed": 0.35,
+      "maximumTilt": 0.20006953502161767,
+      "maximumAngularSpeed": 7.5,
+      "minimumPanelGap": 0.5717633168340274,
+      "settleSeconds": 0.30833333333333357
+    }
+  ],
+  "checks": {
+    "entryContinuity": true,
+    "doorAperture": true,
+    "doorClearance": true,
+    "softBoundaryAndImmediateReverse": true,
+    "noAutoCenter": true,
+    "shortestForward": true,
+    "smoothSpeed": true,
+    "noResumeJump": true,
+    "interruptedEntranceContinuity": true,
+    "largeInputStable": true
+  },
+  "scope": "30/60/120 Hz deterministic motion simulation, not GPU frame-rate measurement"
+}

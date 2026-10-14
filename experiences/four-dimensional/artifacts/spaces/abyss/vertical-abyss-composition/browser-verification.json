@@ -1,0 +1,12 @@
+{
+  "staticPixels": true,
+  "elasticDragAndReset": true,
+  "poseResourceReuse": [
+    4,
+    8
+  ],
+  "desktop": true,
+  "gallery": true,
+  "previousSpace": true,
+  "errors": []
+}

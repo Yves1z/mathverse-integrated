@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-12T12:15:25.905Z",
+  "vertices": 16,
+  "edges": 32,
+  "cubicCells": 8,
+  "sampledAngles": 721,
+  "minimumDenominator": 0.485786437626905,
+  "minimumRouteClearance": 23.654773038685825,
+  "maximumCoordinate": 192.15787862874794,
+  "overviewMaximumNDC": [
+    0.27944271078479394,
+    0.9210063145153464
+  ],
+  "trackedCellSizeRatio": 3.222222222222223,
+  "fps": [
+    {
+      "fps": 30,
+      "clock": 58.19999999999926,
+      "angle": 3.141592653589793,
+      "phase": "stable",
+      "elapsed": 44.000000000000064,
+      "from": 0,
+      "to": 3.141592653589793,
+      "events": 1,
+      "automatic": true,
+      "hold": 0.16666666666666666,
+      "progress": 1,
+      "trackedPosition": "outside"
+    },
+    {
+      "fps": 60,
+      "clock": 58.19999999999798,
+      "angle": 3.141592653589793,
+      "phase": "stable",
+      "elapsed": 44.01666666666545,
+      "from": 0,
+      "to": 3.141592653589793,
+      "events": 1,
+      "automatic": true,
+      "hold": 0.18333333333333332,
+      "progress": 1,
+      "trackedPosition": "outside"
+    },
+    {
+      "fps": 120,
+      "clock": 58.19999999999734,
+      "angle": 3.141592653589793,
+      "phase": "stable",
+      "elapsed": 44.00833333333148,
+      "from": 0,
+      "to": 3.141592653589793,
+      "events": 1,
+      "automatic": true,
+      "hold": 0.18333333333333332,
+      "progress": 1,
+      "trackedPosition": "outside"
+    }
+  ],
+  "cameraAfterTenMinutes": {
+    "z": -24.615620006618883,
+    "speed": 0.002562818076942553
+  },
+  "checks": {
+    "fixedTopology": true,
+    "projectionFinite": true,
+    "projectedEdgesStraight": true,
+    "sourceLengthPreserved": true,
+    "sameCellChangesDepth": true,
+    "finalSpatialShapeReturns": true,
+    "interruptedSeekContinuous": true,
+    "freezeAndReducedMotionStopClock": true,
+    "safeContinuousTravel": true,
+    "suspensionNoCatchup": true
+  },
+  "scope": "Exact four-dimensional vertex/edge projection. Decorative beveled beam sections are three-dimensional. Route clearance uses a finite camera segment and 721 angular samples; this is not an analytic proof of every intermediate angle."
+}

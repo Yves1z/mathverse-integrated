@@ -1,0 +1,17 @@
+* text=auto
+*.sh text eol=lf
+*.sql text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.docx binary
+
+# Retained visual study media (install Git LFS before committing these files)
+experiences/four-dimensional/artifacts/**/*.webm filter=lfs diff=lfs merge=lfs -text
+experiences/four-dimensional/artifacts/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+experiences/four-dimensional/artifacts/**/*.png filter=lfs diff=lfs merge=lfs -text
+design-archive/mascot/**/preview/*.webm filter=lfs diff=lfs merge=lfs -text
+docs/integration/qa/**/*.webm filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-12T12:15:25.517Z",
+  "sampledAngles": 721,
+  "minimumModuleLateral": 9.421060685626038,
+  "minimumBridgeVertical": 9.172613480657088,
+  "clearanceAfterBodyRadius": 8.390284279221623,
+  "maximumWindowStep": 0.1860648192786219,
+  "eventSequence": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "maximumMovingUnits": 1,
+  "thirtyMinuteSimulation": {
+    "maximumAngleCache": 6,
+    "events": 18,
+    "stableRatio": 0.577925925925926
+  },
+  "checks": {
+    "connectedFixedEdges": true,
+    "allZCentralRouteClear": true,
+    "independentlyRotatingNeighborsBridgeClear": true,
+    "windowsFollowSourceSurface": true,
+    "suspensionOrderPreserved": true,
+    "recyclePreservesSide": true,
+    "deterministicSequence": true,
+    "singleMovingUnit": true,
+    "stableTimeMajority": true,
+    "freezeStopsClock": true
+  },
+  "scope": "Route bounds follow constant-sign lateral and vertical half-spaces plus sampled projection extrema. Window rectangles use local tangents to projected source faces; inter-cell bridges are three-dimensional display connections."
+}

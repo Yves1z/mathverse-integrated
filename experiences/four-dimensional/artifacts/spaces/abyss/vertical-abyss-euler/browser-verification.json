@@ -1,0 +1,40 @@
+{
+  "realTraceSamples": 305,
+  "completeEvent": {
+    "mode": "real-time",
+    "clock": 76.66749999998555,
+    "travel": 198.76852181715813,
+    "worldCount": 1
+  },
+  "frozenPixels": true,
+  "actualPaperPick": [
+    863.2920200330524,
+    554.4432599830856
+  ],
+  "reading": {
+    "area": 0.801,
+    "worldSpeed": 0.15539999999999998,
+    "travel": 0.21937818000043308
+  },
+  "returnRestoresLookAndPause": true,
+  "threeChaptersAndRelatedAngle": true,
+  "actualOcclusion": [
+    893.9162381690844,
+    493.8386344084136
+  ],
+  "actualCirclePick": [
+    672.1219554384597,
+    470.07854724886647
+  ],
+  "storyMemory": true,
+  "repeatedResources": [
+    36,
+    19
+  ],
+  "desktop": true,
+  "restart": true,
+  "previousExchange": true,
+  "reducedMotion": true,
+  "videoDuration": 117.16,
+  "errors": []
+}

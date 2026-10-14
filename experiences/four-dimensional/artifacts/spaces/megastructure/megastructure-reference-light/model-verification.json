@@ -1,0 +1,11 @@
+{
+  "samples": 5120,
+  "particles": 512,
+  "shafts": 8,
+  "deterministic": true,
+  "insideLocalShafts": true,
+  "maximumSpeed": 0.2900853367275699,
+  "stableOverlappingCells": true,
+  "period": 720,
+  "wrapHiddenByZeroAlpha": true
+}

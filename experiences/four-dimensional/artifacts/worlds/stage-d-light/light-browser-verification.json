@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-10T01:19:31.178Z",
+  "browser": "154.0.4258.62",
+  "checks": {
+    "fixedParticleBudget": 2496,
+    "HDRAndAntialias": true,
+    "lightAndParticleClockFreezeWithStructure": true,
+    "stableReadingWithAnimatedExterior": true,
+    "filmWallSeconds": 44.009,
+    "bloomFreeSceneRendered": true,
+    "highDensityViewports": [
+      {
+        "width": 1280,
+        "height": 720,
+        "deviceScaleFactor": 2,
+        "renderRatio": 1.5,
+        "area": 0.8009999999999999
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "deviceScaleFactor": 2,
+        "renderRatio": 1.5,
+        "area": 0.801
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "deviceScaleFactor": 2,
+        "renderRatio": 1.5,
+        "area": 0.801
+      }
+    ],
+    "realParticleSectionAdvance": {
+      "wallSeconds": 76.072,
+      "distance": 26.833659999966457,
+      "startSection": -3,
+      "endSection": -2,
+      "before": {
+        "geometries": 129,
+        "textures": 26
+      },
+      "after": {
+        "geometries": 130,
+        "textures": 26
+      }
+    },
+    "lightClockSuspendAndResume": true
+  },
+  "errors": [],
+  "scope": "Real browser rendering, HDR/FXAA, six worlds, structural freeze, stable reading, Bloom-free render, high-density desktops, one live particle-section transition, and blur recovery. Not a hardware GPU benchmark or ten-minute delivery audit."
+}

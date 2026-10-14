@@ -1,0 +1,1 @@
+{"samples":361,"sourceMeshes":5,"contentContainedInSourceCell":true,"minimumClearance":15.613293462329441,"minimumDenominator":0.6035382886564213,"naturalScale":3.2222222222222237,"customCameraFocus":true,"nonzeroReadingSpeed":0.021,"returnPreservesTravel":true}

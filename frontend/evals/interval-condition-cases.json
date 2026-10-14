@@ -1,0 +1,383 @@
+{
+  "source": "agent-authored synthetic, independently specified set relations; not live-provider/teacher acceptance",
+  "cases": [
+    {
+      "id": "IC01",
+      "group": "endpoints",
+      "problem": "已知 x∈[0,2]，讨论单调性。",
+      "condition": "x≥0",
+      "status": "valid",
+      "relation": "subset",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC02",
+      "group": "endpoints",
+      "problem": "已知 x∈[0,2]，讨论单调性。",
+      "condition": "x>0",
+      "status": "unknown",
+      "relation": "overlap",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC03",
+      "group": "endpoints",
+      "problem": "已知 x∈(0,2]，讨论单调性。",
+      "condition": "x>0",
+      "status": "valid",
+      "relation": "subset",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC04",
+      "group": "endpoints",
+      "problem": "已知 x∈[0,2]，讨论单调性。",
+      "condition": "x<0",
+      "status": "invalid",
+      "relation": "disjoint",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC05",
+      "group": "touch",
+      "problem": "已知 x∈[0,2]，讨论单调性。",
+      "condition": "x∈[2,3]",
+      "status": "unknown",
+      "relation": "overlap",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC06",
+      "group": "touch",
+      "problem": "已知 x∈[0,2) ，讨论单调性。",
+      "condition": "x∈[2,3]",
+      "status": "invalid",
+      "relation": "disjoint",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC07",
+      "group": "touch",
+      "problem": "已知 x∈[0,2]，讨论单调性。",
+      "condition": "x∈(2,3]",
+      "status": "invalid",
+      "relation": "disjoint",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC08",
+      "group": "touch",
+      "problem": "已知 x∈[0,2]，讨论单调性。",
+      "condition": "x∈[-1,1]",
+      "status": "unknown",
+      "relation": "overlap",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC09",
+      "group": "exact",
+      "problem": "已知 x∈[1/3,1/3]，讨论。",
+      "condition": "x∈[0.333333,0.333334]",
+      "status": "valid",
+      "relation": "subset",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC10",
+      "group": "exact",
+      "problem": "已知 x∈[1/3,1/3]，讨论。",
+      "condition": "x≤0.333333",
+      "status": "invalid",
+      "relation": "disjoint",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC11",
+      "group": "exact",
+      "problem": "已知 x∈[-0.5,0]，讨论。",
+      "condition": "x∈[-1/2,0]",
+      "status": "valid",
+      "relation": "subset",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC12",
+      "group": "exact",
+      "problem": "已知 x∈[999999999/999998,999999999/999998]，讨论。",
+      "condition": "x>1000",
+      "status": "valid",
+      "relation": "subset",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC13",
+      "group": "infinity",
+      "problem": "已知 x≥0，讨论单调性。",
+      "condition": "x∈[0,+∞)",
+      "status": "valid",
+      "relation": "subset",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC14",
+      "group": "infinity",
+      "problem": "已知 x<0，讨论单调性。",
+      "condition": "x∈(-∞,0)",
+      "status": "valid",
+      "relation": "subset",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC15",
+      "group": "infinity",
+      "problem": "已知 x∈(-∞,+∞)，讨论。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "overlap",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC16",
+      "group": "infinity",
+      "problem": "已知 x∈[0,+∞]，讨论。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC17",
+      "group": "grammar",
+      "problem": "已知 $0<x\\leq 2$，讨论。",
+      "condition": "$x\\in(0,2]$",
+      "status": "valid",
+      "relation": "subset",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC18",
+      "group": "grammar",
+      "problem": "已知实数 x＞−1，讨论。",
+      "condition": "x≥-1",
+      "status": "valid",
+      "relation": "subset",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC19",
+      "group": "grammar",
+      "problem": "已知 x∈[1,1]，讨论。",
+      "condition": "x∈[1,1]",
+      "status": "valid",
+      "relation": "subset",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC20",
+      "group": "grammar",
+      "problem": "已知 x∈[0,2]，讨论。",
+      "condition": "x∈[0,2)",
+      "status": "unknown",
+      "relation": "overlap",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC21",
+      "group": "missing",
+      "problem": "已知 f(x)=x²，讨论单调性。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC22",
+      "group": "missing",
+      "problem": "讨论 x 的范围。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC23",
+      "group": "missing",
+      "problem": "已知 x∈[0,2]，讨论。",
+      "condition": "y≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC24",
+      "group": "missing",
+      "problem": "已知 x∈[0,2]，讨论。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": true
+    },
+    {
+      "id": "IC25",
+      "group": "unsupported",
+      "problem": "已知 x∈[0,2]，讨论。",
+      "condition": "x∈[0,?]",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC26",
+      "group": "unsupported",
+      "problem": "已知 x∈[0,2]，讨论。",
+      "condition": "x∈[0,2]∪[3,4]",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC27",
+      "group": "unsupported",
+      "problem": "已知 x∈[0,2]，讨论。",
+      "condition": "若 x≥0 则尝试平方",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC28",
+      "group": "unsupported",
+      "problem": "已知 x∈[0,2]，讨论。",
+      "condition": "x∈[0,1/0]",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC29",
+      "group": "unsupported",
+      "problem": "已知 x∈[2,0]，讨论。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC30",
+      "group": "unsupported",
+      "problem": "已知 x∈(0,0]，讨论。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC31",
+      "group": "unsupported",
+      "problem": "已知 x∈[0,2]，讨论。",
+      "condition": "x∈[0,1000000000]",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC32",
+      "group": "unsupported",
+      "problem": "已知 x∈[0,2]，讨论。",
+      "condition": "x∈[0,0.0000001]",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC33",
+      "group": "branch",
+      "problem": "已知 x≥0，或 x<0。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC34",
+      "group": "branch",
+      "problem": "已知 x≥0，另有 x<1。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC35",
+      "group": "branch",
+      "problem": "已知 x≥0，当 x=0 时讨论。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC36",
+      "group": "branch",
+      "problem": "已知 x≥0，但该条件取消。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC37",
+      "group": "withdrawn",
+      "problem": "已知 x≥0，这项条件不成立。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC38",
+      "group": "withdrawn",
+      "problem": "已知 x≥0，这项条件撤销。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC39",
+      "group": "withdrawn",
+      "problem": "已知 x≥0，这项条件仅是猜测。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC40",
+      "group": "token_spacing",
+      "problem": "已知 x∈[0,2]，讨论。",
+      "condition": "x∈[0,12]",
+      "status": "valid",
+      "relation": "subset",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC41",
+      "group": "token_spacing",
+      "problem": "已知 x∈[0,2]，讨论。",
+      "condition": "x∈[0,1 2]",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    },
+    {
+      "id": "IC42",
+      "group": "token_spacing",
+      "problem": "已知 x∈[0,1 2]，讨论。",
+      "condition": "x≥0",
+      "status": "unknown",
+      "relation": "unknown",
+      "readingUncertain": false
+    }
+  ]
+}

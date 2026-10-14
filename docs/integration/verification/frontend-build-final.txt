@@ -1,0 +1,326 @@
+vite v8.2.2 building client environment for production...
+transforming...
+✓ 2634 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                             0.79 kB │ gzip:   0.40 kB
+dist/assets/KaTeX_Size3-Regular-CTq5MqoE.woff               4.42 kB
+dist/assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2              4.92 kB
+dist/assets/KaTeX_Size2-Regular-Dy4dx90m.woff2              5.20 kB
+dist/assets/KaTeX_Size1-Regular-mCD8mA8B.woff2              5.46 kB
+dist/assets/KaTeX_Size4-Regular-BF-4gkZK.woff               5.98 kB
+dist/assets/KaTeX_Size2-Regular-oD1tc_U0.woff               6.18 kB
+dist/assets/KaTeX_Size1-Regular-C195tn64.woff               6.49 kB
+dist/assets/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2        6.90 kB
+dist/assets/KaTeX_Caligraphic-Bold-Dq_IR9rO.woff2           6.91 kB
+dist/assets/KaTeX_Size3-Regular-DgpXs0kz.ttf                7.58 kB
+dist/assets/KaTeX_Caligraphic-Regular-CTRA-rTL.woff         7.65 kB
+dist/assets/KaTeX_Caligraphic-Bold-BEiXGLvX.woff            7.71 kB
+dist/assets/KaTeX_Script-Regular-D3wIWfF6.woff2             9.64 kB
+dist/assets/KaTeX_SansSerif-Regular-DDBCnlJ7.woff2         10.34 kB
+dist/assets/KaTeX_Size4-Regular-DWFBv043.ttf               10.36 kB
+dist/assets/KaTeX_Script-Regular-D5yQViql.woff             10.58 kB
+dist/assets/KaTeX_Fraktur-Regular-CTYiF6lA.woff2           11.31 kB
+dist/assets/KaTeX_Fraktur-Bold-CL6g_b3V.woff2              11.34 kB
+dist/assets/KaTeX_Size2-Regular-B7gKUWhC.ttf               11.50 kB
+dist/assets/KaTeX_SansSerif-Italic-C3H0VqGB.woff2          12.02 kB
+dist/assets/KaTeX_SansSerif-Bold-D1sUS0GD.woff2            12.21 kB
+dist/assets/KaTeX_Size1-Regular-Dbsnue_I.ttf               12.22 kB
+dist/assets/KaTeX_SansSerif-Regular-CS6fqUqJ.woff          12.31 kB
+dist/assets/KaTeX_Caligraphic-Regular-wX97UBjC.ttf         12.34 kB
+dist/assets/KaTeX_Caligraphic-Bold-ATXxdsX0.ttf            12.36 kB
+dist/assets/KaTeX_Fraktur-Regular-Dxdc4cR9.woff            13.20 kB
+dist/assets/KaTeX_Fraktur-Bold-BsDP51OF.woff               13.29 kB
+dist/assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2        13.56 kB
+dist/assets/KaTeX_SansSerif-Italic-DN2j7dab.woff           14.11 kB
+dist/assets/KaTeX_SansSerif-Bold-DbIhKOiC.woff             14.40 kB
+dist/assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff         16.02 kB
+dist/assets/KaTeX_Math-BoldItalic-CZnvNsCZ.woff2           16.40 kB
+dist/assets/KaTeX_Math-Italic-t53AETM-.woff2               16.44 kB
+dist/assets/KaTeX_Script-Regular-C5JkGWo-.ttf              16.64 kB
+dist/assets/KaTeX_Main-BoldItalic-DxDJ3AOS.woff2           16.78 kB
+dist/assets/KaTeX_Main-Italic-NWA7e6Wa.woff2               16.98 kB
+dist/assets/KaTeX_Math-BoldItalic-iY-2wyZ7.woff            18.66 kB
+dist/assets/KaTeX_Math-Italic-DA0__PXp.woff                18.74 kB
+dist/assets/KaTeX_Main-BoldItalic-SpSLRI95.woff            19.41 kB
+dist/assets/KaTeX_SansSerif-Regular-BNo7hRIc.ttf           19.43 kB
+dist/assets/KaTeX_Fraktur-Regular-CB_wures.ttf             19.57 kB
+dist/assets/KaTeX_Fraktur-Bold-BdnERNNW.ttf                19.58 kB
+dist/assets/KaTeX_Main-Italic-BMLOBm91.woff                19.67 kB
+dist/assets/Assistant-SemiBold-SCI4bEL9.woff2              20.21 kB
+dist/assets/Assistant-Regular-DVxZuzxb.woff2               20.23 kB
+dist/assets/Assistant-Medium-DrcxCXg3.woff2                20.32 kB
+dist/assets/Assistant-Bold-gm-uSS1B.woff2                  20.38 kB
+dist/assets/KaTeX_SansSerif-Italic-YYjJ1zSn.ttf            22.36 kB
+dist/assets/KaTeX_SansSerif-Bold-CFMepnvq.ttf              24.50 kB
+dist/assets/KaTeX_Main-Bold-Cx986IdX.woff2                 25.32 kB
+dist/assets/KaTeX_Main-Regular-B22Nviop.woff2              26.27 kB
+dist/assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf          27.55 kB
+dist/assets/KaTeX_AMS-Regular-BQhdFMY1.woff2               28.07 kB
+dist/assets/KaTeX_Main-Bold-Jm3AIy58.woff                  29.91 kB
+dist/assets/KaTeX_Main-Regular-Dr94JaBh.woff               30.77 kB
+dist/assets/KaTeX_Math-BoldItalic-B3XSjfu4.ttf             31.19 kB
+dist/assets/KaTeX_Math-Italic-flOr_0UB.ttf                 31.30 kB
+dist/assets/KaTeX_Main-BoldItalic-DzxPMmG6.ttf             32.96 kB
+dist/assets/KaTeX_AMS-Regular-DMm9YOAa.woff                33.51 kB
+dist/assets/KaTeX_Main-Italic-3WenGoN9.ttf                 33.58 kB
+dist/assets/KaTeX_Main-Bold-waoOVXN0.ttf                   51.33 kB
+dist/assets/KaTeX_Main-Regular-ypZvNtVU.ttf                53.58 kB
+dist/assets/alipay-ByDu9aSW.jpg                            55.33 kB
+dist/assets/KaTeX_AMS-Regular-DRggAlZN.ttf                 63.63 kB
+dist/assets/mobius-curious-v2-C2qpMWBc.webp               254.55 kB
+dist/assets/mobius-sleeping-BN8OMP4K.webp                 320.15 kB
+dist/assets/mobius-responding-BvgSXHYs.webp               340.83 kB
+dist/assets/mobius-idle-CoW2Gx6F.webp                     416.55 kB
+dist/assets/mobius-sleeping-v2-BLM0GGqV.webp              431.41 kB
+dist/assets/mobius-thinking-v2-B1m6HGaa.webp              446.51 kB
+dist/assets/FeedbackView-D0DQrFPr.css                       1.04 kB │ gzip:   0.47 kB
+dist/assets/AboutView-Bz7DKZD3.css                          1.09 kB │ gzip:   0.52 kB
+dist/assets/AppPageStats-Cf2pfLDV.css                       1.21 kB │ gzip:   0.51 kB
+dist/assets/ContributionUploadView-Dka-qp8A.css             2.09 kB │ gzip:   0.66 kB
+dist/assets/official-chart-DLdMAaow.css                     2.77 kB │ gzip:   1.04 kB
+dist/assets/SupportView-YCCACdjB.css                        2.96 kB │ gzip:   0.96 kB
+dist/assets/HistoryView-y7DZKsUJ.css                        3.09 kB │ gzip:   1.08 kB
+dist/assets/useProblemsPracticeList-DhBw8o8Q.css            4.58 kB │ gzip:   1.34 kB
+dist/assets/useProblemsFilterPreferences-CXNOo9ns.css       4.73 kB │ gzip:   1.37 kB
+dist/assets/PaperLibraryView-CHMe6KKG.css                   5.31 kB │ gzip:   1.43 kB
+dist/assets/AiUploadAssistant-ygRblFW6.css                  7.23 kB │ gzip:   1.79 kB
+dist/assets/QuestionReaderView-xGmf9QnJ.css                 7.88 kB │ gzip:   1.70 kB
+dist/assets/QuestionStudyView-COjae_IN.css                 10.14 kB │ gzip:   2.05 kB
+dist/assets/UserProfileView-CuDqIjLf.css                   11.99 kB │ gzip:   2.65 kB
+dist/assets/shared-papers-D_I84DCW.css                     12.14 kB │ gzip:   2.85 kB
+dist/assets/HelpView-DPtNSQ0q.css                          12.67 kB │ gzip:   3.53 kB
+dist/assets/SimilarProblemsView-Bh00bKHy.css               16.97 kB │ gzip:   3.48 kB
+dist/assets/paper-builder-HvqPlUpg.css                     25.97 kB │ gzip:   5.28 kB
+dist/assets/QuestionView-DGbAFeAS.css                      35.04 kB │ gzip:   6.91 kB
+dist/assets/AdminView-AEfA2lqM.css                         35.30 kB │ gzip:   6.81 kB
+dist/assets/training-BAK8ISEb.css                          46.03 kB │ gzip:   8.05 kB
+dist/assets/DraftCanvasIsland-DtRVLazd.css                142.02 kB │ gzip:  22.37 kB
+dist/assets/index-gCpXMqUF.css                            190.36 kB │ gzip:  36.30 kB
+dist/assets/percentages-BXMCSKIN-QLWOzxeJ.js                0.10 kB │ gzip:   0.10 kB
+dist/assets/array-BifhSqXX.js                               0.10 kB │ gzip:   0.11 kB
+dist/assets/image-GAAHSSAO-BgbYmTIZ.js                      0.11 kB │ gzip:   0.10 kB
+dist/assets/channel-B-t33HyC.js                             0.11 kB │ gzip:   0.12 kB
+dist/assets/pie-WAS4IAKB-CiPTfbdm.js                        0.12 kB │ gzip:   0.13 kB
+dist/assets/info-A6RAGUB7-BbCUVrDL.js                       0.12 kB │ gzip:   0.13 kB
+dist/assets/radar-RG4KPBEZ-qp8aOyFz.js                      0.12 kB │ gzip:   0.13 kB
+dist/assets/packet-AYTQ26CC-D4gBv0ey.js                     0.12 kB │ gzip:   0.13 kB
+dist/assets/cynefin-OW5HDTMX-C9MSEOCv.js                    0.12 kB │ gzip:   0.13 kB
+dist/assets/treemap-WGGIJYW6-DNS1mojq.js                    0.12 kB │ gzip:   0.13 kB
+dist/assets/wardley-WFR3VGLG-DBYPNvJ3.js                    0.12 kB │ gzip:   0.13 kB
+dist/assets/gitGraph-4MIJSDKK-BLUAMrv6.js                   0.12 kB │ gzip:   0.13 kB
+dist/assets/railroad-74A4TZTK-BcOfwO8V.js                   0.12 kB │ gzip:   0.13 kB
+dist/assets/treeView-Q6P3EWNA-B0icCDEz.js                   0.12 kB │ gzip:   0.13 kB
+dist/assets/railroad-peg-WCYAUIDC-LL_bphK3.js               0.13 kB │ gzip:   0.13 kB
+dist/assets/architecture-7GRP2DOG-qG2r5cKK.js               0.13 kB │ gzip:   0.13 kB
+dist/assets/railroad-abnf-HS5TGJTU-nzdsOqeV.js              0.13 kB │ gzip:   0.13 kB
+dist/assets/railroad-ebnf-LZEXJU2U-DRiqgXd3.js              0.13 kB │ gzip:   0.13 kB
+dist/assets/eventmodeling-NTZA5JFV--e979qlH.js              0.13 kB │ gzip:   0.13 kB
+dist/assets/init-C-OQMol4.js                                0.14 kB │ gzip:   0.12 kB
+dist/assets/chunk-Y2CYZVJY-DsF7k-Jl.js                      0.15 kB │ gzip:   0.14 kB
+dist/assets/subset-shared.chunk-UvWQ4FYY.js                 0.18 kB │ gzip:   0.16 kB
+dist/assets/chunk-2Q5K7J3B-C1jixKkw.js                      0.19 kB │ gzip:   0.16 kB
+dist/assets/chunk-JWPE2WC7-DVXcaiue.js                      0.22 kB │ gzip:   0.17 kB
+dist/assets/curriculumService-BcgV5SR1.js                   0.25 kB │ gzip:   0.22 kB
+dist/assets/chunk-XXDRQBXY-BvKO0v-W.js                      0.26 kB │ gzip:   0.22 kB
+dist/assets/QuestionStudyView-DD8UpdWe.js                   0.32 kB │ gzip:   0.25 kB
+dist/assets/QuestionReaderView-DqRFbmLn.js                  0.32 kB │ gzip:   0.25 kB
+dist/assets/chunk-5VM5RSS4-ZNzvKenW.js                      0.36 kB │ gzip:   0.27 kB
+dist/assets/subset-worker.chunk-DWuLgtF8.js                 0.36 kB │ gzip:   0.28 kB
+dist/assets/file-open-7c801643-DZtJT5zp.js                  0.44 kB │ gzip:   0.31 kB
+dist/assets/AppPageStats-BFL788cM.js                        0.52 kB │ gzip:   0.39 kB
+dist/assets/file-open-002ab408-BHUWm0Sh.js                  0.52 kB │ gzip:   0.32 kB
+dist/assets/flowDiagram-HODETNUW-Cvwjj0CS.js                0.56 kB │ gzip:   0.31 kB
+dist/assets/chunk-POPQ4Y6H-D4sRrmWm.js                      0.57 kB │ gzip:   0.40 kB
+dist/assets/directory-open-01563666-D4xXyWb_.js             0.58 kB │ gzip:   0.36 kB
+dist/assets/AboutView-CqZjjdVD.js                           0.62 kB │ gzip:   0.44 kB
+dist/assets/infoDiagram-27XIBGKW-CSN8rweJ.js                0.64 kB │ gzip:   0.42 kB
+dist/assets/file-save-3189631c-CO9S4HFW.js                  0.69 kB │ gzip:   0.44 kB
+dist/assets/classDiagram-ZZMXUADV-C5FJh19i.js               0.77 kB │ gzip:   0.44 kB
+dist/assets/classDiagram-v2-VYDZK3BY-C5FJh19i.js            0.77 kB │ gzip:   0.44 kB
+dist/assets/stateDiagram-v2-MP3YSRHH-SxNnaXFF.js            0.77 kB │ gzip:   0.44 kB
+dist/assets/swimlanesDiagram-VR7AAH4N-D7yaLdg2.js           0.82 kB │ gzip:   0.47 kB
+dist/assets/AppPageHeader-CIImcdSK.js                       0.85 kB │ gzip:   0.43 kB
+dist/assets/file-save-745eba88-Bwdfz6OZ.js                  0.85 kB │ gzip:   0.49 kB
+dist/assets/en-B4ZKOASM-DCuYf7tH.js                         0.87 kB │ gzip:   0.46 kB
+dist/assets/sizeCapture-INFHLROL-B0uUizjq.js                0.87 kB │ gzip:   0.51 kB
+dist/assets/usePracticeListArrangement-CdyxGTrU.js          0.90 kB │ gzip:   0.55 kB
+dist/assets/line-D8J4B8BH.js                                0.94 kB │ gzip:   0.47 kB
+dist/assets/useProblemsDisplayPreferences-C2U9j3u6.js       1.03 kB │ gzip:   0.51 kB
+dist/assets/AccountPasswordField-Dmm1QE-Q.js                1.06 kB │ gzip:   0.56 kB
+dist/assets/rolldown-runtime-Dd_uD5pT.js                    1.10 kB │ gzip:   0.62 kB
+dist/assets/apiClient-J41NIaEB.js                           1.16 kB │ gzip:   0.70 kB
+dist/assets/ordinal-BDEzSJ7C.js                             1.17 kB │ gzip:   0.56 kB
+dist/assets/chunk-GVQU2GXP-DCmmERe2.js                      1.41 kB │ gzip:   0.79 kB
+dist/assets/usePracticeListViewPreferences-DbNhQ959.js      1.42 kB │ gzip:   0.56 kB
+dist/assets/account-Cc_dKw5_.js                             1.45 kB │ gzip:   0.68 kB
+dist/assets/directory-open-4ed118d0-1i309Asm.js             1.51 kB │ gzip:   0.76 kB
+dist/assets/AccountAuthShell-pjQXVF_0.js                    1.59 kB │ gzip:   0.86 kB
+dist/assets/useProblemsUserMarks-C38fRlB4.js                1.59 kB │ gzip:   0.75 kB
+dist/assets/SupportView-B6ueMSHk.js                         1.61 kB │ gzip:   0.89 kB
+dist/assets/railroadDiagram-O6MQD6OU-DJZpyMZ8.js            1.65 kB │ gzip:   0.77 kB
+dist/assets/difficulty-DwYTzNnj.js                          1.67 kB │ gzip:   0.86 kB
+dist/assets/ForgotPasswordView-CA33Id0U.js                  1.80 kB │ gzip:   1.08 kB
+dist/assets/abnfDiagram-VCTEODGH-BFy9Mlvd.js                1.83 kB │ gzip:   0.89 kB
+dist/assets/chunk-P2QGCYS3-C__h0ls1.js                      1.94 kB │ gzip:   0.95 kB
+dist/assets/tagCatalog-B5snMUzR.js                          1.96 kB │ gzip:   1.07 kB
+dist/assets/chunk-F27PBJKO-DrSSg3bU.js                      1.97 kB │ gzip:   0.88 kB
+dist/assets/pegDiagram-XKGWAZYB-CTSDHiFn.js                 1.99 kB │ gzip:   0.93 kB
+dist/assets/ebnfDiagram-PWID7BFC-IwKi8t8r.js                2.05 kB │ gzip:   0.88 kB
+dist/assets/dist-B_J_HbC0.js                                2.17 kB │ gzip:   0.97 kB
+dist/assets/LoginView-B9cIWHop.js                           2.26 kB │ gzip:   1.31 kB
+dist/assets/path-fybaL0A-.js                                2.27 kB │ gzip:   0.98 kB
+dist/assets/useQuestionPreferences-XyGhX0Pw.js              2.64 kB │ gzip:   1.13 kB
+dist/assets/HistoryView-BaWqyAAN.js                         2.76 kB │ gzip:   1.49 kB
+dist/assets/roundRect-D01gJrlt.js                           2.87 kB │ gzip:   0.99 kB
+dist/assets/RegisterView-CMjVc0KH.js                        3.16 kB │ gzip:   1.54 kB
+dist/assets/pageQuotes-DSQWz3d4.js                          3.34 kB │ gzip:   2.06 kB
+dist/assets/useClipboard-CnbMpSfZ.js                        3.42 kB │ gzip:   1.57 kB
+dist/assets/arc-DgcGdgmL.js                                 3.47 kB │ gzip:   1.46 kB
+dist/assets/react-dom-DbDSr9lI.js                           3.58 kB │ gzip:   1.36 kB
+dist/assets/official-chart-CfebXiuY.js                      3.86 kB │ gzip:   1.56 kB
+dist/assets/FeedbackView-DYqaGvqk.js                        3.90 kB │ gzip:   2.10 kB
+dist/assets/ProblemListItem-Rd7gesge.js                     4.19 kB │ gzip:   1.63 kB
+dist/assets/diagram-Z3DM3KII-DddnORaI.js                    4.26 kB │ gzip:   1.84 kB
+dist/assets/ProblemPrintSettings-FJHlHWeq.js                4.59 kB │ gzip:   1.78 kB
+dist/assets/defaultLocale-BFoDCU3G.js                       4.63 kB │ gzip:   2.12 kB
+dist/assets/training-DVLdIoI8.js                            4.75 kB │ gzip:   1.84 kB
+dist/assets/problemService-DQb-Hb7U.js                      4.98 kB │ gzip:   2.48 kB
+dist/assets/ContributionUploadView-FsMbiFJG.js              4.99 kB │ gzip:   2.44 kB
+dist/assets/linear-n-3HSMUF.js                              5.51 kB │ gzip:   2.25 kB
+dist/assets/paperLibrary-D76NVE70.js                        5.53 kB │ gzip:   2.63 kB
+dist/assets/chunk-PWAF6VOD-hPtvhkze.js                      5.83 kB │ gzip:   2.68 kB
+dist/assets/diagram-UQ7AKVKN-BQ5NKI8v.js                    6.06 kB │ gzip:   2.56 kB
+dist/assets/pieDiagram-E7YTZNPT-8oOMW2gX.js                 6.20 kB │ gzip:   2.59 kB
+dist/assets/react-UlYtra8K.js                               7.45 kB │ gzip:   2.83 kB
+dist/assets/PaperLibraryView-BILn2Rks.js                    7.62 kB │ gzip:   3.18 kB
+dist/assets/diagram-S7CK7UJ4-D_VbBeXD.js                    8.18 kB │ gzip:   3.65 kB
+dist/assets/si-LK-N5RQ5JYF-Dy7ajJ1d.js                      8.58 kB │ gzip:   3.36 kB
+dist/assets/az-AZ-76LH7QW2-BrS7pvEv.js                      8.61 kB │ gzip:   3.59 kB
+dist/assets/useProblemsPracticeList-D6PCpqLj.js             8.81 kB │ gzip:   3.76 kB
+dist/assets/zh-HK-E62DVLB3-C5-_ellW.js                      9.08 kB │ gzip:   4.09 kB
+dist/assets/paper-builder-BfGAIB8e.js                       9.32 kB │ gzip:   3.98 kB
+dist/assets/chunk-L3NEJ4N5-CkdDMrWo.js                      9.68 kB │ gzip:   2.93 kB
+dist/assets/cynefinDiagram-5FMLGOSQ-BCuWb1ZF.js             9.93 kB │ gzip:   3.51 kB
+dist/assets/kk-KZ-P5N5QNE5-C0moWmxn.js                     10.13 kB │ gzip:   4.19 kB
+dist/assets/kaa-6HZHGXH3-N27dQbME.js                       10.17 kB │ gzip:   4.18 kB
+dist/assets/stateDiagram-D77RDMKH-BSiWFiFz.js              10.63 kB │ gzip:   3.73 kB
+dist/assets/diagram-VSXAHHWV-D0JEtdgu.js                   10.66 kB │ gzip:   4.12 kB
+dist/assets/UserSettingsView-CWVc-QRl.js                   10.86 kB │ gzip:   3.72 kB
+dist/assets/dagre-GXQ25YYZ-DJwZRh5k.js                     10.97 kB │ gzip:   4.15 kB
+dist/assets/lt-LT-XHIRWOB4-CTSuo1Ew.js                     12.51 kB │ gzip:   5.36 kB
+dist/assets/SharedPaperView-mvZZBbd2.js                    12.60 kB │ gzip:   5.08 kB
+dist/assets/SharedPapersView-Dhx0M_II.js                   12.63 kB │ gzip:   4.87 kB
+dist/assets/HelpView-tMd9FGO9.js                           12.89 kB │ gzip:   5.36 kB
+dist/assets/runtime-dom.esm-bundler-XDvXo9i-.js            13.57 kB │ gzip:   5.81 kB
+dist/assets/vi-VN-M7AON7JQ-CQwb_S6c.js                     13.86 kB │ gzip:   5.79 kB
+dist/assets/da-DK-5WZEPLOC-Bl9horWC.js                     14.41 kB │ gzip:   6.07 kB
+dist/assets/th-TH-HPSO5L25-HL5rOEY_.js                     15.52 kB │ gzip:   5.18 kB
+dist/assets/chunk-SVP7TREG-DGNaEZ6Z.js                     15.63 kB │ gzip:   4.34 kB
+dist/assets/diagram-VX7I27RA-C8w81MOd.js                   15.74 kB │ gzip:   5.52 kB
+dist/assets/nn-NO-6E72VCQL-B9Hh-rDY.js                     15.96 kB │ gzip:   6.72 kB
+dist/assets/mermaid-parser.core-D6I4ftdV.js                16.58 kB │ gzip:   3.92 kB
+dist/assets/nl-NL-IS3SIHDZ-C67DwN-s.js                     16.73 kB │ gzip:   6.91 kB
+dist/assets/ishikawaDiagram-5VMMS53U-BG66Afh5.js           17.29 kB │ gzip:   6.52 kB
+dist/assets/my-MM-5M5IBNSE-C5Q87A26.js                     17.58 kB │ gzip:   5.29 kB
+dist/assets/hu-HU-A5ZG7DT2-C0rTiCUA.js                     18.09 kB │ gzip:   7.58 kB
+dist/assets/similarityEngine-Cxxwn-Ds.js                   18.19 kB │ gzip:   6.35 kB
+dist/assets/fi-FI-Z5N7JZ37-CyenlQHT.js                     18.41 kB │ gzip:   7.53 kB
+dist/assets/kab-KAB-ZGHBKWFO-OsDpylfo.js                   18.79 kB │ gzip:   7.55 kB
+dist/assets/zh-TW-RAJ6MFWO-D2RSfQN_.js                     18.99 kB │ gzip:   8.86 kB
+dist/assets/zh-CN-LNUGB5OW-Cxm-zUsG.js                     19.06 kB │ gzip:   8.87 kB
+dist/assets/lv-LV-5QDEKY6T-BKUpHEvH.js                     19.14 kB │ gzip:   7.79 kB
+dist/assets/gl-ES-HMX3MZ6V-CB2M3XU2.js                     19.39 kB │ gzip:   7.73 kB
+dist/assets/tr-TR-DEFEU3FU-BIQmzH8P.js                     19.51 kB │ gzip:   7.96 kB
+dist/assets/cs-CZ-2BRQDIVT-CiqYK5Mr.js                     19.53 kB │ gzip:   8.40 kB
+dist/assets/pt-PT-UZXXM6DQ-DbIe7jJC.js                     19.65 kB │ gzip:   7.79 kB
+dist/assets/id-ID-SAP4L64H-490UPyEJ.js                     19.68 kB │ gzip:   7.68 kB
+dist/assets/ca-ES-6MX7JW3Y-JTK5hGtZ.js                     19.79 kB │ gzip:   7.90 kB
+dist/assets/oc-FR-POXYY2M6-b40BCmvO.js                     19.84 kB │ gzip:   7.79 kB
+dist/assets/nb-NO-T6EIAALU-aaKCbs_o.js                     20.11 kB │ gzip:   8.19 kB
+dist/assets/kanban-definition-UXKFOSKX-BbiNLLwX.js         20.25 kB │ gzip:   7.14 kB
+dist/assets/he-IL-6SHJWFNN-DGKCEDHD.js                     20.33 kB │ gzip:   7.54 kB
+dist/assets/bg-BG-XCXSNQG7-CZ0Wo1BF.js                     20.77 kB │ gzip:   7.39 kB
+dist/assets/pt-BR-5N22H2LF-BUlrDE6l.js                     21.04 kB │ gzip:   8.21 kB
+dist/assets/eu-ES-A7QVB2H4-Cp9BbWi7.js                     21.20 kB │ gzip:   8.22 kB
+dist/assets/TrainingView-DzVc75kI.js                       21.32 kB │ gzip:   7.79 kB
+dist/assets/es-ES-U4NZUMDT-nomm0KpN.js                     21.35 kB │ gzip:   8.49 kB
+dist/assets/sl-SI-NN7IZMDC-BQUV63c0.js                     21.37 kB │ gzip:   8.58 kB
+dist/assets/sv-SE-XGPEYMSR-DYa4DS75.js                     21.52 kB │ gzip:   8.56 kB
+dist/assets/SimilarProblemsView-DeJl79FB.js                21.79 kB │ gzip:   9.19 kB
+dist/assets/it-IT-JPQ66NNP-CwDGZkdH.js                     22.06 kB │ gzip:   8.58 kB
+dist/assets/sk-SK-C5VTKIMK-d3D_DlpN.js                     22.32 kB │ gzip:   9.10 kB
+dist/assets/AiUploadAssistant-CQyT4vuQ.js                  22.41 kB │ gzip:   9.39 kB
+dist/assets/pl-PL-T2D74RX3-CM8Dhgz2.js                     22.51 kB │ gzip:   9.23 kB
+dist/assets/sankeyDiagram-P5KCCOFB-Dc5yfWWT.js             22.79 kB │ gzip:   8.25 kB
+dist/assets/ro-RO-JPDTUUEW-CeuVutHb.js                     23.15 kB │ gzip:   8.94 kB
+dist/assets/journeyDiagram-3NMN7TZE-byedTNzi.js            23.15 kB │ gzip:   8.16 kB
+dist/assets/de-DE-XR44H4JA-CaLxBVsQ.js                     23.34 kB │ gzip:   8.97 kB
+dist/assets/ja-JP-DBVTYXUO-CVYClEIQ.js                     23.41 kB │ gzip:   8.79 kB
+dist/assets/mindmap-definition-YA3MSWOX-CBArmTKa.js        23.43 kB │ gzip:   8.00 kB
+dist/assets/fr-FR-RHASNOE6-BN2B3si7.js                     23.45 kB │ gzip:   8.87 kB
+dist/assets/useProblemsFilterPreferences-Btqf72an.js       23.60 kB │ gzip:   7.73 kB
+dist/assets/bn-BD-2XOGV67Q-I-fyckNx.js                     23.60 kB │ gzip:   6.68 kB
+dist/assets/ko-KR-MTYHY66A-C79Zzw7I.js                     23.89 kB │ gzip:   9.18 kB
+dist/assets/graphlib-DS17s2tU.js                           23.90 kB │ gzip:   8.31 kB
+dist/assets/fa-IR-HGAKTJCU-akUK-_UQ.js                     24.24 kB │ gzip:   8.44 kB
+dist/assets/wardleyDiagram-VM6X3IG4-BZLvyJrm.js            25.19 kB │ gzip:   6.55 kB
+dist/assets/ar-SA-G6X2FPQ2-DoyPuZKv.js                     25.67 kB │ gzip:   9.11 kB
+dist/assets/rough.esm-Dy-Kn_BL.js                          27.10 kB │ gzip:   8.85 kB
+dist/assets/pa-IN-N4M65BXN-DpR0juYi.js                     27.98 kB │ gzip:   7.98 kB
+dist/assets/PaperBuilderView-Biibhnhu.js                   28.27 kB │ gzip:  10.86 kB
+dist/assets/ProblemsView-DtKHXXXc.js                       28.54 kB │ gzip:   9.74 kB
+dist/assets/gitGraphDiagram-WWUBYQGX-qO4jCR3U.js           29.01 kB │ gzip:   8.57 kB
+dist/assets/ku-TR-6OUDTVRD-C05WgfZ3.js                     29.33 kB │ gzip:   9.27 kB
+dist/assets/el-GR-BZB4AONW-B_1k3mKr.js                     29.68 kB │ gzip:   9.60 kB
+dist/assets/timeline-definition-24CTP7MA-0A3-qmgq.js       30.36 kB │ gzip:   9.96 kB
+dist/assets/erDiagram-RLTQ6QDP-BVIWnFrj.js                 30.68 kB │ gzip:  10.56 kB
+dist/assets/ru-RU-B4JR7IUQ-BJN5EFgQ.js                     30.75 kB │ gzip:   9.86 kB
+dist/assets/chunk-75Z2AOVW-C4mM0766.js                     30.75 kB │ gzip:   8.50 kB
+dist/assets/requirementDiagram-BXWQKSXE-DZAtaXMs.js        30.99 kB │ gzip:   9.77 kB
+dist/assets/uk-UA-QMV73CPH-BDpfERij.js                     31.65 kB │ gzip:  10.10 kB
+dist/assets/pica-xkWDouSg.js                               31.80 kB │ gzip:  12.47 kB
+dist/assets/hi-IN-IWLTKZ5I-PhyizlJl.js                     32.35 kB │ gzip:   9.07 kB
+dist/assets/TrainingDetailView-ek5hDcFg.js                 33.32 kB │ gzip:  10.91 kB
+dist/assets/quadrantDiagram-AXDQQJYC-H8uiIwT9.js           33.51 kB │ gzip:   9.73 kB
+dist/assets/ta-IN-2NMHFXQM-D73xB-zF.js                     35.27 kB │ gzip:   8.50 kB
+dist/assets/chunk-OSK3NFVY-BLmdvtwl.js                     36.47 kB │ gzip:   7.96 kB
+dist/assets/km-KH-HSX4SM5Z-DZZNczJ8.js                     36.65 kB │ gzip:   9.21 kB
+dist/assets/dagre-PrKaheQc.js                              36.85 kB │ gzip:  13.22 kB
+dist/assets/chunk-IMKFNOWR-C0NRIJHb.js                     37.63 kB │ gzip:  12.26 kB
+dist/assets/vennDiagram-4TSXK5OY-CzvjzHDA.js               41.15 kB │ gzip:  15.10 kB
+dist/assets/blockDiagram-I7D4REHJ-C8q02EIT.js              41.44 kB │ gzip:  13.36 kB
+dist/assets/mr-IN-CRQNXWMA-C86spW31.js                     42.25 kB │ gzip:  10.67 kB
+dist/assets/UserProfileView-BC2ZFzy_.js                    42.77 kB │ gzip:  14.35 kB
+dist/assets/xychartDiagram-S5SC5T6Z-D0XJkEi-.js            44.13 kB │ gzip:  12.21 kB
+dist/assets/image-blob-reduce.esm-Dj7YBvMv.js              45.41 kB │ gzip:  16.30 kB
+dist/assets/QuestionView-CXYjgSfX.js                       45.49 kB │ gzip:  15.77 kB
+dist/assets/src-oBChb5qS.js                                45.68 kB │ gzip:  16.00 kB
+dist/assets/chunk-TICWLB2K-BfVRQUVI.js                     48.77 kB │ gzip:  15.75 kB
+dist/assets/chunk-GMAD6QVW-DDBBLYby.js                     51.84 kB │ gzip:  16.69 kB
+dist/assets/chunk-SHT3W25Y-BqxCF_tD.js                     61.19 kB │ gzip:  19.81 kB
+dist/assets/useApi-CROJJdhE-BiVqPBs0.js                    64.00 kB │ gzip:  25.13 kB
+dist/assets/c4Diagram-7LVT6UL2-wkQ3Hkgh.js                 64.74 kB │ gzip:  18.52 kB
+dist/assets/ganttDiagram-EL5Y4UJY-CMBu0FHv.js              69.35 kB │ gzip:  22.74 kB
+dist/assets/cose-bilkent-JH36ORCC-DAm37GyB.js              81.26 kB │ gzip:  21.55 kB
+dist/assets/AdminView-CTm6pR4G.js                         104.51 kB │ gzip:  33.36 kB
+dist/assets/chunk-4HAMMTFA-BItCcoPh.js                    104.85 kB │ gzip:  25.62 kB
+dist/assets/swimlanes-42K2YHIH-Bp_fz_Lh.js                111.15 kB │ gzip:  38.01 kB
+dist/assets/sequenceDiagram-WJ2MYXX4-DozFd7ew.js          115.73 kB │ gzip:  30.56 kB
+dist/assets/dist-B3hthlSq.js                              147.70 kB │ gzip:  49.47 kB
+dist/assets/architectureDiagram-5GKGNRK7-G9BkBtG7.js      148.91 kB │ gzip:  41.14 kB
+dist/assets/client-DJecUE0l.js                            170.61 kB │ gzip:  54.44 kB
+dist/assets/chunk-DU6HZSFF-D-EjNnT9.js                    236.78 kB │ gzip:  38.63 kB
+dist/assets/katex-CXMH3UgJ.js                             258.69 kB │ gzip:  77.44 kB
+dist/assets/cytoscape.esm-CECbKnxF.js                     434.92 kB │ gzip: 137.82 kB
+dist/assets/index-CmqNttSy.js                             582.23 kB │ gzip: 187.45 kB
+dist/assets/chunk-FOHPRMQF-DHwB1DNv.js                    662.12 kB │ gzip: 143.15 kB
+dist/assets/DraftCanvasIsland-D71E3zau.js               1,093.80 kB │ gzip: 345.53 kB
+dist/assets/chunk-EIO257PC-C1Lo_PIE.js                  1,821.04 kB │ gzip: 744.23 kB
+
+✓ built in 2.88s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-12T12:15:21.376Z",
+  "pages": 3,
+  "vertices": 189,
+  "triangles": 288,
+  "sampledAngles": 361,
+  "insideSourceCell": true,
+  "sourceUnchanged": true,
+  "finiteProjection": true,
+  "maxEndpointScaleError": 4.3076653355456074e-14
+}

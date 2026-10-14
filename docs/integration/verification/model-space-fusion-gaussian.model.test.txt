@@ -1,0 +1,24 @@
+{
+  "vertices": 12289,
+  "triangles": 24384,
+  "nondegeneratePeak": true,
+  "radialSymmetry": true,
+  "sourceUnchanged": true,
+  "angles": 361,
+  "beamInstances": 226,
+  "solidBeams": 220,
+  "attachments": 16,
+  "endpointRatio": 3.222222234177374,
+  "sequence": [
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2
+  ],
+  "oneMovingUnit": true
+}

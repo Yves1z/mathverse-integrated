@@ -1,0 +1,162 @@
+/* Shared page frame for the desktop-first study experience. */
+.app-page,
+.app-page *,
+.app-page *::before,
+.app-page *::after {
+  box-sizing: border-box;
+}
+
+.app-page {
+  min-width: 320px;
+  min-height: 100vh;
+  min-height: 100svh;
+  color: var(--color-ink);
+  background: var(--color-canvas);
+  font-family: var(--font-ui);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+}
+
+.app-page-container {
+  width: min(calc(100% - var(--page-inline-space)), var(--page-max-width));
+  min-width: 0;
+  margin-inline: auto;
+  padding-block: var(--page-padding-top) var(--page-padding-bottom);
+}
+
+.app-page-container--narrow {
+  max-width: 900px;
+}
+
+.app-page-header {
+  display: grid;
+  min-height: var(--page-header-min-height);
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 24px 40px;
+  margin: 0 0 var(--page-header-gap);
+}
+
+.app-page-heading {
+  position: relative;
+  min-width: 0;
+}
+
+.app-page-heading h1 {
+  margin: 0;
+  color: var(--page-title-color);
+  font-family: var(--font-page-title);
+  font-size: var(--page-title-font-size);
+  font-weight: var(--page-title-font-weight);
+  line-height: var(--page-title-line-height);
+  letter-spacing: var(--page-title-letter-spacing);
+  overflow-wrap: anywhere;
+}
+
+.app-page-heading p {
+  max-width: 760px;
+  margin: 8px 0 0;
+  color: var(--color-ink-muted);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+}
+
+/* 励志语：四个页面共用同一套排版，宽屏下贴在标题下方、不占头部高度。 */
+.app-page-heading .app-page-quote {
+  margin: 10px 0 0;
+  color: #526d82;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media (min-width: 901px) {
+  .app-page-heading .app-page-quote {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    margin: 0;
+    white-space: nowrap;
+  }
+}
+
+.app-page-header-aside,
+.app-page-header-actions {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.app-page-header-actions {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.app-surface {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-panel);
+  background: var(--color-surface);
+}
+
+.app-empty-state {
+  display: grid;
+  min-height: 320px;
+  place-items: center;
+  align-content: center;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.app-empty-state h2 {
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-ui);
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.app-empty-state p {
+  max-width: 560px;
+  margin: 8px 0 0;
+  color: var(--color-ink-muted);
+  font-size: var(--body-font-size);
+}
+
+@media (min-width: 1180px) {
+  .app-page-container {
+    --page-inline-space: clamp(112px, 10vw, 192px);
+  }
+}
+
+@media (max-width: 900px) {
+  .app-page-container {
+    --page-inline-space: clamp(40px, 7vw, 72px);
+  }
+
+  .app-page-header {
+    min-height: 0;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+    gap: 16px;
+  }
+
+  .app-page-header-aside,
+  .app-page-header-actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 700px) {
+  .app-page-container {
+    --page-inline-space: 32px;
+    --page-padding-top: 22px;
+    --page-padding-bottom: 88px;
+    --page-header-gap: 20px;
+  }
+
+  .app-page-heading h1 {
+    font-size: 30px;
+  }
+}

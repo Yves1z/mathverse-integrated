@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-10T01:16:12.879Z",
+  "browser": "154.0.4258.62",
+  "viewports": [
+    "1600×900",
+    "1280×720"
+  ],
+  "checks": {
+    "sixNodesAndEmphasisLimit": true,
+    "dragReturningToOriginDoesNotClick": true,
+    "nativeGeometryPickAndSmallGesture": true,
+    "nonzeroSixPercentSpeed": true,
+    "backgroundDragDisabledInReading": true,
+    "textSelectable": true,
+    "panelScrollIndependent": true,
+    "realGeometryAngleControl": true,
+    "relatedFormulaGeometryLoop": true,
+    "escapeRestoreDirectionPositionAndPause": true,
+    "focusReturnsToEntry": true,
+    "keyboardCatalogAndFocusTrap": true,
+    "twentyCyclesAndSharedResources": {
+      "before": {
+        "geometries": 129,
+        "textures": 26
+      },
+      "after": {
+        "geometries": 129,
+        "textures": 26
+      }
+    },
+    "readingBlurResume": true,
+    "realThreeMinuteReading": {
+      "wallSeconds": 180.095,
+      "effectiveSeconds": 179.99149999999952,
+      "distance": 3.7796020711234934,
+      "speed": 0.020999999999999998,
+      "screenAnchor": [
+        568.7031335482473,
+        473.1296866451753
+      ],
+      "geometries": 129,
+      "textures": 26
+    },
+    "postLongReadResume": true,
+    "desktop1280": true
+  },
+  "errors": [],
+  "scope": "Real browser interaction, 20 repeated cycles, and a continuous 3-minute reading session; not a GPU frame-rate benchmark"
+}

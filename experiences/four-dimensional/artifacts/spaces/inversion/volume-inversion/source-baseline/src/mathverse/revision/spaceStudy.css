@@ -1,0 +1,27 @@
+.space-study {position:relative;width:100%;height:100%;overflow:hidden;background:#08090b;color:#d5d3ce;isolation:isolate;}
+.study-canvas {position:absolute!important;inset:0;}
+.study-canvas canvas {user-select:none;touch-action:none;cursor:grab;}
+.study-canvas canvas.is-dragging {cursor:grabbing;}
+.study-header {position:absolute;z-index:2;left:42px;right:42px;top:30px;display:flex;align-items:flex-start;justify-content:space-between;pointer-events:none;}
+.study-wordmark {font:25px Georgia,serif;letter-spacing:-.6px;text-shadow:0 2px 12px #000;}
+.study-wordmark span {display:block;font:8px 'Segoe UI',sans-serif;letter-spacing:3.2px;margin-top:10px;color:#939598;}
+.study-link {position:absolute;left:270px;top:7px;pointer-events:auto;color:#b4b4b2;font-size:10px;letter-spacing:1.5px;text-decoration:none;padding:5px 0;border-bottom:1px solid #ffffff26;}
+.study-link span {margin-left:18px;}.study-link:hover{color:#fff;}
+.study-intro {position:absolute;z-index:2;left:42px;bottom:156px;pointer-events:none;text-shadow:0 2px 18px #000;}
+.study-intro>span {font-size:8px;letter-spacing:2.5px;color:#8d8e90;}
+.study-intro h1 {font-size:22px;letter-spacing:5px;font-weight:300;margin:14px 0 12px;}
+.study-intro p {font-size:10px;letter-spacing:1.6px;color:#a4a5a5;margin:0;}
+.study-footer {position:absolute;z-index:2;left:42px;right:42px;bottom:28px;display:flex;align-items:flex-end;justify-content:flex-start;gap:48px;}
+.study-state {width:208px;pointer-events:none;}.study-phases {display:flex;justify-content:space-between;font-size:9px;letter-spacing:1.5px;color:#62666b;}
+.study-phases .active{color:#e0d9c9;}.study-progress{height:1px;margin-top:13px;background:#ffffff22;overflow:hidden;}
+.study-progress i{display:block;width:100%;height:1px;transform-origin:left;background:#ddd2b7;transition:transform .2s linear;}
+.study-state p{color:#8f9296;font-size:9px;letter-spacing:1.5px;margin:13px 0 0;}
+.study-controls {display:flex;align-items:center;gap:20px;}
+.study-controls button {border:0;background:none;color:#a7aaad;padding:12px 0;cursor:pointer;font-size:10px;letter-spacing:1px;white-space:nowrap;}
+.study-controls button:hover {color:#fff;}.study-controls button:disabled {cursor:default;opacity:.45;}
+.study-controls .study-fold {border:1px solid #cbc5b74f;color:#e0dacd;padding:13px 17px;margin-left:7px;min-width:170px;display:flex;justify-content:space-between;gap:25px;}
+.study-controls .study-fold:hover:not(:disabled){background:#ffffff07;border-color:#cbc5b799;}
+.study-controls .study-fold:disabled{color:#c4bfb2;opacity:.7;}
+.study-fallback {position:absolute;inset:0;display:grid;place-items:center;color:#b9babd;}
+@media(max-width:1100px){.study-header,.study-footer{left:28px;right:28px;}.study-intro{left:28px;}.study-controls{gap:14px;}}
+@media(prefers-reduced-motion:reduce){.study-progress i{transition:none;}}

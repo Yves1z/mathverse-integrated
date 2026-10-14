@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-11T13:28:56.748Z",
+  "runs": [
+    {
+      "hz": 30,
+      "readingDistance": 3.7800000000000002,
+      "finalDistance": 4.591419614407166,
+      "finalYaw": 0.7,
+      "finalPitch": 0.15,
+      "finalSpeed": 0.35
+    },
+    {
+      "hz": 60,
+      "readingDistance": 3.7800000000000002,
+      "finalDistance": 4.594169402649656,
+      "finalYaw": 0.7,
+      "finalPitch": 0.15,
+      "finalSpeed": 0.35
+    },
+    {
+      "hz": 120,
+      "readingDistance": 3.7800000000000002,
+      "finalDistance": 4.595555067775892,
+      "finalYaw": 0.7,
+      "finalPitch": 0.15,
+      "finalSpeed": 0.35
+    }
+  ],
+  "checks": {
+    "sixStableNodes": true,
+    "relatedIds": true,
+    "nonzeroReadingSpeed": true,
+    "threeMinuteSimulations": true,
+    "directionRestore": true,
+    "noTeleportPastNode": true,
+    "earlyClose": true,
+    "twentyRepeatedCycles": true,
+    "hoverDwell": true,
+    "hiddenClock": true,
+    "solidInstancedOcclusion": true,
+    "transparentFaceFiltering": true,
+    "mobiusSeam": true
+  },
+  "scope": "Pure motion and geometry tests; three-minute simulations are distinct from the real browser reading test"
+}

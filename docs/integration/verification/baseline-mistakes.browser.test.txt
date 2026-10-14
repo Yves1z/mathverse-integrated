@@ -1,0 +1,1 @@
+Mistakes: add/remove, failed save retry, persistence, profile privacy, feedback styling/link and mobile passed

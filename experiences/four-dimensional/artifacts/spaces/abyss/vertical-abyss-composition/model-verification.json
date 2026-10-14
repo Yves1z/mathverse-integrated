@@ -1,0 +1,59 @@
+{
+  "beams": 446,
+  "groups": [
+    "deep-well",
+    "horizontal-libraries",
+    "crossing-supports",
+    "foreground",
+    "side-depth",
+    "far-depth",
+    "rear-depth"
+  ],
+  "poseClearances": {
+    "entry": {
+      "clearance": 10.77032961426901,
+      "look": {
+        "yaw": -0.4311387407187822,
+        "pitch": -0.34212382542504144
+      }
+    },
+    "reveal": {
+      "clearance": 28.55801113523139,
+      "look": {
+        "yaw": -0.6107259643892086,
+        "pitch": -0.8537265801538698
+      }
+    },
+    "side": {
+      "clearance": 28.55801113523139,
+      "look": {
+        "yaw": -1.2578540749565437,
+        "pitch": 0.04687752791052176
+      }
+    },
+    "up": {
+      "clearance": 28.55801113523139,
+      "look": {
+        "yaw": -0.6032298529246849,
+        "pitch": 1.205791140044196
+      }
+    },
+    "down": {
+      "clearance": 28.55801113523139,
+      "look": {
+        "yaw": -0.6258168802801429,
+        "pitch": -1.1508973457099125
+      }
+    },
+    "back": {
+      "clearance": 28.55801113523139,
+      "look": {
+        "yaw": 2.6695594969097125,
+        "pitch": 0.1427752116770379
+      }
+    }
+  },
+  "candidateSegmentSamples": 401,
+  "minimumClearance": 5.347852372681955,
+  "staticComposition": true
+}

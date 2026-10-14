@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "source": "agent_authored_synthetic_not_live_or_teacher_accepted",
+  "cases": [
+    {
+      "id": "RCR01",
+      "group": "interval",
+      "problem": "已知 x≥0，讨论单调性。",
+      "condition": "x≥0",
+      "note": "",
+      "confirmed": false,
+      "expectedStatus": "unknown",
+      "expectedReason": "unconfirmed_reading",
+      "modelEligible": false,
+      "fabricatedFeedback": "合成模型错误宣称：记号已清楚且条件已满足。"
+    },
+    {
+      "id": "RCR02",
+      "group": "interval",
+      "problem": "已知 x≥0，讨论单调性。",
+      "condition": "x≥0",
+      "note": "",
+      "confirmed": true,
+      "expectedStatus": "valid",
+      "expectedReason": null,
+      "modelEligible": false,
+      "fabricatedFeedback": "合成模型错误宣称：记号已清楚且条件已满足。"
+    },
+    {
+      "id": "RCR03",
+      "group": "conflict",
+      "problem": "已知实数 a>b，研究差值符号。",
+      "condition": "a-b<0",
+      "note": "",
+      "confirmed": false,
+      "expectedStatus": "unknown",
+      "expectedReason": "unconfirmed_reading",
+      "modelEligible": false,
+      "fabricatedFeedback": "合成模型错误宣称：记号已清楚且条件已满足。"
+    },
+    {
+      "id": "RCR04",
+      "group": "conflict",
+      "problem": "已知实数 a>b，研究差值符号。",
+      "condition": "a-b<0",
+      "note": "",
+      "confirmed": true,
+      "expectedStatus": "invalid",
+      "expectedReason": null,
+      "modelEligible": false,
+      "fabricatedFeedback": "合成模型错误宣称：记号已清楚且条件已满足。"
+    },
+    {
+      "id": "RCR05",
+      "group": "reading",
+      "problem": "已知 f(x)=x²，讨论单调性。",
+      "condition": "需确认 x 的范围",
+      "note": "记号像 ≥ 也像 >，我还不确定。",
+      "confirmed": false,
+      "expectedStatus": "unknown",
+      "expectedReason": "unconfirmed_reading",
+      "modelEligible": false,
+      "fabricatedFeedback": "合成模型错误宣称：记号已清楚且条件已满足。"
+    },
+    {
+      "id": "RCR06",
+      "group": "reading",
+      "problem": "已知 f(x)=x²，讨论单调性。",
+      "condition": "需确认 x 的范围",
+      "note": "已核对原文，读作 x≥0。",
+      "confirmed": true,
+      "expectedStatus": "unknown",
+      "expectedReason": null,
+      "modelEligible": true,
+      "fabricatedFeedback": "合成模型错误宣称：记号已清楚且条件已满足。"
+    },
+    {
+      "id": "RCR07",
+      "group": "missing_range",
+      "problem": "已知 f(x)=x²，讨论单调性。",
+      "condition": "x≥0",
+      "note": "",
+      "confirmed": false,
+      "expectedStatus": "unknown",
+      "expectedReason": "unconfirmed_reading",
+      "modelEligible": false,
+      "fabricatedFeedback": "合成模型错误宣称：记号已清楚且条件已满足。"
+    },
+    {
+      "id": "RCR08",
+      "group": "missing_range",
+      "problem": "已知 f(x)=x²，讨论单调性。",
+      "condition": "x≥0",
+      "note": "",
+      "confirmed": true,
+      "expectedStatus": "unknown",
+      "expectedReason": null,
+      "modelEligible": false,
+      "fabricatedFeedback": "合成模型错误宣称：记号已清楚且条件已满足。"
+    },
+    {
+      "id": "RCR09",
+      "group": "note_not_action",
+      "problem": "已知 x≥0，讨论。",
+      "condition": "x≥0",
+      "note": "我确认当前条件读法。",
+      "confirmed": false,
+      "expectedStatus": "unknown",
+      "expectedReason": "unconfirmed_reading",
+      "modelEligible": false,
+      "fabricatedFeedback": "合成模型错误宣称：记号已清楚且条件已满足。"
+    },
+    {
+      "id": "RCR10",
+      "group": "note_not_action",
+      "problem": "已知 x≥0，讨论。",
+      "condition": "x≥0",
+      "note": "我确认当前条件读法。",
+      "confirmed": true,
+      "expectedStatus": "valid",
+      "expectedReason": null,
+      "modelEligible": false,
+      "fabricatedFeedback": "合成模型错误宣称：记号已清楚且条件已满足。"
+    },
+    {
+      "id": "RCR11",
+      "group": "unsupported",
+      "problem": "已知 x≥0，讨论。",
+      "condition": "x∈[0,?]",
+      "note": "读作一个未填写上界的区间。",
+      "confirmed": false,
+      "expectedStatus": "unknown",
+      "expectedReason": "unconfirmed_reading",
+      "modelEligible": false,
+      "fabricatedFeedback": "合成模型错误宣称：记号已清楚且条件已满足。"
+    },
+    {
+      "id": "RCR12",
+      "group": "unsupported",
+      "problem": "已知 x≥0，讨论。",
+      "condition": "x∈[0,?]",
+      "note": "读作一个未填写上界的区间。",
+      "confirmed": true,
+      "expectedStatus": "unknown",
+      "expectedReason": null,
+      "modelEligible": true,
+      "fabricatedFeedback": "合成模型错误宣称：记号已清楚且条件已满足。"
+    }
+  ]
+}

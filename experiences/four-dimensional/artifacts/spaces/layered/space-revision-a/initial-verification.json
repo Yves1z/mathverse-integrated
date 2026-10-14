@@ -1,0 +1,86 @@
+{
+  "travel": {
+    "start": -4.385735000000522,
+    "end": -4.80955
+  },
+  "initial": {
+    "motion": {
+      "phase": "exploring",
+      "elapsed": 0,
+      "distance": 0.8931295417093954,
+      "z": -4.893129541709396,
+      "paused": true,
+      "suspended": false,
+      "dragging": false,
+      "spaceFrozen": false,
+      "spaceTime": 15.591400000002237,
+      "targetYaw": -0.34999994539220214,
+      "targetPitch": 0.09000001606111672,
+      "yaw": -0.34999994539220214,
+      "pitch": 0.09000001606111672,
+      "yawVelocity": 0,
+      "pitchVelocity": 0,
+      "speed": 0,
+      "speedScale": 1,
+      "targetSpeed": 0,
+      "entryExitSpeed": 0.35,
+      "frameDt": 0.007699999999254942,
+      "skipNextFrame": false
+    },
+    "position": [
+      0,
+      1.55,
+      -4.893129541709396
+    ],
+    "quaternion": [
+      0.044297748344335995,
+      0.1739318559277294,
+      -0.007832222379360172,
+      0.9837296759159794
+    ],
+    "direction": [
+      -0.34150995689462454,
+      0.08987856519412414,
+      -0.9355708379703149
+    ],
+    "structure": {
+      "firstSection": -2,
+      "counts": {
+        "primary": 70,
+        "layer": 1813,
+        "joint": 840,
+        "light": 7
+      },
+      "minimumClearance": 5.162347193322809,
+      "sharedVertices": 1876,
+      "fold": {
+        "clock": 15.591400000002237,
+        "phase": "stable",
+        "section": null,
+        "elapsed": 0,
+        "angle": 0,
+        "events": 0,
+        "states": 0,
+        "stableTime": 15.591400000002237
+      },
+      "bloom": false,
+      "particles": 0
+    },
+    "fold": {
+      "clock": 15.591400000002237,
+      "phase": "stable",
+      "section": null,
+      "elapsed": 0,
+      "angle": 0,
+      "events": 0,
+      "states": 0,
+      "stableTime": 15.591400000002237
+    },
+    "drawCalls": 7,
+    "triangles": 588924,
+    "geometries": 1,
+    "textures": 3
+  },
+  "errors": [],
+  "viewports": []
+}

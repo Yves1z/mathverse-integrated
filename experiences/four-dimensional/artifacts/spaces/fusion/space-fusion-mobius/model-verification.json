@@ -1,0 +1,19 @@
+{
+  "reversedSeam": true,
+  "singleBoundaryPeriod": 12.566370614359172,
+  "sourceUnchanged": true,
+  "projectedAngles": 361,
+  "endRadiusRatio": 3.222222313355084,
+  "minDenominator": 0.7285003547332893,
+  "sequence": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "maximumMovingUnits": 1
+}

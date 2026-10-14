@@ -1,0 +1,15 @@
+export const VISUAL = {
+  outside: '#ffffff',
+  dark: '#050708',
+  primaryStructure: '#5f6c70',
+  secondaryStructure: '#92a5a9',
+  shadowStructure: '#1f292e',
+  light: '#f0ece0',
+  content: '#d7e0de',
+  cellSize: 22,
+  sectionCount: 7,
+  sectionsBehind: 2,
+  fogDensity: 0.021,
+  routeClearance: 2.55,
+  foldPeriod: 112,
+} as const;

@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-10-10T01:47:55.331Z",
+  "twentyCyclesWithoutDocumentScroll": true,
+  "innerReadingScroll": true,
+  "layouts": [
+    {
+      "scrollX": 0,
+      "scrollY": 0,
+      "rect": {
+        "x": 64,
+        "y": 39.59375,
+        "width": 1152,
+        "height": 640.796875
+      },
+      "main": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "geometries": 121,
+      "textures": 33
+    },
+    {
+      "scrollX": 0,
+      "scrollY": 0,
+      "rect": {
+        "x": 72,
+        "y": 49.5,
+        "width": 1296,
+        "height": 801
+      },
+      "main": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "geometries": 121,
+      "textures": 33
+    },
+    {
+      "scrollX": 0,
+      "scrollY": 0,
+      "rect": {
+        "x": 96,
+        "y": 59.390625,
+        "width": 1728,
+        "height": 961.1875
+      },
+      "main": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "geometries": 121,
+      "textures": 33
+    }
+  ],
+  "errors": []
+}

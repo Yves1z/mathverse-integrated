@@ -1,0 +1,13 @@
+.inversion-study{overflow:clip;}
+.inversion-veil{position:absolute;z-index:1;inset:0;background:#08090a;opacity:0;pointer-events:none;}
+.inversion-study .study-intro{bottom:180px;}
+.inversion-study .study-intro h1{font-size:24px;letter-spacing:3px;}
+.inversion-poses{display:flex;align-items:center;gap:22px;margin-top:28px;pointer-events:auto;}
+.inversion-poses button{background:none;border:0;border-bottom:1px solid transparent;padding:8px 0;font-size:10px;letter-spacing:1.2px;color:#898d92;cursor:pointer;}
+.inversion-poses button:hover,.inversion-poses button[aria-pressed=true]{color:#e9e1d1;border-bottom-color:#d2c5ab6b;}
+.inversion-poses button:disabled{opacity:.4;cursor:default;}
+.inversion-poses .inversion-view{margin-left:16px;color:#c0bdb6;}
+.inversion-view span{margin-left:18px;}
+.inversion-study button:focus-visible,.inversion-study a:focus-visible{outline:1px solid #d2c5ab;outline-offset:6px;}
+@media(max-width:1000px){.inversion-study .study-footer{flex-wrap:wrap;gap:18px;}.inversion-study .study-state{width:208px;}.inversion-study .study-controls{gap:14px;}.inversion-study .study-intro{bottom:218px;}}
+@media(max-width:700px){.inversion-study .study-controls{gap:12px;flex-wrap:wrap;}.inversion-study .study-controls .study-fold{min-width:155px;gap:18px;margin-left:0;padding:12px;}.inversion-study .study-header{left:24px;right:24px;}.inversion-study .study-footer,.inversion-study .study-intro{left:24px;right:24px;}.inversion-study .study-link{left:250px;}.inversion-study .study-intro h1{font-size:22px;}}

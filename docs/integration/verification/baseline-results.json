@@ -1,0 +1,134 @@
+[
+  {
+    "test": "tests/editorial.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 8.16,
+    "log": "baseline-editorial.browser.test.log"
+  },
+  {
+    "test": "tests/editorial-background.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 19.08,
+    "log": "baseline-editorial-background.browser.test.log"
+  },
+  {
+    "test": "tests/curriculum.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 9.84,
+    "log": "baseline-curriculum.browser.test.log"
+  },
+  {
+    "test": "tests/bug-visual.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 4.8,
+    "log": "baseline-bug-visual.browser.test.log"
+  },
+  {
+    "test": "tests/feedback.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 5.83,
+    "log": "baseline-feedback.browser.test.log"
+  },
+  {
+    "test": "tests/question-layout.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 7.28,
+    "log": "baseline-question-layout.browser.test.log"
+  },
+  {
+    "test": "tests/choice-layout.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 6.69,
+    "log": "baseline-choice-layout.browser.test.log"
+  },
+  {
+    "test": "tests/problems-performance.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 5.58,
+    "log": "baseline-problems-performance.browser.test.log"
+  },
+  {
+    "test": "tests/batch-delete.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 6.2,
+    "log": "baseline-batch-delete.browser.test.log"
+  },
+  {
+    "test": "tests/paper-builder.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 21.0,
+    "log": "baseline-paper-builder.browser.test.log"
+  },
+  {
+    "test": "tests/paper-library.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 7.06,
+    "log": "baseline-paper-library.browser.test.log"
+  },
+  {
+    "test": "tests/practice-lists.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 6.06,
+    "log": "baseline-practice-lists.browser.test.log"
+  },
+  {
+    "test": "tests/community.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 5.55,
+    "log": "baseline-community.browser.test.log"
+  },
+  {
+    "test": "tests/shared-papers.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 10.8,
+    "log": "baseline-shared-papers.browser.test.log"
+  },
+  {
+    "test": "tests/home-random.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 5.58,
+    "log": "baseline-home-random.browser.test.log"
+  },
+  {
+    "test": "tests/mistakes.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 9.05,
+    "log": "baseline-mistakes.browser.test.log"
+  },
+  {
+    "test": "tests/profile-statistics.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 5.33,
+    "log": "baseline-profile-statistics.browser.test.log"
+  },
+  {
+    "test": "tests/growth.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 7.61,
+    "log": "baseline-growth.browser.test.log"
+  },
+  {
+    "test": "tests/original-papers.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 7.08,
+    "log": "baseline-original-papers.browser.test.log"
+  },
+  {
+    "test": "tests/ai-upload.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 5.92,
+    "log": "baseline-ai-upload.browser.test.log"
+  },
+  {
+    "test": "tests/csrf-recovery.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 4.22,
+    "log": "baseline-csrf-recovery.browser.test.log"
+  },
+  {
+    "test": "tests/exam-print.browser.test.cjs",
+    "exit_code": 1,
+    "seconds": 36.03,
+    "log": "baseline-exam-print.browser.test.log"
+  }
+]

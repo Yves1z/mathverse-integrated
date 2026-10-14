@@ -1,0 +1,14 @@
+[
+  {
+    "test": "scripts/spaces/megastructure/reference-light.browser.test.mjs",
+    "exit_code": 0,
+    "seconds": 105.11,
+    "log": "space-acceptance-current-reference-light.browser.test.log"
+  },
+  {
+    "test": "scripts/spaces/abyss/abyss-euler.browser.test.mjs",
+    "exit_code": 0,
+    "seconds": 54.17,
+    "log": "space-acceptance-current-abyss-euler.browser.test.log"
+  }
+]

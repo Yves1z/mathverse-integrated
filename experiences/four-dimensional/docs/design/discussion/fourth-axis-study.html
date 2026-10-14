@@ -1,0 +1,100 @@
+<div id="mv-fourth-axis-study">
+  <h3>第四轴如何改变空间关系</h3>
+  <div class="viz-row">
+    <label class="form-label" for="mv-fold-angle">折叠角度</label>
+    <output id="mv-fold-value" class="tabular-nums" aria-live="polite">32°</output>
+  </div>
+  <input id="mv-fold-angle" class="form-range" type="range" min="0" max="70" value="32" step="1" aria-label="第四轴折叠角度" />
+  <svg id="mv-fold-field" role="img" aria-label="五个四维结构单元投影后的空间骨架；调整角度可以观察嵌套和相邻关系的变化">
+    <title>四维旋转的空间骨架示意</title>
+    <desc>中心结构与四周结构参与第四轴旋转后投影到三维，再从固定观察方向显示。结构变化不是摄像机转动。</desc>
+    <g id="mv-fold-geometry"></g>
+  </svg>
+  <div class="viz-row text-small" aria-label="图例">
+    <span class="mv-fold-key"><span class="mv-fold-solid"></span>可见结构</span>
+    <span class="mv-fold-key"><span class="mv-fold-faint"></span>远层结构</span>
+  </div>
+</div>
+<style>
+  #mv-fourth-axis-study { color: var(--foreground); }
+  #mv-fourth-axis-study h3 { padding-right: 96px; }
+  #mv-fourth-axis-study svg { display: block; width: 100%; height: auto; overflow: hidden; }
+  #mv-fourth-axis-study .mv-fold-key { display: inline-flex; align-items: center; gap: 8px; }
+  #mv-fourth-axis-study .mv-fold-solid, #mv-fourth-axis-study .mv-fold-faint { display: inline-block; width: 22px; height: 1px; background: currentColor; }
+  #mv-fourth-axis-study .mv-fold-faint { opacity: 0.25; }
+</style>
+<script>
+(() => {
+  const root = document.getElementById('mv-fourth-axis-study');
+  const control = root.querySelector('#mv-fold-angle');
+  const output = root.querySelector('#mv-fold-value');
+  const svg = root.querySelector('#mv-fold-field');
+  const geometry = root.querySelector('#mv-fold-geometry');
+  const NS = 'http://www.w3.org/2000/svg';
+  const cells = [[0,0,0,0],[-3.1,0,0,-0.6],[3.1,0,0,0.6],[0,2.7,-0.6,0.3],[0,-2.7,0.6,-0.3]];
+  const edges = [];
+  for (let a=0; a<16; a++) for (let axis=0; axis<4; axis++) {
+    const b = a ^ (1<<axis);
+    if (a<b) edges.push([a,b,axis]);
+  }
+  function rotate(v,a,b,angle) {
+    const c=Math.cos(angle),s=Math.sin(angle),x=v[a],y=v[b];
+    v[a]=x*c-y*s; v[b]=x*s+y*c;
+    return v;
+  }
+  function draw() {
+    const width = Math.max(280,Math.floor(root.getBoundingClientRect().width));
+    const height = Math.round(Math.min(440,width*0.67));
+    svg.setAttribute('viewBox',`0 0 ${width} ${height}`);
+    const angle = Number(control.value)*Math.PI/180;
+    output.value = `${control.value}°`;
+    const all = cells.map(center => Array.from({length:16},(_,i) => {
+      const p=[0,1,2,3].map(axis => center[axis] + ((i>>axis)&1 ? 1 : -1)*(axis===3 ? 0.85 : 0.98));
+      rotate(p,0,3,angle);
+      rotate(p,2,3,angle*0.62);
+      const scale4=7/(7-p[3]);
+      const q=p.slice(0,3).map(x=>x*scale4);
+      rotate(q,0,2,0.52);
+      rotate(q,1,2,-0.28);
+      const scale3=12/(12-q[2]);
+      return {x:q[0]*scale3,y:q[1]*scale3,z:q[2]};
+    }));
+    const points=all.flat();
+    const maxX=Math.max(...points.map(p=>Math.abs(p.x)));
+    const maxY=Math.max(...points.map(p=>Math.abs(p.y)));
+    const scale=Math.min((width-32)/(2*Math.max(4.8,maxX)),(height-24)/(2*Math.max(4.1,maxY)));
+    const lines=[];
+    all.forEach((vertices,cell) => edges.forEach(([a,b,axis]) => {
+      lines.push({a:vertices[a],b:vertices[b],z:(vertices[a].z+vertices[b].z)/2,axis,cell});
+    }));
+    lines.sort((a,b)=>a.z-b.z);
+    const fragment=document.createDocumentFragment();
+    for (const e of lines) {
+      const line=document.createElementNS(NS,'line');
+      line.setAttribute('x1',(width/2+e.a.x*scale).toFixed(2));
+      line.setAttribute('y1',(height/2-e.a.y*scale).toFixed(2));
+      line.setAttribute('x2',(width/2+e.b.x*scale).toFixed(2));
+      line.setAttribute('y2',(height/2-e.b.y*scale).toFixed(2));
+      line.setAttribute('stroke','currentColor');
+      line.setAttribute('stroke-width',e.cell===0 ? '1.4' : '1');
+      line.setAttribute('opacity',Math.max(0.12,Math.min(0.82,0.43+e.z*0.07+(e.cell===0?0.14:0))).toFixed(2));
+      fragment.appendChild(line);
+    }
+    geometry.replaceChildren(fragment);
+  }
+  function restore(state) {
+    const value=state?.modelContent?.fourthAxisAngle;
+    if (Number.isFinite(value)) control.value=String(Math.max(0,Math.min(70,value)));
+    draw();
+  }
+  control.addEventListener('input',draw);
+  control.addEventListener('change',() => {
+    if (window.openai?.setWidgetState) window.openai.setWidgetState({modelContent:{fourthAxisAngle:Number(control.value)},privateContent:null}).catch(()=>{});
+  });
+  window.addEventListener('openai:set_globals',event => {
+    if (event.detail?.globals?.widgetState) restore(event.detail.globals.widgetState);
+  });
+  new ResizeObserver(draw).observe(root);
+  restore(window.openai?.widgetState);
+})();
+</script>

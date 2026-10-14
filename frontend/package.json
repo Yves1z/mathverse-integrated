@@ -1,0 +1,54 @@
+{
+  "name": "mathverse-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test src/utils/*.test.js src/features/ai-assistant/*.test.js src/features/similar-problems/*.test.js src/config/*.test.js",
+    "test:ai-upload": "node tests/ai-upload.browser.test.cjs",
+    "test:csrf-recovery": "node tests/csrf-recovery.browser.test.cjs",
+    "test:exam-print": "node tests/exam-print.browser.test.cjs",
+    "test:browser": "node tests/editorial.browser.test.cjs && node tests/editorial-background.browser.test.cjs && node tests/curriculum.browser.test.cjs && node tests/bug-visual.browser.test.cjs && node tests/feedback.browser.test.cjs && node tests/question-layout.browser.test.cjs && node tests/choice-layout.browser.test.cjs && node tests/problems-performance.browser.test.cjs && node tests/batch-delete.browser.test.cjs && node tests/paper-builder.browser.test.cjs && node tests/paper-library.browser.test.cjs && node tests/practice-lists.browser.test.cjs && node tests/community.browser.test.cjs && node tests/shared-papers.browser.test.cjs && node tests/home-random.browser.test.cjs && node tests/mistakes.browser.test.cjs && node tests/profile-statistics.browser.test.cjs && node tests/growth.browser.test.cjs && node tests/original-papers.browser.test.cjs",
+    "lint": "run-s \"lint:*\"",
+    "lint:oxlint": "oxlint . --fix",
+    "lint:eslint": "eslint . --fix --cache",
+    "format": "prettier --write --experimental-cli src/",
+    "test:solution-selection": "node tests/solution-selection.browser.test.cjs",
+    "test:teach-back": "node tests/teach-back.browser.test.cjs",
+    "test:agent-browser": "node src/features/ai-assistant/aiAssistant.browser.test.cjs && node tests/attempt-revision.browser.test.cjs && node tests/draft-hint.browser.test.cjs && node tests/handwriting-agent.browser.test.cjs && node tests/handwriting-checkpoint.browser.test.cjs && node tests/local-draft-hint.browser.test.cjs && node tests/paper-checkpoint.browser.test.cjs && node tests/paper-image.browser.test.cjs && node tests/paper-rotation.browser.test.cjs && node tests/premise-sign.browser.test.cjs && node tests/reading-review.browser.test.cjs && node tests/route-condition-interval.browser.test.cjs && node tests/route-condition-range.browser.test.cjs && node tests/route-condition-reading.browser.test.cjs && node tests/route-condition-sign.browser.test.cjs && node tests/route-condition.browser.test.cjs && node tests/strategy-map.browser.test.cjs && node tests/solution-selection.browser.test.cjs && node tests/teach-back.browser.test.cjs && node tests/canvas-owner.browser.test.cjs && npm run test:similarity",
+    "test:similarity": "node src/features/similar-problems/similarityPage.browser.test.cjs",
+    "test:mascot": "node tests/mascot-motion.browser.test.cjs"
+  },
+  "dependencies": {
+    "katex": "^0.18.4",
+    "pinia": "^4.0.2",
+    "vue": "^3.5.40",
+    "vue-router": "^5.2.0",
+    "@excalidraw/excalidraw": "0.18.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "eslint": "^10.7.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-oxlint": "~1.73.0",
+    "eslint-plugin-vue": "~10.9.2",
+    "globals": "^17.7.0",
+    "npm-run-all2": "^9.0.2",
+    "oxlint": "~1.73.0",
+    "playwright": "^1.63.0",
+    "prettier": "3.9.5",
+    "vite": "^8.1.5",
+    "vite-plugin-vue-devtools": "^8.1.5",
+    "vue-eslint-parser": "^10.4.1",
+    "@vitejs/plugin-react-swc": "4.3.3"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  }
+}

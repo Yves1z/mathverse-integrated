@@ -1,0 +1,14 @@
+{
+  "preservedAssemblies": 31,
+  "targetBeams": 93,
+  "angleSamples": 721,
+  "clearance": 4.679550618523514,
+  "minDenominator": 0.485786437626905,
+  "socketError": 0,
+  "actualVertexRadiusRatios": [
+    3.2222222222222228,
+    3.222222222222223
+  ],
+  "oneActiveRegion": true,
+  "frozenStable": true
+}

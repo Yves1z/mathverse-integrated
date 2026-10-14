@@ -1,0 +1,390 @@
+✔ manual evaluation bank is isolated, complete, and uniquely addressed (1.056ms)
+✔ mixed-draft golden cases preserve the independently specified first-issue location (9.979ms)
+✔ reference calculations at case boundaries agree with fixture answers (0.2903ms)
+✔ exact rational arithmetic verifies valid and invalid claims (2.0902ms)
+✔ unsupported expressions are never guessed from samples (1.3208ms)
+✔ a narrow combination identity check verifies numbers but not counting applicability (0.73ms)
+✔ reload restores exact unsent edits and source-bound submitted identity independently (10.5892ms)
+✔ owner and problem isolation, explicit deletion and bounded checkpoint (0.7129ms)
+✔ corrupt schema, source identity, versions and storage denial recover without throwing (1.8681ms)
+✔ restoration derives steps afresh and never loads forged tool results or AI authorship (0.3705ms)
+✔ typed attempt preserves the original text and increments on revision (1.4716ms)
+✔ attempts require a problem and a non-empty bounded draft (1.054ms)
+✔ source ranges refer to the exact original CRLF draft (0.3438ms)
+✔ diagnosis prompt is scoped to a single obstacle and excludes reference solution (0.5332ms)
+✔ model diagnosis is unverified and tied to an existing attempt step (3.1304ms)
+✔ arithmetic findings are source-marked and leakage is hidden (2.1334ms)
+✔ contradictory route judgments and incomplete errors are rejected, including fenced JSON (0.4873ms)
+✔ feedback cannot be applied to edited text, another attempt, or a newer revision (0.6694ms)
+✔ issue evidence must quote the located step exactly (0.4022ms)
+✔ mixed draft checks its prefix before the later false equality and bounds the prompt (15.9663ms)
+✔ uncertainty and missing tools never become a cleared prefix (2.9413ms)
+✔ a provisionally viable prefix reveals only the independently checked arithmetic issue (1.9346ms)
+✔ out of scope model locations and stale or forged evidence are rejected (2.1326ms)
+✔ a first-line false equality stays local; true equalities do not verify the route (1.5744ms)
+✔ evidence consumes context budget instead of bypassing the capacity limit (0.8061ms)
+✔ a true quoted combination identity prevents an ungrounded accusation (0.885ms)
+✔ explicit domain and conditional sample-space premises hold later arithmetic feedback (4.8202ms)
+✔ a true arithmetic equality does not certify a later universal implication (1.4809ms)
+✔ unknown/malformed identity never becomes visitor storage (1.9887ms)
+✔ late identity replies cannot overwrite login/logout; owner transitions invalidate identical scenes (14.4258ms)
+✔ explicit selected step outranks page and guarded prompts omit future answer (13.5701ms)
+✔ an old focus from a different problem is omitted, not sent to the model (0.6929ms)
+✔ explaining a selected step asks about that step instead of the whole problem (0.583ms)
+✔ diagnosis carries the exact attempt version without a reference solution (4.0918ms)
+✔ diagnosis ignores an unrelated selected solution step and checks the draft (1.1107ms)
+✔ teach-back keeps the selected target but omits future steps and reference answers (0.5897ms)
+✔ strategy map compares methods without receiving unrevealed solutions (0.5987ms)
+✔ optional context is omitted by budget without rewriting mathematical text (0.5162ms)
+✔ a tight budget favors the step nearest to the selected step (4.7758ms)
+✔ chat history is bounded and a changed step invalidates the source signature (0.8627ms)
+✔ invalid attempt versions, steps, authors and raw source ranges fail before diagnosis (1.4728ms)
+✔ accepted AI suggestions retain authorship and snapshots cannot change with live sources (0.888ms)
+✔ missing or invalid selection references cannot become a target (0.5067ms)
+✔ history is scoped by the engine and is omitted when sending page context is disabled (0.6412ms)
+✔ text-only requests obey the budget and prompt rendering rejects conflicting references or answer leakage (1.0633ms)
+✔ source signature includes provenance and attempt focus changes (0.4794ms)
+✔ draft hints require the current submitted text, opt-in context and renewed reading/source (12.6831ms)
+✔ hint context prioritizes the submitted route and omits OCR exclusions, old diagnoses and reference focus (5.3238ms)
+✔ draft hint response guards disclosure and marks ordinary hints as preliminary rather than verified math (1.7552ms)
+✔ explicit draft-hint language and continuation carry the same attempt target while direct answer stays available (2.9918ms)
+✔ explicit numeric assignments bind a later simple log argument to its source step (11.1132ms)
+✔ positive, rebound, symbolic, branch and rejected assumptions do not reuse a stale binding (0.9718ms)
+✔ the ordered review withholds a later arithmetic correction and binds the caution to the log step (6.3014ms)
+✔ generation budget is independent of reasoning mode and visible answer length (2.8371ms)
+✔ custom budget rejects invalid or excessive values instead of silently clamping (0.7984ms)
+✔ checkpoint preserves selected native ink, original PNG, corrected reading and unsent editor independently (22.1672ms)
+✔ refresh rebuilds source-bound submitted attempt identity and version, not prior mathematical feedback (6.6928ms)
+✔ owner, problem, image bytes, native source and preview tampering reject restoration (5.1296ms)
+✔ bounds, invalid identities and submitted versions reject; unconfirmed unreadable text can be backed up (4.7247ms)
+✔ credential-bearing recognition receipts fail while extraneous feedback is excluded (3.067ms)
+✔ selection captures only explicitly selected live elements and referenced files, preserving native ink (1.9765ms)
+✔ scene revisions invalidate captures while viewport and selection changes do not (10.699ms)
+✔ vision requires a documented exact model and official endpoint, never a brand guess (0.3983ms)
+✔ content edit then undo never revives an old capture; metadata-only restoration stays current (0.8182ms)
+✔ recognition keeps alternatives and confidence separate, rejects diagnoses and malformed output (1.1976ms)
+✔ only confirmed readable current text enters diagnosis and each new source creates a revision (4.7311ms)
+✔ handwriting checkpoints omit image-linked drafts rather than restore them with false typed provenance (0.7587ms)
+✔ diagnosis receives confirmed transcription provenance but no raw image or reference solution (2.7551ms)
+✔ H01: superscript versus coefficient retains source and learner correction across retry (15.6831ms)
+✔ H02: fraction grouping retains source and learner correction across retry (1.5135ms)
+✔ H03: minus sign versus equality retains source and learner correction across retry (0.9254ms)
+✔ H04: crossed out expression retains source and learner correction across retry (0.7209ms)
+✔ H05: horizontal branch order retains source and learner correction across retry (0.5902ms)
+✔ H06: geometry appearance is not a stated constraint retains source and learner correction across retry (0.371ms)
+✔ H07: manual transcription, even without OCR history, requires explicit replacement (0.3282ms)
+✔ H08: unreadable and truncated recognition cannot become a confirmed attempt (0.3972ms)
+✔ recognizer instructions separate notation, branch order and drawn appearance from mathematics (0.7259ms)
+✔ IC independently specified interval contrast: endpoints (4.1491ms)
+✔ IC independently specified interval contrast: touch (0.4931ms)
+✔ IC independently specified interval contrast: exact (0.4184ms)
+✔ IC independently specified interval contrast: infinity (0.3008ms)
+✔ IC independently specified interval contrast: grammar (0.2053ms)
+✔ IC independently specified interval contrast: missing (0.1542ms)
+✔ IC independently specified interval contrast: unsupported (0.175ms)
+✔ IC independently specified interval contrast: branch (0.1605ms)
+✔ IC independently specified interval contrast: withdrawn (0.1473ms)
+✔ IC independently specified interval contrast: token_spacing (0.6258ms)
+✔ IC validates bounded input and never executes expressions or assumes ambiguous readings (1.4971ms)
+✔ IC local proof binds exactly one AI condition and never certifies notes or a whole method (16.3287ms)
+✔ IC missing material stops before a false affirmation and asks one scoped question without math-error evidence (3.0599ms)
+✔ IC overlap, unsupported syntax and learner-supplied range never become automatic proof or redundant local range question (4.854ms)
+✔ IC all finite small endpoint pairs agree with independent membership witnesses (5.1521ms)
+✔ explicit natural language and buttons resolve to the same learning intent (2.4634ms)
+✔ hints progress within the reveal ladder and retain previous hints (0.7001ms)
+✔ learning responses prioritize a learner attempt and keep more help available (1.4563ms)
+✔ conversation scope includes the selected solution step (0.5462ms)
+✔ hint and current-step checks omit future steps and reference solutions (0.7288ms)
+✔ local hints contain the selected step and at most two preceding steps, without later/history/reference text (11.7682ms)
+✔ learner can add one distant premise with source identity, without broadening to omitted or future steps (1.6345ms)
+✔ selected premise must be a distant earlier step from the same bound attempt (1.7376ms)
+✔ step targets reject wrong versions/problems/ids and oversized obstacle text before provider work (0.7157ms)
+✔ forged local context cannot move the declared focus or append a later step (0.6658ms)
+✔ local continuation preserves target/obstacle and solution remains explicit; language uses the same intent (2.5402ms)
+✔ LH01: without the distant condition, local scope stays narrow and asks for a missing condition (10.8391ms)
+ℹ {"id":"LH01","sentStepNumbers":[3,4,5],"hintLevel":0,"displayed":"hint","revealEvent":true,"semanticResult":"mock reply only; relevance and progress unverified"}
+✔ LH02: the same target plus learner-selected condition adds exactly that source step (1.5151ms)
+ℹ {"id":"LH02","sentStepNumbers":[1,3,4,5],"hintLevel":0,"displayed":"hint","revealEvent":true,"semanticResult":"mock reply only; premise necessity and route preservation unverified"}
+✔ LH03: a conflicting selected premise is stopped before a false endorsement can be requested (1.1516ms)
+ℹ {"id":"LH03","sentStepNumbers":[],"hintLevel":0,"displayed":"local_conflict","revealEvent":false,"semanticResult":"narrow strict-order contradiction checked; unsupported premise forms remain unknown"}
+✔ LH04: later answer is excluded; an answer-wording reply is hidden without a reveal event (1.0278ms)
+ℹ {"id":"LH04","sentStepNumbers":[1,3,4,5],"hintLevel":0,"displayed":"warning","revealEvent":false,"semanticResult":"obvious answer wording hidden; semantic near-solutions remain unverified"}
+✔ rotated backups bind direction and swapped dimensions while legacy zero-direction backups remain readable (19.4891ms)
+✔ photo checkpoint preserves original/crop provenance and unsent text, with an explicit secret-free allowlist (5.1936ms)
+✔ photo restoration reconstructs exact submitted steps and keeps same/new text version continuity (2.6629ms)
+✔ wrong owner/problem and changed original, crop, preview or coordinates fail before display (5.583ms)
+✔ unconfirmed unreadable photo is recoverable without submission; bounded text and provider receipts are enforced (5.418ms)
+✔ explicit photo recovery creates a fresh source token and rejects an intervening crop edit or account transition (3.7974ms)
+✔ quarter turns map displayed selections to the immutable original and restore exact pixel bounds (2.9624ms)
+✔ paper crop retains original pixel coordinates, rejects invalid bounds and excessive sources (8.1922ms)
+✔ paper changes and undo cannot revive sources; account transitions reject late crops (2.2051ms)
+✔ confirmed photo uses image provenance, retains original/crop, versions edits and source replacement (7.2153ms)
+✔ unknown-premise endorsement bank separates scoped approval from questions and conditions (11.597ms)
+ℹ {"id":"UE01","tool":"unknown","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"UE02","tool":"unknown","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"UE03","tool":"unknown","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"UE04","tool":"unknown","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"UE05","tool":"unknown","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"UE06","tool":"unknown","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"UE07","tool":"unknown","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"UE08","tool":"unknown","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"UC01","tool":"unknown","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"UC02","tool":"unknown","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"UC03","tool":"unknown","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"UC04","tool":"unknown","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"UC05","tool":"unknown","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"UC06","tool":"unknown","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"UC07","tool":"unknown","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"UC08","tool":"unknown","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"UC09","tool":"unknown","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"UC10","tool":"unknown","expected":"hint","observed":"hint","revealEvent":true}
+✔ long reply contrasts preserve context and distinguish assertions from quoted or conditional review (13.4968ms)
+ℹ {"id":"RD01","category":"bold","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"RD02","category":"bullet","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"RD03","category":"numbered","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"RD04","category":"long_plain","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"RD05","category":"quote_then_approval","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"RD06","category":"question_then_approval","expected":"warning","observed":"warning","revealEvent":false}
+ℹ {"id":"RC01","category":"condition_question","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"RC02","category":"unresolved_predicate","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"RC03","category":"hypothesis","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"RC04","category":"introduced_condition","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"RC05","category":"multi_sentence_quote","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"RC06","category":"branch","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"RC07","category":"qualified_branch","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"RC08","category":"choice_question","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"RC09","category":"quoted_rejection","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"RC10","category":"reading_caution","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"RC11","category":"other_step","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"id":"RC12","category":"bold_question","expected":"hint","observed":"hint","revealEvent":true}
+ℹ {"falseBlocks":0,"missedBlocks":0}
+✔ quote masking for premise review never bypasses the raw-text answer disclosure guard (0.2393ms)
+✔ instructional suffixes do not masquerade as a question or a branch qualifier (0.1963ms)
+✔ adversarial premise bank records scoped statuses and keeps unsupported claims unknown (2.6412ms)
+ℹ {"id":"PS01","category":"plain","expected":"valid","observed":"valid"}
+ℹ {"id":"PS02","category":"plain","expected":"invalid","observed":"invalid"}
+ℹ {"id":"PS03","category":"reverse","expected":"invalid","observed":"invalid"}
+ℹ {"id":"PS04","category":"branch","expected":"unknown","observed":"unknown"}
+ℹ {"id":"PS05","category":"later_condition","expected":"unknown","observed":"unknown"}
+ℹ {"id":"PS06","category":"later_condition","expected":"unknown","observed":"unknown"}
+ℹ {"id":"PS07","category":"confirmed_transcription","expected":"invalid","observed":"invalid"}
+ℹ {"id":"PS08","category":"confirmed_transcription","expected":"valid","observed":"valid"}
+ℹ {"id":"PS09","category":"confirmed_transcription","expected":"unknown","observed":"unknown"}
+ℹ {"id":"PS10","category":"quoted_rejection","expected":"unknown","observed":"unknown"}
+ℹ {"id":"PS11","category":"other_variable","expected":"unknown","observed":"unknown"}
+ℹ {"id":"PS12","category":"ambiguous_recognition","expected":"unknown","observed":"unknown"}
+ℹ {"id":"PS13","category":"legitimate_branch","expected":"unknown","observed":"unknown"}
+ℹ {"id":"PS14","category":"renamed_variables","expected":"invalid","observed":"invalid"}
+✔ adversarial cases traverse the local context and mocked reveal contract (18.3772ms)
+ℹ {"id":"PS01","providerEligible":true,"displayed":"hint","mockRevealEvent":true}
+ℹ {"id":"PS02","providerEligible":false,"displayed":"verification","mockRevealEvent":false}
+ℹ {"id":"PS03","providerEligible":false,"displayed":"verification","mockRevealEvent":false}
+ℹ {"id":"PS04","providerEligible":true,"displayed":"hint","mockRevealEvent":true}
+ℹ {"id":"PS05","providerEligible":true,"displayed":"hint","mockRevealEvent":true}
+ℹ {"id":"PS06","providerEligible":true,"displayed":"hint","mockRevealEvent":true}
+ℹ {"id":"PS07","providerEligible":false,"displayed":"verification","mockRevealEvent":false}
+ℹ {"id":"PS08","providerEligible":true,"displayed":"hint","mockRevealEvent":true}
+ℹ {"id":"PS09","providerEligible":true,"displayed":"hint","mockRevealEvent":true}
+ℹ {"id":"PS10","providerEligible":true,"displayed":"hint","mockRevealEvent":true}
+ℹ {"id":"PS11","providerEligible":true,"displayed":"hint","mockRevealEvent":true}
+ℹ {"id":"PS12","providerEligible":true,"displayed":"hint","mockRevealEvent":true}
+ℹ {"id":"PS13","providerEligible":true,"displayed":"hint","mockRevealEvent":true}
+ℹ {"id":"PS14","providerEligible":false,"displayed":"verification","mockRevealEvent":false}
+✔ bounded deterministic tool proves only the difference sign under explicit strict order (2.4297ms)
+✔ ambiguous, negated, compound and unsupported statements stay unknown (0.3211ms)
+✔ local hint blocks a proven conflicting premise before provider work, then accepts a corrected version (10.0189ms)
+✔ learner linearization keeps original blocks/candidates and permits explicit exclusion of unreadable crossed-out text (10.8427ms)
+✔ pending edits, included unreadable/blank fragments and unapplied composition cannot be confirmed (1.4683ms)
+✔ backup validation rejects unknown/duplicate/missing block references and invalid bounded edits (1.6123ms)
+✔ identical text with different excluded-content evidence advances the version; unchanged and lower-editor text remain stable (2.0779ms)
+✔ context rejects forged pending or reordered block provenance before mathematics (1.2484ms)
+✔ hint is a typed block and obvious answer leakage is hidden (8.7655ms)
+✔ model-only verification is never marked verified (1.1537ms)
+✔ conflicting premise gets scoped tool evidence without a hint or solution (1.2884ms)
+✔ direct endorsement guard is bound to the selected earlier step (1.9384ms)
+✔ explicit solution gets a solution block (0.2673ms)
+✔ RC01 only the selected condition, its clue and permitted current context enter the actual prompt (3.2915ms)
+✔ RC02 applicability and missing prerequisites are separate targets; selecting one never sends the other (1.0689ms)
+✔ RC03 a forged map identity, changed condition or source clue fails before prompt/provider use (0.8965ms)
+✔ RC04 stale map revisions and different current problem/focus cannot reuse the same target (0.8583ms)
+✔ RC05 matched quotes are checked against the immutable named source, including selected-step changes (1.2012ms)
+✔ RC06 one missing-material question and uncertain reading stay unverified without advancing hints (2.7435ms)
+✔ RC07 addressed stops at local feedback without asking another question or declaring mastery (0.5429ms)
+✔ RC08 switched target, malformed output, extra verification and multiple questions are rejected (0.7503ms)
+✔ RC09 obvious answers in local feedback or the question are hidden; forged question blocks fail (1.8608ms)
+✔ RC10 source opt-out, missing map, oversized note and insufficient budget cannot make a request (0.4639ms)
+✔ RC11 explicit numbered natural-language selection is bounded and does not redirect denials or full answers (1.3932ms)
+✔ RCQ paired contrast: addressed (15.1465ms)
+ℹ {"id":"RCQ01","pair":"addressed","fixtureQuality":"acceptable_mock","toolStatus":"unknown","providerEligible":true,"blockTypes":["text","warning"],"hasQuestion":false,"modelFeedbackShown":true,"residualSyntheticFailure":false}
+ℹ {"id":"RCQ02","pair":"addressed","fixtureQuality":"unnecessary_question","toolStatus":"unknown","providerEligible":true,"blockTypes":["text","question","warning"],"hasQuestion":true,"modelFeedbackShown":true,"residualSyntheticFailure":true}
+✔ RCQ paired contrast: missing_interval (2.0875ms)
+ℹ {"id":"RCQ03","pair":"missing_interval","fixtureQuality":"acceptable_mock","toolStatus":"unknown","providerEligible":false,"blockTypes":["text","question","warning"],"hasQuestion":true,"modelFeedbackShown":false,"residualSyntheticFailure":false}
+ℹ {"id":"RCQ04","pair":"missing_interval","fixtureQuality":"false_affirmation","toolStatus":"unknown","providerEligible":false,"blockTypes":["text","question","warning"],"hasQuestion":true,"modelFeedbackShown":false,"residualSyntheticFailure":false}
+✔ RCQ paired contrast: explicit_conflict (1.2335ms)
+ℹ {"id":"RCQ05","pair":"explicit_conflict","fixtureQuality":"false_affirmation","toolStatus":"invalid","providerEligible":false,"blockTypes":["verification","warning"],"hasQuestion":false,"modelFeedbackShown":false,"residualSyntheticFailure":false}
+ℹ {"id":"RCQ06","pair":"explicit_conflict","fixtureQuality":"acceptable_mock","toolStatus":"valid","providerEligible":false,"blockTypes":["verification","warning"],"hasQuestion":false,"modelFeedbackShown":false,"residualSyntheticFailure":false}
+✔ RCQ paired contrast: uncertain_reading (1.8327ms)
+ℹ {"id":"RCQ07","pair":"uncertain_reading","fixtureQuality":"acceptable_mock","toolStatus":"unknown","providerEligible":false,"blockTypes":["text","question","warning"],"hasQuestion":true,"modelFeedbackShown":false,"residualSyntheticFailure":false}
+ℹ {"id":"RCQ08","pair":"uncertain_reading","fixtureQuality":"false_affirmation","toolStatus":"unknown","providerEligible":false,"blockTypes":["text","question","warning"],"hasQuestion":true,"modelFeedbackShown":false,"residualSyntheticFailure":false}
+✔ RCQ unsupported conditions and branches never acquire sign proof or an automatic learner error (4.3634ms)
+✔ RCQ tool evidence is scoped to the selected AI condition, never student prose or a provider verification field (2.3323ms)
+✔ RCD paired range/question/stop contract: explicit_range (15.2351ms)
+ℹ {"id":"RCD01","observed":"question","provider":"mock only","mathematicalAcceptance":false}
+ℹ {"id":"RCD02","observed":"range_recorded","provider":"mock only","mathematicalAcceptance":false}
+✔ RCD paired range/question/stop contract: remaining_gap (2.1792ms)
+ℹ {"id":"RCD03","observed":"question","provider":"mock only","mathematicalAcceptance":false}
+ℹ {"id":"RCD04","observed":"addressed","provider":"mock only","mathematicalAcceptance":false}
+✔ RCD paired range/question/stop contract: variable_identity (1.9213ms)
+ℹ {"id":"RCD05","observed":"range_recorded","provider":"mock only","mathematicalAcceptance":false}
+ℹ {"id":"RCD06","observed":"question","provider":"mock only","mathematicalAcceptance":false}
+✔ RCD paired range/question/stop contract: native_assumption (1.8348ms)
+ℹ {"id":"RCD07","observed":"invalid","provider":"mock only","mathematicalAcceptance":false}
+ℹ {"id":"RCD08","observed":"valid","provider":"mock only","mathematicalAcceptance":false}
+✔ RCD paired range/question/stop contract: range_reading (0.9085ms)
+ℹ {"id":"RCD09","observed":"unsupported_discussion_range","provider":"mock only","mathematicalAcceptance":false}
+ℹ {"id":"RCD10","observed":"range_recorded","provider":"mock only","mathematicalAcceptance":false}
+✔ RCD paired range/question/stop contract: mislabelled_duplicate (0.9821ms)
+ℹ {"id":"RCD11","observed":"range_recorded","provider":"mock only","mathematicalAcceptance":false}
+ℹ {"id":"RCD12","observed":"question","provider":"mock only","mathematicalAcceptance":false}
+✔ RCD paired range/question/stop contract: free_note_vs_field (0.8389ms)
+ℹ {"id":"RCD13","observed":"question","provider":"mock only","mathematicalAcceptance":false}
+ℹ {"id":"RCD14","observed":"range_recorded","provider":"mock only","mathematicalAcceptance":false}
+✔ RCD paired range/question/stop contract: missing_native_range (0.8184ms)
+ℹ {"id":"RCD15","observed":"missing_range","provider":"mock only","mathematicalAcceptance":false}
+ℹ {"id":"RCD16","observed":"range_recorded","provider":"mock only","mathematicalAcceptance":false}
+✔ RCD supported scope syntax does not grant mathematical authority or extract prose (0.6557ms)
+✔ RCD range edit, forged origin, source and A-B-A revision invalidate old confirmation at integrity and composition (1.4577ms)
+✔ RCD enhanced question requires one exact current source and purpose; no extras, old feedback or fabricated proof (2.4552ms)
+✔ RCD unsupported range cannot be promoted through a fabricated provider addressed response (0.4253ms)
+✔ RCD explicit range command is anchored, does not confirm, and does not redirect quotes or negations (0.2344ms)
+✔ RCR paired source-bound reading gate: interval (14.1383ms)
+✔ RCR paired source-bound reading gate: conflict (1.5721ms)
+✔ RCR paired source-bound reading gate: reading (1.3552ms)
+✔ RCR paired source-bound reading gate: missing_range (2.1535ms)
+✔ RCR paired source-bound reading gate: note_not_action (1.1023ms)
+✔ RCR paired source-bound reading gate: unsupported (0.7552ms)
+✔ RCR changed note, source, target or monotonic revision rejects stale confirmation including A-B-A (0.9391ms)
+✔ RCR exact selected-step reading is bound and remains independently checked at context integrity (0.8272ms)
+✔ RCR malformed/origin-forged reading and provider confirmation fields cannot create authority (1.5995ms)
+✔ RCR natural confirmation/revocation is an explicit current-target command, never note or quoted/negated prose (0.4662ms)
+✔ RCR confirmation consumes context capacity and cannot be dropped to authorize a provider (1.2055ms)
+✔ hint reveal state survives reload but never includes API credentials (2.0778ms)
+✔ corrupt checkpoint cannot lower or invent a valid reveal state (0.2184ms)
+✔ SM01 two alternative routes show exact source clues without forcing a preferred method (4.6566ms)
+✔ SM02 selected-step evidence stays local and cannot use excluded future/reference text (2.0033ms)
+✔ SM03 a clue must match the named source and current snapshot, not a different problem (0.555ms)
+✔ SM04 missing prerequisites stay explicit and cannot become a preferred route (0.4448ms)
+✔ SM05 a grounded preliminary preference keeps other candidate routes available (0.2688ms)
+✔ SM06 unsupported guarantees fail, while explicit uncertainty must not be treated as a guarantee (0.8981ms)
+✔ SM07 legacy missing basis and invented links cannot silently pass as grounded routes (0.4169ms)
+✔ SM08 unknown, empty, oversized and inconsistent basis fields fail before rendering (0.4301ms)
+✔ SM09 new basis fields obey the same obvious-answer guard as the rest of the route (0.4237ms)
+✔ SM10 response schema rejects a forged map even if it has two routes (0.5725ms)
+✔ SM11 strategy prompt contains permitted source text and explicitly excludes future answers (0.6481ms)
+✔ SM12 source opt-out, wrong action, incomplete JSON and unavailable selection all recover (0.8524ms)
+✔ teach-back returns one probe without asserting verified mastery (10.1306ms)
+✔ clear explanations stop without a forced question (0.4452ms)
+✔ teach-back accepts a JSON code fence without weakening schema validation (0.1399ms)
+✔ invalid multi-question or answer-leaking feedback is rejected or hidden (0.7365ms)
+✔ TF01 bound answer context preserves only the exact local excerpt, current probe and supplement (10.5452ms)
+✔ TF02 supplementation resolves the selected gap and stops without mastery or a forced probe (2.5541ms)
+✔ TF03 a remaining gap uses the same purpose and quotes the new supplement (1.216ms)
+✔ TF04-06 repeated question, switched purpose and quoting only the old explanation are rejected (2.1612ms)
+✔ TF07-09 stale scope/revision, changed or forged original ranges fail before a provider call (1.1764ms)
+✔ TF10-11 opt-out, oversized answers and context budget cannot silently omit the binding (0.4299ms)
+✔ TF12 only an explicit affirmative supplementary-answer request routes to the same UI action (1.1577ms)
+✔ TF13 obvious answer disclosure in a supplementary recheck stays hidden and produces no learning evidence (0.4398ms)
+✔ teach-back probe bank grounds one structured question and keeps clear/uncertain behavior separate (11.0382ms)
+ℹ {"id":"TB01","expected":"question","observed":"question","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+ℹ {"id":"TB02","expected":"stop","observed":"stop","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+ℹ {"id":"TB03","expected":"stop","observed":"stop","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+ℹ {"id":"TB04","expected":"question","observed":"question","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+ℹ {"id":"TB05","expected":"rejected","observed":"rejected","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+ℹ {"id":"TB06","expected":"rejected","observed":"rejected","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+ℹ {"id":"TB07","expected":"rejected","observed":"rejected","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+ℹ {"id":"TB08","expected":"rejected","observed":"rejected","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+ℹ {"id":"TB09","expected":"rejected","observed":"rejected","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+ℹ {"id":"TB10","expected":"hidden","observed":"hidden","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+ℹ {"id":"TB11","expected":"rejected","observed":"rejected","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+ℹ {"id":"TB12","expected":"rejected","observed":"rejected","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+ℹ {"id":"TB13","expected":"rejected","observed":"rejected","mathOrTeachingQuality":"not evaluated; fabricated provider reply"}
+✔ explanation references expire on editing, A-B-A and scope changes without storing mastery (0.3758ms)
+✔ DeepSeek assistant standard mode budgets for hidden reasoning without changing quick mode (1.7391ms)
+✔ manual assistant generation budgets are provider-neutral and are never replaced by automatic floors (0.5494ms)
+✔ flagship reasoning modes map by model and preserve quick Kimi thinking (1.2012ms)
+✔ proxy accepts final text but never exposes reasoning-only or truncated output as an answer (0.2804ms)
+✔ 导数示例在综合模式优先返回相同题型与策略的题目 (15.9053ms)
+✔ 圆锥曲线综合推荐不会混入概率题 (8.6852ms)
+✔ 自定义无关文本不使用当前示例的预设标签 (0.1865ms)
+✔ API 同义表达标准化后与离线结果保持接近 (24.8823ms)
+✔ AI 上传结果只保留题库允许的分类值 (3.2168ms)
+✔ 未知题型和难度会被拦截，而不是写入表单 (0.3216ms)
+✔ 提示词明确禁止补做答案，并包含站内标准清单 (0.3664ms)
+✔ render cache evicts oldest unused entries and respects its size limit (0.7946ms)
+✔ formula caching preserves MathML export and inline versus display rendering (7.3066ms)
+✔ paper name candidates normalize width and roman numerals without conflating years (0.9944ms)
+✔ same filenames in different papers never cross-associate images (13.0116ms)
+✔ missing, ambiguous and remote image references produce actionable warnings (1.2441ms)
+✔ rule 1.2 image values and Markdown references coexist without duplicates (0.931ms)
+✔ legacy drafts acquire scores and stable type sections, with accurate mixed totals (4.9533ms)
+✔ paper preserves math and options, strips only the original leading number (6.1768ms)
+✔ objective scores are grouped only when uniform; solution scores stay beside each number (1.2452ms)
+✔ draft restore excludes answers, duplicate questions and unsafe images (0.6391ms)
+✔ pagination retreats before a line, tall formula or image and advances through whitespace (0.2676ms)
+✔ paper library migrates once, isolates papers, restores and imports atomically (5.311ms)
+✔ 缺省与非法配置回落到内置默认值 (2.079ms)
+✔ 进度渐变在分界处平滑过渡，没有硬边 (0.4098ms)
+✔ 每条题单一行，按题目数量排序并按最长题单换算宽度 (1.4396ms)
+✔ 空题单列表不产生数据行 (0.1586ms)
+✔ 题单标题按「主题·难度」解析 (0.177ms)
+✔ 排序偏好缺省时回落到按数量与默认方向 (0.1626ms)
+✔ 按名称排序时同一主题连在一起，组内按基础→提高→压轴 (11.0235ms)
+✔ 按数量排序与现有行为一致 (0.2868ms)
+✔ 按完成程度排序使用百分比而非绝对题数 (0.3816ms)
+✔ 按难度排序先聚基础再提高再压轴 (0.3426ms)
+✔ 倒序会整体反转排序结果 (0.2455ms)
+✔ 调试阶段官方题单也允许删除 (1.5607ms)
+✔ 可选题单包含官方题单在内、忽略空 id (1.2339ms)
+✔ 切换选中状态会剔除失效项 (0.4553ms)
+✔ 删除后清理选中的失效 id (0.2698ms)
+✔ 删除结果提示覆盖全部成功、部分失败与全失败 (0.2798ms)
+✔ dynamic source codes remain valid in routes and pinned preferences (1.936ms)
+✔ legacy local placeholder resolves to the provincial group filter (0.2298ms)
+✔ provincial group option replaces the local placeholder row (0.2293ms)
+✔ admin source picker never offers a group filter as a problem source (0.195ms)
+✔ 分行书写的选项按标记拆成四段 (1.9541ms)
+✔ 写成一整个公式的选项也能拆成四段 (0.7582ms)
+✔ 全角字母与全角句点同样识别，非标准公式不误拆 (1.0129ms)
+✔ numbered questions keep continuation lines and roman subparts nested (6.0552ms)
+✔ formula and material contents are not interpreted as question numbering (9.5673ms)
+✔ 复数题会即时得到同知识与同结构的离线推荐 (9.9776ms)
+✔ 站内同类题优先于离线演示候选并排除当前题 (6.1746ms)
+✔ 题目详情不把只有宽泛结构相同但知识点不同的题目混入推荐 (4.8226ms)
+✔ screen spacing removes source blank lines without changing formulas, materials or source (16.3771ms)
+✔ material blocks preserve surrounding questions and render formulas (6.4802ms)
+✔ material contents remain escaped and cannot inject HTML (0.6788ms)
+✔ unclosed or inline markers remain literal (0.4557ms)
+✔ multiple CRLF material blocks work with PDF MathML output (0.6724ms)
+✔ ordinary formulas and escaped text still render without material styling (2.7515ms)
+✔ only safe platform image URLs render; arbitrary HTML and remote URLs do not (0.515ms)
+✔ deadline exits even when a request ignores cancellation (23.4045ms)
+✔ cancelled prefetch exits without waiting on the network (0.7193ms)
+✔ 相似题特征兼容中文字段、字符串列表与步骤别名 (5.7464ms)
+✔ 多模态模型只返回识别题干时仍可通过标准标签映射继续检索 (0.5177ms)
+✔ 嵌套 features 与驼峰字段会被统一解析 (0.5097ms)
+✔ 解析文本按段落生成稳定且可追踪的步骤 (2.5881ms)
+✔ 选区上下文只携带必要前文、当前步骤和一个后续步骤 (1.8678ms)
+✔ 未审核社区解析会被识别为需要先核验的来源 (0.4668ms)
+✔ 规则 1.4 检查不依赖模型并拦截结构与目录错误 (3.1394ms)
+✔ 安全整理只处理换行、行尾空格和过多空行 (0.2301ms)
+✔ AI 改动数字或凭空补写答案时不能应用 (0.7359ms)
+✔ 选择题三种排版都不再提示分行，识别不到选项才提示 (0.6494ms)
+✔ 公式里的全角标点会提示，\text 标签里的全角句点不算 (0.4731ms)
+ℹ tests 276
+ℹ suites 0
+ℹ pass 276
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1399.0602

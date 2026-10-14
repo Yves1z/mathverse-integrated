@@ -1,0 +1,4 @@
+✓ 导出图片走渲染后的 MathML 文档
+✓ 导出 PDF 可用
+✓ 打印选项按 A4 正文宽度分列
+choice layout ok

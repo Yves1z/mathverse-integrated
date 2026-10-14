@@ -1,0 +1,31 @@
+{
+  "slowTravel": {
+    "from": [
+      5,
+      8,
+      109.9825
+    ],
+    "to": [
+      5,
+      8,
+      106.53433499999922
+    ],
+    "speed": 0.35
+  },
+  "elasticLookWhileTravel": true,
+  "recenterPreservesPosition": true,
+  "pausePixelsStable": true,
+  "realCellTransition": {
+    "before": 599.95,
+    "after": 600.0345049632058,
+    "resources": [
+      6,
+      8
+    ]
+  },
+  "restart": true,
+  "originalFirstFrame": true,
+  "reducedMotion": true,
+  "videoDuration": 38.44,
+  "errors": []
+}

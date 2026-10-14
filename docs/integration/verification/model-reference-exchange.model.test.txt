@@ -1,0 +1,1 @@
+{"angleSamples":721,"solids":72,"connections":12,"backgroundBeams":4680,"dynamicClearance":7.616044826537355,"routeClearance":4.8,"minimumDenominator":0.43179641069689323,"maximumSampleStep":0.3993146462860467,"naturalScaleRatio":3.2222222222222237,"monotoneEvent":true,"freezeAndReduced":true}

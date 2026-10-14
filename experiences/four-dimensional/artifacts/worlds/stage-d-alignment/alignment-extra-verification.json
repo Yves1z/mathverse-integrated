@@ -1,0 +1,58 @@
+{
+  "canvasPicking": true,
+  "focusViewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "x": 0,
+      "y": 0,
+      "main": 0,
+      "window": {
+        "x": 64,
+        "y": 39.59375,
+        "width": 1152,
+        "height": 640.796875,
+        "top": 39.59375,
+        "right": 1216,
+        "bottom": 680.390625,
+        "left": 64
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "x": 0,
+      "y": 0,
+      "main": 0,
+      "window": {
+        "x": 72,
+        "y": 49.5,
+        "width": 1296,
+        "height": 801,
+        "top": 49.5,
+        "right": 1368,
+        "bottom": 850.5,
+        "left": 72
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0,
+      "main": 0,
+      "window": {
+        "x": 96,
+        "y": 59.390625,
+        "width": 1728,
+        "height": 961.1875,
+        "top": 59.390625,
+        "right": 1824,
+        "bottom": 1020.578125,
+        "left": 96
+      }
+    }
+  ],
+  "reducedMotion": true,
+  "errors": []
+}

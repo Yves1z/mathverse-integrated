@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-11T06:28:00.541Z",
+  "instances": 796,
+  "counts": {
+    "primary": 125,
+    "layer": 632,
+    "joint": 36,
+    "light": 3
+  },
+  "movingBeams": 195,
+  "staticBeams": 601,
+  "attachments": 12,
+  "samples": 2166,
+  "minimumClearance": 10.605694287167953,
+  "requiredClearance": 3.2,
+  "maximumEndpointError": 0,
+  "staticHostUnchanged": true,
+  "oneCellAtATime": true,
+  "completeSixEventSequence": true
+}

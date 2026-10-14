@@ -1,0 +1,31 @@
+{
+  "frontend_unit_tests": {
+    "passed": 276,
+    "total": 276
+  },
+  "backend_tests": {
+    "passed": 52,
+    "total": 52
+  },
+  "main_browser_flows": {
+    "passed": 44,
+    "total": 44
+  },
+  "four_dimensional_model_checks": {
+    "passed": 24,
+    "total": 24
+  },
+  "four_dimensional_browser_flows": {
+    "passed": 6,
+    "total": 6
+  },
+  "main_build": true,
+  "four_dimensional_typecheck_and_build": true,
+  "backend_executable_jar_build": true,
+  "oxlint": true,
+  "eslint": true,
+  "unchanged_baseline_migrations": 20,
+  "live_model_calls": 0,
+  "production_deployment": false,
+  "git_push": false
+}

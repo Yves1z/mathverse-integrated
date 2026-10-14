@@ -1,0 +1,11 @@
+.mega-navigation{pointer-events:auto;display:flex;align-items:center;gap:26px;padding-top:4px;}
+.mega-navigation a,.mega-navigation button{font-size:10px;letter-spacing:1px;color:#b9b6ae;border:0;border-bottom:1px solid #ffffff25;background:none;text-decoration:none;padding:8px 0;cursor:pointer;}
+.mega-navigation a:hover,.mega-navigation button:hover{color:#eee8db;}
+.mega-navigation button:disabled{opacity:.35;cursor:default;}
+.mega-euler .study-intro h1{font-size:20px;letter-spacing:3px;}
+.mega-euler .study-intro{bottom:142px;}
+.mega-euler .study-state{width:230px;}
+.mega-euler .study-footer{gap:40px;}
+.mega-euler .over-math{cursor:pointer;}
+.mega-euler button:focus-visible,.mega-euler a:focus-visible{outline:1px solid #d7ccae;outline-offset:5px;}
+@media(max-width:1100px){.mega-navigation{gap:15px;}.mega-euler .study-footer{gap:24px;}}

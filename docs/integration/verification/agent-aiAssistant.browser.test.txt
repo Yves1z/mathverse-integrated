@@ -1,0 +1,1 @@
+AI assistant: context integrity, stale success/error cancellation, retry, privacy, progressive hints, diagnosis and mobile layout passed

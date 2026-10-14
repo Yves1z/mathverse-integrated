@@ -1,0 +1,170 @@
+[
+  {
+    "test": "scripts/interaction/stage-b.motion.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.28,
+    "log": "model-stage-b.motion.test.log"
+  },
+  {
+    "test": "scripts/spaces/abyss/abyss-composition.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.17,
+    "log": "model-abyss-composition.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/abyss/abyss-euler.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.34,
+    "log": "model-abyss-euler.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/abyss/abyss-exchange.gallery.test.mjs",
+    "exit_code": 1,
+    "seconds": 14.0,
+    "log": "model-abyss-exchange.gallery.test.log"
+  },
+  {
+    "test": "scripts/spaces/abyss/abyss-exchange.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 1.84,
+    "log": "model-abyss-exchange.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/abyss/abyss-journey.controls.test.mjs",
+    "exit_code": 1,
+    "seconds": 11.77,
+    "log": "model-abyss-journey.controls.test.log"
+  },
+  {
+    "test": "scripts/spaces/abyss/abyss-journey.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.36,
+    "log": "model-abyss-journey.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/fusion/space-fusion-euler.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.24,
+    "log": "model-space-fusion-euler.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/fusion/space-fusion-gaussian.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.8,
+    "log": "model-space-fusion-gaussian.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/fusion/space-fusion-mobius.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.36,
+    "log": "model-space-fusion-mobius.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/fusion/space-fusion.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.33,
+    "log": "model-space-fusion.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/fusion/thought-cavity-worlds.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 2.14,
+    "log": "model-thought-cavity-worlds.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/fusion/thought-cavity.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.45,
+    "log": "model-thought-cavity.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/inversion/ordered-space.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.3,
+    "log": "model-ordered-space.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/inversion/space-inversion.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.41,
+    "log": "model-space-inversion.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/inversion/volume-space.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.56,
+    "log": "model-volume-space.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/layered/space-a.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.19,
+    "log": "model-space-a.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/layered/space-a.worlds.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.22,
+    "log": "model-space-a.worlds.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/megastructure/expanse.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.3,
+    "log": "model-expanse.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/megastructure/mega-euler.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.2,
+    "log": "model-mega-euler.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/megastructure/reference-euler.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.36,
+    "log": "model-reference-euler.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/megastructure/reference-exchange.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.3,
+    "log": "model-reference-exchange.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/megastructure/reference-journey.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.2,
+    "log": "model-reference-journey.model.test.log"
+  },
+  {
+    "test": "scripts/spaces/megastructure/reference-light.model.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.19,
+    "log": "model-reference-light.model.test.log"
+  },
+  {
+    "test": "scripts/worlds/stage-c.logic.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.25,
+    "log": "model-stage-c.logic.test.log"
+  },
+  {
+    "test": "scripts/worlds/stage-d.euler.test.mjs",
+    "exit_code": 1,
+    "seconds": 11.64,
+    "log": "model-stage-d.euler.test.log"
+  },
+  {
+    "test": "scripts/worlds/stage-d.relation.test.mjs",
+    "exit_code": 1,
+    "seconds": 11.83,
+    "log": "model-stage-d.relation.test.log"
+  },
+  {
+    "test": "scripts/worlds/stage-d.windows.logic.test.mjs",
+    "exit_code": 0,
+    "seconds": 0.25,
+    "log": "model-stage-d.windows.logic.test.log"
+  }
+]

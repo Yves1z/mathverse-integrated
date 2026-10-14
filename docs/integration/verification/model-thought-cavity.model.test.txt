@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-12T12:08:24.876Z",
+  "instances": 586,
+  "counts": {
+    "primary": 81,
+    "layer": 492,
+    "joint": 12,
+    "light": 1
+  },
+  "localMovingBeams": 65,
+  "staticBeams": 521,
+  "sampledAngles": 361,
+  "minimumClearance": 20.799914590519343,
+  "requiredClearance": 3.2,
+  "maxEndpointError": 0,
+  "staticHostUnchanged": true
+}

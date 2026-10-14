@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-09T13:56:03.836Z",
+  "browser": "154.0.4258.62",
+  "viewport": "1600×900",
+  "wallSeconds": 33.285,
+  "checks": {
+    "doorAndDiscovery": true,
+    "formulaReading": true,
+    "relatedGeometry": true,
+    "angleControl": true,
+    "catalogAndMobius": true,
+    "keyboardExit": true
+  },
+  "errors": []
+}

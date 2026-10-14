@@ -1,0 +1,97 @@
+import { useEffect, useMemo, useRef } from 'react';
+import { useFrame, useThree } from '@react-three/fiber';
+import { BufferGeometry, Float32BufferAttribute, Group, InstancedMesh, Object3D, Raycaster, Vector3 } from 'three';
+import type { MotionState } from '../../config/motion';
+import type { ContentRuntime } from '../../content/runtime';
+import type { MathAssets } from '../../content/assets';
+import { NODE_BY_ID } from '../../content/nodes';
+import { blockingDistance } from '../../content/picking';
+import type { ReadingState } from '../../reading/ReadingKernel';
+import { PortalWindow } from '../../windows/PortalWindow';
+import { WindowWorld } from '../../windows/WindowWorld';
+import { advanceConnection, WINDOW } from '../../windows/windowMotion';
+import { mountPoint, mountPose, mountSupports, SPACE_MOUNTS } from './spaceContent';
+import type { FoldController } from './spaceModel';
+import type { WindowAssets } from '../../windows/WindowAssets';
+
+export function SpaceWindows({ motion, fold, runtime, reading, assets, windows }: { motion: MotionState; fold: FoldController; runtime: ContentRuntime; reading: ReadingState; assets: MathAssets; windows: WindowAssets }) {
+  const { camera, scene, size } = useThree();
+  const root = useRef<Group>(null), supports = useRef<InstancedMesh>(null);
+  const sections = useMemo(() => new Map(SPACE_MOUNTS.map(m => [m.id, m.section])), []);
+  const scratch = useMemo(() => ({ a: new Vector3(), b: new Vector3(), delta: new Vector3(), up: new Vector3(0, 1, 0), dummy: new Object3D(), project: new Vector3(), raycaster: new Raycaster(), corner: new Vector3() }), []);
+  const elapsed = useRef(1);
+  useFrame(() => {
+    const controlled = reading.phase === 'focusing' || reading.phase === 'reading' ? reading.angle : null;
+    const active = !motion.suspended && !document.hidden && (!motion.spaceFrozen || controlled !== null);
+    runtime.euler.frozen = motion.spaceFrozen || motion.suspended || document.hidden;
+    advanceConnection(runtime.connection, fold.clock, active ? motion.frameDt * (reading.phase === 'closed' ? 1 : .18) : 0, controlled);
+    elapsed.current += motion.frameDt;
+    const check = elapsed.current > .15;
+    if (check) { elapsed.current = 0; runtime.occluders = []; scene.traverse(o => { if (o.userData.mathOccluder) runtime.occluders.push(o); }); }
+    let supportIndex = 0;
+    const candidates: { id: string; distance: number }[] = [];
+    for (const mount of SPACE_MOUNTS) {
+      const node = runtime.nodes.get(mount.id)!, group = node.group;
+      if (!group) continue;
+      let section = sections.get(mount.id)!;
+      if (reading.phase === 'closed' && node.position.z - motion.z > 90 && camera.position.distanceTo(node.position) > mount.range + 12) {
+        section += 3; sections.set(mount.id, section);
+      }
+      const angle = mount.surface === 'fold' ? fold.angle(section) : 0;
+      const pose = mountPose(mount, section, angle);
+      node.position.set(...pose.position); group.position.copy(node.position); group.rotation.set(...pose.rotation); group.scale.set(...pose.scale); group.updateMatrixWorld(true);
+      node.sphere.radius = Math.hypot(3.3 * group.scale.x, 2.25 * group.scale.y, group.scale.z);
+      const distance = camera.position.distanceTo(node.position);
+      node.discovered = distance < mount.range;
+      scratch.project.copy(node.position).project(camera);
+      node.visualScreen.set((scratch.project.x + 1) * size.width / 2, (1 - scratch.project.y) * size.height / 2);
+      node.onScreen = scratch.project.z > -1 && scratch.project.z < 1 && Math.abs(scratch.project.x) < .98 && Math.abs(scratch.project.y) < .94;
+      if (check && node.onScreen) {
+        scratch.raycaster.set(camera.position, scratch.delta.copy(node.position).sub(camera.position).normalize());
+        node.occluded = blockingDistance(scratch.raycaster, runtime.occluders) < distance - .12;
+      }
+      if (node.discovered && node.onScreen && !node.occluded) candidates.push({ id: mount.id, distance });
+      node.alpha = Math.min(1, Math.max(0, (mount.range + 12 - distance) / 18)) * (reading.selectedId === mount.id ? 1 - reading.progress : 1);
+      group.visible = node.alpha > .001;
+      let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+      for (const x of [-WINDOW.width / 2, WINDOW.width / 2]) for (const y of [-WINDOW.height / 2, WINDOW.height / 2]) {
+        scratch.corner.set(x, y, 0).applyMatrix4(group.matrixWorld).project(camera);
+        const px = (scratch.corner.x + 1) * size.width / 2, py = (1 - scratch.corner.y) * size.height / 2;
+        minX = Math.min(minX, px); minY = Math.min(minY, py); maxX = Math.max(maxX, px); maxY = Math.max(maxY, py);
+      }
+      node.bounds = node.onScreen ? { x: minX, y: minY, width: maxX - minX, height: maxY - minY } : null;
+      mountSupports(mount).forEach((point, i) => {
+        scratch.a.set(...mountPoint(mount, section, angle, point));
+        scratch.b.set((i ? 1 : -1) * WINDOW.width * .35, WINDOW.height / 2 + .05, 0).applyMatrix4(group.matrixWorld);
+        scratch.delta.subVectors(scratch.b, scratch.a); const length = scratch.delta.length();
+        scratch.dummy.position.copy(scratch.a).add(scratch.b).multiplyScalar(.5);
+        scratch.dummy.quaternion.setFromUnitVectors(scratch.up, scratch.delta.divideScalar(Math.max(length, .001)));
+        scratch.dummy.scale.set(node.alpha > .001 ? .095 : 0, length, .095); scratch.dummy.updateMatrix();
+        supports.current?.setMatrixAt(supportIndex++, scratch.dummy.matrix);
+      });
+    }
+    if (supports.current) supports.current.instanceMatrix.needsUpdate = true;
+    const emphasized = new Set(candidates.sort((a, b) => (a.id === reading.hoveredId ? -1 : a.distance) - (b.id === reading.hoveredId ? -1 : b.distance)).slice(0, 2).map(n => n.id));
+    for (const [id, node] of runtime.nodes) {
+      node.emphasized = emphasized.has(id);
+      if (!node.label || !node.group) continue;
+      scratch.project.set(0, -WINDOW.height / 2 - .24, .1).applyMatrix4(node.group.matrixWorld).project(camera);
+      node.screen.set((scratch.project.x + 1) * size.width / 2, (1 - scratch.project.y) * size.height / 2);
+      const shown = node.emphasized && reading.phase === 'closed' && node.screen.y > 85 && node.screen.y < size.height - 115 && node.screen.x > 90 && node.screen.x < size.width - 90;
+      node.label.style.transform = `translate(${node.screen.x}px,${node.screen.y}px) translate(-50%,0)`;
+      node.label.style.opacity = shown ? '1' : '0'; node.label.style.visibility = shown ? 'visible' : 'hidden'; node.label.style.pointerEvents = shown ? 'auto' : 'none';
+      node.label.tabIndex = shown ? 0 : -1; node.label.setAttribute('aria-hidden', shown ? 'false' : 'true');
+    }
+    runtime.relation.positions = ['euler-identity', 'unit-circle', 'complex-rotation'].map(id => runtime.nodes.get(id)!.position.toArray());
+    if (root.current) root.current.userData = { sections: Object.fromEntries(sections), windows: 6, angle: runtime.connection.angle, mountedInStructure: true, occlusion: 'conservative-oriented-beam-boxes' };
+  }, -.4);
+  return <group ref={root} name="space-math-windows">
+    <instancedMesh ref={supports} args={[undefined, undefined, 12]} frustumCulled={false}>
+      <boxGeometry/><meshStandardMaterial color="#44474a" roughness={.61} metalness={.23}/>
+    </instancedMesh>
+    {[...runtime.nodes].map(([id, node]) => <group key={id} name={`math-node-${id}`} ref={group => { node.group = group; }} position={node.position}>
+      <PortalWindow id={id} kind={NODE_BY_ID.get(id)!.rendererKey} assets={assets} windows={windows} opacity={() => node.alpha} inset/>
+      <WindowWorld node={NODE_BY_ID.get(id)!} assets={assets} windows={windows} runtime={runtime} reading={reading} fullObjects neutral/>
+    </group>)}
+  </group>;
+}

@@ -1,0 +1,93 @@
+{
+  "first": {
+    "motion": {
+      "phase": "exploring",
+      "elapsed": 0,
+      "distance": 0,
+      "z": -4,
+      "paused": true,
+      "suspended": false,
+      "dragging": false,
+      "spaceFrozen": false,
+      "spaceTime": 0,
+      "targetYaw": 0.1,
+      "targetPitch": 0.27,
+      "yaw": 0.1,
+      "pitch": 0.27,
+      "yawVelocity": 0,
+      "pitchVelocity": 0,
+      "speed": 0,
+      "speedScale": 1,
+      "targetSpeed": 0,
+      "entryExitSpeed": 0.35,
+      "frameDt": 0.020600000001490117,
+      "skipNextFrame": false
+    },
+    "position": [
+      5,
+      8,
+      110
+    ],
+    "structure": {
+      "beams": 631,
+      "hierarchy": [
+        "primary",
+        "layer",
+        "joint"
+      ],
+      "static": true,
+      "lamellaDepth": true
+    },
+    "drawCalls": 9,
+    "geometries": 6,
+    "textures": 8
+  },
+  "look": {
+    "motion": {
+      "phase": "exploring",
+      "elapsed": 0,
+      "distance": 0,
+      "z": -4,
+      "paused": true,
+      "suspended": false,
+      "dragging": false,
+      "spaceFrozen": false,
+      "spaceTime": 0,
+      "targetYaw": 0.4337942194439156,
+      "targetPitch": 0.4270796326794897,
+      "yaw": 0.4337942194439156,
+      "pitch": 0.4270796326794897,
+      "yawVelocity": 0,
+      "pitchVelocity": 0,
+      "speed": 0,
+      "speedScale": 1,
+      "targetSpeed": 0,
+      "entryExitSpeed": 0.35,
+      "frameDt": 0.01940000000037253,
+      "skipNextFrame": false
+    },
+    "position": [
+      5,
+      8,
+      110
+    ],
+    "structure": {
+      "beams": 631,
+      "hierarchy": [
+        "primary",
+        "layer",
+        "joint"
+      ],
+      "static": true,
+      "lamellaDepth": true
+    },
+    "drawCalls": 9,
+    "geometries": 6,
+    "textures": 8
+  },
+  "staticPixels": true,
+  "reset": true,
+  "desktop": true,
+  "gallery": true,
+  "errors": []
+}

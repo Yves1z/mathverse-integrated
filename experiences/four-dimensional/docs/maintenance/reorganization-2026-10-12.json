@@ -1,0 +1,1375 @@
+{
+  "date": "2026-10-12",
+  "root": "D:/Mathverse",
+  "moves": [
+    {
+      "from": "src/mathverse/revision/AbyssStudy.tsx",
+      "to": "src/mathverse/experiments/abyss/AbyssStudy.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/AbyssEulerStudy.tsx",
+      "to": "src/mathverse/experiments/abyss/AbyssEulerStudy.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/abyssModel.ts",
+      "to": "src/mathverse/experiments/abyss/abyssModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/abyssJourneyModel.ts",
+      "to": "src/mathverse/experiments/abyss/abyssJourneyModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/abyssExchangeModel.ts",
+      "to": "src/mathverse/experiments/abyss/abyssExchangeModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/abyssEulerModel.ts",
+      "to": "src/mathverse/experiments/abyss/abyssEulerModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/abyssStudy.css",
+      "to": "src/mathverse/experiments/abyss/abyssStudy.css",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/abyssEulerStudy.css",
+      "to": "src/mathverse/experiments/abyss/abyssEulerStudy.css",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/ReferenceStudy.tsx",
+      "to": "src/mathverse/experiments/megastructure/ReferenceStudy.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/referenceModel.ts",
+      "to": "src/mathverse/experiments/megastructure/referenceModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/referenceEulerModel.ts",
+      "to": "src/mathverse/experiments/megastructure/referenceEulerModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/referenceStudy.css",
+      "to": "src/mathverse/experiments/megastructure/referenceStudy.css",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/MegaEulerStudy.tsx",
+      "to": "src/mathverse/experiments/megastructure/MegaEulerStudy.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/megaEulerModel.ts",
+      "to": "src/mathverse/experiments/megastructure/megaEulerModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/megaEuler.css",
+      "to": "src/mathverse/experiments/megastructure/megaEuler.css",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/expanseModel.ts",
+      "to": "src/mathverse/experiments/megastructure/expanseModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/ExpanseLighting.tsx",
+      "to": "src/mathverse/experiments/megastructure/ExpanseLighting.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/SpaceStudy.tsx",
+      "to": "src/mathverse/experiments/layered/SpaceStudy.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/SpaceWorldStudy.tsx",
+      "to": "src/mathverse/experiments/layered/SpaceWorldStudy.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/Megastructure.tsx",
+      "to": "src/mathverse/experiments/layered/Megastructure.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/spaceModel.ts",
+      "to": "src/mathverse/experiments/layered/spaceModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/spaceContent.ts",
+      "to": "src/mathverse/experiments/layered/spaceContent.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/SpaceDust.tsx",
+      "to": "src/mathverse/experiments/layered/SpaceDust.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/SpaceWindows.tsx",
+      "to": "src/mathverse/experiments/layered/SpaceWindows.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/SpaceRelations.tsx",
+      "to": "src/mathverse/experiments/layered/SpaceRelations.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/SpaceObservation.tsx",
+      "to": "src/mathverse/experiments/layered/SpaceObservation.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/InversionStudy.tsx",
+      "to": "src/mathverse/experiments/inversion/InversionStudy.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/InversionStructure.tsx",
+      "to": "src/mathverse/experiments/inversion/InversionStructure.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/inversionModel.ts",
+      "to": "src/mathverse/experiments/inversion/inversionModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/inversionStudy.css",
+      "to": "src/mathverse/experiments/inversion/inversionStudy.css",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/OrderedField.tsx",
+      "to": "src/mathverse/experiments/inversion/OrderedField.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/OrderedWindows.tsx",
+      "to": "src/mathverse/experiments/inversion/OrderedWindows.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/OrderedRhythm.tsx",
+      "to": "src/mathverse/experiments/inversion/OrderedRhythm.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/OrderedLighting.tsx",
+      "to": "src/mathverse/experiments/inversion/OrderedLighting.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/orderedModel.ts",
+      "to": "src/mathverse/experiments/inversion/orderedModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/orderedHome.css",
+      "to": "src/mathverse/experiments/inversion/orderedHome.css",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/FusionField.tsx",
+      "to": "src/mathverse/experiments/fusion/FusionField.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/fusionModel.ts",
+      "to": "src/mathverse/experiments/fusion/fusionModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/CavityField.tsx",
+      "to": "src/mathverse/experiments/fusion/CavityField.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/cavityModel.ts",
+      "to": "src/mathverse/experiments/fusion/cavityModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/cavityWorldModel.ts",
+      "to": "src/mathverse/experiments/fusion/cavityWorldModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/StudyLighting.tsx",
+      "to": "src/mathverse/shared/rendering/StudyLighting.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/structureSurface.ts",
+      "to": "src/mathverse/shared/rendering/structureSurface.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/ReferenceStructure.tsx",
+      "to": "src/mathverse/shared/rendering/ReferenceStructure.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/ReferenceContact.tsx",
+      "to": "src/mathverse/shared/rendering/ReferenceContact.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/ReferenceAir.tsx",
+      "to": "src/mathverse/shared/rendering/ReferenceAir.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/referenceAirModel.ts",
+      "to": "src/mathverse/shared/rendering/referenceAirModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/SpaceOccluder.ts",
+      "to": "src/mathverse/shared/rendering/SpaceOccluder.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/ReferenceExchange.tsx",
+      "to": "src/mathverse/shared/projection/ReferenceExchange.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/referenceExchangeModel.ts",
+      "to": "src/mathverse/shared/projection/referenceExchangeModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/CellFigure.tsx",
+      "to": "src/mathverse/shared/math/CellFigure.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/cellFigureModel.ts",
+      "to": "src/mathverse/shared/math/cellFigureModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/gaussianFigureModel.ts",
+      "to": "src/mathverse/shared/math/gaussianFigureModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/EulerTrace.tsx",
+      "to": "src/mathverse/shared/math/EulerTrace.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/eulerTraceModel.ts",
+      "to": "src/mathverse/shared/math/eulerTraceModel.ts",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/MegaEulerWorld.tsx",
+      "to": "src/mathverse/shared/math/MegaEulerWorld.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/ReferenceObservation.tsx",
+      "to": "src/mathverse/shared/reading/ReferenceObservation.tsx",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/spaceStudy.css",
+      "to": "src/mathverse/shared/styles/spaceStudy.css",
+      "directory": false
+    },
+    {
+      "from": "src/mathverse/revision/spaceWorlds.css",
+      "to": "src/mathverse/shared/styles/spaceWorlds.css",
+      "directory": false
+    },
+    {
+      "from": "artifacts/megastructure-euler",
+      "to": "artifacts/spaces/megastructure/megastructure-euler",
+      "directory": true
+    },
+    {
+      "from": "artifacts/megastructure-exchange",
+      "to": "artifacts/spaces/megastructure/megastructure-exchange",
+      "directory": true
+    },
+    {
+      "from": "artifacts/megastructure-expanse",
+      "to": "artifacts/spaces/megastructure/megastructure-expanse",
+      "directory": true
+    },
+    {
+      "from": "artifacts/megastructure-journey",
+      "to": "artifacts/spaces/megastructure/megastructure-journey",
+      "directory": true
+    },
+    {
+      "from": "artifacts/megastructure-reference",
+      "to": "artifacts/spaces/megastructure/megastructure-reference",
+      "directory": true
+    },
+    {
+      "from": "artifacts/megastructure-reference-euler",
+      "to": "artifacts/spaces/megastructure/megastructure-reference-euler",
+      "directory": true
+    },
+    {
+      "from": "artifacts/megastructure-reference-light",
+      "to": "artifacts/spaces/megastructure/megastructure-reference-light",
+      "directory": true
+    },
+    {
+      "from": "artifacts/ordered-inversion",
+      "to": "artifacts/spaces/inversion/ordered-inversion",
+      "directory": true
+    },
+    {
+      "from": "artifacts/space-fusion",
+      "to": "artifacts/spaces/fusion/space-fusion",
+      "directory": true
+    },
+    {
+      "from": "artifacts/space-fusion-euler",
+      "to": "artifacts/spaces/fusion/space-fusion-euler",
+      "directory": true
+    },
+    {
+      "from": "artifacts/space-fusion-gaussian",
+      "to": "artifacts/spaces/fusion/space-fusion-gaussian",
+      "directory": true
+    },
+    {
+      "from": "artifacts/space-fusion-mobius",
+      "to": "artifacts/spaces/fusion/space-fusion-mobius",
+      "directory": true
+    },
+    {
+      "from": "artifacts/space-inversion",
+      "to": "artifacts/spaces/inversion/space-inversion",
+      "directory": true
+    },
+    {
+      "from": "artifacts/space-revision-a",
+      "to": "artifacts/spaces/layered/space-revision-a",
+      "directory": true
+    },
+    {
+      "from": "artifacts/space-revision-a-light",
+      "to": "artifacts/spaces/layered/space-revision-a-light",
+      "directory": true
+    },
+    {
+      "from": "artifacts/space-revision-a-worlds",
+      "to": "artifacts/spaces/layered/space-revision-a-worlds",
+      "directory": true
+    },
+    {
+      "from": "artifacts/space-revision-concepts",
+      "to": "artifacts/design/space-revision-concepts",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-a",
+      "to": "artifacts/entrance/stage-a",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-a-original-source",
+      "to": "artifacts/archive/sources/stage-a-original-source",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-a-refined",
+      "to": "artifacts/entrance/stage-a-refined",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-a-refined-source",
+      "to": "artifacts/archive/sources/stage-a-refined-source",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-b",
+      "to": "artifacts/interaction/stage-b",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-b-source",
+      "to": "artifacts/archive/sources/stage-b-source",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-c",
+      "to": "artifacts/worlds/stage-c",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-c-source",
+      "to": "artifacts/archive/sources/stage-c-source",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-d-alignment",
+      "to": "artifacts/worlds/stage-d-alignment",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-d-euler",
+      "to": "artifacts/worlds/stage-d-euler",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-d-euler-source",
+      "to": "artifacts/archive/sources/stage-d-euler-source",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-d-light",
+      "to": "artifacts/worlds/stage-d-light",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-d-light-source",
+      "to": "artifacts/archive/sources/stage-d-light-source",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-d-windows",
+      "to": "artifacts/worlds/stage-d-windows",
+      "directory": true
+    },
+    {
+      "from": "artifacts/stage-d-windows-source",
+      "to": "artifacts/archive/sources/stage-d-windows-source",
+      "directory": true
+    },
+    {
+      "from": "artifacts/thought-cavity",
+      "to": "artifacts/spaces/fusion/thought-cavity",
+      "directory": true
+    },
+    {
+      "from": "artifacts/thought-cavity-worlds",
+      "to": "artifacts/spaces/fusion/thought-cavity-worlds",
+      "directory": true
+    },
+    {
+      "from": "artifacts/vertical-abyss-composition",
+      "to": "artifacts/spaces/abyss/vertical-abyss-composition",
+      "directory": true
+    },
+    {
+      "from": "artifacts/vertical-abyss-euler",
+      "to": "artifacts/spaces/abyss/vertical-abyss-euler",
+      "directory": true
+    },
+    {
+      "from": "artifacts/vertical-abyss-exchange",
+      "to": "artifacts/spaces/abyss/vertical-abyss-exchange",
+      "directory": true
+    },
+    {
+      "from": "artifacts/vertical-abyss-journey",
+      "to": "artifacts/spaces/abyss/vertical-abyss-journey",
+      "directory": true
+    },
+    {
+      "from": "artifacts/volume-inversion",
+      "to": "artifacts/spaces/inversion/volume-inversion",
+      "directory": true
+    },
+    {
+      "from": "docs/Mathverse-主页动效设计与Agent执行方案.md",
+      "to": "docs/design/Mathverse-主页动效设计与Agent执行方案.md",
+      "directory": false
+    },
+    {
+      "from": "docs/megastructure-euler-plan.md",
+      "to": "docs/spaces/megastructure/megastructure-euler-plan.md",
+      "directory": false
+    },
+    {
+      "from": "docs/megastructure-euler-report.md",
+      "to": "docs/spaces/megastructure/megastructure-euler-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/megastructure-exchange-report.md",
+      "to": "docs/spaces/megastructure/megastructure-exchange-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/megastructure-expanse-plan.md",
+      "to": "docs/spaces/megastructure/megastructure-expanse-plan.md",
+      "directory": false
+    },
+    {
+      "from": "docs/megastructure-expanse-report.md",
+      "to": "docs/spaces/megastructure/megastructure-expanse-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/megastructure-journey-report.md",
+      "to": "docs/spaces/megastructure/megastructure-journey-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/megastructure-reference-euler-report.md",
+      "to": "docs/spaces/megastructure/megastructure-reference-euler-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/megastructure-reference-light-report.md",
+      "to": "docs/spaces/megastructure/megastructure-reference-light-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/megastructure-reference-report.md",
+      "to": "docs/spaces/megastructure/megastructure-reference-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/ordered-inversion-plan.md",
+      "to": "docs/spaces/inversion/ordered-inversion-plan.md",
+      "directory": false
+    },
+    {
+      "from": "docs/ordered-inversion-report.md",
+      "to": "docs/spaces/inversion/ordered-inversion-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-fusion-euler-plan.md",
+      "to": "docs/spaces/fusion/space-fusion-euler-plan.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-fusion-euler-report.md",
+      "to": "docs/spaces/fusion/space-fusion-euler-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-fusion-gaussian-plan.md",
+      "to": "docs/spaces/fusion/space-fusion-gaussian-plan.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-fusion-gaussian-report.md",
+      "to": "docs/spaces/fusion/space-fusion-gaussian-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-fusion-mobius-plan.md",
+      "to": "docs/spaces/fusion/space-fusion-mobius-plan.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-fusion-mobius-report.md",
+      "to": "docs/spaces/fusion/space-fusion-mobius-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-fusion-plan.md",
+      "to": "docs/spaces/fusion/space-fusion-plan.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-fusion-report.md",
+      "to": "docs/spaces/fusion/space-fusion-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-inversion-plan.md",
+      "to": "docs/spaces/inversion/space-inversion-plan.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-inversion-report.md",
+      "to": "docs/spaces/inversion/space-inversion-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-revision-a-light-report.md",
+      "to": "docs/spaces/layered/space-revision-a-light-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-revision-a-plan.md",
+      "to": "docs/spaces/layered/space-revision-a-plan.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-revision-a-report.md",
+      "to": "docs/spaces/layered/space-revision-a-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/space-revision-a-worlds-report.md",
+      "to": "docs/spaces/layered/space-revision-a-worlds-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/stage-a-refined-report.md",
+      "to": "docs/entrance/stage-a-refined-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/stage-a-report.md",
+      "to": "docs/entrance/stage-a-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/stage-b-report.md",
+      "to": "docs/interaction/stage-b-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/stage-c-report.md",
+      "to": "docs/worlds/stage-c-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/stage-d-alignment-report.md",
+      "to": "docs/worlds/stage-d-alignment-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/stage-d-euler-report.md",
+      "to": "docs/worlds/stage-d-euler-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/stage-d-light-report.md",
+      "to": "docs/worlds/stage-d-light-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/stage-d-windows-report.md",
+      "to": "docs/worlds/stage-d-windows-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/thought-cavity-plan.md",
+      "to": "docs/spaces/fusion/thought-cavity-plan.md",
+      "directory": false
+    },
+    {
+      "from": "docs/thought-cavity-report.md",
+      "to": "docs/spaces/fusion/thought-cavity-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/thought-cavity-worlds-plan.md",
+      "to": "docs/spaces/fusion/thought-cavity-worlds-plan.md",
+      "directory": false
+    },
+    {
+      "from": "docs/thought-cavity-worlds-report.md",
+      "to": "docs/spaces/fusion/thought-cavity-worlds-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/vertical-abyss-composition-report.md",
+      "to": "docs/spaces/abyss/vertical-abyss-composition-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/vertical-abyss-euler-report.md",
+      "to": "docs/spaces/abyss/vertical-abyss-euler-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/vertical-abyss-exchange-report.md",
+      "to": "docs/spaces/abyss/vertical-abyss-exchange-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/vertical-abyss-journey-report.md",
+      "to": "docs/spaces/abyss/vertical-abyss-journey-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/volume-inversion-plan.md",
+      "to": "docs/spaces/inversion/volume-inversion-plan.md",
+      "directory": false
+    },
+    {
+      "from": "docs/volume-inversion-report.md",
+      "to": "docs/spaces/inversion/volume-inversion-report.md",
+      "directory": false
+    },
+    {
+      "from": "docs/discussion/fourth-axis-study.html",
+      "to": "docs/design/discussion/fourth-axis-study.html",
+      "directory": false
+    },
+    {
+      "from": "docs/discussion/megastructure-reference-rebuild-proposal.md",
+      "to": "docs/spaces/megastructure/discussion/megastructure-reference-rebuild-proposal.md",
+      "directory": false
+    },
+    {
+      "from": "docs/discussion/stage-a-refinement-proposal.md",
+      "to": "docs/entrance/discussion/stage-a-refinement-proposal.md",
+      "directory": false
+    },
+    {
+      "from": "docs/discussion/vertical-abyss-spatial-composition-proposal.md",
+      "to": "docs/spaces/abyss/discussion/vertical-abyss-spatial-composition-proposal.md",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-composition.browser.test.mjs",
+      "to": "scripts/spaces/abyss/abyss-composition.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-composition.capture.mjs",
+      "to": "scripts/spaces/abyss/abyss-composition.capture.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-composition.model.test.mjs",
+      "to": "scripts/spaces/abyss/abyss-composition.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-euler.browser.test.mjs",
+      "to": "scripts/spaces/abyss/abyss-euler.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-euler.capture.mjs",
+      "to": "scripts/spaces/abyss/abyss-euler.capture.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-euler.model.test.mjs",
+      "to": "scripts/spaces/abyss/abyss-euler.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-exchange.browser.test.mjs",
+      "to": "scripts/spaces/abyss/abyss-exchange.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-exchange.capture.mjs",
+      "to": "scripts/spaces/abyss/abyss-exchange.capture.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-exchange.gallery.test.mjs",
+      "to": "scripts/spaces/abyss/abyss-exchange.gallery.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-exchange.model.test.mjs",
+      "to": "scripts/spaces/abyss/abyss-exchange.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-journey.browser.test.mjs",
+      "to": "scripts/spaces/abyss/abyss-journey.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-journey.capture.mjs",
+      "to": "scripts/spaces/abyss/abyss-journey.capture.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-journey.controls.test.mjs",
+      "to": "scripts/spaces/abyss/abyss-journey.controls.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/abyss-journey.model.test.mjs",
+      "to": "scripts/spaces/abyss/abyss-journey.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/expanse.browser.test.mjs",
+      "to": "scripts/spaces/megastructure/expanse.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/expanse.capture.mjs",
+      "to": "scripts/spaces/megastructure/expanse.capture.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/expanse.model.test.mjs",
+      "to": "scripts/spaces/megastructure/expanse.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/mega-euler.browser.test.mjs",
+      "to": "scripts/spaces/megastructure/mega-euler.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/mega-euler.capture.mjs",
+      "to": "scripts/spaces/megastructure/mega-euler.capture.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/mega-euler.model.test.mjs",
+      "to": "scripts/spaces/megastructure/mega-euler.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/ordered-space.browser.test.mjs",
+      "to": "scripts/spaces/inversion/ordered-space.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/ordered-space.model.test.mjs",
+      "to": "scripts/spaces/inversion/ordered-space.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-euler.browser.test.mjs",
+      "to": "scripts/spaces/megastructure/reference-euler.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-euler.capture.mjs",
+      "to": "scripts/spaces/megastructure/reference-euler.capture.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-euler.model.test.mjs",
+      "to": "scripts/spaces/megastructure/reference-euler.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-exchange.browser.test.mjs",
+      "to": "scripts/spaces/megastructure/reference-exchange.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-exchange.capture.mjs",
+      "to": "scripts/spaces/megastructure/reference-exchange.capture.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-exchange.model.test.mjs",
+      "to": "scripts/spaces/megastructure/reference-exchange.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-journey.browser.test.mjs",
+      "to": "scripts/spaces/megastructure/reference-journey.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-journey.capture.mjs",
+      "to": "scripts/spaces/megastructure/reference-journey.capture.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-journey.model.test.mjs",
+      "to": "scripts/spaces/megastructure/reference-journey.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-light.browser.test.mjs",
+      "to": "scripts/spaces/megastructure/reference-light.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-light.capture.mjs",
+      "to": "scripts/spaces/megastructure/reference-light.capture.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-light.model.test.mjs",
+      "to": "scripts/spaces/megastructure/reference-light.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/reference-study.qa.mjs",
+      "to": "scripts/spaces/megastructure/reference-study.qa.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-a.browser.test.mjs",
+      "to": "scripts/spaces/layered/space-a.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-a.model.test.mjs",
+      "to": "scripts/spaces/layered/space-a.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-a.worlds.browser.test.mjs",
+      "to": "scripts/spaces/layered/space-a.worlds.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-a.worlds.model.test.mjs",
+      "to": "scripts/spaces/layered/space-a.worlds.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-a.worlds.qa.mjs",
+      "to": "scripts/spaces/layered/space-a.worlds.qa.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-fusion-euler.browser.test.mjs",
+      "to": "scripts/spaces/fusion/space-fusion-euler.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-fusion-euler.model.test.mjs",
+      "to": "scripts/spaces/fusion/space-fusion-euler.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-fusion-euler.qa.mjs",
+      "to": "scripts/spaces/fusion/space-fusion-euler.qa.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-fusion-gaussian.browser.test.mjs",
+      "to": "scripts/spaces/fusion/space-fusion-gaussian.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-fusion-gaussian.model.test.mjs",
+      "to": "scripts/spaces/fusion/space-fusion-gaussian.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-fusion-gaussian.qa.mjs",
+      "to": "scripts/spaces/fusion/space-fusion-gaussian.qa.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-fusion-mobius.browser.test.mjs",
+      "to": "scripts/spaces/fusion/space-fusion-mobius.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-fusion-mobius.model.test.mjs",
+      "to": "scripts/spaces/fusion/space-fusion-mobius.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-fusion-mobius.qa.mjs",
+      "to": "scripts/spaces/fusion/space-fusion-mobius.qa.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-fusion.browser.test.mjs",
+      "to": "scripts/spaces/fusion/space-fusion.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-fusion.model.test.mjs",
+      "to": "scripts/spaces/fusion/space-fusion.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-fusion.qa.mjs",
+      "to": "scripts/spaces/fusion/space-fusion.qa.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-inversion.browser.test.mjs",
+      "to": "scripts/spaces/inversion/space-inversion.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/space-inversion.model.test.mjs",
+      "to": "scripts/spaces/inversion/space-inversion.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-a-refined.browser.test.mjs",
+      "to": "scripts/entrance/stage-a-refined.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-a.browser.test.mjs",
+      "to": "scripts/entrance/stage-a.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-b.browser.test.mjs",
+      "to": "scripts/interaction/stage-b.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-b.motion.test.mjs",
+      "to": "scripts/interaction/stage-b.motion.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-c.browser.test.mjs",
+      "to": "scripts/worlds/stage-c.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-c.logic.test.mjs",
+      "to": "scripts/worlds/stage-c.logic.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-c.record.mjs",
+      "to": "scripts/worlds/stage-c.record.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-c.smoke.mjs",
+      "to": "scripts/worlds/stage-c.smoke.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-d.euler.demo.mjs",
+      "to": "scripts/worlds/stage-d.euler.demo.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-d.euler.test.mjs",
+      "to": "scripts/worlds/stage-d.euler.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-d.euler.viewport.test.mjs",
+      "to": "scripts/worlds/stage-d.euler.viewport.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-d.light.browser.test.mjs",
+      "to": "scripts/worlds/stage-d.light.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-d.relation.demo.mjs",
+      "to": "scripts/worlds/stage-d.relation.demo.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-d.relation.probe.mjs",
+      "to": "scripts/worlds/stage-d.relation.probe.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-d.relation.test.mjs",
+      "to": "scripts/worlds/stage-d.relation.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-d.windows.browser.test.mjs",
+      "to": "scripts/worlds/stage-d.windows.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-d.windows.logic.test.mjs",
+      "to": "scripts/worlds/stage-d.windows.logic.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/stage-d.windows.smoke.mjs",
+      "to": "scripts/worlds/stage-d.windows.smoke.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/thought-cavity-worlds.browser.test.mjs",
+      "to": "scripts/spaces/fusion/thought-cavity-worlds.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/thought-cavity-worlds.compose.mjs",
+      "to": "scripts/spaces/fusion/thought-cavity-worlds.compose.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/thought-cavity-worlds.discovery.mjs",
+      "to": "scripts/spaces/fusion/thought-cavity-worlds.discovery.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/thought-cavity-worlds.model.test.mjs",
+      "to": "scripts/spaces/fusion/thought-cavity-worlds.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/thought-cavity-worlds.qa.mjs",
+      "to": "scripts/spaces/fusion/thought-cavity-worlds.qa.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/thought-cavity.browser.test.mjs",
+      "to": "scripts/spaces/fusion/thought-cavity.browser.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/thought-cavity.compose.mjs",
+      "to": "scripts/spaces/fusion/thought-cavity.compose.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/thought-cavity.model.test.mjs",
+      "to": "scripts/spaces/fusion/thought-cavity.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/thought-cavity.qa.mjs",
+      "to": "scripts/spaces/fusion/thought-cavity.qa.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/verify-environment.mjs",
+      "to": "scripts/environment/verify-environment.mjs",
+      "directory": false
+    },
+    {
+      "from": "scripts/volume-space.model.test.mjs",
+      "to": "scripts/spaces/inversion/volume-space.model.test.mjs",
+      "directory": false
+    },
+    {
+      "from": "dependency-audit.json",
+      "to": "docs/environment/dependency-audit.json",
+      "directory": false
+    },
+    {
+      "from": "environment-before.json",
+      "to": "docs/environment/environment-before.json",
+      "directory": false
+    },
+    {
+      "from": "environment-verification.json",
+      "to": "docs/environment/environment-verification.json",
+      "directory": false
+    },
+    {
+      "from": "README.md",
+      "to": "docs/history/iteration-log.md",
+      "directory": false
+    }
+  ],
+  "deletions": [
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-euler/recording/page@02d9714b4df5cb53ac56bdf31e8b456c.webm",
+      "bytes": 22958953,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-euler/recording/page@98fc29e51818e568010f45ae1592d64f.webm",
+      "bytes": 23296173,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-euler/recording/page@ba69fdedb93ffa17f91b0d9ed0f15488.webm",
+      "bytes": 22940224,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-exchange/recording/page@86a2a5e548859867ffe05be9016e7cfc.webm",
+      "bytes": 43492639,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-exchange/recording/page@fee975dab28dce6f188c1db21dcdf887.webm",
+      "bytes": 70479848,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-expanse/recording/page@0d311a0f6a7e4a7f83d708c6f71e1038.webm",
+      "bytes": 26603813,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-journey/recording/page@bc20addac7015f68d732ec2493269abb.webm",
+      "bytes": 17480837,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-reference-euler/recording/page@30a8ff5f1ea41850e85365761b6022cc.webm",
+      "bytes": 22034196,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-reference-euler/recording/page@3dc56627b82f9f4a8cb827041f4cc052.webm",
+      "bytes": 58664113,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-reference-euler/recording/page@48bfd5b7ece2c164949379515c89f6b9.webm",
+      "bytes": 5814452,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-reference-euler/recording/page@63ca8fc46cab6cb4bf74c8c48387316f.webm",
+      "bytes": 19799540,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-reference-euler/recording/page@be2378c6e8f26a45f9493ce97cfee441.webm",
+      "bytes": 40150992,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-reference-euler/recording/page@e67727010afded59a9f2b047d8291a2a.webm",
+      "bytes": 39800527,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/megastructure/megastructure-reference-light/recording/page@83b3a55b85373b1b21efb37a7d4e5868.webm",
+      "bytes": 68449630,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/layered/space-revision-a/recording/page@0f1102e9bc031c3e0303d46410fced94.webm",
+      "bytes": 19528418,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/layered/space-revision-a/recording/page@c4325a679f52cbdacc77d60591149c7a.webm",
+      "bytes": 23545544,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/layered/space-revision-a-light/recording/page@81d639e71f547336b10b47356d90f048.webm",
+      "bytes": 46491345,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/layered/space-revision-a-light/recording/page@8ac72b58097d0a9dec546d9705e73daa.webm",
+      "bytes": 21555419,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/layered/space-revision-a-light/recording/page@8b254115cf4013fed3139ae0262888a0.webm",
+      "bytes": 30256953,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/layered/space-revision-a-worlds/recording/page@c2bcf412c742265988e693976a01dc7d.webm",
+      "bytes": 36863195,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/interaction/stage-b/recording/page@448df70513e2b82a38e43cad22dc08de.webm",
+      "bytes": 13066028,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/interaction/stage-b/recording/page@ea84adf08ba0faf032020a8af751e3d4.webm",
+      "bytes": 13836895,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/interaction/stage-b/recording/page@fa704395b1b89c6e2f68fbaecc066645.webm",
+      "bytes": 12849683,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/worlds/stage-c/recording/page@6b5d91880b5755a8baf638690831fdb6.webm",
+      "bytes": 15156785,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/worlds/stage-d-alignment/recording/page@913dee25aa0ecd33a2ff1a137797f792.webm",
+      "bytes": 51507416,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/worlds/stage-d-euler/recording/page@1a253ba8274124afa2cf6a7377c368f8.webm",
+      "bytes": 21002292,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/worlds/stage-d-euler/recording/page@ab60317af6916b28941b3064aa813a29.webm",
+      "bytes": 20649996,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/worlds/stage-d-euler/recording/page@ddc070d06ddbf93f02e5641270a1b67a.webm",
+      "bytes": 20532843,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/worlds/stage-d-euler/recording/page@f1e6d9ef336bb3f452c669d625641425.webm",
+      "bytes": 6399614,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/worlds/stage-d-light/recording/page@387323b822f7b33a30dc05c2a9438ab3.webm",
+      "bytes": 17843069,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/worlds/stage-d-windows/recording/page@07300b3c531ef2d7111a1c2bba3add8b.webm",
+      "bytes": 19981906,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/worlds/stage-d-windows/recording/page@6488e13c80a73d1505c3c28a047f8529.webm",
+      "bytes": 16889192,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/abyss/vertical-abyss-euler/recording/page@55b178ef1579b409c75664398b80b257.webm",
+      "bytes": 15801875,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/abyss/vertical-abyss-euler/recording/page@59293c03e9d6ec5bc285cb45e692301c.webm",
+      "bytes": 44871460,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/abyss/vertical-abyss-exchange/recording/page@3601a2c62a58d085f19553cadd2ec9f7.webm",
+      "bytes": 34727726,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/abyss/vertical-abyss-exchange/recording/page@8fb5f46d2ad610090b94dc71c628c4f8.webm",
+      "bytes": 35025556,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "artifacts/spaces/abyss/vertical-abyss-journey/recording/page@d3be6703c24dd317bafa6f252b27789e.webm",
+      "bytes": 21337810,
+      "reason": "Unreferenced raw capture; completed named movie retained"
+    },
+    {
+      "path": "temp/environment-check",
+      "bytes": 566,
+      "directory": true,
+      "reason": "Disposable dependency-verification fixture and build"
+    },
+    {
+      "path": "temp/cv_debug.log",
+      "bytes": 18819,
+      "reason": "Browser diagnostic log"
+    }
+  ],
+  "proposedBytesRemoved": 1041706342,
+  "updatedTextFiles": 210,
+  "retain": "All authored scenes, concepts, source snapshots, named demos and verification summaries; original environment backup preserved",
+  "state": "completed",
+  "removedItems": 39,
+  "removedBytes": 1041706465
+}

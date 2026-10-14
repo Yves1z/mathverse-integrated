@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-09T15:28:23.371Z",
+  "browser": "154.0.4258.62",
+  "viewports": [
+    "1600×900",
+    "1280×720"
+  ],
+  "checks": {
+    "sixNodesAndEmphasisLimit": true,
+    "dragReturningToOriginDoesNotClick": true,
+    "nativeGeometryPickAndSmallGesture": true,
+    "nonzeroSixPercentSpeed": true,
+    "backgroundDragDisabledInReading": true,
+    "textSelectable": true,
+    "panelScrollIndependent": true,
+    "realGeometryAngleControl": true,
+    "relatedFormulaGeometryLoop": true,
+    "escapeRestoreDirectionPositionAndPause": true,
+    "focusReturnsToEntry": true,
+    "keyboardCatalogAndFocusTrap": true,
+    "twentyCyclesAndSharedResources": {
+      "before": {
+        "geometries": 111,
+        "textures": 13
+      },
+      "after": {
+        "geometries": 112,
+        "textures": 13
+      }
+    },
+    "readingBlurResume": true,
+    "realThreeMinuteReading": {
+      "wallSeconds": 180.083,
+      "effectiveSeconds": 179.9869999999984,
+      "distance": 3.7795357290146665,
+      "speed": 0.020999999999999998,
+      "screenAnchor": [
+        569.6,
+        450
+      ],
+      "geometries": 111,
+      "textures": 13
+    },
+    "postLongReadResume": true,
+    "desktop1280": true
+  },
+  "errors": [],
+  "scope": "Real browser interaction, 20 repeated cycles, and a continuous 3-minute reading session; not a GPU frame-rate benchmark"
+}

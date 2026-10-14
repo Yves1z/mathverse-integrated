@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-11T13:26:00.917Z",
+  "node": "v24.21.0",
+  "npmCache": "D:\\npm-tools\\cache",
+  "temp": "D:\\Mathverse\\temp",
+  "packageImports": true,
+  "typescript": "Version 7.0.2",
+  "viteBuild": true,
+  "browser": "155.0.4283.45",
+  "webgl2": true
+}

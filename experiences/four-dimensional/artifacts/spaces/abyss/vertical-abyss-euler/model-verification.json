@@ -1,0 +1,13 @@
+{
+  "angleSamples": 181,
+  "meshes": 5,
+  "maxSourceExtent": 0.8707999968528748,
+  "minDenominator": 0.8999999999999999,
+  "minimumHeightClearance": 190.24109668508464,
+  "commonProjection": true,
+  "naturalExpansion": 3.2222222222222228,
+  "correctCurvedEye": true,
+  "readingKernelSpeed": 0.021,
+  "readingWorldSpeed": 0.1554,
+  "restoresPauseAndLook": true
+}

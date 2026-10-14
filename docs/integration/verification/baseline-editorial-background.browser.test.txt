@@ -1,0 +1,6 @@
+CONSOLE Failed to load resource: the server responded with a status of 503 (Service Unavailable)
+REQUEST http://127.0.0.1:54476/api/v1/admin/editorial/items/44444444-4444-4444-8444-444444444444/lease { errorText: 'net::ERR_ABORTED' }
+REQUEST http://127.0.0.1:54476/api/v1/admin/editorial/items/44444444-4444-4444-8444-444444444444/lease { errorText: 'net::ERR_ABORTED' }
+REQUEST http://127.0.0.1:54476/api/v1/admin/editorial/items/44444444-4444-4444-8444-444444444444/lease { errorText: 'net::ERR_ABORTED' }
+REQUEST http://127.0.0.1:54476/api/v1/admin/editorial/items/44444444-4444-4444-8444-444444444444/lease { errorText: 'net::ERR_ABORTED' }
+Background review: immediate next question, failure recovery and retry passed

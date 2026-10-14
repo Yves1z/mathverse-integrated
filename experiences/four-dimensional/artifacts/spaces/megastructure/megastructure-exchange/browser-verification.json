@@ -1,0 +1,26 @@
+{
+  "fullRealEvent": {
+    "clock": 68.05409999999235,
+    "from": 0,
+    "to": 3.141592653589793,
+    "events": 1,
+    "travel": 23.801434999997227,
+    "resources": [
+      10,
+      8
+    ]
+  },
+  "continuousRealSamples": {
+    "count": 304,
+    "maximumAngleStep": 0.04733900366101307
+  },
+  "independentFreeze": true,
+  "lookWhileFrozen": true,
+  "freezePixelsStable": true,
+  "restartResetsEvent": true,
+  "cellTransition": true,
+  "previousStages": true,
+  "reducedMotion": true,
+  "videoDuration": 95.48,
+  "errors": []
+}

@@ -1,0 +1,260 @@
+{
+  "checkedAt": "2026-10-09T15:53:09.599Z",
+  "browser": "154.0.4258.62",
+  "checks": {
+    "allSixWorlds": true,
+    "readingArea": 0.801,
+    "sharedAngleAndRelatedContinuity": true
+  },
+  "snapshot": {
+    "phase": "exploring",
+    "elapsed": 6.85,
+    "distance": 2.5154601822166436,
+    "z": -6.515460182216644,
+    "paused": false,
+    "suspended": false,
+    "dragging": false,
+    "spaceFrozen": false,
+    "spaceTime": 27.0351999998093,
+    "targetYaw": 0,
+    "targetPitch": 0,
+    "yaw": 0,
+    "pitch": 0,
+    "yawVelocity": 0,
+    "pitchVelocity": 0,
+    "speed": 0.34046980456567966,
+    "speedScale": 1,
+    "targetSpeed": 0.34999905875533,
+    "entryExitSpeed": 0.35,
+    "frameDt": 0.0185,
+    "skipNextFrame": false,
+    "position": [
+      0,
+      1.55,
+      -6.515460182216644
+    ],
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "quaternion": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "doorAngle": 1.7435839227423353,
+    "doorPanelClearance": 5.301803693134128,
+    "drawCalls": 122,
+    "triangles": 62950,
+    "geometries": 111,
+    "textures": 13,
+    "structure": {
+      "minimumClearance": 2.9034488285150237,
+      "firstSection": 0,
+      "primaryCount": 1426,
+      "fineCount": 2415,
+      "visibleEdges": 3808,
+      "foldCycle": 27.0351999998093,
+      "spaceTime": 27.0351999998093
+    },
+    "reading": {
+      "phase": "closed",
+      "selectedId": null,
+      "elapsed": 1.8065999999046325,
+      "progress": 0,
+      "closeStart": 1,
+      "savedYaw": 0,
+      "savedPitch": 0,
+      "focusYaw": -0.2788206906085609,
+      "focusPitch": 0.21778368299026318,
+      "pausedBefore": false,
+      "hoveredId": null,
+      "hoverElapsed": 0,
+      "angle": 3.7813484615841393,
+      "objectYaw": 0
+    },
+    "observation": null,
+    "connections": {
+      "angle": 3.943245357423411,
+      "exploreAngle": 3.9529754615750767,
+      "alignment": 0.021434224124827123,
+      "time": 27.0351999998093,
+      "ribCount": 19,
+      "sharedWorlds": 3
+    },
+    "worlds": {
+      "euler-identity": {
+        "angle": 3.943245357423411,
+        "marker": [
+          -1.3910403624456265,
+          -1.4370131210420942,
+          -0.02
+        ]
+      },
+      "unit-circle": {
+        "angle": 3.943245357423411,
+        "marker": [
+          -1.3910403624456265,
+          -1.4370131210420942,
+          -0.02
+        ]
+      },
+      "gaussian-integral": {
+        "angle": 3.943245357423411,
+        "marker": null
+      },
+      "mobius-strip": {
+        "angle": 3.943245357423411,
+        "marker": null
+      },
+      "leonhard-euler": {
+        "angle": 3.943245357423411,
+        "marker": null
+      },
+      "complex-rotation": {
+        "angle": 3.943245357423411,
+        "marker": [
+          -1.2519363262010639,
+          -1.2933118089378848,
+          0
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "id": "euler-identity",
+        "discovered": true,
+        "onScreen": true,
+        "occluded": false,
+        "emphasized": true,
+        "alpha": 1,
+        "screen": [
+          280.88140010534187,
+          256.36052226151645
+        ],
+        "labelScreen": [
+          288.26987541446687,
+          480.20378439019385
+        ],
+        "position": [
+          -6.3,
+          3.9,
+          -17
+        ]
+      },
+      {
+        "id": "unit-circle",
+        "discovered": true,
+        "onScreen": true,
+        "occluded": false,
+        "emphasized": true,
+        "alpha": 1,
+        "screen": [
+          1235.9986387643748,
+          356.57172026477684
+        ],
+        "labelScreen": [
+          1228.2247295048976,
+          544.1768062392766
+        ],
+        "position": [
+          6.3,
+          2.9,
+          -19
+        ]
+      },
+      {
+        "id": "gaussian-integral",
+        "discovered": false,
+        "onScreen": true,
+        "occluded": false,
+        "emphasized": false,
+        "alpha": 0.23399999999999999,
+        "screen": [
+          970.4280680510795,
+          388.59576959924345
+        ],
+        "labelScreen": [
+          972.3598549520688,
+          460.13415748017053
+        ],
+        "position": [
+          6.8,
+          4,
+          -41
+        ]
+      },
+      {
+        "id": "mobius-strip",
+        "discovered": false,
+        "onScreen": true,
+        "occluded": false,
+        "emphasized": false,
+        "alpha": 0.23399999999999999,
+        "screen": [
+          641.2817326442969,
+          403.8058774113999
+        ],
+        "labelScreen": [
+          639.45607632614,
+          471.4182872982438
+        ],
+        "position": [
+          -6.7,
+          3.5,
+          -43
+        ]
+      },
+      {
+        "id": "leonhard-euler",
+        "discovered": true,
+        "onScreen": true,
+        "occluded": true,
+        "emphasized": false,
+        "alpha": 0.65,
+        "screen": [
+          549.0520788183997,
+          248.22430661749695
+        ],
+        "labelScreen": [
+          559.2709896392219,
+          336.1395133021881
+        ],
+        "position": [
+          -7.4,
+          7.5,
+          -32
+        ]
+      },
+      {
+        "id": "complex-rotation",
+        "discovered": true,
+        "onScreen": true,
+        "occluded": false,
+        "emphasized": true,
+        "alpha": 1,
+        "screen": [
+          816.0895043627113,
+          174.46723778856827
+        ],
+        "labelScreen": [
+          812.4437302233695,
+          285.65601172356037
+        ],
+        "position": [
+          0.4,
+          8.4,
+          -28
+        ]
+      }
+    ],
+    "picking": {
+      "attempts": 0,
+      "opened": 0,
+      "blocked": 0
+    }
+  },
+  "errors": []
+}

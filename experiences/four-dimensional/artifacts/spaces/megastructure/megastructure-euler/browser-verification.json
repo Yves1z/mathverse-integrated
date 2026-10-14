@@ -1,0 +1,291 @@
+{
+  "travel": [
+    -4.0175,
+    -4.452480000000097
+  ],
+  "elasticLook": true,
+  "frozenStable": true,
+  "complete": {
+    "motion": {
+      "phase": "exploring",
+      "elapsed": 0,
+      "distance": 0.5436197050307001,
+      "z": -4.5436197050307,
+      "paused": true,
+      "suspended": false,
+      "dragging": false,
+      "spaceFrozen": false,
+      "spaceTime": 49.81659999999966,
+      "targetYaw": -0.5,
+      "targetPitch": 0.09,
+      "yaw": -0.5,
+      "pitch": 0.09,
+      "yawVelocity": 0,
+      "pitchVelocity": 0,
+      "speed": 0,
+      "speedScale": 1,
+      "targetSpeed": 0,
+      "entryExitSpeed": 0.35,
+      "frameDt": 0.029299999999813735,
+      "skipNextFrame": false
+    },
+    "fold": {
+      "clock": 49.81659999999966,
+      "phase": "stable",
+      "section": 0,
+      "elapsed": 44.00159999999965,
+      "from": 0,
+      "to": 3.141592653589793,
+      "angle": 3.141592653589793,
+      "events": 1,
+      "states": 1,
+      "stableTime": 0,
+      "stableDuration": 80,
+      "eventDuration": 44,
+      "maximumMovingUnits": 1,
+      "manual": false,
+      "trackedPosition": "outside"
+    },
+    "position": [
+      0,
+      1.55,
+      -4.5436197050307
+    ],
+    "structure": {
+      "firstSection": -2,
+      "counts": {
+        "primary": 94,
+        "layer": 1693,
+        "joint": 841,
+        "light": 10
+      },
+      "minimumClearance": 4.679550618523514,
+      "sharedVertices": 1826,
+      "fold": {
+        "clock": 49.81659999999966,
+        "phase": "stable",
+        "section": 0,
+        "elapsed": 44.00159999999965,
+        "from": 0,
+        "to": 3.141592653589793,
+        "angle": 3.141592653589793,
+        "events": 1,
+        "states": 1,
+        "stableTime": 0,
+        "stableDuration": 80,
+        "eventDuration": 44,
+        "maximumMovingUnits": 1,
+        "manual": false,
+        "trackedPosition": "outside"
+      },
+      "bloom": false,
+      "particles": 0,
+      "surface": "satin-graphite",
+      "physicalBevel": true,
+      "shadowGeometryMatches": true
+    },
+    "world": {
+      "owner": 0,
+      "angle": 3.141592653589793,
+      "sourceW": -1,
+      "worldCount": 1,
+      "volumeFigures": 2,
+      "humanTraces": 1,
+      "sharedProjection": true,
+      "frames": 0,
+      "particles": 0,
+      "sourceUnchanged": true
+    },
+    "figures": [
+      {
+        "id": "unit-circle",
+        "section": 0,
+        "angle": 3.141592653589793,
+        "sourceW": -1,
+        "sourceGeometry": "unit-circle-and-shared-angle-marker",
+        "singleBoundary": false,
+        "position": [
+          -31.999999999999996,
+          5,
+          -44
+        ],
+        "fullCellInterior": true,
+        "projection": "every-source-vertex-through-identical-XW-projection",
+        "frame": false,
+        "portalTexture": false,
+        "sourceUnchanged": true,
+        "endScale": 3.222222222222222,
+        "centralReferenceScale": 25.333333333333332,
+        "localBounds": 17.98666801014531,
+        "boundsMeasure": "maximum-actual-vertex-distance-from-cell-center",
+        "markerWorld": [
+          -47.454197243273235,
+          -3.697062646498347,
+          -44
+        ],
+        "markerScreen": [
+          453.31851245986627,
+          608.3697687841824
+        ],
+        "collapseOpacity": 1
+      },
+      {
+        "id": "complex-rotation",
+        "section": 0,
+        "angle": 3.141592653589793,
+        "sourceW": -1,
+        "sourceGeometry": "partial-helicoid-from-complex-radials",
+        "singleBoundary": false,
+        "position": [
+          -31.999999999999996,
+          5,
+          -44
+        ],
+        "fullCellInterior": true,
+        "projection": "every-source-vertex-through-identical-XW-projection",
+        "frame": false,
+        "portalTexture": false,
+        "sourceUnchanged": true,
+        "endScale": 3.222222222222222,
+        "centralReferenceScale": 25.333333333333332,
+        "localBounds": 22.929115603553296,
+        "boundsMeasure": "maximum-actual-vertex-distance-from-cell-center",
+        "markerWorld": null,
+        "markerScreen": null,
+        "collapseOpacity": 1
+      }
+    ],
+    "lighting": {
+      "shadowMaps": 1,
+      "shadowRadius": 3.2,
+      "texelSnapped": true,
+      "environment": "procedural-soft-apertures",
+      "lightSections": [
+        -1,
+        0,
+        1
+      ],
+      "areaLights": 3,
+      "animatedIntensity": false
+    },
+    "geometries": 33,
+    "textures": 19,
+    "drawCalls": 30,
+    "observation": null,
+    "nodes": [
+      {
+        "id": "euler-identity",
+        "position": [
+          -36.559999999999995,
+          25.77333333333333,
+          -55.4
+        ],
+        "bounds": {
+          "x": 580.7799818725986,
+          "y": 185.95860893963274,
+          "width": 253.32478457672687,
+          "height": 30.69053256780967
+        },
+        "screen": [
+          696.0985635625829,
+          199.92956205005822
+        ],
+        "occluded": false
+      },
+      {
+        "id": "unit-circle",
+        "position": [
+          -31.999999999999996,
+          5,
+          -44
+        ],
+        "bounds": {
+          "x": 401.1196745592624,
+          "y": 70.36325026340607,
+          "width": 563.8661296631549,
+          "height": 799.9243069076819
+        },
+        "screen": [
+          453.31851245986627,
+          608.3697687841824
+        ],
+        "occluded": false
+      },
+      {
+        "id": "complex-rotation",
+        "position": [
+          -31.999999999999996,
+          5,
+          -44
+        ],
+        "bounds": {
+          "x": 152.4450772295739,
+          "y": -61.9667284697521,
+          "width": 854.2218590627241,
+          "height": 1018.8900616081098
+        },
+        "screen": [
+          641.7658090538331,
+          468.2121673227001
+        ],
+        "occluded": false
+      },
+      {
+        "id": "leonhard-euler",
+        "position": [
+          -46.69333333333333,
+          -8.68,
+          -33.10666666666667
+        ],
+        "bounds": {
+          "x": 182.36427118398151,
+          "y": 576.5338729689335,
+          "width": 221.26953357723235,
+          "height": 322.6035059505691
+        },
+        "screen": [
+          291.05612196767464,
+          719.616161599264
+        ],
+        "occluded": false
+      },
+      {
+        "id": "gaussian-integral",
+        "position": [
+          -35.77379310344828,
+          1.8551724137931038,
+          -36.13793103448276
+        ],
+        "bounds": null,
+        "screen": [
+          0,
+          0
+        ],
+        "occluded": false
+      },
+      {
+        "id": "mobius-strip",
+        "position": [
+          -28.226206896551723,
+          1.8551724137931038,
+          -36.13793103448276
+        ],
+        "bounds": null,
+        "screen": [
+          0,
+          0
+        ],
+        "occluded": false
+      }
+    ]
+  },
+  "actualPaperPick": true,
+  "reading": {
+    "area": 0.801,
+    "speed": 0.020999999999999998,
+    "chapters": 3
+  },
+  "reducedMotion": true,
+  "videoDuration": 67.52,
+  "errors": []
+}

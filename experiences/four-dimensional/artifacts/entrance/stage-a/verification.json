@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-09T11:38:59.712Z",
+  "browser": "154.0.4258.62",
+  "viewport": "1920x1080 and 1280x720",
+  "checks": {
+    "structureClearance": 2.935,
+    "forwardTravel": {
+      "before": 0.1761200000166891,
+      "after": 0.4816700000166896
+    },
+    "pause": true,
+    "independentLook": {
+      "yaw": 1.3089707789780676,
+      "position": [
+        0,
+        1.55,
+        -4.491260000050068
+      ]
+    },
+    "backwardsLook": [
+      0.5000249235941289,
+      0,
+      0.8660110136624624
+    ],
+    "lookForward": true,
+    "resume": true,
+    "desktop1280": true
+  },
+  "errors": [],
+  "scene": {
+    "phase": "exploring",
+    "elapsed": 3.8542999999523153,
+    "distance": 0.7074550000667585,
+    "z": -4.7074550000667585,
+    "paused": false,
+    "suspended": false,
+    "dragging": false,
+    "targetYaw": 0,
+    "targetPitch": 0,
+    "yaw": 9.348080938541322e-9,
+    "pitch": 0,
+    "position": [
+      0,
+      1.55,
+      -4.7074550000667585
+    ],
+    "direction": [
+      9.348080938541322e-9,
+      0,
+      -1
+    ],
+    "quaternion": [
+      0,
+      -4.674040469270661e-9,
+      0,
+      1
+    ],
+    "drawCalls": 17,
+    "triangles": 58644,
+    "geometries": 25,
+    "textures": 3,
+    "structure": {
+      "minimumClearance": 2.935,
+      "firstSection": 0,
+      "primaryCount": 512,
+      "fineCount": 4139
+    }
+  },
+  "scope": "Stage A functional checks; not a full GPU performance benchmark"
+}

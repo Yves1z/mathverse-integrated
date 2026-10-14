@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Universe</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;700&family=Syncopate:wght@400;700&display=swap');
+
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000002;
+            font-family: 'JetBrains Mono', monospace;
+            color: #fff;
+            user-select: none;
+        }
+        canvas { display: block; }
+
+        #overlay {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 40px;
+            background: radial-gradient(circle at center, transparent 20%, rgba(0,0,10,0.7) 100%);
+            z-index: 10;
+        }
+
+        .header { text-align: center; margin-top: 5vh; }
+        .title {
+            font-family: 'Syncopate', sans-serif;
+            font-size: 2.5rem;
+            letter-spacing: 0.6em;
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 12px;
+            font-weight: 700;
+            text-shadow: 0 0 20px rgba(0, 243, 255, 0.5);
+            margin-left: 0.6em; /* Offset for letter spacing center */
+        }
+        .status-pill {
+            display: inline-block;
+            padding: 8px 24px;
+            background: rgba(0, 243, 255, 0.05);
+            border: 1px solid rgba(0, 243, 255, 0.3);
+            border-radius: 30px;
+            font-size: 0.75rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: #00f3ff;
+            box-shadow: 0 0 15px rgba(0, 243, 255, 0.1) inset;
+        }
+
+        .hud-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            font-size: 0.75rem;
+            opacity: 0.8;
+            letter-spacing: 1px;
+        }
+        .metric { margin-bottom: 8px; color: #8892b0; }
+        .val { color: #00f3ff; font-weight: bold; }
+
+        #interact-prompt {
+            position: absolute;
+            bottom: 20vh;
+            width: 100%;
+            text-align: center;
+            font-family: 'Syncopate', sans-serif;
+            font-size: 0.8rem;
+            letter-spacing: 0.4em;
+            color: #fff;
+            opacity: 0;
+            pointer-events: none;
+            animation: pulse 2s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.3; text-shadow: 0 0 10px rgba(255,255,255,0); }
+            100% { opacity: 1; text-shadow: 0 0 20px rgba(255,255,255,0.8); }
+        }
+
+        #flash-overlay {
+            position: fixed;
+            inset: 0;
+            background: #fff;
+            opacity: 0;
+            pointer-events: none;
+            z-index: 999;
+        }
+    </style>
+
+    <!-- ES Module Shims & Import Map -->
+    <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/",
+                "gsap": "https://unpkg.com/gsap@3.12.5/index.js"
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div id="overlay">
+        <div class="header">
+            <div class="title" id="main-title">Math Universe</div>
+            <div class="status-pill" id="status-text">State: Unordered Nebula</div>
+        </div>
+        <div class="hud-bottom">
+            <div>
+                <div class="metric">INFINITY_SCALE: <span class="val" id="scale-val">Aleph-Null</span></div>
+                <div class="metric">AXIOM_STATE: <span class="val" id="axiom-val">FLUCTUATING</span></div>
+            </div>
+            <div style="text-align: right">
+                <div class="metric">TOPOLOGY: <span class="val" id="topo-val">N-Dimensional</span></div>
+                <div class="metric">ENTROPY: <span class="val" id="entropy-val">MAXIMUM</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="interact-prompt">PRESS ANY KEY OR CLICK TO INITIALIZE</div>
+    <div id="flash-overlay"></div>
+
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+        import gsap from 'gsap';
+
+        // --- 1. 创建数学符号纹理图集 (Texture Atlas) ---
+        function createMathAtlas() {
+            const canvas = document.createElement('canvas');
+            canvas.width = 1024; 
+            canvas.height = 1024;
+            const ctx = canvas.getContext('2d');
+            
+            // 背景透明
+            ctx.clearRect(0, 0, 1024, 1024);
+            ctx.fillStyle = '#ffffff';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            
+            // 挑选的16个代表性数学符号
+            const symbols = ['∫', '∑', 'π', '∞', '√', 'Δ', 'Ω', 'e', 'θ', 'μ', 'λ', '∇', '≈', '≠', '∀', '∃'];
+            
+            for(let i = 0; i < 16; i++) {
+                let col = i % 4;
+                let row = Math.floor(i / 4);
+                let x = col * 256 + 128;
+                let y = row * 256 + 128;
+                
+                // 绘制发光效果
+                ctx.shadowColor = 'rgba(255,255,255,0.8)';
+                ctx.shadowBlur = 15;
+                ctx.font = 'bold 130px "Times New Roman", serif';
+                ctx.fillText(symbols[i], x, y + 10);
+            }
+            
+            const texture = new THREE.CanvasTexture(canvas);
+            texture.colorSpace = THREE.SRGBColorSpace;
+            return texture;
+        }
+
+        // --- 2. 场景与渲染器初始化 ---
+        const scene = new THREE.Scene();
+        scene.fog = new THREE.FogExp2(0x000005, 0.008);
+
+        const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+        camera.position.set(0, 40, 120);
+
+        const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        renderer.toneMapping = THREE.ACESFilmicToneMapping;
+        renderer.toneMappingExposure = 1.5;
+        document.body.appendChild(renderer.domElement);
+
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.03;
+        controls.enableZoom = false; // 禁用缩放，以免破坏沉浸感
+        controls.autoRotate = true;
+        controls.autoRotateSpeed = 0.5;
+
+        // --- 3. 核心黑洞奇点生成 (默认隐藏，随后出现) ---
+        const coreGroup = new THREE.Group();
+        scene.add(coreGroup);
+        coreGroup.scale.set(0.001, 0.001, 0.001); // 初始极小
+
+        // 黑洞本体（绝对黑体）
+        const bhMat = new THREE.MeshBasicMaterial({ color: 0x000000 });
+        const bhGeo = new THREE.SphereGeometry(6, 64, 64);
+        coreGroup.add(new THREE.Mesh(bhGeo, bhMat));
+
+        // 事件视界光环 (Aura)
+        const auraMat = new THREE.ShaderMaterial({
+            uniforms: { uTime: { value: 0 }, uIntensity: { value: 1.0 } },
+            vertexShader: `
+                varying vec3 vNormal; varying vec3 vView;
+                void main() {
+                    vNormal = normalize(normalMatrix * normal);
+                    vView = normalize(-(modelViewMatrix * vec4(position, 1.0)).xyz);
+                    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+                }
+            `,
+            fragmentShader: `
+                uniform float uIntensity;
+                varying vec3 vNormal; varying vec3 vView;
+                void main() {
+                    float rim = pow(1.0 - max(dot(vNormal, vView), 0.0), 3.0);
+                    // 采用数学宇宙的冷色调：青蓝紫
+                    gl_FragColor = vec4(vec3(0.1, 0.6, 1.0) * rim * uIntensity * 4.0, 1.0);
+                }
+            `,
+            side: THREE.BackSide, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false
+        });
+        coreGroup.add(new THREE.Mesh(new THREE.SphereGeometry(6.4, 64, 64), auraMat));
+
+        // --- 4. 实例化数学公式粒子 (InstancedMesh) ---
+        const instanceCount = 8000; // 粒子数量
+        const planeGeo = new THREE.PlaneGeometry(1, 1);
+        const mathAtlasTexture = createMathAtlas();
+
+        // 噪声算法 (用于扰动)
+        const noiseChunk = `
+            vec3 mod289(vec3 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; }
+            vec4 mod289(vec4 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; }
+            vec4 permute(vec4 x) { return mod289(((x*34.0)+1.0)*x); }
+            vec4 taylorInvSqrt(vec4 r) { return 1.79284291400159 - 0.85373472095314 * r; }
+            float snoise(vec3 v) {
+                const vec2 C = vec2(1.0/6.0, 1.0/3.0); const vec4 D = vec4(0.0, 0.5, 1.0, 2.0);
+                vec3 i = floor(v + dot(v, C.yyy)); vec3 x0 = v - i + dot(i, C.xxx);
+                vec3 g = step(x0.yzx, x0.xyz); vec3 l = 1.0 - g;
+                vec3 i1 = min( g.xyz, l.zxy ); vec3 i2 = max( g.xyz, l.zxy );
+                vec3 x1 = x0 - i1 + C.xxx; vec3 x2 = x0 - i2 + C.yyy; vec3 x3 = x0 - D.yyy;
+                i = mod289(i);
+                vec4 p = permute( permute( permute( i.z + vec4(0.0, i1.z, i2.z, 1.0 )) + i.y + vec4(0.0, i1.y, i2.y, 1.0 )) + i.x + vec4(0.0, i1.x, i2.x, 1.0 ));
+                float n_ = 0.142857142857; vec3 ns = n_ * D.wyz - D.xzx;
+                vec4 j = p - 49.0 * floor(p * ns.z * ns.z); vec4 x_ = floor(j * ns.z); vec4 y_ = floor(j - 7.0 * x_ );
+                vec4 x = x_ *ns.x + ns.yyyy; vec4 y = y_ *ns.x + ns.yyyy; vec4 h = 1.0 - abs(x) - abs(y);
+                vec4 b0 = vec4( x.xy, y.xy ); vec4 b1 = vec4( x.zw, y.zw );
+                vec4 s0 = floor(b0)*2.0 + 1.0; vec4 s1 = floor(b1)*2.0 + 1.0;
+                vec4 sh = -step(h, vec4(0.0));
+                vec4 a0 = b0.xzyw + s0.xzyw*sh.xxyy; vec4 a1 = b1.xzyw + s1.xzyw*sh.zzww;
+                vec3 p0 = vec3(a0.xy,h.x); vec3 p1 = vec3(a0.zw,h.y); vec3 p2 = vec3(a1.xy,h.z); vec3 p3 = vec3(a1.zw,h.w);
+                vec4 norm = taylorInvSqrt(vec4(dot(p0,p0), dot(p1,p1), dot(p2,p2), dot(p3,p3)));
+                p0 *= norm.x; p1 *= norm.y; p2 *= norm.z; p3 *= norm.w;
+                vec4 m = max(0.6 - vec4(dot(x0,x0), dot(x1,x1), dot(x2,x2), dot(x3,x3)), 0.0);
+                m = m * m; return 42.0 * dot( m*m, vec4( dot(p0,x0), dot(p1,x1), dot(p2,x2), dot(p3,x3) ) );
+            }
+        `;
+
+        const particleMaterial = new THREE.ShaderMaterial({
+            uniforms: {
+                uTime: { value: 0 },
+                uCollapse: { value: 0.0 }, // 0: 星云状态, 1: 黑洞吸积盘
+                uAtlas: { value: mathAtlasTexture }
+            },
+            vertexShader: `
+                ${noiseChunk}
+                uniform float uTime;
+                uniform float uCollapse;
+                
+                attribute float aSymbolIndex;
+                attribute float aSize;
+                
+                varying vec2 vUv;
+                varying vec3 vColor;
+                varying float vOpacity;
+
+                void main() {
+                    // 获取初始三维坐标
+                    vec3 basePos = (instanceMatrix * vec4(0.0, 0.0, 0.0, 1.0)).xyz;
+                    
+                    float r3D = length(basePos);
+                    float r2D = length(basePos.xz);
+                    float initialAngle = atan(basePos.z, basePos.x);
+                    
+                    // 吸积盘状态计算
+                    float orbitalVelocity = (2.5 / sqrt(r2D + 0.1));
+                    float currentAngle = initialAngle + (uTime * orbitalVelocity * uCollapse) + (uTime * 0.1 * (1.0 - uCollapse));
+                    
+                    // 盘面的高度压缩
+                    float targetY = basePos.y * 0.02; // 极度扁平
+                    vec3 diskPos = vec3(cos(currentAngle) * r2D, targetY, sin(currentAngle) * r2D);
+                    
+                    // 增加动态扰动
+                    float noise = snoise(vec3(diskPos.x * 0.1, diskPos.z * 0.1, uTime * 0.5));
+                    diskPos.y += noise * 2.0 * uCollapse; // 坍缩后才有强烈波浪
+                    
+                    // 状态混合 (三维星云 <-> 扁平吸积盘)
+                    // 当处于星云状态时，粒子也做缓慢旋转
+                    vec3 nebulaPos = vec3(cos(currentAngle)*r2D, basePos.y, sin(currentAngle)*r2D);
+                    vec3 currentCenter = mix(nebulaPos, diskPos, uCollapse);
+                    
+                    // Billboarding: 强制让平面的法线永远朝向摄像机
+                    vec3 camRight = vec3(viewMatrix[0][0], viewMatrix[1][0], viewMatrix[2][0]);
+                    vec3 camUp = vec3(viewMatrix[0][1], viewMatrix[1][1], viewMatrix[2][1]);
+                    
+                    // 应用粒子大小，靠近黑洞时稍微拉长(红移/潮汐力错觉)
+                    float stretch = mix(1.0, 1.0 + orbitalVelocity*0.5, uCollapse);
+                    vec3 vertexWorld = currentCenter 
+                                     + camRight * position.x * aSize * stretch 
+                                     + camUp * position.y * aSize;
+                                     
+                    gl_Position = projectionMatrix * viewMatrix * vec4(vertexWorld, 1.0);
+
+                    // 计算UV以匹配纹理图集 (4x4)
+                    float col = mod(aSymbolIndex, 4.0);
+                    float row = floor(aSymbolIndex / 4.0);
+                    vUv = uv * 0.25 + vec2(col * 0.25, 0.75 - row * 0.25);
+                    
+                    // 颜色逻辑 (冷色调：青蓝、深紫)
+                    vec3 cool = vec3(0.3, 0.1, 0.8); // 深紫
+                    vec3 warm = vec3(0.0, 0.8, 1.0); // 亮青色
+                    vec3 hot = vec3(1.0, 1.0, 1.0);  // 纯白核心
+                    
+                    vec3 color = mix(cool, warm, smoothstep(50.0, 15.0, r2D));
+                    color = mix(color, hot, smoothstep(12.0, 5.0, r2D));
+                    
+                    // 根据状态提升亮度
+                    vColor = color * (1.0 + uCollapse * 1.5);
+                    
+                    // 透明度逻辑：避免中心穿模，边缘渐隐
+                    float op = smoothstep(5.0, 8.0, r2D) * (1.0 - smoothstep(60.0, 90.0, r2D));
+                    vOpacity = mix(0.4, op * 0.9, uCollapse); 
+                }
+            `,
+            fragmentShader: `
+                uniform sampler2D uAtlas;
+                varying vec2 vUv;
+                varying vec3 vColor;
+                varying float vOpacity;
+                
+                void main() {
+                    vec4 texColor = texture2D(uAtlas, vUv);
+                    // 过滤掉黑色背景/无字区域，利用纹理的亮度作为Alpha
+                    float alpha = texColor.r * vOpacity;
+                    if(alpha < 0.05) discard;
+                    
+                    gl_FragColor = vec4(vColor, alpha);
+                }
+            `,
+            transparent: true,
+            blending: THREE.AdditiveBlending,
+            depthWrite: false
+        });
+
+        const instancedMath = new THREE.InstancedMesh(planeGeo, particleMaterial, instanceCount);
+        
+        // 赋予粒子属性
+        const symbolIndices = new Float32Array(instanceCount);
+        const sizes = new Float32Array(instanceCount);
+        const dummy = new THREE.Object3D();
+
+        for (let i = 0; i < instanceCount; i++) {
+            // 球体随机分布(星云)
+            const r = 8 + Math.pow(Math.random(), 1.5) * 80;
+            const theta = Math.random() * Math.PI * 2;
+            const phi = Math.acos((Math.random() * 2) - 1);
+            
+            dummy.position.set(
+                r * Math.sin(phi) * Math.cos(theta),
+                r * Math.cos(phi),
+                r * Math.sin(phi) * Math.sin(theta)
+            );
+            dummy.updateMatrix();
+            instancedMath.setMatrixAt(i, dummy.matrix);
+            
+            // 随机分配0-15的符号索引
+            symbolIndices[i] = Math.floor(Math.random() * 16);
+            // 随机大小
+            sizes[i] = 1.0 + Math.random() * 2.5;
+        }
+
+        instancedMath.geometry.setAttribute('aSymbolIndex', new THREE.InstancedBufferAttribute(symbolIndices, 1));
+        instancedMath.geometry.setAttribute('aSize', new THREE.InstancedBufferAttribute(sizes, 1));
+        scene.add(instancedMath);
+
+        // --- 5. 动画序列编排 (GSAP) ---
+        let isReadyToJump = false;
+        
+        function startNarrativeSequence() {
+            const tl = gsap.timeline();
+            
+            // 阶段 1：观察星云 (0~3秒) - 无为而治
+            tl.to({}, { duration: 3.0 });
+            
+            // 阶段 2：引力坍缩，规则建立 (3~8秒)
+            tl.to(particleMaterial.uniforms.uCollapse, { 
+                value: 1.0, 
+                duration: 5.0, 
+                ease: "power2.inOut",
+                onStart: () => {
+                    document.getElementById('status-text').innerText = "State: Gravitational Collapse";
+                    document.getElementById('status-text').style.color = "#ff3366";
+                    document.getElementById('status-text').style.borderColor = "#ff3366";
+                    document.getElementById('topo-val').innerText = "Collapsing...";
+                    document.getElementById('entropy-val').innerText = "DECREASING";
+                }
+            });
+            
+            // 同步展现黑洞奇点
+            tl.to(coreGroup.scale, {
+                x: 1, y: 1, z: 1,
+                duration: 4.0,
+                ease: "elastic.out(1, 0.7)"
+            }, "-=4.0");
+            
+            // 摄像机镜头拉近拉平
+            tl.to(camera.position, {
+                y: 15,
+                duration: 5.0,
+                ease: "power2.inOut"
+            }, "-=5.0");
+            
+            // 阶段 3：稳定运转 (8秒后)
+            tl.call(() => {
+                document.getElementById('status-text').innerText = "State: Stable Singularity";
+                document.getElementById('status-text').style.color = "#00f3ff";
+                document.getElementById('status-text').style.borderColor = "#00f3ff";
+                document.getElementById('axiom-val').innerText = "ABSOLUTE TRUTH";
+                document.getElementById('topo-val').innerText = "SCHWARZSCHILD";
+                
+                // 显示交互提示
+                gsap.to('#interact-prompt', { opacity: 1, duration: 1 });
+                isReadyToJump = true;
+            });
+        }
+
+        // 启动序章动画
+        setTimeout(startNarrativeSequence, 500);
+
+        // --- 6. 跃迁系统 (Hyperjump Interaction) ---
+        let jumped = false;
+        
+        function triggerJump() {
+            if (!isReadyToJump || jumped) return;
+            jumped = true;
+            
+            // 禁用轨道控制器
+            controls.enabled = false;
+            
+            // 隐藏 UI
+            gsap.to(['#overlay', '#interact-prompt'], { opacity: 0, duration: 0.5 });
+            
+            const jumpTl = gsap.timeline({
+                onComplete: () => {
+                    // ** 这里是页面跳转逻辑，你可以改成你的主页路径，比如 './home.html' **
+                    // window.location.href = '#home'; 
+                    console.log("Hyperjump complete. Redirecting to Math Universe Homepage...");
+                    document.getElementById('interact-prompt').innerText = "CONNECTION ESTABLISHED";
+                    gsap.to('#interact-prompt', { opacity: 1, duration: 1, color: '#000' });
+                }
+            });
+            
+            // 摄像机直接冲入黑洞中心
+            jumpTl.to(camera.position, {
+                x: 0,
+                y: 0,
+                z: 0.1, // 逼近奇点
+                duration: 1.5,
+                ease: "power4.in"
+            }, 0);
+            
+            // FOV 拉大制造光速感
+            jumpTl.to(camera, {
+                fov: 140,
+                duration: 1.5,
+                ease: "power3.in",
+                onUpdate: () => camera.updateProjectionMatrix()
+            }, 0);
+            
+            // 屏幕被白光吞没 (大爆炸/顿悟感)
+            jumpTl.to('#flash-overlay', {
+                opacity: 1,
+                duration: 0.8,
+                ease: "power2.in"
+            }, 0.7);
+        }
+
+        window.addEventListener('click', triggerJump);
+        window.addEventListener('keydown', triggerJump);
+        // 为了触摸屏支持
+        window.addEventListener('touchstart', triggerJump);
+
+        // --- 7. 渲染循环 ---
+        const clock = new THREE.Clock();
+        function animate() {
+            const time = clock.getElapsedTime();
+            
+            particleMaterial.uniforms.uTime.value = time;
+            auraMat.uniforms.uTime.value = time;
+            
+            // 整体轻微自转
+            instancedMath.rotation.y = time * 0.05;
+            
+            controls.update();
+            renderer.render(scene, camera);
+            requestAnimationFrame(animate);
+        }
+
+        // 窗口自适应
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        animate();
+    </script>
+</body>
+</html>

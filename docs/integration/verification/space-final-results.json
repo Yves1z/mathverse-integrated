@@ -1,0 +1,26 @@
+[
+  {
+    "test": "scripts/spaces/abyss/abyss-exchange.gallery.test.mjs",
+    "exit_code": 0,
+    "seconds": 9.25,
+    "log": "space-final-abyss-exchange.gallery.test.log"
+  },
+  {
+    "test": "scripts/spaces/abyss/abyss-journey.controls.test.mjs",
+    "exit_code": 0,
+    "seconds": 8.28,
+    "log": "space-final-abyss-journey.controls.test.log"
+  },
+  {
+    "test": "scripts/worlds/stage-d.euler.test.mjs",
+    "exit_code": 1,
+    "seconds": 35.39,
+    "log": "space-final-stage-d.euler.test.log"
+  },
+  {
+    "test": "scripts/worlds/stage-d.relation.test.mjs",
+    "exit_code": 1,
+    "seconds": 32.75,
+    "log": "space-final-stage-d.relation.test.log"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-09T13:50:31.985Z",
+  "browser": "154.0.4258.62",
+  "viewports": [
+    "1920×1080",
+    "1280×720"
+  ],
+  "checks": {
+    "entrySpeedContinuity": true,
+    "continuousTravel": true,
+    "smoothPauseAndIndependentWorld": true,
+    "sixPixelGestureThreshold": true,
+    "noAutoCenter": true,
+    "softPitchBoundaryAndReverse": true,
+    "continuous180DegreeCrossing": true,
+    "shortestForwardReturn": true,
+    "blurCancelsDragAndResumesWithoutJump": true,
+    "smoothResume": true,
+    "freezeWorld": true,
+    "noCameraRoll": true,
+    "doorClearance": {
+      "minimum": 0.5725734484965407,
+      "crossingSamples": 8
+    },
+    "maximumPitchDegrees": 54.99999977430693,
+    "desktopSizes": true
+  },
+  "errors": [],
+  "video": "stage-b-demo.webm",
+  "videoViewport": "1600×900",
+  "videoWallSeconds": 26.01,
+  "scope": "Browser motion/interaction checks and continuous demonstration; not a full GPU benchmark"
+}

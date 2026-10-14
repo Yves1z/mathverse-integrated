@@ -1,0 +1,21 @@
+import { fileURLToPath as integrationFileURLToPath } from 'node:url';
+const INTEGRATION_PROJECT_ROOT = integrationFileURLToPath(new URL('../../../', import.meta.url)).replace(/\\/g, '/').replace(/\/$/, '');
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import { createReferenceBeams, createJourneyBeams, referenceRouteClearance, REFERENCE_JOURNEY, REFERENCE_VIEW } from '../../../src/mathverse/experiments/megastructure/referenceModel.ts';
+const source=createReferenceBeams(true),field=createJourneyBeams(0),next=createJourneyBeams(1);
+const clearance=Math.min(...source.map(referenceRouteClearance));assert.ok(clearance>=REFERENCE_JOURNEY.clearance);
+assert.ok(field.flatMap(b=>[...b.center,...b.size]).every(Number.isFinite));
+const count=source.length;
+// Retained global cells must preserve geometry and material identity.
+assert.deepEqual(field.slice(count),next.slice(0,count*3));
+const camera=[REFERENCE_VIEW.eye[0],REFERENCE_VIEW.eye[1],REFERENCE_VIEW.eye[2]-REFERENCE_JOURNEY.pitch];
+const distanceToBox=b=>Math.hypot(...camera.map((v,i)=>Math.max(0,Math.abs(v-b.center[i])-b.size[i]/2)));
+const removed=field.slice(0,count),added=next.slice(count*3);
+const removedDistance=Math.min(...removed.map(distanceToBox)),addedDistance=Math.min(...added.map(distanceToBox));
+assert.ok(removedDistance>REFERENCE_VIEW.far);assert.ok(addedDistance>REFERENCE_VIEW.far);
+const spines=source.filter(b=>b.size[2]===REFERENCE_JOURNEY.pitch);
+assert.equal(spines.length,4);
+for(const b of spines)assert.equal(b.center[2]-b.size[2]/2,b.center[2]-REFERENCE_JOURNEY.pitch+b.size[2]/2);
+const report={sourceBeams:count,fieldBeams:field.length,minimumClearance:clearance,pitch:REFERENCE_JOURNEY.pitch,retainedCellsStable:true,removedDistance,addedDistance,far:REFERENCE_VIEW.far,sharedSpines:4};
+await fs.writeFile(`${INTEGRATION_PROJECT_ROOT}/artifacts/spaces/megastructure/megastructure-journey/model-verification.json`,JSON.stringify(report,null,2));console.log(JSON.stringify(report));

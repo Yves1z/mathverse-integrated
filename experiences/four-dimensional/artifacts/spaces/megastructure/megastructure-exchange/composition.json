@@ -1,0 +1,375 @@
+{
+  "views": {
+    "inside": {
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 0,
+        "z": -4,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": true,
+        "spaceTime": 0,
+        "targetYaw": 0.1,
+        "targetPitch": 0.27,
+        "yaw": 0.1,
+        "pitch": 0.27,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.05,
+        "skipNextFrame": false
+      },
+      "position": [
+        5,
+        8,
+        110
+      ],
+      "structure": {
+        "beams": 4680,
+        "firstCell": 0,
+        "minimumClearance": 4.8,
+        "hierarchy": [
+          "primary",
+          "layer",
+          "joint"
+        ],
+        "static": true,
+        "lamellaDepth": true,
+        "extended": true
+      },
+      "lighting": {
+        "cells": [
+          -1,
+          0,
+          1,
+          2
+        ],
+        "constantDirection": true,
+        "animatedIntensity": false,
+        "texelSnapped": true
+      },
+      "fold": {
+        "angle": 0,
+        "phase": "stable",
+        "events": 0,
+        "clock": 0,
+        "elapsed": 0,
+        "hold": 0,
+        "manual": true,
+        "maximumMovingUnits": 1,
+        "trackedPosition": "inside",
+        "solids": 72,
+        "connections": 12,
+        "projection": "shared-XW-perspective",
+        "shadowMatchesGeometry": true,
+        "frozen": true
+      },
+      "extended": true,
+      "drawCalls": 17,
+      "geometries": 10,
+      "textures": 8
+    },
+    "opening": {
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 0,
+        "z": -4,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": true,
+        "spaceTime": 0,
+        "targetYaw": 0.1,
+        "targetPitch": 0.27,
+        "yaw": 0.1,
+        "pitch": 0.27,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.05,
+        "skipNextFrame": false
+      },
+      "position": [
+        5,
+        8,
+        110
+      ],
+      "structure": {
+        "beams": 4680,
+        "firstCell": 0,
+        "minimumClearance": 4.8,
+        "hierarchy": [
+          "primary",
+          "layer",
+          "joint"
+        ],
+        "static": true,
+        "lamellaDepth": true,
+        "extended": true
+      },
+      "lighting": {
+        "cells": [
+          -1,
+          0,
+          1,
+          2
+        ],
+        "constantDirection": true,
+        "animatedIntensity": false,
+        "texelSnapped": true
+      },
+      "fold": {
+        "angle": 0.7853981633974483,
+        "phase": "stable",
+        "events": 0,
+        "clock": 0,
+        "elapsed": 0,
+        "hold": 0,
+        "manual": true,
+        "maximumMovingUnits": 1,
+        "trackedPosition": "unfolding",
+        "solids": 72,
+        "connections": 12,
+        "projection": "shared-XW-perspective",
+        "shadowMatchesGeometry": true,
+        "frozen": true
+      },
+      "extended": true,
+      "drawCalls": 17,
+      "geometries": 10,
+      "textures": 8
+    },
+    "midpoint": {
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 0,
+        "z": -4,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": true,
+        "spaceTime": 0,
+        "targetYaw": 0.1,
+        "targetPitch": 0.27,
+        "yaw": 0.1,
+        "pitch": 0.27,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.05,
+        "skipNextFrame": false
+      },
+      "position": [
+        5,
+        8,
+        110
+      ],
+      "structure": {
+        "beams": 4680,
+        "firstCell": 0,
+        "minimumClearance": 4.8,
+        "hierarchy": [
+          "primary",
+          "layer",
+          "joint"
+        ],
+        "static": true,
+        "lamellaDepth": true,
+        "extended": true
+      },
+      "lighting": {
+        "cells": [
+          -1,
+          0,
+          1,
+          2
+        ],
+        "constantDirection": true,
+        "animatedIntensity": false,
+        "texelSnapped": true
+      },
+      "fold": {
+        "angle": 1.5707963267948966,
+        "phase": "stable",
+        "events": 0,
+        "clock": 0,
+        "elapsed": 0,
+        "hold": 0,
+        "manual": true,
+        "maximumMovingUnits": 1,
+        "trackedPosition": "unfolding",
+        "solids": 72,
+        "connections": 12,
+        "projection": "shared-XW-perspective",
+        "shadowMatchesGeometry": true,
+        "frozen": true
+      },
+      "extended": true,
+      "drawCalls": 17,
+      "geometries": 10,
+      "textures": 8
+    },
+    "emerging": {
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 0,
+        "z": -4,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": true,
+        "spaceTime": 0,
+        "targetYaw": 0.1,
+        "targetPitch": 0.27,
+        "yaw": 0.1,
+        "pitch": 0.27,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.05,
+        "skipNextFrame": false
+      },
+      "position": [
+        5,
+        8,
+        110
+      ],
+      "structure": {
+        "beams": 4680,
+        "firstCell": 0,
+        "minimumClearance": 4.8,
+        "hierarchy": [
+          "primary",
+          "layer",
+          "joint"
+        ],
+        "static": true,
+        "lamellaDepth": true,
+        "extended": true
+      },
+      "lighting": {
+        "cells": [
+          -1,
+          0,
+          1,
+          2
+        ],
+        "constantDirection": true,
+        "animatedIntensity": false,
+        "texelSnapped": true
+      },
+      "fold": {
+        "angle": 2.356194490192345,
+        "phase": "stable",
+        "events": 0,
+        "clock": 0,
+        "elapsed": 0,
+        "hold": 0,
+        "manual": true,
+        "maximumMovingUnits": 1,
+        "trackedPosition": "unfolding",
+        "solids": 72,
+        "connections": 12,
+        "projection": "shared-XW-perspective",
+        "shadowMatchesGeometry": true,
+        "frozen": true
+      },
+      "extended": true,
+      "drawCalls": 17,
+      "geometries": 10,
+      "textures": 8
+    },
+    "outside": {
+      "motion": {
+        "phase": "exploring",
+        "elapsed": 0,
+        "distance": 0,
+        "z": -4,
+        "paused": true,
+        "suspended": false,
+        "dragging": false,
+        "spaceFrozen": true,
+        "spaceTime": 0,
+        "targetYaw": 0.1,
+        "targetPitch": 0.27,
+        "yaw": 0.1,
+        "pitch": 0.27,
+        "yawVelocity": 0,
+        "pitchVelocity": 0,
+        "speed": 0,
+        "speedScale": 1,
+        "targetSpeed": 0,
+        "entryExitSpeed": 0.35,
+        "frameDt": 0.05,
+        "skipNextFrame": false
+      },
+      "position": [
+        5,
+        8,
+        110
+      ],
+      "structure": {
+        "beams": 4680,
+        "firstCell": 0,
+        "minimumClearance": 4.8,
+        "hierarchy": [
+          "primary",
+          "layer",
+          "joint"
+        ],
+        "static": true,
+        "lamellaDepth": true,
+        "extended": true
+      },
+      "lighting": {
+        "cells": [
+          -1,
+          0,
+          1,
+          2
+        ],
+        "constantDirection": true,
+        "animatedIntensity": false,
+        "texelSnapped": true
+      },
+      "fold": {
+        "angle": 3.141592653589793,
+        "phase": "stable",
+        "events": 0,
+        "clock": 0,
+        "elapsed": 0,
+        "hold": 0,
+        "manual": true,
+        "maximumMovingUnits": 1,
+        "trackedPosition": "outside",
+        "solids": 72,
+        "connections": 12,
+        "projection": "shared-XW-perspective",
+        "shadowMatchesGeometry": true,
+        "frozen": true
+      },
+      "extended": true,
+      "drawCalls": 17,
+      "geometries": 10,
+      "textures": 8
+    }
+  },
+  "errors": []
+}

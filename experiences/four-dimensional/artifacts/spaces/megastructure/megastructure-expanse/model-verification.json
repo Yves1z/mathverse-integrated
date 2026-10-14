@@ -1,0 +1,11 @@
+{
+  "assemblies": 119,
+  "beams": 6150,
+  "angleSamples": 721,
+  "clearance": 19.419426413999982,
+  "pitch": 216,
+  "far": 1500,
+  "sourceRadiusRatio": 3.2222222222222228,
+  "fixedSockets": true,
+  "recycling": true
+}

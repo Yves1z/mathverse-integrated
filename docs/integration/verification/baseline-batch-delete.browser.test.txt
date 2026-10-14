@@ -1,0 +1,1 @@
+PASS: draft and published batch deletion, cancel, next question, selection isolation, draft restore, mobile and permissions

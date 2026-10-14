@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-12T12:08:26.564Z",
+  "windows": 6,
+  "foldSamples": 105,
+  "maximumMountStep": 0.04382328162760532,
+  "checks": {
+    "finiteMountedProjection": true,
+    "continuousMountMotion": true,
+    "recyclePreservesPose": true,
+    "foregroundBeamBlocksPicking": true,
+    "missDoesNotBlock": true,
+    "backgroundBeamDoesNotBlock": true
+  },
+  "scope": "Mounted display frames use a local tangent plane inside the projected aperture; they are not exact projective images of four-dimensional solid windows."
+}

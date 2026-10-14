@@ -1,0 +1,24 @@
+{
+  "checkedAngles": 105,
+  "clearance": 5.162347193322809,
+  "minimumProjectionDenominator": 18.23861354431453,
+  "sharedConnectedVertices": 756,
+  "rates": [
+    {
+      "hz": 30,
+      "angleAt20": 0.269100000000006,
+      "end": 0.52
+    },
+    {
+      "hz": 60,
+      "angleAt20": 0.2691000000000058,
+      "end": 0.52
+    },
+    {
+      "hz": 120,
+      "angleAt20": 0.26909999999998063,
+      "end": 0.52
+    }
+  ],
+  "boundedStates": 3
+}

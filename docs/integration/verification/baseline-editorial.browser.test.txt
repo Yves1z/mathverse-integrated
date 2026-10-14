@@ -1,0 +1,1 @@
+PASS: edit, preview, save, submit, publish, directory selection, responsive layout, no browser errors

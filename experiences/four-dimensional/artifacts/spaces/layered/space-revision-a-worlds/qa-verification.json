@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-10T11:10:07.200Z",
+  "browser": "155.0.4283.45",
+  "checks": {
+    "allSixWindowsHaveReading": true,
+    "sixCyclesResourcesStable": true,
+    "originalEntranceAndPureStudy": true,
+    "reducedMotionManualContent": true
+  },
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "area": 0.801
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "area": 0.801
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "area": 0.801
+    }
+  ],
+  "resources": {
+    "start": [
+      90,
+      16
+    ],
+    "end": [
+      90,
+      16
+    ]
+  },
+  "errors": [],
+  "scope": "Functional checks and bounded resources over six reading cycles. Hardware GPU performance and long-duration Stage E remain separate."
+}

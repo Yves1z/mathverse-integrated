@@ -1,0 +1,81 @@
+<script setup>
+import { computed, ref } from 'vue'
+import MathverseMascot from '../brand/MathverseMascot.vue'
+
+const props = defineProps({
+  showAiEntry: { type: Boolean, default: false },
+  randomLoading: { type: Boolean, default: false },
+  problemsRoute: {
+    type: [String, Object],
+    required: true,
+  },
+  similarProblemsRoute: {
+    type: [String, Object],
+    required: true,
+  },
+  trainingRoute: {
+    type: [String, Object],
+    required: true,
+  },
+})
+
+const emit = defineEmits(['search', 'random-problem'])
+const keyword = ref('')
+const mascotHovered = ref(false)
+const mascotState = computed(() => props.randomLoading ? 'thinking'
+  : mascotHovered.value || keyword.value.trim() ? 'curious' : 'idle')
+
+function submitSearch() {
+  const normalizedKeyword = keyword.value.trim()
+  if (normalizedKeyword) {
+    emit('search', normalizedKeyword)
+  }
+}
+</script>
+
+<template>
+  <section class="home-search-panel" aria-labelledby="home-logo">
+    <div class="home-brand" @pointerenter="mascotHovered = true" @pointerleave="mascotHovered = false">
+      <MathverseMascot class="home-mascot" :decorative="false" :state="mascotState" allow-sleep />
+      <h1 id="home-logo" class="home-logo">Mathverse</h1>
+    </div>
+
+    <form class="home-search-form" role="search" @submit.prevent="submitSearch">
+      <label class="visually-hidden" for="home-search-input">搜索题目、知识点或试卷</label>
+      <span class="home-search-icon" aria-hidden="true"></span>
+      <input
+        id="home-search-input"
+        v-model="keyword"
+        class="home-search-input"
+        type="search"
+        name="keyword"
+        placeholder="搜索题目、知识点或试卷"
+        autocomplete="off"
+        enterkeyhint="search"
+        required
+        autofocus
+      />
+      <button class="visually-hidden" type="submit">搜索</button>
+    </form>
+
+    <RouterLink v-if="showAiEntry" class="home-ai-entry" :to="similarProblemsRoute">
+      <span aria-hidden="true">✦</span>
+      AI 同类题
+      <small>按解题方法寻找相似练习</small>
+    </RouterLink>
+
+    <div class="home-search-actions" role="group" aria-label="首页快捷入口">
+      <RouterLink class="home-text-button" :to="problemsRoute">题库</RouterLink>
+      <RouterLink class="home-text-button" :to="trainingRoute">题单</RouterLink>
+      <button
+        class="home-text-button"
+        type="button"
+        :disabled="randomLoading"
+        :aria-busy="randomLoading"
+        @click="emit('random-problem')"
+      >
+        {{ randomLoading ? '正在选题…' : '随机跳题' }}
+      </button>
+    </div>
+  </section>
+</template>

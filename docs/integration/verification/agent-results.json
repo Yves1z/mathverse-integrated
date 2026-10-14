@@ -1,0 +1,128 @@
+[
+  {
+    "test": "src/features/ai-assistant/aiAssistant.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 10.47,
+    "log": "agent-aiAssistant.browser.test.log"
+  },
+  {
+    "test": "tests/attempt-revision.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 9.11,
+    "log": "agent-attempt-revision.browser.test.log"
+  },
+  {
+    "test": "tests/draft-hint.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 8.28,
+    "log": "agent-draft-hint.browser.test.log"
+  },
+  {
+    "test": "tests/handwriting-agent.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 10.94,
+    "log": "agent-handwriting-agent.browser.test.log"
+  },
+  {
+    "test": "tests/handwriting-checkpoint.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 13.06,
+    "log": "agent-handwriting-checkpoint.browser.test.log"
+  },
+  {
+    "test": "tests/local-draft-hint.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 8.0,
+    "log": "agent-local-draft-hint.browser.test.log"
+  },
+  {
+    "test": "tests/paper-checkpoint.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 11.74,
+    "log": "agent-paper-checkpoint.browser.test.log"
+  },
+  {
+    "test": "tests/paper-image.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 7.66,
+    "log": "agent-paper-image.browser.test.log"
+  },
+  {
+    "test": "tests/paper-rotation.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 8.58,
+    "log": "agent-paper-rotation.browser.test.log"
+  },
+  {
+    "test": "tests/premise-sign.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 6.09,
+    "log": "agent-premise-sign.browser.test.log"
+  },
+  {
+    "test": "tests/reading-review.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 9.53,
+    "log": "agent-reading-review.browser.test.log"
+  },
+  {
+    "test": "tests/route-condition-interval.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 9.38,
+    "log": "agent-route-condition-interval.browser.test.log"
+  },
+  {
+    "test": "tests/route-condition-range.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 7.88,
+    "log": "agent-route-condition-range.browser.test.log"
+  },
+  {
+    "test": "tests/route-condition-reading.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 7.99,
+    "log": "agent-route-condition-reading.browser.test.log"
+  },
+  {
+    "test": "tests/route-condition-sign.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 6.51,
+    "log": "agent-route-condition-sign.browser.test.log"
+  },
+  {
+    "test": "tests/route-condition.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 7.06,
+    "log": "agent-route-condition.browser.test.log"
+  },
+  {
+    "test": "tests/strategy-map.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 8.23,
+    "log": "agent-strategy-map.browser.test.log"
+  },
+  {
+    "test": "tests/solution-selection.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 7.33,
+    "log": "agent-solution-selection.browser.test.log"
+  },
+  {
+    "test": "tests/teach-back.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 7.34,
+    "log": "agent-teach-back.browser.test.log"
+  },
+  {
+    "test": "tests/canvas-owner.browser.test.cjs",
+    "exit_code": 0,
+    "seconds": 8.97,
+    "log": "agent-canvas-owner.browser.test.log"
+  },
+  {
+    "test": "src/features/similar-problems/similarityPage.browser.test.cjs",
+    "exit_code": 1,
+    "seconds": 37.16,
+    "log": "agent-similarityPage.browser.test.log"
+  }
+]

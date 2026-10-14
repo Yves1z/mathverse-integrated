@@ -1,0 +1,1 @@
+Home random: real endpoint, busy state, empty-bank error and retry navigation passed

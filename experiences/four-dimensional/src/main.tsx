@@ -1,0 +1,42 @@
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { lazy, Suspense } from 'react';
+import { MathverseHome } from './mathverse/MathverseHome';
+import './styles.css';
+const StudyCatalog=lazy(()=>import('./mathverse/catalog/StudyCatalog').then(module=>({default:module.StudyCatalog})));
+const isStudyCatalog=location.pathname.replace(/\/$/,'')==='/studies';
+
+const SpaceStudy = lazy(() => import('./mathverse/experiments/layered/SpaceStudy').then(module => ({ default: module.SpaceStudy })));
+const SpaceWorldStudy = lazy(() => import('./mathverse/experiments/layered/SpaceWorldStudy').then(module => ({ default: module.SpaceWorldStudy })));
+const InversionStudy = lazy(() => import('./mathverse/experiments/inversion/InversionStudy').then(module => ({ default: module.InversionStudy })));
+const MegaEulerStudy = lazy(() => import('./mathverse/experiments/megastructure/MegaEulerStudy').then(module => ({ default: module.MegaEulerStudy })));
+const ReferenceStudy = lazy(() => import('./mathverse/experiments/megastructure/ReferenceStudy').then(module => ({ default: module.ReferenceStudy })));
+const AbyssStudy=lazy(()=>import('./mathverse/experiments/abyss/AbyssStudy').then(module=>({default:module.AbyssStudy})));
+const AbyssEulerStudy=lazy(()=>import('./mathverse/experiments/abyss/AbyssEulerStudy').then(module=>({default:module.AbyssEulerStudy})));
+const isAbyssEuler=location.pathname.replace(/\/$/,'')==='/space-a/abyss/euler';
+const isAbyssStudy=location.pathname.replace(/\/$/,'')==='/space-a/abyss';
+const isAbyssExchange=location.pathname.replace(/\/$/,'')==='/space-a/abyss/exchange';
+const isAbyssJourney=location.pathname.replace(/\/$/,'')==='/space-a/abyss/journey';
+const isReferenceStudy = location.pathname.replace(/\/$/, '') === '/space-a/reference';
+const isMegaEuler = location.pathname.replace(/\/$/, '') === '/space-a/euler';
+const isSpaceStudy = location.pathname.replace(/\/$/, '') === '/space-a';
+const isSpaceWorldStudy = location.pathname.replace(/\/$/, '') === '/space-a/worlds';
+const isInversionStudy = location.pathname.replace(/\/$/, '') === '/space-inversion';
+const isInversionWorlds = location.pathname.replace(/\/$/, '') === '/space-inversion/worlds';
+const isLegacy = location.pathname.replace(/\/$/, '') === '/legacy';
+const isFusion = location.pathname.replace(/\/$/, '') === '/space-fusion';
+const isFusionWorlds = location.pathname.replace(/\/$/, '') === '/space-fusion/worlds';
+const isMobiusFusion = location.pathname.replace(/\/$/, '') === '/space-fusion/mobius';
+const isMobiusFusionWorlds = location.pathname.replace(/\/$/, '') === '/space-fusion/mobius/worlds';
+const isGaussianFusion = location.pathname.replace(/\/$/, '') === '/space-fusion/gaussian';
+const isGaussianFusionWorlds = location.pathname.replace(/\/$/, '') === '/space-fusion/gaussian/worlds';
+const isEulerFusion = location.pathname.replace(/\/$/, '') === '/space-fusion/euler';
+const isEulerFusionWorlds = location.pathname.replace(/\/$/, '') === '/space-fusion/euler/worlds';
+const isCavity = location.pathname.replace(/\/$/, '') === '/thought-cavity';
+const isCavityWorlds = location.pathname.replace(/\/$/, '') === '/thought-cavity/worlds';
+const isThreeCavities = location.pathname.replace(/\/$/, '') === '/thought-cavity/three';
+const isThreeCavitiesWorlds = location.pathname.replace(/\/$/, '') === '/thought-cavity/three/worlds';
+const threeCavities = isThreeCavities || isThreeCavitiesWorlds;
+createRoot(document.getElementById('root')!).render(
+  <StrictMode><Suspense fallback={null}>{isStudyCatalog?<StudyCatalog/>:isAbyssEuler?<AbyssEulerStudy/>:isAbyssStudy||isAbyssJourney||isAbyssExchange?<AbyssStudy journey={isAbyssJourney||isAbyssExchange} exchange={isAbyssExchange}/>:isReferenceStudy ? <ReferenceStudy/> : isMegaEuler ? <MegaEulerStudy/> : isInversionStudy ? <InversionStudy/> : isSpaceWorldStudy ? <SpaceWorldStudy/> : isSpaceStudy ? <SpaceStudy/> : <MathverseHome inversion={!isLegacy} cavity={threeCavities||isCavity||isCavityWorlds} cavityWorlds={threeCavities} fusion={threeCavities||isCavity||isCavityWorlds||isFusion||isFusionWorlds||isMobiusFusion||isMobiusFusionWorlds||isGaussianFusion||isGaussianFusionWorlds||isEulerFusion||isEulerFusionWorlds} fusionContent={threeCavities||isMobiusFusion||isMobiusFusionWorlds||isGaussianFusion||isGaussianFusionWorlds||isEulerFusion||isEulerFusionWorlds} gaussianContent={threeCavities||isGaussianFusion||isGaussianFusionWorlds||isEulerFusion||isEulerFusionWorlds} eulerTrace={threeCavities||isCavity||isCavityWorlds||isEulerFusion||isEulerFusionWorlds} skipEntrance={isThreeCavitiesWorlds||isCavityWorlds||isInversionWorlds||isFusionWorlds||isMobiusFusionWorlds||isGaussianFusionWorlds||isEulerFusionWorlds}/>}</Suspense></StrictMode>,
+);
