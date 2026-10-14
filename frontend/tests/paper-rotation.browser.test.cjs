@@ -59,7 +59,10 @@ let browser, server
     await input.getByRole('checkbox',{name:'我已选择需要识别的区域'}).check()
     await input.getByRole('button',{name:'提交照片选区',exact:true}).click()
     await panel.waitFor()
-    await page.waitForFunction(async()=>!!(await import('/src/features/draft/draftAgentBridge.js')).handwritingRequest.value)
+    await page.waitForFunction(async()=>{
+      const {handwritingRequest,isHandwritingCurrent}=await import('/src/features/draft/draftAgentBridge.js')
+      return isHandwritingCurrent(handwritingRequest.value)
+    })
   }
   async function inspect() {
     return page.evaluate(async()=>{
