@@ -92,6 +92,9 @@ let browser, server
   await hint.click();assert.equal(requests.length,before)
   await step.selectOption({index:3});await obstacle.fill('这一行怎么推进')
   await hint.click();await drawer.getByText('第 4 级提示',{exact:true}).last().waitFor()
+  // Level 4 also belongs to the previous reply. Wait for this new hint to
+  // finish and enter the reveal record before changing the draft target.
+  await drawer.getByText(/当前焦点已看 6 条提示/).waitFor()
   assert.match(content(),/第 2 版/);assert.match(content(),/草稿第 3 步/)
   assert.doesNotMatch(content(),/研究 t 的范围|后续步骤秘密/)
   // Only the learner's chosen distant step may expand the local window.
@@ -101,6 +104,7 @@ let browser, server
   let messageCount=await drawer.locator('.ai-assistant-message.is-assistant').count()
   await hint.click()
   await page.waitForFunction(n=>document.querySelectorAll('.ai-assistant-message.is-assistant').length>n,messageCount)
+  await drawer.getByText(/当前焦点已看 7 条提示/).waitFor()
   assert.match(content(),/学生选入的较早前提（草稿原文，尚未验证）· 第 1 步：2\+2=7/)
   assert.match(content(),/第 2 步：设 x>0/);assert.match(content(),/第 3 步：令 t=x\+1/)
   assert.match(content(),/第 4 步：研究 t 的范围/)
@@ -110,6 +114,7 @@ let browser, server
   await drawer.getByPlaceholder('向 AI 提问…').fill('把草稿第1步作为前提，给草稿第4步提示：跨步条件仍不清楚')
   await drawer.getByRole('button',{name:'发送',exact:true}).click()
   await page.waitForFunction(n=>document.querySelectorAll('.ai-assistant-message.is-assistant').length>n,messageCount)
+  await drawer.getByText(/当前焦点已看 8 条提示/).waitFor()
   assert.match(content(),/本轮焦点：草稿第 4 步/);assert.match(content(),/跨步条件仍不清楚/)
   assert.match(content(),/学生选入的较早前提/)
   // Switching a premise away and back cannot revive a delayed answer.

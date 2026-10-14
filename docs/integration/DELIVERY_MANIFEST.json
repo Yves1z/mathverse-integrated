@@ -13114,8 +13114,8 @@
     },
     {
       "path": "frontend/tests/local-draft-hint.browser.test.cjs",
-      "sha256": "d1e15f56538977b432f10352f98706f0f7dcc64273f16dd2722c78c4253d1657",
-      "bytes": 11295
+      "sha256": "5b836484ead35e02871486e0a977f9280ec4f71db600f53d4c675c2b59b40969",
+      "bytes": 11656
     },
     {
       "path": "frontend/tests/mascot-motion.browser.test.cjs",
@@ -13262,6 +13262,11 @@
       "date": "2026-10-14",
       "path": "frontend/tests/choice-layout.browser.test.cjs",
       "description": "Mirror the synchronous beforeprint event in the browser test print stub, preserving print-layout assertions across Windows and Linux."
+    },
+    {
+      "date": "2026-10-14",
+      "path": "frontend/tests/local-draft-hint.browser.test.cjs",
+      "description": "Wait for each new level-4 hint to enter the displayed-reveal record before changing the target, preserving the original eight-hint refresh-continuity assertion."
     }
   ]
 }
