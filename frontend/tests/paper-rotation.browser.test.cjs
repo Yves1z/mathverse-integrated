@@ -57,12 +57,23 @@ let browser, server
       await input.getByLabel(label,{exact:true}).fill(String(value))
     assert.equal(await input.getByRole('button',{name:'提交照片选区',exact:true}).isDisabled(),true)
     await input.getByRole('checkbox',{name:'我已选择需要识别的区域'}).check()
+    const previousId=await page.evaluate(async()=>
+      (await import('/src/features/draft/draftAgentBridge.js')).handwritingRequest.value?.id ?? null)
     await input.getByRole('button',{name:'提交照片选区',exact:true}).click()
     await panel.waitFor()
-    await page.waitForFunction(async()=>{
-      const {handwritingRequest,isHandwritingCurrent}=await import('/src/features/draft/draftAgentBridge.js')
-      return isHandwritingCurrent(handwritingRequest.value)
-    })
+    // Evaluate the async module import on every poll; an async predicate passed
+    // to waitForFunction can settle before a new crop has been installed.
+    let installed=false
+    for(let retry=0;retry<300;retry++) {
+      installed=await page.evaluate(async(previousId)=>{
+        const {handwritingRequest,isHandwritingCurrent}=await import('/src/features/draft/draftAgentBridge.js')
+        const artifact=handwritingRequest.value
+        return Boolean(artifact && artifact.id!==previousId && isHandwritingCurrent(artifact))
+      },previousId)
+      if(installed)break
+      await delay(50)
+    }
+    assert.ok(installed,'the new crop must be installed before inspecting orientation')
   }
   async function inspect() {
     return page.evaluate(async()=>{

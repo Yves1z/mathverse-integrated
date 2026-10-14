@@ -13154,8 +13154,8 @@
     },
     {
       "path": "frontend/tests/paper-rotation.browser.test.cjs",
-      "sha256": "e056cb617a47bd04828be7a52fc309f2c3f4ae8ef1adc6d72f2b74c7d8d1d546",
-      "bytes": 11266
+      "sha256": "ba7d316d6a6de797d84a3db3ae9de3d5a78693c05b86163ae65aa46b7c14e82d",
+      "bytes": 11905
     },
     {
       "path": "frontend/tests/practice-lists.browser.test.cjs",
@@ -13271,7 +13271,7 @@
     {
       "date": "2026-10-14",
       "path": "frontend/tests/paper-rotation.browser.test.cjs",
-      "description": "Wait for the current crop artifact instead of any previous artifact before verifying rotation, original hash, crop bounds and pixels."
+      "description": "Poll the asynchronous module evaluation until a newly identified current crop is installed before verifying rotation, original hash, crop bounds and pixels."
     }
   ]
 }
