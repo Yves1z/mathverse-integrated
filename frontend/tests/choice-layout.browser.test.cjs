@@ -174,6 +174,9 @@ let browser, server
   // 打印：宿主曾经是 display:none，MathText 量不到宽度，选项在打印里只能一行一个。
   await page.evaluate(() => {
     window.print = () => {
+      // The real print dialog fires beforeprint synchronously; preserve that
+      // lifecycle so MathText measures the print layout before assertions.
+      window.dispatchEvent(new Event('beforeprint'))
       window.__printed = true
     }
   })

@@ -13039,8 +13039,8 @@
     },
     {
       "path": "frontend/tests/choice-layout.browser.test.cjs",
-      "sha256": "1282c7194825e434150fc4c2d92d5638be99f72633dfe98453330fc7e21159b3",
-      "bytes": 10450
+      "sha256": "4062817379d76c6c8f6a2b305c59fe1f6272a1dc2b8a83cd1f060fccde17db1a",
+      "bytes": 10657
     },
     {
       "path": "frontend/tests/choice-layout.fixture.json",
@@ -13256,5 +13256,12 @@
   "excluded_self_indexes": [
     "docs/integration/DELIVERY_MANIFEST.json",
     "docs/integration/SHA256SUMS.txt"
+  ],
+  "publication_updates": [
+    {
+      "date": "2026-10-14",
+      "path": "frontend/tests/choice-layout.browser.test.cjs",
+      "description": "Mirror the synchronous beforeprint event in the browser test print stub, preserving print-layout assertions across Windows and Linux."
+    }
   ]
 }
