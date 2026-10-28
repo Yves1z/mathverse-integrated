@@ -15,7 +15,8 @@ spec.loader.exec_module(verifier)
 def jar(sql=b"CREATE TABLE example(id int);"):
     buffer = io.BytesIO()
     with zipfile.ZipFile(buffer, "w") as archive:
-        archive.writestr("BOOT-INF/classes/db/migration/V1__example.sql", sql)
+        info = zipfile.ZipInfo("BOOT-INF/classes/db/migration/V1__example.sql", date_time=(2026, 1, 1, 0, 0, 0))
+        archive.writestr(info, sql)
     return buffer.getvalue()
 
 
