@@ -9,6 +9,7 @@ backend/target/
 backend/.m2/
 backend/.idea/
 backend/*.iml
+**/__pycache__/
 
 # VS Code
 .vscode/

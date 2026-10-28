@@ -110,12 +110,6 @@ const router = createRouter({
       path: '/similar-problems',
       name: 'similar-problems',
       component: () => import('../features/similar-problems/SimilarProblemsView.vue'),
-      meta: { studyNavigation: true, title: '相似题推荐' },
-    },
-    {
-      path: '/similar-problems',
-      name: 'similar-problems',
-      component: () => import('../features/similar-problems/SimilarProblemsView.vue'),
       meta: { requiresAdmin: true, studyNavigation: true, title: '相似题推荐' },
     },
     {
