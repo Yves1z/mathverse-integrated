@@ -29,6 +29,7 @@ jobs:
           cache: maven
       - run: mvn -B verify
         working-directory: backend
+      - run: python3 -m unittest discover -s deploy/tests -v
 
   four-dimensional:
     runs-on: ubuntu-latest
